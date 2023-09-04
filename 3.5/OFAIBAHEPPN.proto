@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OFAIBAHEPPN
+// CmdId: 7762
+message OFAIBAHEPPN {
+    uint32 MBNLNOFPLLA = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

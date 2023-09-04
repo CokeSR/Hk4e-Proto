@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JGGDGOCJJPE
+// CmdId: 8123
+message PlantFlowerGetRecvFlowerListReq {
+    uint32 schedule_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

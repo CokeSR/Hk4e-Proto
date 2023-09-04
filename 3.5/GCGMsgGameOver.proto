@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGEndReason.proto";
+
+// Name: IAHCNIOCJCH
+message GCGMsgGameOver {
+    uint32 win_controller_id = 4;
+    GCGEndReason end_reason = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

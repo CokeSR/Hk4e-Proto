@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PKOMPHLMLED
+// CmdId: 4146
+message CardProductRewardNotify {
+    uint32 hcoin = 2;
+    uint32 remain_days = 6;
+    string product_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

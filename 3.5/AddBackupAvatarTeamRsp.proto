@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FPILCNDJKNF
+// CmdId: 1777
+message AddBackupAvatarTeamRsp {
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

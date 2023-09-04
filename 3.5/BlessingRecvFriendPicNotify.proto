@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GCCCOKAGGON
+// CmdId: 2011
+message BlessingRecvFriendPicNotify {
+    uint32 pic_id = 15;
+    uint32 uid = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

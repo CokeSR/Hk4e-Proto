@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKDDBLPBIHN
+// CmdId: 1975
+message TakeCoopRewardReq {
+    uint32 reward_config_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MNALIFFMFOG
+message CoopCg {
+    bool is_unlock = 8;
+    uint32 id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

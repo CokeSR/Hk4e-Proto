@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NIFPNHFGPNB
+// CmdId: 5696
+message SetH5ActivityRedDotTimestampReq {
+    uint32 client_red_dot_timestamp = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

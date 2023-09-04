@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BFCLAIGBOLF
+// CmdId: 2188
+message RestartEffigyChallengeReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

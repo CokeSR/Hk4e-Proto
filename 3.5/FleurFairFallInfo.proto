@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GFALKLPILFA
+message FleurFairFallInfo {
+    uint32 best_score = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

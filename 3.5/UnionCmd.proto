@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CBHNFOKCIKG
+message UnionCmd {
+    bytes body = 1;
+    uint32 message_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

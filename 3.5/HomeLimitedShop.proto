@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeLimitedShopGoods.proto";
+
+// Name: MNNLKHNFEJK
+message HomeLimitedShop {
+    repeated HomeLimitedShopGoods goods_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

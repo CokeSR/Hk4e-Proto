@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarExpeditionInfo.proto";
+
+// Name: DLDIHMKBDPJ
+// CmdId: 1631
+message AvatarExpeditionCallBackRsp {
+    int32 retcode = 12;
+    map<uint64, AvatarExpeditionInfo> expedition_info_map = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

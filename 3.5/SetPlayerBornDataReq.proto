@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DPPHDAIPLBC
+// CmdId: 127
+message SetPlayerBornDataReq {
+    string nick_name = 1;
+    uint32 avatar_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

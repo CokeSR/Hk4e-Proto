@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: GNKPDDCJANA
+// CmdId: 698
+message CalcWeaponUpgradeReturnItemsRsp {
+    uint64 target_weapon_guid = 10;
+    repeated ItemParam item_param_list = 11;
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

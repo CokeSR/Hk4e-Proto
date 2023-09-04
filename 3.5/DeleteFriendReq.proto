@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JCECBJCIMGA
+// CmdId: 4059
+message DeleteFriendReq {
+    uint32 target_uid = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KELICPOLEGO
+message UgcMusicNote {
+    uint32 start_time = 15;
+    uint32 end_time = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FOBOBPGPPCF
+// CmdId: 2137
+message RestartEffigyChallengeRsp {
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

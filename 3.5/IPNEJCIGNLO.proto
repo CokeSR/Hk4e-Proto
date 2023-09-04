@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "NHIJPCNBKJE.proto";
+
+// Name: IPNEJCIGNLO
+message IPNEJCIGNLO {
+    string name = 1;
+    int32 IHHEFANAHMG = 2;
+    repeated NHIJPCNBKJE PNFIHGPGNKD = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

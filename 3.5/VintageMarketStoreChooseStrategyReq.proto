@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VintageMarketStoreOpInfo.proto";
+
+// Name: OLEFELEOAHG
+// CmdId: 20628
+message VintageMarketStoreChooseStrategyReq {
+    repeated VintageMarketStoreOpInfo store_op_list = 9;
+    uint32 store_id = 8;
+    repeated uint32 strategy_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

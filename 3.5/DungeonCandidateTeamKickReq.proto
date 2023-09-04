@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GGEHPHNJAJB
+// CmdId: 916
+message DungeonCandidateTeamKickReq {
+    uint32 player_uid = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

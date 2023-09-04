@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LEJKGLPPFBN
+// CmdId: 7769
+message LEJKGLPPFBN {
+    bool MHHGOEKPOGM = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ELHBLCGNMIF
+// CmdId: 818
+message NightCrowGadgetObservationMatchRsp {
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

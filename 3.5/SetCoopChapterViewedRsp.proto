@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AFFMAHJDJFK
+// CmdId: 1968
+message SetCoopChapterViewedRsp {
+    uint32 chapter_id = 1;
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

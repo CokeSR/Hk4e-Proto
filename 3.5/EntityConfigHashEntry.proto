@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MGPCDHIOCGA
+message EntityConfigHashEntry {
+    uint32 job_id = 8;
+    int32 hash_value = 3;
+    uint32 entity_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CLABNPLNACA
+// CmdId: 8729
+message PlantFlowerHaveRecvFlowerNotify {
+    uint32 schedule_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AbilityString.proto";
+
+// Name: HFHFFEBONII
+message HFHFFEBONII {
+    float OIBFNDDDIMH = 12;
+    AbilityString ability_name = 15;
+    AbilityString ability_override = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

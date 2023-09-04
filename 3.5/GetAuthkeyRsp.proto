@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MGGIDNNDFCP
+// CmdId: 1465
+message GetAuthkeyRsp {
+    uint32 BILPDHGPPPO = 1;
+    int32 retcode = 7;
+    string authkey = 2;
+    string auth_appid = 15;
+    string game_biz = 3;
+    uint32 FHPGCOBFIOE = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

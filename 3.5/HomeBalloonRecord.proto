@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeBalloonGalleryRecord.proto";
+
+// Name: KNLFEMENDPG
+message HomeBalloonRecord {
+    repeated HomeBalloonGalleryRecord record_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KEFPDAOMHNM
+// CmdId: 166
+message SetPlayerBornDataRsp {
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

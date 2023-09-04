@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IDEMCANHGJA
+// CmdId: 21198
+message FungusRenameRsp {
+    uint32 name_id = 5;
+    uint32 fungus_id = 8;
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

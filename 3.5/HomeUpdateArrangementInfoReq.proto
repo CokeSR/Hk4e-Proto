@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeSceneArrangementInfo.proto";
+
+// Name: NDKIGENOPAA
+// CmdId: 4840
+message HomeUpdateArrangementInfoReq {
+    HomeSceneArrangementInfo scene_arrangement_info = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

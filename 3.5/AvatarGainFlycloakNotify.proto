@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HCLMIGIPANC
+// CmdId: 1793
+message AvatarGainFlycloakNotify {
+    uint32 flycloak_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

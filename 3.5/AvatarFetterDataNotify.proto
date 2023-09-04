@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarFetterInfo.proto";
+
+// Name: KKADAHCNCNG
+// CmdId: 1648
+message AvatarFetterDataNotify {
+    map<uint64, AvatarFetterInfo> fetter_info_map = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

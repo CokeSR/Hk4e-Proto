@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BNLOGHJNOGC
+// CmdId: 4480
+message HomeAvtarAllFinishRewardNotify {
+    repeated uint32 event_id_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

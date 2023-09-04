@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MPOHNPIMAAJ
+message GCGLimitsInfo {
+    uint32 HPPJEEIHHEG = 11;
+    uint32 LNDNPPAMIIN = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

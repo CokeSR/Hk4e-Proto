@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ONJLHPOGCEE
+// CmdId: 8765
+message MistTrialDunegonFailNotify {
+    int32 dungeon_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

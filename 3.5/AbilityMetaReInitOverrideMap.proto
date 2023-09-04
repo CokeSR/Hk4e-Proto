@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AbilityScalarValueEntry.proto";
+
+// Name: EEACBNFBEHI
+message AbilityMetaReInitOverrideMap {
+    repeated AbilityScalarValueEntry override_map = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

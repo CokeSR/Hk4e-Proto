@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOENHEACHMJ
+// CmdId: 4190
+message NOENHEACHMJ {
+    uint32 match_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

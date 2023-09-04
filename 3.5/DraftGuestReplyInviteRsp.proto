@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PHOEEGANIFI
+// CmdId: 5472
+message DraftGuestReplyInviteRsp {
+    uint32 draft_id = 14;
+    int32 retcode = 6;
+    bool is_agree = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

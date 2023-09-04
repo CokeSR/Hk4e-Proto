@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JANPFEIFJLH
+// CmdId: 2015
+message ExpeditionRecallRsp {
+    uint32 path_id = 7;
+    int32 retcode = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

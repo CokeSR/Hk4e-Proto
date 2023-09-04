@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HCELMIAPLAF
+// CmdId: 8460
+message BartenderStartLevelReq {
+    uint32 level_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

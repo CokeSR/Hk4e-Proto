@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HAFAOJGNFAJ
+// CmdId: 8326
+message FindHilichurlFinishSecondQuestNotify {
+    uint32 day_index = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "QuestGlobalVar.proto";
+
+// Name: ABJNGHFNOGP
+// CmdId: 426
+message QuestGlobalVarNotify {
+    repeated QuestGlobalVar var_list = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

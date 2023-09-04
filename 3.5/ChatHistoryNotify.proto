@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChatInfo.proto";
+
+// Name: NKFMEOIKOGE
+// CmdId: 3301
+message ChatHistoryNotify {
+    uint32 channel_id = 11;
+    repeated ChatInfo chat_info = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

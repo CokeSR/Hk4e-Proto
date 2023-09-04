@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BPDFEOJAHNK
+// CmdId: 2103
+message ServerAnnounceRevokeNotify {
+    repeated uint32 config_id_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

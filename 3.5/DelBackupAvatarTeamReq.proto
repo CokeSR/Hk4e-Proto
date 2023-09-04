@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ADAFEMNNBJL
+// CmdId: 1608
+message DelBackupAvatarTeamReq {
+    uint32 backup_avatar_team_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

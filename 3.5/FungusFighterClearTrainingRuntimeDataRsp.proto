@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EKJGPBNNMCJ
+// CmdId: 23407
+message FungusFighterClearTrainingRuntimeDataRsp {
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

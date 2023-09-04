@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EONLNJIEIKH
+// CmdId: 8664
+message WinterCampRaceScoreNotify {
+    uint32 id = 4;
+    uint32 max_score = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CBCLNFEFLAH
+// CmdId: 5381
+message BrickBreakerSelectAvatarReq {
+    repeated uint32 avatar_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

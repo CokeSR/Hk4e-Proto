@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EALBKFBILFO.proto";
+
+// Name: AFKACLJCCHI
+message AFKACLJCCHI {
+    repeated EALBKFBILFO level_info_list = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

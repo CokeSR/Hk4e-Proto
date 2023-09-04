@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGReason.proto";
+
+// Name: ADNOFILOCDI
+message GCGMsgModifyRemove {
+    uint32 owner_card_guid = 11;
+    uint32 controller_id = 3;
+    GCGReason reason = 12;
+    repeated uint32 card_guid_list = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

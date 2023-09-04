@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DLOBNCCPPIH
+// CmdId: 284
+message SceneEntityDrownRsp {
+    uint32 entity_id = 15;
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

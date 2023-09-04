@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ABHCIIEPGEI
+// CmdId: 131
+message AdjustWorldLevelRsp {
+    int32 retcode = 7;
+    uint32 after_world_level = 9;
+    uint32 cd_over_time = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KECDCNCPKIO
+message FungusFighterV2SettleInfo {
+    uint32 level_id = 9;
+    uint32 cost_time = 8;
+    bool is_new_record = 7;
+    uint32 FCPEHFBPLAM = 3;
+    uint32 KAOLADNKIDE = 15;
+    uint32 NBAIOEKMHJN = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

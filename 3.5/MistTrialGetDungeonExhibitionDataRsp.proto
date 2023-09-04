@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MHNKLABAELD
+// CmdId: 8058
+message MistTrialGetDungeonExhibitionDataRsp {
+    int32 retcode = 8;
+    uint32 trial_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

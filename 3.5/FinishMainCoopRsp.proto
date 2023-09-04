@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EHNJKKECGHJ
+// CmdId: 1965
+message FinishMainCoopRsp {
+    uint32 id = 10;
+    int32 retcode = 11;
+    uint32 ending_save_point_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

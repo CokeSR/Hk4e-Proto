@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ALGGELGLCLJ
+message AbilityString {
+    oneof type {
+        string str = 1;
+        uint32 hash = 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

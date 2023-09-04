@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGPhaseType.proto";
+
+// Name: AOHEFFCPELI
+message GCGMsgOpTimer {
+    uint32 controller_id = 11;
+    uint64 begin_time = 5;
+    uint64 time_stamp = 12;
+    GCGPhaseType phase = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JPEMNKLOKFE
+// CmdId: 2029
+message TakeDeliveryDailyRewardRsp {
+    uint32 schedule_id = 13;
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

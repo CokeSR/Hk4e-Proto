@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NEGEEBHNBOL
+message NEGEEBHNBOL {
+    repeated int32 param_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

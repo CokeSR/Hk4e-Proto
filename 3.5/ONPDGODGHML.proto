@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ONPDGODGHML
+// CmdId: 7364
+message ONPDGODGHML {
+    uint32 HCKIILHKKBE = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

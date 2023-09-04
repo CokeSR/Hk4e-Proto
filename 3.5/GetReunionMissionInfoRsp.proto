@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ReunionMissionInfo.proto";
+
+// Name: NLCLJMJCBEJ
+// CmdId: 5081
+message GetReunionMissionInfoRsp {
+    ReunionMissionInfo mission_info = 5;
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

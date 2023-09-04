@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BHEIFLAOFKA
+// CmdId: 886
+message LiveEndNotify {
+    uint32 live_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

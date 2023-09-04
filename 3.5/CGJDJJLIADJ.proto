@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CGJDJJLIADJ
+message CGJDJJLIADJ {
+    uint32 FMEICLMBOBF = 3;
+    repeated uint32 PHDCPPEPGGB = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

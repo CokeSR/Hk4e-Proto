@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MNAOEHJMOCD
+// CmdId: 5839
+message FishBiteReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

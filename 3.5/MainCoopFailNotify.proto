@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KLEPHMMFBPB
+// CmdId: 1987
+message MainCoopFailNotify {
+    string textmap_id = 15;
+    uint32 chapter_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

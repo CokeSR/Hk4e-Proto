@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FBDFLEFGHGN
+// CmdId: 8024
+message RogueFinishRepairRsp {
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

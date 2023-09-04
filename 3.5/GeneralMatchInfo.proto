@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MatchPlayerInfo.proto";
+
+// Name: GKBBFHOOIOD
+message GeneralMatchInfo {
+    repeated MatchPlayerInfo player_list = 8;
+    uint32 match_param = 2;
+    uint32 match_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

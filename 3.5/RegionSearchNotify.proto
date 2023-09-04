@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RegionSearchInfo.proto";
+
+// Name: HHNOJCJIIKA
+// CmdId: 5648
+message RegionSearchNotify {
+    repeated RegionSearchInfo region_search_list = 11;
+    uint32 uid = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

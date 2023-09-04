@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKHBKFNPGHJ
+enum ClientReconnectReason {
+  CLIENT_RECONNNECT_NONE    = 0;
+  CLIENT_RECONNNECT_QUIT_MP = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

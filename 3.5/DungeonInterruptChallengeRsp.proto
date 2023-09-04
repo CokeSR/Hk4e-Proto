@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JMFBBJAAPHM
+// CmdId: 930
+message DungeonInterruptChallengeRsp {
+    uint32 group_id = 6;
+    uint32 challenge_index = 7;
+    uint32 challenge_id = 11;
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

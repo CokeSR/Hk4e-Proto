@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EMKCDIEKPMJ
+// CmdId: 193
+message DailyTaskScoreRewardNotify {
+    uint32 reward_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

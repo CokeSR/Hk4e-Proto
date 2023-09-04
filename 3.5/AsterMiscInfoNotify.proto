@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOHFMFGPPKE
+// CmdId: 2072
+message AsterMiscInfoNotify {
+    uint32 KENCBMFCJDH = 6;
+    uint32 JIIJEJPKLNK = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

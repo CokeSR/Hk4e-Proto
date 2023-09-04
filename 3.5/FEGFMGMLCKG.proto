@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UgcMusicBriefInfo.proto";
+
+// Name: FEGFMGMLCKG
+// CmdId: 6326
+message FEGFMGMLCKG {
+    repeated UgcMusicBriefInfo JJMBELIDNLN = 1;
+    repeated UgcMusicBriefInfo OMGGIPLOILH = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

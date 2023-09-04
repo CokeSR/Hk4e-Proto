@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KNNLDBLIDOC
+message KNNLDBLIDOC {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

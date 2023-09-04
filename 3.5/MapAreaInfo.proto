@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ABABDCODJFC
+message MapAreaInfo {
+    uint32 map_area_id = 1;
+    bool is_open = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

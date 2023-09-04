@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarTeam.proto";
+
+// Name: JNDHMMALEAP
+// CmdId: 1744
+message AvatarTeamUpdateNotify {
+    map<uint32, AvatarTeam> avatar_team_map = 4;
+    repeated uint64 temp_avatar_guid_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

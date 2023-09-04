@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+// Name: KPDGACKMNJA
+message AttackHitEffectResult {
+    float hitHaltTime = 14; //OGEJIAIJMDB
+    float airStrength = 7; //AKLACKOIKOE
+    uint32 NCIHLNFLAAF = 10;
+    float retreatStrength = 4; //PFNLKOMLOIO
+    float hitHaltTimeScale = 2; //JLEGJBGOHHP
+    uint32 LDDDDFHEMBA = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+

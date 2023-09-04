@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FKHEFBGPFKA
+// CmdId: 2767
+message GetBlossomBriefInfoListReq {
+    repeated uint32 city_id_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

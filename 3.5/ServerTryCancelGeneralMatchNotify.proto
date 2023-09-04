@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GIFJMFAKOAK
+// CmdId: 4162
+message ServerTryCancelGeneralMatchNotify {
+    uint32 match_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

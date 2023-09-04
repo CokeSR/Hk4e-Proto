@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FLNJMFJNNPD
+// CmdId: 2148
+message TreasureMapRegionActiveNotify {
+    uint32 active_region_index = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

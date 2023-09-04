@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FPJMLBPDMOG
+// CmdId: 619
+message WeaponPromoteReq {
+    uint64 target_weapon_guid = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

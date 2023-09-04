@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FFPFJFHEMKG
+// CmdId: 298
+message PersonalSceneJumpReq {
+    uint32 point_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

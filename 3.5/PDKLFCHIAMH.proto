@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PDKLFCHIAMH
+message PDKLFCHIAMH {
+    uint32 GGEAGIMMEDP = 8;
+    uint32 AFFMMDODAGK = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

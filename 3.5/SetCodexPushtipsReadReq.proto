@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LFNFFHIJCLO
+// CmdId: 4210
+message SetCodexPushtipsReadReq {
+    uint32 type_id = 3; //DGABGOHFAOB
+    uint32 codex_id = 11; //MMPHOJDOHGH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

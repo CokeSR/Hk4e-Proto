@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OIFAMINIMPJ
+// CmdId: 8079
+message ChannellerSlabOneOffDungeonInfoReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

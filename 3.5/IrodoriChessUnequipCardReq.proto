@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OCMOMLIJGLM
+// CmdId: 8783
+message IrodoriChessUnequipCardReq {
+    uint32 level_id = 9;
+    uint32 card_id = 15;
+    bool is_hard_map = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

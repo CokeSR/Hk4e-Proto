@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "OJNKFDIOAFA.proto";
+
+// Name: FOLNGHHMFKC
+// CmdId: 7577
+message FOLNGHHMFKC {
+    OJNKFDIOAFA BHBNFMDDKOF = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

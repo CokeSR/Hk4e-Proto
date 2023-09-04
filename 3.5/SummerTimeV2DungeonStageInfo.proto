@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKLGIBNIEKN
+message SummerTimeV2DungeonStageInfo {
+    bool is_open = 8;
+    bool is_prev_dungeon_succeed = 4;
+    uint32 open_time = 6;
+    uint32 stage_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

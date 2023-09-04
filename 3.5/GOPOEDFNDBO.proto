@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GOPOEDFNDBO
+// CmdId: 7282
+message GOPOEDFNDBO {
+    uint32 AHAIAIPGFDN = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

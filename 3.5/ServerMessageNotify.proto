@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GJOHLLCDIGN
+// CmdId: 5743
+message ServerMessageNotify {
+    uint32 index = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

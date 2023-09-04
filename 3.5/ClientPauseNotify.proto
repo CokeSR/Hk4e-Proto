@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EJECHOLKFFM
+// CmdId: 276
+message ClientPauseNotify {
+    bool is_open = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

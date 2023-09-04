@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ANDOJPOAAPC
+// CmdId: 572
+message MeetNpcReq {
+    uint32 npc_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

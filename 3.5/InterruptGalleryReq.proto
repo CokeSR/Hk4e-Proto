@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DAIBBJKMOFK
+// CmdId: 5591
+message InterruptGalleryReq {
+    uint32 gallery_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

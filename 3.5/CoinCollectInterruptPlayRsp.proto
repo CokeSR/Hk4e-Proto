@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HPPGENNNNKA
+// CmdId: 23195
+message CoinCollectInterruptPlayRsp {
+    uint32 gallery_id = 7;
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

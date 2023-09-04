@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NLAGLOOCJKD
+// CmdId: 223
+message SceneTransToPointRsp {
+    uint32 scene_id = 8;
+    int32 retcode = 1;
+    uint32 point_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

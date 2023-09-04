@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ENGCDOBPPFC
+message CurVehicleInfo {
+    uint32 entity_id = 1;
+    uint32 pos = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

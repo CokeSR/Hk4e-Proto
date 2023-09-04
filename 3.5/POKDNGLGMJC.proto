@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: POKDNGLGMJC
+message POKDNGLGMJC {
+    Vector HOHCJADGKFD = 15;
+    Vector JOHKHKDAOGA = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

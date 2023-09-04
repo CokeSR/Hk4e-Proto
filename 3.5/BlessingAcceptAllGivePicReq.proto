@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KPONCKCLCME
+// CmdId: 2160
+message BlessingAcceptAllGivePicReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

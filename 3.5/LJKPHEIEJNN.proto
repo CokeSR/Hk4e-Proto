@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LJKPHEIEJNN
+// CmdId: 7479
+message LJKPHEIEJNN {
+    uint32 level = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

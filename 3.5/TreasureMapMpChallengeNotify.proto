@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DOBICGDILDD
+// CmdId: 2071
+message TreasureMapMpChallengeNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EKCBEIEIGFF
+// CmdId: 8759
+message StartRogueEliteCellChallengeRsp {
+    uint32 cell_id = 2;
+    uint32 dungeon_id = 11;
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

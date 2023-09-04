@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PBGMKLLLHKI
+// CmdId: 8911
+message PotionSaveDungeonResultRsp {
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKMBKEFJCCF
+message WorktopInfo {
+    repeated uint32 option_list = 1;
+    bool is_guest_can_operate = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

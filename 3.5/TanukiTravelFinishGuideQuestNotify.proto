@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PFAJMCBMPGH
+// CmdId: 8130
+message TanukiTravelFinishGuideQuestNotify {
+    uint32 activity_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

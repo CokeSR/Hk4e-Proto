@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BAFIKPMLBFP
+message SceneGalleryTreasureSeelieInfo {
+    uint32 progress = 15;
+    uint32 goal = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

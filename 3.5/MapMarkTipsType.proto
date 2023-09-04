@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DILMJFDGLNH
+enum MapMarkTipsType {
+  MARK_TIPS_DUNGEON_ELEMENT_TRIAL = 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

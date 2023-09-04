@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: APCIFCLECNJ
+// CmdId: 216
+message EnterWorldAreaRsp {
+    uint32 area_type = 1;
+    int32 retcode = 2;
+    uint32 area_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

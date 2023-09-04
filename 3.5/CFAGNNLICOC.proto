@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "JFGOFCIOKNH.proto";
+
+// Name: CFAGNNLICOC
+message CFAGNNLICOC {
+    repeated JFGOFCIOKNH IDJDIDMDCAC = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

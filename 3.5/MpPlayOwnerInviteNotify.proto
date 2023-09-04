@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BFDPNMECJCE
+// CmdId: 1838
+message MpPlayOwnerInviteNotify {
+    bool is_remain_reward = 11;
+    uint32 cd = 15;
+    uint32 mp_play_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ReunionPrivilegeInfo.proto";
+
+// Name: DHEGODFHPPJ
+// CmdId: 5062
+message GetReunionPrivilegeInfoRsp {
+    int32 retcode = 4;
+    ReunionPrivilegeInfo privilege_info = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

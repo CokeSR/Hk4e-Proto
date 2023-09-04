@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGClientPerformType.proto";
+
+// Name: DIGAEAGCDDK
+message GCGMsgClientPerform {
+    GCGClientPerformType perform_type = 3;
+    repeated uint32 param_list = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

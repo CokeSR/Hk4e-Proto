@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: JKJKGLGIDJL
+message WinterCampStageInfo {
+    uint32 open_time = 7;
+    bool is_finished = 13;
+    uint32 cur_progress = 12;
+    uint32 total_progress = 2;
+    uint32 id = 6;
+    Vector pos = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

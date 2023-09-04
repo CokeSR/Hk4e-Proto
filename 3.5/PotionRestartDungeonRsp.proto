@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IHKGHDCCPKL
+// CmdId: 8275
+message PotionRestartDungeonRsp {
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FEJLBLCCMDH
+// CmdId: 5314
+message InBattleMechanicusExcapeMonsterNotify {
+    uint32 excaped_monster_num = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

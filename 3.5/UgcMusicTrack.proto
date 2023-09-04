@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UgcMusicNote.proto";
+
+// Name: PNNCHCKBNDL
+message UgcMusicTrack {
+    repeated UgcMusicNote music_note_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

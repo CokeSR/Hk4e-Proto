@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DailyTaskInfo.proto";
+
+// Name: IHPCDCEIDJD
+// CmdId: 130
+message WorldOwnerDailyTaskNotify {
+    uint32 finished_daily_task_num = 10;
+    uint32 filter_city_id = 8;
+    repeated DailyTaskInfo task_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

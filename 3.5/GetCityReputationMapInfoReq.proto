@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: INJNBAGMGLA
+// CmdId: 2807
+message GetCityReputationMapInfoReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

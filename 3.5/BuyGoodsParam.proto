@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ShopGoods.proto";
+
+// Name: CFNFHECAPPI
+message BuyGoodsParam {
+    ShopGoods goods = 15;
+    uint32 buy_count = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMMLKJJDCDF
+// CmdId: 5825
+message FishBaitGoneNotify {
+    uint32 uid = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

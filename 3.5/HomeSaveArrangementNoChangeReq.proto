@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DNEOJOBPKKB
+// CmdId: 4475
+message HomeSaveArrangementNoChangeReq {
+    uint32 scene_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

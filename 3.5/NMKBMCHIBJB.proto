@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NMKBMCHIBJB
+message NMKBMCHIBJB {
+    repeated uint32 progress_stage_list = 3;
+    uint32 BOLGBBHIENJ = 7;
+    uint32 progress = 10;
+    string key = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

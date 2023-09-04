@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OONJICOIJEJ
+// CmdId: 1957
+message CoopCgShowNotify {
+    repeated uint32 cg_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

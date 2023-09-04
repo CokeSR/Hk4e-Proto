@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BEAKEMPBGLI
+// CmdId: 194
+message SetOpenStateRsp {
+    uint32 key = 4;
+    int32 retcode = 7;
+    uint32 value = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

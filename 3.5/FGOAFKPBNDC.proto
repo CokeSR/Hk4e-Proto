@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FGOAFKPBNDC
+// CmdId: 7558
+message FGOAFKPBNDC {
+    bool is_success = 15;
+    string EGKHNMCFDOB = 3;
+    string MGKLHFKKEPN = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

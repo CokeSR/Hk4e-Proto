@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GOOEMILLJCG
+// CmdId: 8889
+message PotionEnterDungeonRsp {
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

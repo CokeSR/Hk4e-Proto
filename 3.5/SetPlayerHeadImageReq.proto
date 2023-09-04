@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DLEEFNGPKBF
+// CmdId: 4066
+message SetPlayerHeadImageReq {
+    uint32 avatar_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

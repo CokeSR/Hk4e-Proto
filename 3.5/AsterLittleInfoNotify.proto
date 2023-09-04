@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AsterLittleDetailInfo.proto";
+
+// Name: JCBCJKAOKLH
+// CmdId: 2006
+message AsterLittleInfoNotify {
+    AsterLittleDetailInfo info = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BDFINHIOFEM
+// CmdId: 287
+message UnmarkEntityInMinMapNotify {
+    uint32 entity_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

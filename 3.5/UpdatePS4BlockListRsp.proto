@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GDKFLDKCKHF
+// CmdId: 4058
+message UpdatePS4BlockListRsp {
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HuntingPair.proto";
+
+// Name: LLCNMBFHCNP
+// CmdId: 4348
+message TakeHuntingOfferReq {
+    uint32 city_id = 7;
+    HuntingPair hunting_pair = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

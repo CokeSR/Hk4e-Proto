@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AsterProgressDetailInfo.proto";
+
+// Name: LMNNPFFMONB
+// CmdId: 2173
+message AsterProgressInfoNotify {
+    AsterProgressDetailInfo info = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PBELBHMKCHP
+// CmdId: 8114
+message LunaRiteHintPointReq {
+    uint32 area_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

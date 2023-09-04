@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CINLNHEDKHD
+// CmdId: 8249
+message SumoRestartDungeonRsp {
+    uint32 dungeon_id = 14;
+    int32 retcode = 4;
+    uint32 point_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

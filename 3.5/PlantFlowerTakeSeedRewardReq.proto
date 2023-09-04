@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AEOIBNLCGGD
+// CmdId: 8851
+message PlantFlowerTakeSeedRewardReq {
+    uint32 schedule_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UgcType.proto";
+
+// Name: KPBGKBNCNBB
+// CmdId: 6331
+message PublishUgcRsp {
+    uint64 ugc_guid = 4;
+    UgcType ugc_type = 9;
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

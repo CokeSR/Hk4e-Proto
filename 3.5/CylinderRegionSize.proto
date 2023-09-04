@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KJBDKIHKDBE
+message CylinderRegionSize {
+    float radius = 4;
+    float height = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

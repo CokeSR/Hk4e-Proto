@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ForgeQueueManipulateType.proto";
+import "ItemParam.proto";
+
+// Name: FMIPFCFINIC
+// CmdId: 688
+message ForgeQueueManipulateRsp {
+    int32 retcode = 4;
+    repeated ItemParam extra_output_item_list = 13; //LJGHMOMAFGD
+    ForgeQueueManipulateType manipulate_type = 8;
+    repeated ItemParam output_item_list = 3; //PODPGGGOFGP
+    repeated ItemParam return_item_list = 11; //CBLILOJFLPO
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VehicleMember.proto";
+
+// Name: CDPOOGDCAEF
+message VehicleInfo {
+    repeated VehicleMember member_list = 1;
+    uint32 owner_uid = 2;
+    float cur_stamina = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MGGEALNFNKK
+// CmdId: 2419
+message TowerSurrenderReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

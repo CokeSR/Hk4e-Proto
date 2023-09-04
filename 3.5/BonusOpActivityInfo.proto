@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MHBLMMJDAIF
+message BonusOpActivityInfo {
+    uint32 left_bonus_count = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KNCJBBMCDJG
+// CmdId: 1812
+message MpPlayOwnerStartInviteReq {
+    bool is_skip_match = 4;
+    uint32 mp_play_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

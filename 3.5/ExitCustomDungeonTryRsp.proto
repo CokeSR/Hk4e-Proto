@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FFBHHCDBCHG
+// CmdId: 6212
+message ExitCustomDungeonTryRsp {
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

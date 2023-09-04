@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CFLMLFLEPBM
+// CmdId: 4056
+message UpdatePS4FriendListNotify {
+    repeated string psn_id_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

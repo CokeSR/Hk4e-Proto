@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BFOFNKADCPB
+// CmdId: 21951
+message BFOFNKADCPB {
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

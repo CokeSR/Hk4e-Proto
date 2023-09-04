@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FIMCPLKLILH
+// CmdId: 1701
+message AvatarGainCostumeNotify {
+    uint32 costume_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

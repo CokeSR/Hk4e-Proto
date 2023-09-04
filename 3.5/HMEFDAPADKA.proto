@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HMEFDAPADKA
+message HMEFDAPADKA {
+    bool is_open = 12;
+    uint32 stage_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JDAHDKIFPOC
+// CmdId: 6247
+message GetCustomDungeonReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

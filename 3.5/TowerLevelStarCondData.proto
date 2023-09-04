@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KMPDADDDNCP
+message TowerLevelStarCondData {
+    bool EOJOAHGECCE = 13;
+    uint32 star_cond_index = 4; //NLNHJFLCGHB
+    uint32 cond_value = 7; //KOPBLHONCEF
+    bool MFPMLIGPNIJ = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

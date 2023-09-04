@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOOLMPKGMDG
+// CmdId: 565
+message FinishedTalkIdListNotify {
+    repeated uint32 finished_talk_id_list = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

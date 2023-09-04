@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DFLOHDCCBBO
+// CmdId: 4511
+message GetPlayerHomeCompInfoReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

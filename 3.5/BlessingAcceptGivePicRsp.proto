@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IMNNAGKKCEL
+// CmdId: 2187
+message BlessingAcceptGivePicRsp {
+    uint32 uid = 9;
+    uint32 pic_id = 8;
+    int32 retcode = 3;
+    uint32 index = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKKCJILAHKK
+// CmdId: 4463
+message HomeBlueprintInfoNotify {
+    bool is_allow_friend_copy = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

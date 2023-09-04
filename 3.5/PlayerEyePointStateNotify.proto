@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CylinderRegionSize.proto";
+import "PolygonRegionSize.proto";
+import "Vector.proto";
+
+// Name: HKKDPBGCGHK
+// CmdId: 3065
+message PlayerEyePointStateNotify {
+    bool BBGEGPLJIEE = 13;
+    int32 fix_lod_level = 12;
+    Vector eye_point_pos = 14;
+    bool DIEJPBFPPFC = 9;
+    uint32 region_config_id = 10; //JFMPEFGAHLF
+    uint32 region_group_id = 11; //EMOIPBDAMAA
+    uint32 region_shape = 1; //IKMIOFDEJNF
+    uint32 region_entity_id = 2; //LJNLOCELKND
+    oneof region_size {
+        float sphere_radius = 1214;
+        Vector cubic_size = 1267;
+        CylinderRegionSize cylinder_size = 778;
+        PolygonRegionSize polygon_size = 1154;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

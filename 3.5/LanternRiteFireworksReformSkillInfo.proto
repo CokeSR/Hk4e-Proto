@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MLEOKHKOFND
+message LanternRiteFireworksReformSkillInfo {
+    uint32 skill_id = 9;
+    uint32 IBKIDCMCDPF = 12;
+    uint32 AEACCAGDNJC = 1;
+    bool is_unlock = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

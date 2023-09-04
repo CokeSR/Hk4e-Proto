@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DJEFNKHNPAP
+// CmdId: 308
+message EntityAiKillSelfNotify {
+    uint32 entity_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

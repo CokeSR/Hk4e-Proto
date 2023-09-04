@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JEAIDHCCOGP
+// CmdId: 174
+message OpenStateUpdateNotify {
+    map<uint32, uint32> open_state_map = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

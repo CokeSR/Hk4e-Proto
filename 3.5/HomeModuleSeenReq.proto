@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HAKKGNADGPG
+// CmdId: 4672
+message HomeModuleSeenReq {
+    repeated uint32 seen_module_id_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

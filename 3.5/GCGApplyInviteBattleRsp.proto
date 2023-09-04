@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KPPKGLBHPDN
+// CmdId: 7940
+message GCGApplyInviteBattleRsp {
+    uint32 punish_end_time = 7;
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GJKELGFMJPG
+// CmdId: 438
+message AssociateInferenceWordReq {
+    uint32 page_id = 9;
+    uint32 PCGFIGLNLLD = 7;
+    uint32 FLFHEDBHLPH = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

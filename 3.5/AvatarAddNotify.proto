@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarInfo.proto";
+
+// Name: JKFHGKAMAHH
+// CmdId: 1756
+message AvatarAddNotify {
+    bool is_in_team = 1;
+    AvatarInfo avatar = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

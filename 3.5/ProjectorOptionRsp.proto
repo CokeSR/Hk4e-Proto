@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NIDOMCPIAOP
+// CmdId: 857
+message ProjectorOptionRsp {
+    int32 retcode = 6;
+    uint32 entity_id = 15;
+    uint32 op_type = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

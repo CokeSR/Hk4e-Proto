@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGDuel.proto";
+
+// Name: CIDOFFBIFIA
+message CIDOFFBIFIA {
+    uint32 controller_id = 14;
+    uint32 JCMACGJEEAD = 3;
+    oneof detail {
+        string BDBMFCIHJPL = 12;
+        GCGDuel IEOMECODBLG = 7;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

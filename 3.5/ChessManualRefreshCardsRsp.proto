@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CDGDIFAEFAJ
+// CmdId: 5390
+message ChessManualRefreshCardsRsp {
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

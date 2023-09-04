@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OBKONCBHOOM
+// CmdId: 8317
+message CrystalLinkRestartDungeonReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

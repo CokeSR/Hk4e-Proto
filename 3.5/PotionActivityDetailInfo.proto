@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PotionStageData.proto";
+
+// Name: CMFJGDKFPBH
+message PotionActivityDetailInfo {
+    repeated PotionStageData stage_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

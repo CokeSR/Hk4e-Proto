@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DBJGJNGNNEK
+// CmdId: 5491
+message DraftTwiceConfirmResultNotify {
+    bool is_all_argee = 11;
+    uint32 draft_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

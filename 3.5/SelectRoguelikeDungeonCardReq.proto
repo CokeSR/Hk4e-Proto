@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PAMGLOGHDEA
+// CmdId: 8229
+message SelectRoguelikeDungeonCardReq {
+    uint32 card_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

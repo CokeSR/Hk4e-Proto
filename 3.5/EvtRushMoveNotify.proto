@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EvtRushMoveInfo.proto";
+import "ForwardType.proto";
+
+// Name: CEFMDDMOGIF
+// CmdId: 307
+message EvtRushMoveNotify {
+    EvtRushMoveInfo evt_rush_move_info = 2;
+    ForwardType forward_type = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

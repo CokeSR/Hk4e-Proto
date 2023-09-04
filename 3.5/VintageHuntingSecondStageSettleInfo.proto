@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JCNBBFBADBF
+message VintageHuntingSecondStageSettleInfo {
+    uint32 NJENGLLHPJD = 12;
+    uint32 AGHLEPMGGPH = 14;
+    map<uint32, uint32> animal_count_map = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

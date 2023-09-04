@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JDFJBMFFENF
+// CmdId: 24811
+message JDFJBMFFENF {
+    uint64 ugc_guid = 8;
+    uint32 music_basic_id = 1;
+    bool is_save_score = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

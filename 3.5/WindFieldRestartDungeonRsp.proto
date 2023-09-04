@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HBKJBCKNFAB
+// CmdId: 21948
+message WindFieldRestartDungeonRsp {
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

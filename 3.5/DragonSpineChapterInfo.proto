@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AJCAFFBMNAO
+message DragonSpineChapterInfo {
+    uint32 progress = 12;
+    uint32 chapter_id = 7;
+    bool is_open = 15;
+    uint32 finished_mission_num = 6;
+    uint32 open_time = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

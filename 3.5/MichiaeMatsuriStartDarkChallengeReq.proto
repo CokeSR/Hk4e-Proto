@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GILCHOECJHF
+// CmdId: 8357
+message MichiaeMatsuriStartDarkChallengeReq {
+    uint32 worktop_entity_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonRoom.proto";
+import "CustomDungeonSetting.proto";
+
+// Name: PDNHKLOHIGL
+// CmdId: 6209
+message SaveCustomDungeonRoomReq {
+    bool is_update_setting = 8;
+    CustomDungeonSetting setting = 5;
+    CustomDungeonRoom custom_dungeon_room = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

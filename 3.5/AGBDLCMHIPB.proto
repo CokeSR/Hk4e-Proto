@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HBEFCJKDDIN.proto";
+
+// Name: AGBDLCMHIPB
+message AGBDLCMHIPB {
+    repeated uint32 NANIIOABNOG = 10;
+    repeated uint32 PIEMKNGALPB = 3;
+    repeated HBEFCJKDDIN FALMAMOMDAG = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

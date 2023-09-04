@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FHFHEHMGCCO
+message MassivePropParam {
+    int32 type = 1;
+    repeated uint32 reaction_info_list = 2;
+    repeated float param_list = 3;
+    uint32 sync_flag = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

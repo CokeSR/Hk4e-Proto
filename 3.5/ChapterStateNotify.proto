@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChapterState.proto";
+
+// Name: EGGHDNJDFIM
+// CmdId: 427
+message ChapterStateNotify {
+    // Name: POAIPEHKEHE
+    message NeedPlayerLevel {
+        bool is_limit = 12;
+        uint32 configNeedPlayerLevel = 11; //PJDJCBIINIC
+    }
+
+    // Name: OKNHDJOIJFI
+    message NeedBeginTime {
+        bool is_limit = 10;
+        uint32 configNeedBeginTime = 3; //LENAHOJKKFP
+    }
+
+    NeedBeginTime need_begin_time = 14; //JFOHACAIDHE
+    uint32 chapter_id = 7;
+    ChapterState chapter_state = 10;
+    NeedPlayerLevel need_player_level = 8; //HIJBMEKPPKJ
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

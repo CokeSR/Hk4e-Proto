@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GCGNBHCNJCH
+// CmdId: 134
+message PlayerLogoutRsp {
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

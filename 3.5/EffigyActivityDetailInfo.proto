@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EffigyDailyInfo.proto";
+
+// Name: GBIKGDLMHBE
+message EffigyActivityDetailInfo {
+    uint32 last_difficulty_id = 15;
+    repeated EffigyDailyInfo daily_info_list = 5;
+    repeated uint32 taken_reward_index_list = 1;
+    uint32 cur_score = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

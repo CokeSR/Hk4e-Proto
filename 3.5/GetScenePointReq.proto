@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NGFIIOEAKAD
+// CmdId: 242
+message GetScenePointReq {
+    uint32 scene_id = 9;
+    bool PGBKOMBKBKG = 1;
+    uint32 belong_uid = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

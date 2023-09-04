@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGPhaseType.proto";
+
+// Name: EIDMNOJMFIF
+message GCGPhase {
+    map<uint32, uint32> allow_controller_map = 10;
+    GCGPhaseType phase_type = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

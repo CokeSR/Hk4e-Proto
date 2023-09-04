@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CHJAKCHLIED
+message CHJAKCHLIED {
+    repeated uint32 GKEHFJCJKGJ = 2;
+    repeated uint32 HHMKEJOOPNG = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

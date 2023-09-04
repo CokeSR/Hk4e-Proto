@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AranaraCollectionSuite.proto";
+
+// Name: KPDCOFIBKFD
+// CmdId: 6398
+message AranaraCollectionDataNotify {
+    repeated AranaraCollectionSuite collection_suite_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KHHINOIPNPA
+// CmdId: 2005
+message ReceivedTrialAvatarActivityRewardReq {
+    uint32 trial_avatar_index_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

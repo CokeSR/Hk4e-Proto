@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GFHJPIAOAIJ
+message GFHJPIAOAIJ {
+    uint32 value = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

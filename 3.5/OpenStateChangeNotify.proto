@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OBMHCDJPJEA
+// CmdId: 146
+message OpenStateChangeNotify {
+    map<uint32, uint32> open_state_map = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

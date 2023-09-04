@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MCMFADHIHGG
+// CmdId: 957
+message DungeonCandidateTeamCreateReq {
+    uint32 point_id = 15;
+    uint32 dungeon_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

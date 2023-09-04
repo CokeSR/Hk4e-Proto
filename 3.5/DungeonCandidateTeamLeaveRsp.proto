@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JCEAEGINIEE
+// CmdId: 918
+message DungeonCandidateTeamLeaveRsp {
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomePlantFieldData.proto";
+
+// Name: NGONDNAKJGE
+// CmdId: 4848
+message HomePlantInfoRsp {
+    repeated HomePlantFieldData field_list = 11;
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

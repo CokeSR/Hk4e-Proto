@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeCustomFurnitureInfo.proto";
+
+// Name: LHJHCBDCJCM
+// CmdId: 4558
+message HomeEditCustomFurnitureReq {
+    HomeCustomFurnitureInfo custom_furniture_info = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+// Name: FCJLAGHOIFC
+message AiSyncInfo {
+    uint32 entity_id = 10;
+    bool is_self_killing = 6;
+    bool has_path_to_target = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+

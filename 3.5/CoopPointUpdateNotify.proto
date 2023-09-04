@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CoopPoint.proto";
+
+// Name: ONACDFCHFLM
+// CmdId: 1951
+message CoopPointUpdateNotify {
+    CoopPoint coop_point = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

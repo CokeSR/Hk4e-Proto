@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GBICADPFHKK
+// CmdId: 8807
+message PlantFlowerAcceptAllGiveFlowerReq {
+    uint32 schedule_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

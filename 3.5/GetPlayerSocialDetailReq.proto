@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HLFIAFHOBAD
+// CmdId: 4065
+message GetPlayerSocialDetailReq {
+    uint32 uid = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

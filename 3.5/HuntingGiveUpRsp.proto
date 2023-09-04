@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HuntingPair.proto";
+
+// Name: LLHELHHOCEJ
+// CmdId: 4302
+message HuntingGiveUpRsp {
+    int32 retcode = 12;
+    HuntingPair hunting_pair = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

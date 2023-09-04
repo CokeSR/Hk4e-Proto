@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KADMHAIDOBA
+// CmdId: 4592
+message GetHomeExchangeWoodInfoRsp {
+    // Name: LHNJKLLKOAI
+    message HomeExchangeWoodInfo {
+        uint32 exchangeLimit = 10;
+        uint32 exchangedCount = 4;
+        uint32 next_refresh_time = 9;
+        uint32 wood_id = 11;
+    }
+
+    int32 retcode = 1;
+    repeated HomeExchangeWoodInfo woodInfoList = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

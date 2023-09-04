@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PFFLOCNKNOG
+message PFFLOCNKNOG {
+    uint32 JHAGKKPIDBM = 4;
+    uint32 KADBGBGCNLG = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

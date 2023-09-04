@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JNOFKMKAGAC
+// CmdId: 8485
+message ChannellerSlabCheckEnterLoopDungeonReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

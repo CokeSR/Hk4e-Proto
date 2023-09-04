@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GLNIOKANGHH
+// CmdId: 275
+message LeaveSceneReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

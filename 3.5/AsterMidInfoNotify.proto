@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AsterMidDetailInfo.proto";
+
+// Name: LJKDKKDMJGM
+// CmdId: 2118
+message AsterMidInfoNotify {
+    AsterMidDetailInfo info = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

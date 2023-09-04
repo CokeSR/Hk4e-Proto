@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TreasureMapDetectorData.proto";
+
+// Name: FOHJKJKEKAJ
+// CmdId: 4272
+message TreasureMapDetectorDataNotify {
+    TreasureMapDetectorData data = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

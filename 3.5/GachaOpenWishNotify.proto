@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LFILELBMIAH
+// CmdId: 1572
+message GachaOpenWishNotify {
+    uint32 NMKGGDOKHLF = 9;
+    uint32 DGIFMDIADJF = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

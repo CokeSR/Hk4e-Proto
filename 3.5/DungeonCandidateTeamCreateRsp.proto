@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKEGGHLKLNC
+// CmdId: 986
+message DungeonCandidateTeamCreateRsp {
+    int32 retcode = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FPCBMGKJKEB
+// CmdId: 7219
+message GCGApplyInviteBattleReq {
+    bool is_agree = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

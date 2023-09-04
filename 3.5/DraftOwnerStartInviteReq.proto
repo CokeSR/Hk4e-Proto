@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DEFBPEKDIKP
+// CmdId: 5454
+message DraftOwnerStartInviteReq {
+    uint32 draft_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

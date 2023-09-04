@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: MAAHGJJPDKG
+message WidgetCreateLocationInfo {
+    Vector rot = 10;
+    Vector pos = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

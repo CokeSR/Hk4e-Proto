@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TowerCurLevelRecord.proto";
+
+// Name: PDBLNOEODKK
+// CmdId: 2454
+message TowerCurLevelRecordChangeNotify {
+    TowerCurLevelRecord cur_level_record = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FNHEMKCFMBL
+message FNHEMKCFMBL {
+    float LMPPEKDJNIN = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

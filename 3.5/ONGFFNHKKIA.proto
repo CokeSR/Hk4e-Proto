@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "JONHAPLJANI.proto";
+
+// Name: ONGFFNHKKIA
+message ONGFFNHKKIA {
+    uint32 level_id = 13;
+    repeated JONHAPLJANI LCBIEAMEBPF = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

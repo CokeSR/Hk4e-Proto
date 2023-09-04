@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MPCJMAGGPMG
+// CmdId: 1615
+message DelBackupAvatarTeamRsp {
+    int32 retcode = 2;
+    uint32 backup_avatar_team_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AHHOICDJKLJ
+// CmdId: 8228
+message IrodoriFillPoetryReq {
+    uint32 CGGCACEMFPB = 15;
+    uint32 GLFNJNPENKJ = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

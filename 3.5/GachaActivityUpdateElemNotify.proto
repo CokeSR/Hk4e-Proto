@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AGPDCOJBBGB
+// CmdId: 8338
+message GachaActivityUpdateElemNotify {
+    uint32 elem_type = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

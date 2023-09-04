@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeRacingGalleryRecord.proto";
+
+// Name: ICPGKGIADBI
+message HomeRacingRecord {
+    repeated HomeRacingGalleryRecord record_list = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OPFDLIKEJCA
+// CmdId: 2659
+message TakeAchievementRewardReq {
+    repeated uint32 id_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DPEAAFLAMIN.proto";
+
+// Name: IMADEKGFIFA
+message IMADEKGFIFA {
+    repeated DPEAAFLAMIN photo_pos_data_list = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

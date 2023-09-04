@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BEMKEMNHKGB
+// CmdId: 982
+message DungeonWayPointActivateReq {
+    uint32 way_point_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

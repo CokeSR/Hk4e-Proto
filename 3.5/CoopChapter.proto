@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CoopCg.proto";
+import "CoopPoint.proto";
+import "CoopReward.proto";
+
+// Name: MGEECBMFJFJ
+message CoopChapter {
+    // Name: ACJEPJLJPDD
+    enum State {
+    STATE_UNSTARTED = 0;
+    STATE_STARTED   = 1;
+    STATE_FINISHED  = 2;
+    }
+
+    repeated CoopCg coop_cg_list = 2;
+    repeated CoopReward coop_reward_list = 5;
+    repeated CoopPoint coop_point_list = 12;
+    State state = 7;
+    repeated uint32 finish_dialog_list = 10; //EFPMMEKFFHG
+    uint32 finished_end_count = 6; //NLNALPGOELK
+    uint32 total_end_count = 4; //KOFPBNBJDAF
+    uint32 id = 9;
+    repeated uint32 lock_reason_list = 13; //EHIGCPDOPMG
+    map<uint32, uint32> seen_ending_map = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

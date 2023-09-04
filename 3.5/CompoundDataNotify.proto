@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CompoundQueueData.proto";
+
+// Name: IDHHJMJOKKD
+// CmdId: 118
+message CompoundDataNotify {
+    repeated uint32 unlock_compound_list = 5;
+    repeated CompoundQueueData compound_que_data_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

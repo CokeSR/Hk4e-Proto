@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CGAALOLONHA
+// CmdId: 23995
+message LanV3BoatInterruptSettleStageReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

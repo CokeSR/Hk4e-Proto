@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OBOFAJMJMGL
+// CmdId: 126
+message CookGradeDataNotify {
+    uint32 grade = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

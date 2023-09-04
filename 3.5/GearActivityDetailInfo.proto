@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ALAMJIMOCOP.proto";
+import "KFMDIFPCNOC.proto";
+
+// Name: NNCOMCGMPBK
+message GearActivityDetailInfo {
+    repeated ALAMJIMOCOP GGOBGABGAJH = 4;
+    KFMDIFPCNOC NDHPACEIAPO = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

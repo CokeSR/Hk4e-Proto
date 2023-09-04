@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ICEDOFNJPDC
+// CmdId: 22260
+message ICEDOFNJPDC {
+    repeated uint64 IEKHFNCBNBC = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

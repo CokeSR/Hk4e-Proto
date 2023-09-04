@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JIMNIKFBCCK
+// CmdId: 997
+message GetDailyDungeonEntryInfoReq {
+    uint32 scene_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

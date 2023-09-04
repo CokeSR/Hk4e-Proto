@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MHOMBDAKFEI
+// CmdId: 1985
+message UnlockCoopChapterReq {
+    uint32 chapter_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KBJIEJFLEPA
+message MaterilaInfo {
+    uint32 count = 5;
+    uint64 guid = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

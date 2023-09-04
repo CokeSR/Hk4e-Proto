@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MBIPNDBGKFI
+message CityReputationSimpleInfo {
+    uint32 city_id = 9;
+    uint32 level = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

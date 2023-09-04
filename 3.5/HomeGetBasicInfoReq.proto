@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PPGOICBCPFP
+// CmdId: 4817
+message HomeGetBasicInfoReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

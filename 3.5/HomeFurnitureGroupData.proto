@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeFurnitureData.proto";
+
+// Name: FNLKKMKJIDF
+message HomeFurnitureGroupData {
+    repeated HomeFurnitureData virtualFurnitureList = 5;
+    uint32 groupFurnitureIndex = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

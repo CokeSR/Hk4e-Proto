@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HBPDOMIGAKK
+// CmdId: 4537
+message HomeTransferReq {
+    uint32 guid = 1;
+    bool MPAJHMEOAPK = 12;
+    bool NBNNPNAGOEA = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AreaPlayType.proto";
+
+// Name: BBOEDGMNHBC
+// CmdId: 3472
+message AreaPlayInfoNotify {
+    uint32 detail_play_type = 3;
+    AreaPlayType area_play_type = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

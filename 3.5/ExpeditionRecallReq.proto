@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HLGKPJOLHFH
+// CmdId: 2008
+message ExpeditionRecallReq {
+    uint32 path_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

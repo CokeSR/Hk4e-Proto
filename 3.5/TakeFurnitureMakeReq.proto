@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IENBCEAAOKF
+// CmdId: 4713
+message TakeFurnitureMakeReq {
+    uint32 make_id = 7;
+    bool is_fast_finish = 11;
+    uint32 index = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

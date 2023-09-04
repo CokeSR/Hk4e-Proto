@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MaterialDeleteInfo.proto";
+
+// Name: ADCHONLBKMH
+message Material {
+    uint32 count = 1;
+    MaterialDeleteInfo delete_info = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

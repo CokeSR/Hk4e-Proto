@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PCGDGEFFEDL
+// CmdId: 4115
+message OrderDisplayNotify {
+    uint32 order_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

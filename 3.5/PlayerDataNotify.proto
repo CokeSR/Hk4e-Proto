@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PropValue.proto";
+
+// Name: PEEAAFJMOOH
+// CmdId: 182
+message PlayerDataNotify {
+    uint64 server_time = 9;
+    string nick_name = 6;
+    map<uint32, PropValue> prop_map = 8;
+    bool is_first_login_today = 11;
+    uint32 region_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

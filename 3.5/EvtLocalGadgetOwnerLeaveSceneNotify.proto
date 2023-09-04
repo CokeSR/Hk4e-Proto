@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKDGFCKCJNG
+// CmdId: 398
+message EvtLocalGadgetOwnerLeaveSceneNotify {
+    uint32 entity_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

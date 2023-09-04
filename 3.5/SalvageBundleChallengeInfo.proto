@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CLCLGFMLOOG
+message SalvageBundleChallengeInfo {
+    repeated uint32 finished_bundle_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

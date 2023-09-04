@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGDuelChallenge.proto";
+
+// Name: BPAMMINCHJG
+// CmdId: 7403
+message BPAMMINCHJG {
+    GCGDuelChallenge OIOCILJGDDA = 4;
+    uint32 HCKIILHKKBE = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

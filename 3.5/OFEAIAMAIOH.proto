@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OFEAIAMAIOH
+// CmdId: 7957
+message OFEAIAMAIOH {
+    uint32 EGKHACMKHMD = 9;
+    uint32 uid = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

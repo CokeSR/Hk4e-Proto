@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IMHGEPAOFOP
+// CmdId: 21717
+message FungusFighterTrainingSelectFungusReq {
+    repeated uint32 backup_fungus_id_list = 5;
+    repeated uint32 fight_fungus_id_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

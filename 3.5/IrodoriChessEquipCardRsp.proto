@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NFNLEIPBPFE
+// CmdId: 8145
+message IrodoriChessEquipCardRsp {
+    uint32 level_id = 6;
+    bool is_hard_map = 11;
+    int32 retcode = 10;
+    uint32 card_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

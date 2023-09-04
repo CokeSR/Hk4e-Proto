@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GICBNMDGAEN
+// CmdId: 251
+message JoinPlayerFailNotify {
+    int32 retcode = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

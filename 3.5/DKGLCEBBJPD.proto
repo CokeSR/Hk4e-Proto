@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EquipParam.proto";
+
+// Name: DKGLCEBBJPD
+message DKGLCEBBJPD {
+    repeated EquipParam item_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KDHCJEKJOCB
+// CmdId: 443
+message SubmitInferenceWordRsp {
+    uint32 word_id = 3;
+    int32 retcode = 14;
+    uint32 conclusion_id = 11;
+    uint32 page_id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

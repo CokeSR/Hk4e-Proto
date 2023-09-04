@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DLDCPBMJOPO
+// CmdId: 20295
+message FungusRenameReq {
+    uint32 name_id = 9;
+    uint32 fungus_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

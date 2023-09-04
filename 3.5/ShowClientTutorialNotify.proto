@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HNIEJMPFIBA
+// CmdId: 3120
+message ShowClientTutorialNotify {
+    uint32 tutorial_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

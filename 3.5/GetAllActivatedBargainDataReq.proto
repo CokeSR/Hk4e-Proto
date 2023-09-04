@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GNMJKFFBKMH
+// CmdId: 413
+message GetAllActivatedBargainDataReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FleurFairBalloonSettleInfo.proto";
+
+// Name: CEMMAFIDCKC
+// CmdId: 2200
+message FleurFairBalloonSettleNotify {
+    uint32 minigame_id = 12;
+    map<uint32, FleurFairBalloonSettleInfo> settle_info_map = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GroupLinkBundle.proto";
+
+// Name: PPEKJLIOOCJ
+// CmdId: 5798
+message GroupLinkAllNotify {
+    repeated GroupLinkBundle bundle_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

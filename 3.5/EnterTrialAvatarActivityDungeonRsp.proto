@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PAFBDJNHHJB
+// CmdId: 2154
+message EnterTrialAvatarActivityDungeonRsp {
+    int32 retcode = 3;
+    uint32 activity_id = 12;
+    uint32 trial_avatar_index_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

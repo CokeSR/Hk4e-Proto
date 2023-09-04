@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGDuel.proto";
+
+// Name: INEIPAMELIP
+// CmdId: 7287
+message INEIPAMELIP {
+    GCGDuel IEOMECODBLG = 4;
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

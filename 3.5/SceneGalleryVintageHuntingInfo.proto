@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VintageHuntingFirstStageInfo.proto";
+import "VintageHuntingSecondStageInfo.proto";
+import "VintageHuntingThirdStageInfo.proto";
+
+// Name: HDOLPADGHOC
+message SceneGalleryVintageHuntingInfo {
+    uint32 stage_id = 7;
+    oneof info {
+        VintageHuntingFirstStageInfo first_stage_info = 6;
+        VintageHuntingSecondStageInfo second_stage_info = 3;
+        VintageHuntingThirdStageInfo third_stage_info = 4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

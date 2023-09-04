@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KECNEMONJDE
+message StatueGadgetInfo {
+    repeated uint32 opened_statue_uid_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

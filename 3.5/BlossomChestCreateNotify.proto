@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BAEHNMNEKLG
+// CmdId: 2734
+message BlossomChestCreateNotify {
+    uint32 refresh_id = 1;
+    uint32 circle_camp_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

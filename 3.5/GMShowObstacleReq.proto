@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IAEMJBPANGC
+// CmdId: 2353
+message GMShowObstacleReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

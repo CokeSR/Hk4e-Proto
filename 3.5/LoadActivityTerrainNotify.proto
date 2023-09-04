@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JEAMOBGHLEL
+// CmdId: 2146
+message LoadActivityTerrainNotify {
+    uint32 activity_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

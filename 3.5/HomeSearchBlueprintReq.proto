@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: APABLKFKLJN
+// CmdId: 4608
+message HomeSearchBlueprintReq {
+    string share_code = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

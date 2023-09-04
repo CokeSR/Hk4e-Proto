@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PMEKJCILJAH
+// CmdId: 102
+message PlayerSetPauseReq {
+    bool is_paused = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

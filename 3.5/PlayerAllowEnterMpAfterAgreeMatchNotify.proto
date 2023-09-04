@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KPCPHKEHBDO
+// CmdId: 4181
+message PlayerAllowEnterMpAfterAgreeMatchNotify {
+    uint32 target_uid = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

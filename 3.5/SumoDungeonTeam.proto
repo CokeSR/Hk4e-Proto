@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SumoDungeonAvatar.proto";
+
+// Name: KKCFBPFKGKM
+message SumoDungeonTeam {
+    repeated SumoDungeonAvatar dungeon_avatar_list = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

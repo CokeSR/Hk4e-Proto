@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SumoAvatarInfo.proto";
+
+// Name: LANGJAKENPJ
+message SumoTeamData {
+    repeated uint32 skill_id_list = 9;
+    repeated SumoAvatarInfo avatar_info_list = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

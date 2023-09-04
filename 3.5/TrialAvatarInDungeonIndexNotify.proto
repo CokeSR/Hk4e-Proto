@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NEIOEGLNCBC
+// CmdId: 2109
+message TrialAvatarInDungeonIndexNotify {
+    uint32 trial_avatar_index_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

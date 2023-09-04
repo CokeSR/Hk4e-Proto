@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CKDGLFFGEAA
+// CmdId: 156
+message PlayerPropChangeNotify {
+    uint32 prop_delta = 9;
+    uint32 prop_type = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PJOPDHANLEM
+message ChatEmojiCollectionData {
+    repeated uint32 emoji_id_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

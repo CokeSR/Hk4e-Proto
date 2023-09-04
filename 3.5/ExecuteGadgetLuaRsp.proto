@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HAJKCLEOHJL
+// CmdId: 224
+message ExecuteGadgetLuaRsp {
+    int32 retcode = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

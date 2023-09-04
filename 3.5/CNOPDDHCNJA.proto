@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CNOPDDHCNJA
+message CNOPDDHCNJA {
+    float BBGFHEIICOB = 13;
+    float NIJAKGLOOAD = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

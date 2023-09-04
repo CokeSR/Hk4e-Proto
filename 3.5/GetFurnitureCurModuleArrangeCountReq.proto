@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MMFHNMIAGAC
+// CmdId: 4899
+message GetFurnitureCurModuleArrangeCountReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

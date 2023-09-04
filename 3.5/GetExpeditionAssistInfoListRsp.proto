@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ExpeditionAssistInfo.proto";
+
+// Name: GOLDNJAPDMP
+// CmdId: 2197
+message GetExpeditionAssistInfoListRsp {
+    repeated ExpeditionAssistInfo assist_info_list = 11;
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MNKCNAJGIIN
+// CmdId: 2145
+message BlessingRedeemRewardRsp {
+    int32 retcode = 3;
+    map<uint32, uint32> pic_num_map = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

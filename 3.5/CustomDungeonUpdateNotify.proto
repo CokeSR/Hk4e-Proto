@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonBrief.proto";
+
+// Name: PMGNHJBGGAJ
+// CmdId: 6225
+message CustomDungeonUpdateNotify {
+    CustomDungeonBrief dungeon_brief = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

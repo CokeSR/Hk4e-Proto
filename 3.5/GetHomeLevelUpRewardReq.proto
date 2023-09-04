@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPKFHLMGLON
+// CmdId: 4821
+message GetHomeLevelUpRewardReq {
+    uint32 level = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

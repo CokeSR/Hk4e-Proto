@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PFINALGKHEB
+// CmdId: 8494
+message RoguelikeCardGachaNotify {
+    bool is_can_refresh = 6;
+    repeated uint32 card_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

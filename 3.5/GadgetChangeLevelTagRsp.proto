@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FBMGKBHHOEH
+// CmdId: 837
+message GadgetChangeLevelTagRsp {
+    int32 retcode = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

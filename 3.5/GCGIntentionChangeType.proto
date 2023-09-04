@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OCBHBGFOOHK
+enum GCGIntentionChangeType {
+  GCG_INTENTION_CHANGE_NONE = 0;
+  GCG_INTENTION_CHANGE_RM   = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

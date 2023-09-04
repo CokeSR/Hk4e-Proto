@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LJDNAIPLEIG
+// CmdId: 4876
+message HomeChangeModuleRsp {
+    uint32 target_module_id = 8;
+    int32 retcode = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NHDGJCKLJGC
+// CmdId: 5844
+message FishChosenNotify {
+    uint32 fish_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

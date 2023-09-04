@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OJOJGKOHKLL
+// CmdId: 22453
+message FungusFighterTrainingSelectFungusRsp {
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

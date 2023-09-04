@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NLCHECAHEJL
+// CmdId: 4016
+message SocialDataNotify {
+    bool is_have_first_share = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

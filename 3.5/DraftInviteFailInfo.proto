@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DraftInviteFailReason.proto";
+
+// Name: IABHECOCONE
+message DraftInviteFailInfo {
+    DraftInviteFailReason reason = 2;
+    uint32 uid = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

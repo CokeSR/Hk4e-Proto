@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AGOEHBNOKCH
+// CmdId: 2158
+message ExpeditionTakeRewardRsp {
+    uint32 path_id = 6;
+    int32 retcode = 8;
+    uint32 reward_level = 14;
+    bool is_bonus = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

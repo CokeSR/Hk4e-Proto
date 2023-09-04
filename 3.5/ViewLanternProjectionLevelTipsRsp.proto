@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CKOBNFHAHDM
+// CmdId: 8134
+message ViewLanternProjectionLevelTipsRsp {
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

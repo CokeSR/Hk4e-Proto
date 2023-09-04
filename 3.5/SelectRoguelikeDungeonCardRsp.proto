@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DAKMEFFJMEI
+// CmdId: 8037
+message SelectRoguelikeDungeonCardRsp {
+    int32 retcode = 15;
+    uint32 card_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

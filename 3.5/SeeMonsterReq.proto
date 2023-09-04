@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KKCMIOGDBNF
+// CmdId: 255
+message SeeMonsterReq {
+    uint32 monster_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

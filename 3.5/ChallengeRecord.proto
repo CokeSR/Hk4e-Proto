@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PCHDKENMKEJ
+message ChallengeRecord {
+    uint32 challenge_index = 2;
+    uint32 LLGLNCOOMPM = 7;
+    uint32 IEIOKIIGBIA = 3;
+    uint32 challenge_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

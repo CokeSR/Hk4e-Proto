@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FriendBrief.proto";
+
+// Name: LKNDAKGIBIA
+// CmdId: 4071
+message GetPlayerBlacklistRsp {
+    int32 retcode = 13;
+    repeated FriendBrief blacklist = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

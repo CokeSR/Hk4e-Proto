@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MatchReason.proto";
+
+// Name: BOLIJNNEPBK
+// CmdId: 4165
+message PlayerMatchStopNotify {
+    MatchReason reason = 9;
+    uint32 host_uid = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FleurFairMusicRecord.proto";
+
+// Name: BNNCKKOLHCI
+message FleurFairMusicGameInfo {
+    map<uint32, FleurFairMusicRecord> music_record_map = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

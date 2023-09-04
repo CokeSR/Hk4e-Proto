@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GDFLMPCLCBL
+message PbNavMeshStatsInfo {
+    int32 MAOOGHCELLP = 5;
+    int32 GALFOGDNJEJ = 2;
+    int32 NPOCPIALJKN = 15;
+    int32 KAGMCFMCNMM = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

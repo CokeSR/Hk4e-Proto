@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MIEMEMKNFDE
+// CmdId: 1641
+message AvatarExpeditionGetRewardReq {
+    uint64 avatar_guid = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

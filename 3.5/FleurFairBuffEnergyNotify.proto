@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MNGOAPOBDNJ
+// CmdId: 5302
+message FleurFairBuffEnergyNotify {
+    uint32 energy = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

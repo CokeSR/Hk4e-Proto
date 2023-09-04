@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AMFCHFIEMGP
+// CmdId: 1747
+message ChangeMpTeamAvatarRsp {
+    repeated uint64 avatar_guid_list = 6;
+    int32 retcode = 5;
+    uint64 cur_avatar_guid = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

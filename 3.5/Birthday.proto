@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKBKNDJIDHM
+message Birthday {
+    uint32 month = 1;
+    uint32 day = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

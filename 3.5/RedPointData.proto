@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EAMNCJHCHCI
+message RedPointData {
+    uint32 red_point_type = 1;
+    bool is_show = 2;
+    uint32 content_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

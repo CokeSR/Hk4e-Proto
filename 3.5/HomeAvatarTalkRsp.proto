@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeAvatarTalkFinishInfo.proto";
+
+// Name: FPEABAMFGIM
+// CmdId: 4484
+message HomeAvatarTalkRsp {
+    int32 retcode = 9;
+    HomeAvatarTalkFinishInfo avatar_talk_info = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

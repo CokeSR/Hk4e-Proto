@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PAKFHAHBOGE
+// CmdId: 4202
+message SetCodexPushtipsReadRsp {
+    uint32 type_id = 3;
+    int32 retcode = 2;
+    uint32 codex_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

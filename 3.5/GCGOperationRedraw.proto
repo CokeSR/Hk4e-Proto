@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CBBFEJJDBNO
+message GCGOperationRedraw {
+    repeated uint32 card_list = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

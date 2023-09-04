@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: NMCLDDEHHKM
+message ScenePlayBattleSettleRewardInfo {
+    repeated ItemParam reward_item_list = 6;
+    uint32 uid = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

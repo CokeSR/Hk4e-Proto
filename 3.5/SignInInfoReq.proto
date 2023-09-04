@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BCGADBEENDB
+// CmdId: 2554
+message SignInInfoReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

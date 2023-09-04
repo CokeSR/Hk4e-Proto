@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IENKIEMHLCA
+// CmdId: 8160
+message MichiaeMatsuriStartDarkChallengeRsp {
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FurnitureMakeData.proto";
+
+// Name: DIIKFAIPKGG
+message FurnitureMakeSlot {
+    repeated FurnitureMakeData furniture_make_data_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

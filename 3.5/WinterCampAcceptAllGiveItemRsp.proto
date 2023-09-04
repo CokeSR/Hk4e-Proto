@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WinterCampAcceptItemResultInfo.proto";
+
+// Name: BHEABKLJGEG
+// CmdId: 8815
+message WinterCampAcceptAllGiveItemRsp {
+    int32 retcode = 10;
+    repeated WinterCampAcceptItemResultInfo accept_item_result_info = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MONCGGOKAGB
+// CmdId: 4132
+message TakeResinCardDailyRewardReq {
+    uint32 product_config_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

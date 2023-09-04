@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BPKANGBPPDO
+// CmdId: 22336
+message DuelHeartSelectDifficultyRsp {
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

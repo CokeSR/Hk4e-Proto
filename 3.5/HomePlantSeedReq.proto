@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KOPLCIDJIBO
+// CmdId: 4607
+message HomePlantSeedReq {
+    uint32 index = 14;
+    repeated uint32 seed_id_list = 7;
+    uint32 field_guid = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

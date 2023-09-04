@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HNFJIBCJHLO
+// CmdId: 2644
+message TakeBattlePassMissionPointReq {
+    repeated uint32 mission_id_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPJKMHGAFNB
+// CmdId: 872
+message BossChestActivateNotify {
+    repeated uint32 qualify_uid_list = 11;
+    uint32 entity_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IGCHKGFECEE
+// CmdId: 8341
+message EnterChessDungeonReq {
+    uint32 map_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

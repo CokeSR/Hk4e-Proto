@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MDACBIMHMJF
+// CmdId: 5565
+message GalleryFlowerCatchNotify {
+    uint32 cur_score = 12;
+    uint32 gallery_id = 4;
+    uint32 add_score = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

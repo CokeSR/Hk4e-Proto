@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MONAENEBFNP
+// CmdId: 7928
+message MONAENEBFNP {
+    uint32 FMEICLMBOBF = 2;
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PFAALLEIHLP
+// CmdId: 8258
+message WinterCampTriathlonRestartRsp {
+    uint32 gallery_id = 13;
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

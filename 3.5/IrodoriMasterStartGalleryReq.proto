@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IGENANOLEOL
+// CmdId: 8344
+message IrodoriMasterStartGalleryReq {
+    uint32 level_id = 11;
+    uint32 difficulty = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

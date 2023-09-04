@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MEEIDNFFFIM
+// CmdId: 971
+message DungeonCandidateTeamSetReadyReq {
+    bool is_ready = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

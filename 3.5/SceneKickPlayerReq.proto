@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FEOJAMDKCKH
+// CmdId: 232
+message SceneKickPlayerReq {
+    uint32 target_uid = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

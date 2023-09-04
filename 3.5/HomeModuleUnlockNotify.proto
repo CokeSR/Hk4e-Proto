@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BJCKAJNCINB
+// CmdId: 4700
+message HomeModuleUnlockNotify {
+    uint32 module_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ANPIFECAIGP
+// CmdId: 5982
+message ReformFireworksRsp {
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

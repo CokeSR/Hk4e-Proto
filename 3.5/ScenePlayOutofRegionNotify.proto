@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FKKHKPOLBBB
+// CmdId: 4377
+message ScenePlayOutofRegionNotify {
+    uint32 play_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GHKBLBNPHEN
+// CmdId: 972
+message DungeonWayPointNotify {
+    bool is_add = 3;
+    repeated uint32 active_way_point_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

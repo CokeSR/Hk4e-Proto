@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BFAPCMPPLFE
+message GCGMsgWaitingListChange {
+    uint32 cur_index = 4;
+    uint32 controller_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

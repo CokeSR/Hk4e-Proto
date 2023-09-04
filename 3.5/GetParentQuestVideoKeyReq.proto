@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EFIPINMIDDK
+// CmdId: 460
+message GetParentQuestVideoKeyReq {
+    uint32 parent_quest_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

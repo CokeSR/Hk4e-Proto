@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AbilityString.proto";
+
+// Name: HBMJGKJKIGL
+message ModifierProperty {
+    float value = 9;
+    AbilityString key = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JKFFBLOKFIC
+// CmdId: 6207
+message SearchCustomDungeonReq {
+    string dungeon_code = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

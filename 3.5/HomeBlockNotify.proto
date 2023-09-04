@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KLIGCBPPNKI
+// CmdId: 4857
+message HomeBlockNotify {
+    uint32 end_time = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

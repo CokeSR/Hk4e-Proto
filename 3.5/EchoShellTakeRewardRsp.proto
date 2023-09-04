@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JPFCLONBGNH
+// CmdId: 8523
+message EchoShellTakeRewardRsp {
+    int32 retcode = 8;
+    uint32 reward_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

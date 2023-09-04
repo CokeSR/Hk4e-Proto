@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JFMEMKLNFHK
+// CmdId: 8362
+message TryInterruptRogueDiaryDungeonReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

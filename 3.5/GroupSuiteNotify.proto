@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AHFIMIOOLNJ
+// CmdId: 3263
+message GroupSuiteNotify {
+    map<uint32, uint32> group_map = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

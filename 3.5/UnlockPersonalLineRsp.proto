@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IFBACLBBNBH
+// CmdId: 471
+message UnlockPersonalLineRsp {
+    uint32 personal_line_id = 5;
+    int32 retcode = 2;
+    oneof param {
+        uint32 level = 1;
+        uint32 chapter_id = 6;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

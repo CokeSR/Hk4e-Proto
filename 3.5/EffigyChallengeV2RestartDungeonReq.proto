@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BDEPGMGHKBF
+// CmdId: 20949
+message EffigyChallengeV2RestartDungeonReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

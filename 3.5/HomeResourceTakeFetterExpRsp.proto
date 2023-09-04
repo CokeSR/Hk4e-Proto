@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeResource.proto";
+
+// Name: IIGPCKJGACD
+// CmdId: 4808
+message HomeResourceTakeFetterExpRsp {
+    int32 retcode = 2;
+    HomeResource fetter_exp = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

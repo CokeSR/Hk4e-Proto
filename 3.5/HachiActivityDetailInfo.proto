@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HachiStageInfo.proto";
+
+// Name: MBJOHGHHELK
+message HachiActivityDetailInfo {
+    map<uint32, HachiStageInfo> stage_map = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LFGOJPDIPNG
+// CmdId: 1027
+message CanUseSkillNotify {
+    bool is_can_use_skill = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

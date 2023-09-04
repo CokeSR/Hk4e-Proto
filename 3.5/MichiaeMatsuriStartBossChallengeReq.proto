@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HFIHJFIMOEB
+// CmdId: 8225
+message MichiaeMatsuriStartBossChallengeReq {
+    uint32 difficulty = 9;
+    uint32 gadget_entity_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

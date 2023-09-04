@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: POAOHPGNMKM
+// CmdId: 2294
+message PushTipsReadFinishReq {
+    uint32 push_tips_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

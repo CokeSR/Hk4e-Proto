@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OCHBNHHHGEC
+// CmdId: 2609
+message BattlePassMissionDelNotify {
+    repeated uint32 del_mission_id_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

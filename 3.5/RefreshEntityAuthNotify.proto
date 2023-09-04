@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AJONHGDEDJE
+// CmdId: 3484
+message RefreshEntityAuthNotify {
+    repeated uint32 entity_id_list = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

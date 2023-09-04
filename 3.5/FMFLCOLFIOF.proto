@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMFLCOLFIOF
+// CmdId: 7551
+message FMFLCOLFIOF {
+    uint32 AHAIAIPGFDN = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

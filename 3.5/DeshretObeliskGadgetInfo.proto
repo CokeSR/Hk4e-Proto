@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OIFFHAFGIBA
+message DeshretObeliskGadgetInfo {
+    repeated uint32 argument_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

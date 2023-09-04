@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BGCJIPNGAHK
+// CmdId: 21009
+message GearActivityFinishPlayPictureReq {
+    bool is_success = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

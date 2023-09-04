@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GKKLNEFJELP
+// CmdId: 249
+message ExitSceneWeatherAreaNotify {
+    uint32 weather_gadget_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

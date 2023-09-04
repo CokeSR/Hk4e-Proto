@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AICGCELMLHL
+// CmdId: 8960
+message RetryCurRogueDiaryDungeonRsp {
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

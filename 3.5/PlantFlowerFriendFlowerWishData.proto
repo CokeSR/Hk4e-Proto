@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ProfilePicture.proto";
+
+// Name: DBGHDOAFABF
+message PlantFlowerFriendFlowerWishData {
+    map<uint32, uint32> flower_num_map = 15;
+    string nickname = 1;
+    ProfilePicture profile_picture = 6;
+    uint32 uid = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

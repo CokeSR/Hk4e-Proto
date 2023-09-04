@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GalleryStopReason.proto";
+
+// Name: BBJKCGKNIML
+message FungusFighterTrainingSettleInfo {
+    uint32 used_time = 15;
+    string transaction = 2;
+    GalleryStopReason reason = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

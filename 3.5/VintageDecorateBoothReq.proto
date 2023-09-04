@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomGadgetTreeInfo.proto";
+
+// Name: HBDOMIEAIIL
+// CmdId: 20541
+message VintageDecorateBoothReq {
+    CustomGadgetTreeInfo combination_info = 7;
+    uint32 entity_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OGGJCHBGMKC
+// CmdId: 5526
+message HideAndSeekPlayerCapturedNotify {
+    uint32 ghost_skill_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

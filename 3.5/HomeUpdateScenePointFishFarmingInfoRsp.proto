@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PKGDBEFCEOD
+// CmdId: 4894
+message HomeUpdateScenePointFishFarmingInfoRsp {
+    int32 retcode = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

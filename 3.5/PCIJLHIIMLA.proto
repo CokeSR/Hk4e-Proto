@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PCIJLHIIMLA
+// CmdId: 7827
+message PCIJLHIIMLA {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

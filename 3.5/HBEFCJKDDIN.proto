@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HBEFCJKDDIN
+message HBEFCJKDDIN {
+    uint32 OIIAKJGOIMA = 9;
+    uint32 ACEOMANEIKE = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

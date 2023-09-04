@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KNBJIEBJOML
+// CmdId: 2150
+message FleurFairMusicGameStartReq {
+    uint32 music_basic_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

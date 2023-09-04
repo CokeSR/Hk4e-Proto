@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HuntingPair.proto";
+
+// Name: DCBKNCEELGD
+// CmdId: 4343
+message TakeHuntingOfferRsp {
+    uint32 city_id = 10;
+    HuntingPair hunting_pair = 8;
+    int32 retcode = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

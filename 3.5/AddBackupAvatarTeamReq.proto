@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DGBNGBAJBLO
+// CmdId: 1602
+message AddBackupAvatarTeamReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

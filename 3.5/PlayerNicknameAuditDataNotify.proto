@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ContentAuditInfo.proto";
+
+// Name: BEHGMOHIKOM
+// CmdId: 200
+message PlayerNicknameAuditDataNotify {
+    ContentAuditInfo info = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

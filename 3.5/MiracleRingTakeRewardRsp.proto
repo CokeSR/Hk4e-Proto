@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JMJOKICHGFP
+// CmdId: 5236
+message MiracleRingTakeRewardRsp {
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

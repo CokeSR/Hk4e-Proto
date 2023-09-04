@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EGEAODMLFOP
+// CmdId: 8260
+message TreasureMapHostInfoNotify {
+    repeated uint32 mp_challenge_region_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

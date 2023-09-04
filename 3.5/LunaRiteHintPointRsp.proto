@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LunaRiteHintPoint.proto";
+import "LunaRiteHintStatusType.proto";
+
+// Name: KIFONMMEKOM
+// CmdId: 8873
+message LunaRiteHintPointRsp {
+    uint32 area_id = 15;
+    LunaRiteHintStatusType hint_status = 7;
+    int32 retcode = 5;
+    repeated LunaRiteHintPoint hint_point = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

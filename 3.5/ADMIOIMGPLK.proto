@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ADMIOIMGPLK
+message ADMIOIMGPLK {
+    uint32 difficulty = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

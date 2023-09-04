@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOFAJOIHJPD
+message TowerFightRecordPair {
+    uint32 data = 15;
+    uint32 avatar_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

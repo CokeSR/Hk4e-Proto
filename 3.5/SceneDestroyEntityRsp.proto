@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EGFFJKOAEBO
+// CmdId: 257
+message SceneDestroyEntityRsp {
+    uint32 entity_id = 7;
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

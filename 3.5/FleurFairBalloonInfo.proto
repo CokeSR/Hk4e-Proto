@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MPCGGPMHEKJ
+message FleurFairBalloonInfo {
+    uint32 best_score = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

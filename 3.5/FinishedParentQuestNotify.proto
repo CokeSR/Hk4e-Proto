@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ParentQuest.proto";
+
+// Name: BCPKKPKIOIG
+// CmdId: 464
+message FinishedParentQuestNotify {
+    repeated ParentQuest parent_quest_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

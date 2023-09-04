@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CDJAAKPLLLE
+// CmdId: 244
+message GetSceneAreaReq {
+    uint32 scene_id = 8;
+    uint32 belong_uid = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

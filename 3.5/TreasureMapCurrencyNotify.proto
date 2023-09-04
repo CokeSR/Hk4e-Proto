@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FEDJFKEGAKM
+// CmdId: 2046
+message TreasureMapCurrencyNotify {
+    uint32 currency_num = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

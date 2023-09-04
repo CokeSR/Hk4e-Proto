@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LLGEHHDIHFP
+// CmdId: 1764
+message AvatarUpgradeReq {
+    uint32 item_id = 12;
+    uint64 avatar_guid = 5;
+    uint32 count = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

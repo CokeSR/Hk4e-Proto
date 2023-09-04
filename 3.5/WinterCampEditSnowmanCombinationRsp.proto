@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PDPNFELAOKO
+// CmdId: 8128
+message WinterCampEditSnowmanCombinationRsp {
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

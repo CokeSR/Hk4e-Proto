@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PBNavMeshTile.proto";
+
+// Name: GKHCBIDCMHJ
+// CmdId: 2320
+message GMShowNavMeshRsp {
+    int32 retcode = 2;
+    repeated PBNavMeshTile tiles = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

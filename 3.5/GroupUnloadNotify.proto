@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MKCHJPNLPKA
+// CmdId: 3167
+message GroupUnloadNotify {
+    repeated uint32 group_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

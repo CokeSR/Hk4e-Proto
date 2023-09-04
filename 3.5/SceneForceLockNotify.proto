@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ABCBKINNGNF
+// CmdId: 226
+message SceneForceLockNotify {
+    repeated uint32 force_id_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

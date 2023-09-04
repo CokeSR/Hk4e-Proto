@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: COEAABHEACL
+enum TransmitReason {
+  TRANSMIT_NONE  = 0;
+  TRANSMIT_QUEST = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DungeonEntryBlockReason.proto";
+
+// Name: NFHIIJNJBGB
+message DungeonEntryCond {
+    uint32 param1 = 8;
+    DungeonEntryBlockReason cond_reason = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

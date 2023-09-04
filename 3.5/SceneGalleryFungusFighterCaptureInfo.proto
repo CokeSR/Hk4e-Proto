@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NCJHLPDJBJB
+message SceneGalleryFungusFighterCaptureInfo {
+    bool is_hide_progress = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HACCJLNLCBK
+message GameplayRecommendationElementReliquaryRequest {
+    uint32 element_type = 9;
+    uint32 equip_type = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

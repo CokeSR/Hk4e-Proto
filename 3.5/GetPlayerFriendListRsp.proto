@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FriendBrief.proto";
+
+// Name: MNJNHLIANPP
+// CmdId: 4075
+message GetPlayerFriendListRsp {
+    repeated FriendBrief ask_friend_list = 2;
+    repeated FriendBrief friend_list = 9;
+    int32 retcode = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

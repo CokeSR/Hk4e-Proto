@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JNDHCGKOCNI
+// CmdId: 4208
+message QueryCodexMonsterBeKilledNumReq {
+    repeated uint32 codex_id_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

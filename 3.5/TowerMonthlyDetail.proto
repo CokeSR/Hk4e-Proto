@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TowerMonthlyBrief.proto";
+import "TowerMonthlyCombatRecord.proto";
+
+// Name: MBJAKBMCIDD
+message TowerMonthlyDetail {
+    TowerMonthlyBrief monthly_brief = 3;
+    TowerMonthlyCombatRecord monthly_combat_record = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

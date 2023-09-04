@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TreasureMapBonusChallengeInfo.proto";
+
+// Name: MCJFPFPHMDG
+// CmdId: 2163
+message TreasureMapBonusChallengeNotify {
+    TreasureMapBonusChallengeInfo info = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

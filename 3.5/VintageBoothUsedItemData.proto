@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DJDNJCIODMP
+message VintageBoothUsedItemData {
+    uint32 gadget_id = 1;
+    bool is_open = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

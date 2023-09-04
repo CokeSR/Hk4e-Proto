@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DPHHKBAMNGA
+// CmdId: 2916
+message PlayerOfferingReq {
+    uint32 offering_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LFBHGAJPGLG
+message PlayerUidExtInfo {
+    uint32 reg_platform = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FAABNJAKPJA
+message WidgetThunderBirdFeatherInfo {
+    repeated uint32 entity_id_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

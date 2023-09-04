@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BJHINJBCGKK
+message HomePictureFrameInfo {
+    uint32 picture_id = 4;
+    uint32 guid = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

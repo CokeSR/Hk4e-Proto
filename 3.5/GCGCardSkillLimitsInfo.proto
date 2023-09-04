@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGSkillLimitsInfo.proto";
+
+// Name: FNNHNPCGJIM
+message GCGCardSkillLimitsInfo {
+    repeated GCGSkillLimitsInfo skill_limits_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

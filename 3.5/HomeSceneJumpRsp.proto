@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FDCFKALNIED
+// CmdId: 4482
+message HomeSceneJumpRsp {
+    bool is_enter_room_scene = 3;
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

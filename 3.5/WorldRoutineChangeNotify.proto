@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WorldRoutineInfo.proto";
+
+// Name: MCLCAINHBKO
+// CmdId: 3546
+message WorldRoutineChangeNotify {
+    uint32 routine_type = 2;
+    WorldRoutineInfo routine_info = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

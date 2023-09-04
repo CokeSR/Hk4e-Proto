@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RogueDiaryProgress.proto";
+import "RogueDiaryStageInfo.proto";
+
+// Name: JEOMFPBIMDF
+message RogueDiaryActivityDetailInfo {
+    RogueDiaryProgress cur_progress = 15;
+    bool is_content_closed = 3;
+    repeated RogueDiaryStageInfo stage_list = 13;
+    bool is_have_progress = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

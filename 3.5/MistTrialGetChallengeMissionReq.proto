@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ICPLHBCLEHA
+// CmdId: 8002
+message MistTrialGetChallengeMissionReq {
+    uint32 trial_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HCGCGPICFEA
+// CmdId: 313
+message MonsterAlertChangeNotify {
+    uint32 avatar_entity_id = 9;
+    uint32 is_alert = 14;
+    repeated uint32 monster_entity_list = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

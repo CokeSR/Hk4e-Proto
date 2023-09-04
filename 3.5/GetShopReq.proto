@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PCIGEBHJCDG
+// CmdId: 767
+message GetShopReq {
+    uint32 shop_type = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

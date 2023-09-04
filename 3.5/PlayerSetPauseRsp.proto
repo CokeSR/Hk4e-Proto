@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LKBGOHAPNME
+// CmdId: 188
+message PlayerSetPauseRsp {
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

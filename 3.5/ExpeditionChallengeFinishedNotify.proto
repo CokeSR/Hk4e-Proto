@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JDEMFAMIKOH
+// CmdId: 2075
+message ExpeditionChallengeFinishedNotify {
+    uint32 id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

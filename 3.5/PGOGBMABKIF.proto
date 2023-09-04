@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PGOGBMABKIF
+message PGOGBMABKIF {
+    string LGNKLEPOPJI = 1;
+    bytes value = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OCKKHLJKJFA
+// CmdId: 440
+message GetQuestLackingResourceReq {
+    uint32 quest_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

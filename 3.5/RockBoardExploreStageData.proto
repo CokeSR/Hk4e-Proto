@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DPCDIAIDDOP
+message RockBoardExploreStageData {
+    uint32 stage_id = 6;
+    bool is_finish = 11;
+    uint32 open_time = 1;
+    bool is_open = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

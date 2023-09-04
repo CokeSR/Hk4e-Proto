@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JDJIAMHECGH
+// CmdId: 3072
+message LevelTagDataNotify {
+    repeated uint32 level_tag_id_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

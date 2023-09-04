@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DCIHAMDFDGL
+// CmdId: 4018
+message UpdatePS4BlockListReq {
+    repeated string psn_id_list = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

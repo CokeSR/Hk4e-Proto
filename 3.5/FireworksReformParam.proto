@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FireworksReformParamType.proto";
+
+// Name: LBJDDOCNBFN
+message FireworksReformParam {
+    int32 value = 7;
+    FireworksReformParamType type = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

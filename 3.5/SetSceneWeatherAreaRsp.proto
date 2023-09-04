@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NFOOGPICGLE
+// CmdId: 263
+message SetSceneWeatherAreaRsp {
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

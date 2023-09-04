@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BJJJIKMEOFC
+message CrystalLinkDungeonAvatarInfo {
+    uint64 avatar_guid = 13;
+    bool is_trial = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

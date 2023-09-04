@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JJDGJPGALJM
+// CmdId: 228
+message CutSceneFinishNotify {
+    uint32 cutscene_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

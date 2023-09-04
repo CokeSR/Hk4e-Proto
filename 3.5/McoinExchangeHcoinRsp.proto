@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NBMNMAAOFAN
+// CmdId: 636
+message McoinExchangeHcoinRsp {
+    uint32 hcoin = 2;
+    int32 retcode = 15;
+    uint32 mcoin_cost = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

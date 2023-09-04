@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DCOJKOKIFOJ
+message LunchBoxData {
+    map<uint32, uint32> slot_material_map = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

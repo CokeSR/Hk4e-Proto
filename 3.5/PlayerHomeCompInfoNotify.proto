@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlayerHomeCompInfo.proto";
+
+// Name: FAFABIGFAMI
+// CmdId: 4886
+message PlayerHomeCompInfoNotify {
+    PlayerHomeCompInfo comp_info = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

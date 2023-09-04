@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EIJOECIOOMG
+message EIJOECIOOMG {
+    uint32 element_type = 10;
+    float GGFHOCCBOOK = 15;
+    uint32 IGDJFFNHDNC = 14;
+    float BLBHOEGPKOF = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

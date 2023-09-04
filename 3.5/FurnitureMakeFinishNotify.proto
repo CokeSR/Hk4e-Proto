@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MLDLJMCEPGD
+// CmdId: 4658
+message FurnitureMakeFinishNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

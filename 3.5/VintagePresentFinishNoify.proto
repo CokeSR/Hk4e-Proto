@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BGCICAGDNDA
+// CmdId: 24017
+message VintagePresentFinishNoify {
+    uint32 present_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

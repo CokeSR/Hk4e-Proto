@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FLDGKPCJMCM
+// CmdId: 21404
+message FungusFighterPlotInfoNotify {
+    repeated uint32 fungus_id_list = 5;
+    uint32 dungeon_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

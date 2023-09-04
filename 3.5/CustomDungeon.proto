@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonRoom.proto";
+import "CustomDungeonSetting.proto";
+
+// Name: HEBCDMGHOMC
+message CustomDungeon {
+    CustomDungeonSetting setting = 11;
+    uint64 dungeon_guid = 12;
+    uint32 dungeon_id = 14;
+    repeated CustomDungeonRoom room_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

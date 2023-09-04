@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PGINCJNIBPI
+// CmdId: 8059
+message RogueDiaryCoinAddNotify {
+    uint32 num = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

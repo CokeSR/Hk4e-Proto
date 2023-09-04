@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HGJBMPDPJLK
+// CmdId: 8078
+message EchoShellTakeRewardReq {
+    uint32 reward_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

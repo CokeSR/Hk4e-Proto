@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: POIKFFBLPIJ
+message FleurFairChapterInfo {
+    uint32 chapter_id = 3;
+    uint32 open_time = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PLDNFMGOBBD
+// CmdId: 1166
+message ClientRemoveCombatEndModifierNotify {
+    repeated uint32 combat_end_type_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

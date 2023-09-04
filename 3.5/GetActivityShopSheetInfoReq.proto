@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FDPHAHHAKNI
+// CmdId: 772
+message GetActivityShopSheetInfoReq {
+    uint32 shop_type = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

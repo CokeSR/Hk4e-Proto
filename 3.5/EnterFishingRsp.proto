@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NMPDEBMEIDN
+// CmdId: 5843
+message EnterFishingRsp {
+    uint32 fish_pool_id = 9;
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

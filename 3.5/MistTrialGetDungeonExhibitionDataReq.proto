@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ONODACLGHLH
+// CmdId: 8931
+message MistTrialGetDungeonExhibitionDataReq {
+    uint32 trial_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

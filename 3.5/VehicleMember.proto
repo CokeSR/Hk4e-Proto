@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ENANJKOACDB
+message VehicleMember {
+    uint32 uid = 1;
+    uint64 avatar_guid = 2;
+    uint32 pos = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

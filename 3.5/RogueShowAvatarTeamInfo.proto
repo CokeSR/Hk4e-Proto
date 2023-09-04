@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RogueAvatarInfo.proto";
+
+// Name: EIDMCBCONOB
+message RogueShowAvatarTeamInfo {
+    repeated RogueAvatarInfo avatar_list = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

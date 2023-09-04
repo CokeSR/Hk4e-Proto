@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EOHNOGOKPLE
+// CmdId: 1059
+message ProudSkillChangeNotify {
+    uint32 skill_depot_id = 3;
+    uint32 entity_id = 15;
+    uint64 avatar_guid = 6;
+    repeated uint32 proud_skill_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ICLHPLBGGMM
+// CmdId: 1434
+message DelMailReq {
+    repeated uint32 mail_id_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

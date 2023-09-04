@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: GMEEJFOELBO
+message GMEEJFOELBO {
+    Vector FFLCDJCOGIM = 7;
+    Vector forward = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

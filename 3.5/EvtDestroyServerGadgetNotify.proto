@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AFIFNBPACMH
+// CmdId: 336
+message EvtDestroyServerGadgetNotify {
+    uint32 entity_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

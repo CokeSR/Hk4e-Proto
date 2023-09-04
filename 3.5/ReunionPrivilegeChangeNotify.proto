@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ReunionPrivilegeInfo.proto";
+
+// Name: OJLIBGBAMNB
+// CmdId: 5090
+message ReunionPrivilegeChangeNotify {
+    ReunionPrivilegeInfo privilege_info = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

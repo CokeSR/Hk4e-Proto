@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: OHILLFINBBI
+message HomeFurnitureCustomSuiteData {
+    uint32 guid = 2;
+    repeated int32 includedFurnitureIndexList = 4;
+    Vector spawn_pos = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

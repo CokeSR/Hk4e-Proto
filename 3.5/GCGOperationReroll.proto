@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DODPKMOFDGP
+message GCGOperationReroll {
+    repeated uint32 dice_index_list = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

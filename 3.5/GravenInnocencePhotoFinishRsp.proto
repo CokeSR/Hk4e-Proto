@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KEHDDOMEPEJ
+// CmdId: 23629
+message GravenInnocencePhotoFinishRsp {
+    int32 retcode = 14;
+    uint32 param = 3;
+    uint32 object_id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

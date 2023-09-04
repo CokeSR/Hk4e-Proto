@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: PAKLNEDHMBL
+// CmdId: 633
+message DropHintNotify {
+    Vector position = 14;
+    repeated uint32 item_id_list = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

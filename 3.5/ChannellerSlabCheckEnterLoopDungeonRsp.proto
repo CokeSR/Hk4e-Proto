@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EFOPJPGBHNM
+// CmdId: 8430
+message ChannellerSlabCheckEnterLoopDungeonRsp {
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

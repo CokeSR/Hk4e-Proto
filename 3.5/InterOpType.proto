@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JHPFIBBFMME
+enum InterOpType {
+  INTER_OP_FINISH = 0;
+  INTER_OP_START  = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

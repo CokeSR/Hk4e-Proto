@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ELJHEMEBCOA
+// CmdId: 6201
+message TryCustomDungeonRsp {
+    int32 retcode = 4;
+    uint32 room_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

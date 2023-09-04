@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IGAJFOIJIMP
+// CmdId: 4538
+message HomeGetArrangementInfoReq {
+    repeated uint32 scene_id_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

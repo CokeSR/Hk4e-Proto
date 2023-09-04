@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CNLADFBELDG
+// CmdId: 2054
+message TakeDeliveryDailyRewardReq {
+    uint32 schedule_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

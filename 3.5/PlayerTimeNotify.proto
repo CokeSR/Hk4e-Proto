@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NACABFGKHCO
+// CmdId: 171
+message PlayerTimeNotify {
+    bool is_paused = 6;
+    uint64 server_time = 8;
+    uint64 player_time = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BDHCKJCEACL
+// CmdId: 6259
+message PlayerDeathZoneNotify {
+    uint32 cur_death_zone_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

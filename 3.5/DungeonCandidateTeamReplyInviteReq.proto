@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CMNFHHGFKMM
+// CmdId: 958
+message DungeonCandidateTeamReplyInviteReq {
+    bool is_accept = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

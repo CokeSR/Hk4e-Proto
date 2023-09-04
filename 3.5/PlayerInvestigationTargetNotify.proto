@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "InvestigationTarget.proto";
+
+// Name: MOGCBFKFHDN
+// CmdId: 1930
+message PlayerInvestigationTargetNotify {
+    repeated InvestigationTarget investigation_target_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

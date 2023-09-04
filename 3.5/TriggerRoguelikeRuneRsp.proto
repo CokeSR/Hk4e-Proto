@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MHMEEJPCPDH
+// CmdId: 8631
+message TriggerRoguelikeRuneRsp {
+    uint32 available_count = 5;
+    int32 retcode = 2;
+    uint32 rune_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

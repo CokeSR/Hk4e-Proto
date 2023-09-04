@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EBGAHLCEIGM
+// CmdId: 5821
+message FishBattleBeginRsp {
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

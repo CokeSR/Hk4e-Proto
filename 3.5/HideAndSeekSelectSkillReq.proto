@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EKFMJMNHNGB
+// CmdId: 8896
+message HideAndSeekSelectSkillReq {
+    repeated uint32 skill_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

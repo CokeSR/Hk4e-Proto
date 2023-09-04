@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EPNJAHLGIKD
+// CmdId: 5310
+message BrickBreakerPlayerReadyNotify {
+    repeated uint32 uid_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

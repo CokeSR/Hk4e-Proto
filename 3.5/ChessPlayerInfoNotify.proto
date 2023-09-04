@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChessPlayerInfo.proto";
+
+// Name: JBGMDJCBNJL
+// CmdId: 5392
+message ChessPlayerInfoNotify {
+    ChessPlayerInfo player_info = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

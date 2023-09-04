@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NLHNJLOAAGE
+message NLHNJLOAAGE {
+    uint64 value = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

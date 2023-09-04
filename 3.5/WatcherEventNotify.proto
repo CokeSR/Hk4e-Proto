@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GMOMLDPAJEJ
+// CmdId: 2254
+message WatcherEventNotify {
+    uint32 add_progress = 6;
+    uint32 watcher_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

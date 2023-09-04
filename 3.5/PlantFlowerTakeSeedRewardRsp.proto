@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FOKIDJLHAEL
+// CmdId: 8340
+message PlantFlowerTakeSeedRewardRsp {
+    uint32 schedule_id = 7;
+    int32 retcode = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

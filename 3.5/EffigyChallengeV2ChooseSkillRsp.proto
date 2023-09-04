@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JKDHMAIMEJO
+// CmdId: 20234
+message EffigyChallengeV2ChooseSkillRsp {
+    uint32 level_id = 3;
+    uint32 challenge_mode_skill_no = 7;
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

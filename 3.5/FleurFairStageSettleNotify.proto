@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FleurFairBossSettleInfo.proto";
+import "FleurFairGallerySettleInfo.proto";
+
+// Name: PDHELJKJFKI
+// CmdId: 5388
+message FleurFairStageSettleNotify {
+    uint32 stage_type = 7;
+    oneof detail {
+        FleurFairGallerySettleInfo gallery_settle_info = 13;
+        FleurFairBossSettleInfo boss_settle_info = 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

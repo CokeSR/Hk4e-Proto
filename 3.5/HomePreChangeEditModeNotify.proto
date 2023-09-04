@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HJHOPDKGOHA
+// CmdId: 4670
+message HomePreChangeEditModeNotify {
+    bool is_enter_edit_mode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

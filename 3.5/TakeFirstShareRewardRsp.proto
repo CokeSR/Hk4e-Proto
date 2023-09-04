@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CFJMNJDEFPH
+// CmdId: 4025
+message TakeFirstShareRewardRsp {
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

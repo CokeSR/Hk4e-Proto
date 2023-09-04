@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FOKKOAKANJI
+// CmdId: 8916
+message StartBuoyantCombatGalleryRsp {
+    uint32 gallery_level = 4;
+    int32 retcode = 1;
+    uint32 gallery_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LAELDHEMBNH
+// CmdId: 670
+message AvatarCardChangeRsp {
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

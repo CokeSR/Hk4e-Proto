@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CGOOHEEBLLK
+enum VehicleInteractType {
+  VEHICLE_INTERACT_NONE = 0;
+  VEHICLE_INTERACT_IN   = 1;
+  VEHICLE_INTERACT_OUT  = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

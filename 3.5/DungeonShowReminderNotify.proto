@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LLJDBLJEGNP
+// CmdId: 942
+message DungeonShowReminderNotify {
+    uint32 reminder_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MFBJGHDOJON
+// CmdId: 23136
+message GearActivityStartPlayPictureRsp {
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

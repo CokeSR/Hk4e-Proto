@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PHDAHGOHAFC
+// CmdId: 8593
+message PlantFlowerGiveFriendFlowerReq {
+    uint32 uid = 3;
+    uint32 schedule_id = 8;
+    map<uint32, uint32> flower_num_map = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

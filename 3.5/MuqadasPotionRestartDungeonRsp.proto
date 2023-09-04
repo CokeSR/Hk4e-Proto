@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PNHMFCHLBNC
+// CmdId: 20273
+message MuqadasPotionRestartDungeonRsp {
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

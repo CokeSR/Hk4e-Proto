@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HDDLIDNBMJM
+message HDDLIDNBMJM {
+    uint32 FAGDOOBFOJM = 15;
+    uint32 uid = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

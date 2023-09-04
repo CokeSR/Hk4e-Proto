@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KCLGMMEOPAE
+message BreakoutSyncPing {
+    uint64 client_game_time = 8;
+    uint64 server_game_time = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

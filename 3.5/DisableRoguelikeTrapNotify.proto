@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DLHGHDAILGB
+// CmdId: 8007
+message DisableRoguelikeTrapNotify {
+    uint32 card_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

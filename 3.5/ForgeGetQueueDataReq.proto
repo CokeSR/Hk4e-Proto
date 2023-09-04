@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OLAKEAMNKMH
+// CmdId: 618
+message ForgeGetQueueDataReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

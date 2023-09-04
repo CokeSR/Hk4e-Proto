@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ResVersionConfig.proto";
+
+// Name: BEHGJMLEGNC
+// CmdId: 173
+message GetNextResourceInfoRsp {
+    ResVersionConfig res_version_config = 11;
+    string next_resource_url = 7;
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

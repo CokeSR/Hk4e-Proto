@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IHBIHEBCNDJ
+// CmdId: 6484
+message IHBIHEBCNDJ {
+    uint32 end_time = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

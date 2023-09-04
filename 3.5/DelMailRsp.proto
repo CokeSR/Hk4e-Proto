@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DOIGBMCHGJM
+// CmdId: 1472
+message DelMailRsp {
+    repeated uint32 mail_id_list = 9;
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

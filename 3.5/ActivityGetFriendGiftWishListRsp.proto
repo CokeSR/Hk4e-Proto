@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ActivityFriendGiftWishData.proto";
+
+// Name: BNJPGACCJCH
+// CmdId: 8777
+message ActivityGetFriendGiftWishListRsp {
+    uint32 schedule_id = 14;
+    int32 retcode = 4;
+    repeated ActivityFriendGiftWishData friend_gift_wish_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

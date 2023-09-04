@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ABLCJNBHJHB
+// CmdId: 4295
+message WidgetDoBagRsp {
+    int32 retcode = 1;
+    uint32 material_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

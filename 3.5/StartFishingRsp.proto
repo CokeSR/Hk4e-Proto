@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PHLMJLMHGDN
+// CmdId: 5846
+message StartFishingRsp {
+    int32 retcode = 14;
+    uint32 fish_pool_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

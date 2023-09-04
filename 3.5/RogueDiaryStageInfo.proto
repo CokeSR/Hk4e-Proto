@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RogueDiaryDungeonRecord.proto";
+
+// Name: HFIMDLCBBNH
+message RogueDiaryStageInfo {
+    uint32 stage_id = 3;
+    RogueDiaryDungeonRecord best_record = 7;
+    bool is_have_try = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

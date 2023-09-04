@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: APCNEHPADCP
+// CmdId: 8117
+message WinterCampTriathlonRestartReq {
+    uint32 gallery_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

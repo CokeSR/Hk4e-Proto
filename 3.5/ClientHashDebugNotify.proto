@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: APAPDHOMLGI
+// CmdId: 3234
+message ClientHashDebugNotify {
+    uint32 job_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

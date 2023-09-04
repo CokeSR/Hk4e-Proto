@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CompoundQueueData.proto";
+
+// Name: FLGCALNDKFE
+// CmdId: 116
+message PlayerCompoundMaterialRsp {
+    CompoundQueueData compound_que_data = 4;
+    int32 retcode = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

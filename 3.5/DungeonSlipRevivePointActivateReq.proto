@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IHCPNPJOBFO
+// CmdId: 911
+message DungeonSlipRevivePointActivateReq {
+    uint32 slip_revive_point_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

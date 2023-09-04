@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MGMKDCPCCOK
+// CmdId: 8958
+message PotionResetChallengeReq {
+    uint32 stage_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IrodoriPoetryThemeData.proto";
+
+// Name: JNAJHIBAKHC
+// CmdId: 8730
+message IrodoriScanEntityRsp {
+    IrodoriPoetryThemeData theme_data = 1;
+    bool is_get_inspiration = 3;
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlayerDieType.proto";
+
+// Name: MJCFJHMAMOL
+// CmdId: 929
+message DungeonPlayerDieReq {
+    uint32 dungeon_id = 9;
+    PlayerDieType die_type = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

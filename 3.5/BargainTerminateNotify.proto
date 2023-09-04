@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ADBLPFJICML
+// CmdId: 484
+message BargainTerminateNotify {
+    uint32 bargain_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DLNFNGEEJLG
+message FurnitureMakeHelpData {
+    uint32 times = 3;
+    uint32 uid = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

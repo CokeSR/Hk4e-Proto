@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NAHBAELKNHO
+// CmdId: 987
+message InteractDailyDungeonInfoNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BuyGoodsParam.proto";
+
+// Name: DCEKNGGFLJN
+// CmdId: 765
+message BatchBuyGoodsReq {
+    uint32 shop_type = 12;
+    repeated BuyGoodsParam buy_goods_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

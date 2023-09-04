@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DICGEFPLIGB
+// CmdId: 5835
+message FishBattleBeginReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

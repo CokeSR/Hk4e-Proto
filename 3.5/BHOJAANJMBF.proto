@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BHOJAANJMBF
+// CmdId: 20671
+message BHOJAANJMBF {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

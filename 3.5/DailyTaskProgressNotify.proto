@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DailyTaskInfo.proto";
+
+// Name: CAMFJNGDAOP
+// CmdId: 160
+message DailyTaskProgressNotify {
+    DailyTaskInfo info = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

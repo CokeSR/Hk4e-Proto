@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EJJFDKEPDBP
+// CmdId: 4296
+message AnchorPointOpReq {
+    // Name: KFMHCPAPAEI
+    enum AnchorPointOpType {
+    ANCHOR_POINT_OP_NONE     = 0;
+    ANCHOR_POINT_OP_TELEPORT = 1;
+    ANCHOR_POINT_OP_REMOVE   = 2;
+    }
+
+    uint32 anchor_point_op_type = 1;
+    uint32 anchor_point_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

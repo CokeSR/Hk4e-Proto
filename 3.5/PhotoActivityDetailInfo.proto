@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PhotoPosData.proto";
+
+// Name: COAIHEFLJII
+message PhotoActivityDetailInfo {
+    bool is_content_closed = 13;
+    repeated PhotoPosData photo_pos_data_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

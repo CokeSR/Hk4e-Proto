@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IFJMHAHFKHH
+// CmdId: 8101
+message SummerTimeV2RestartDungeonRsp {
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

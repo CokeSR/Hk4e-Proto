@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "OJEEKAIOFBO.proto";
+
+// Name: JMBJHKIMDFC
+message JMBJHKIMDFC {
+    map<uint32, OJEEKAIOFBO> MHKGBAKJPDP = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

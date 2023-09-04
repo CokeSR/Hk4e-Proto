@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FlightDailyRecord.proto";
+
+// Name: IKCCHGCGGFI
+message FlightActivityDetailInfo {
+    repeated FlightDailyRecord daily_record_list = 13;
+    uint32 PKCNGGOJEJA = 14;
+    uint32 EPFPMGJEMJH = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

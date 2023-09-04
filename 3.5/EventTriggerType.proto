@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CDPGFLKDBEF
+enum EventTriggerType {
+  EVENT_TRIGGER_NONE        = 0;
+  EVENT_TRIGGER_ENTER_FORCE = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

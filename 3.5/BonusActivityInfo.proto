@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PCGPDJMBEMO
+message BonusActivityInfo {
+    uint32 bonus_activity_id = 9;
+    uint32 state = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

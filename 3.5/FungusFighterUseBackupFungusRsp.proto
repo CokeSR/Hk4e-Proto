@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HJHKGIEHNCK
+// CmdId: 24976
+message FungusFighterUseBackupFungusRsp {
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

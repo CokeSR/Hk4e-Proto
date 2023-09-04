@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMGIFDALPPD
+// CmdId: 404
+message AssociateInferenceWordRsp {
+    uint32 PCGFIGLNLLD = 7;
+    int32 retcode = 1;
+    uint32 page_id = 12;
+    uint32 FLFHEDBHLPH = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

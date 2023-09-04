@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GOOCOODBHLP
+// CmdId: 436
+message QuestRenameAvatarReq {
+    uint32 rename_id = 12;
+    bool is_check = 2;
+    string avatar_name = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

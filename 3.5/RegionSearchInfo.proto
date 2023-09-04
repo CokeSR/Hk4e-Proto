@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RegionSearch.proto";
+
+// Name: ODOHCAKBFJC
+message RegionSearchInfo {
+    bool is_entered = 2;
+    uint32 id = 14;
+    repeated RegionSearch region_search_list = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

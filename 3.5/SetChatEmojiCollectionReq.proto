@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChatEmojiCollectionData.proto";
+
+// Name: COHNKHJHMNA
+// CmdId: 4098
+message SetChatEmojiCollectionReq {
+    ChatEmojiCollectionData chat_emoji_collection_data = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KBJAJFKCKGI
+message SumoAvatarInfo {
+    bool is_trial = 13;
+    uint64 avatar_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

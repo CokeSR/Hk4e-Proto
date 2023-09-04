@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FDNAMLJAAFA
+// CmdId: 168
+message PlayerGameTimeByLuaNotify {
+    uint32 sim_speed = 3;
+    uint32 uid = 11;
+    uint32 game_time = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

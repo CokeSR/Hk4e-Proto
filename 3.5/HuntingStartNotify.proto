@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HuntingPair.proto";
+import "Vector.proto";
+
+// Name: HDMIAHCJMLG
+// CmdId: 4344
+message HuntingStartNotify {
+    bool is_final = 5;
+    uint32 fail_time = 6;
+    Vector clue_position = 2;
+    HuntingPair hunting_pair = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

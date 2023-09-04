@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FJCOCKFODEK
+// CmdId: 5376
+message ChessLeftMonstersNotify {
+    uint32 left_monsters = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

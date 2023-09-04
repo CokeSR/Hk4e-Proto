@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: APPHCCAKOKB
+// CmdId: 466
+message QuestProgressUpdateNotify {
+    repeated uint32 finish_progress_list = 7; //DOFGANFLADG
+    repeated uint32 fail_progress_list = 2; //NAJLNEMFEGA
+    uint32 quest_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+

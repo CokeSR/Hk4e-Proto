@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NJCOEAKDFOE
+// CmdId: 22416
+message FungusFighterClearTrainingRuntimeDataReq {
+    uint32 dungeon_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

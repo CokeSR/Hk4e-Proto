@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMMFNKAIMMA
+// CmdId: 7916
+message FMMFNKAIMMA {
+    uint32 EJKLKNPMHMC = 8;
+    uint32 card_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

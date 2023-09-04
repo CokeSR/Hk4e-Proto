@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MIMCCIBHBKO
+// CmdId: 124
+message MIMCCIBHBKO {
+    int32 retcode = 11;
+    repeated uint32 GDOOJGHKLFG = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

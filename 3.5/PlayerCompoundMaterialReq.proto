@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KPJLLNILBKN
+// CmdId: 133
+message PlayerCompoundMaterialReq {
+    uint32 compound_id = 1;
+    uint32 count = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FBGIHFMDFCI
+// CmdId: 22891
+message FBGIHFMDFCI {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

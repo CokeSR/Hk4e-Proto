@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NFEJAIKMIEF
+// CmdId: 8279
+message LunaRiteGroupBundleRegisterNotify {
+    uint32 group_link_bundle_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

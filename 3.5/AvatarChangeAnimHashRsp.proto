@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AEMAPIINBLO
+// CmdId: 1694
+message AvatarChangeAnimHashRsp {
+    uint32 anim_hash = 1;
+    uint64 avatar_guid = 11;
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

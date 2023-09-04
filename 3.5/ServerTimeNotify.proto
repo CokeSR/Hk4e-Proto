@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OJGHKIIHLIG
+// CmdId: 50
+message ServerTimeNotify {
+    uint64 server_time = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

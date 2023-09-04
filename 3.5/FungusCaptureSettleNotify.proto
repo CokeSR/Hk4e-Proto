@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GDGIELODJIO
+// CmdId: 5586
+message FungusCaptureSettleNotify {
+    bool is_success = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

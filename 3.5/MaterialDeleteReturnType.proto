@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AFGHMMDBPMD
+enum MaterialDeleteReturnType {
+  MATERIAL_DELETE_RETURN_BAG  = 0;
+  MATERIAL_DELETE_RETURN_SEED = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

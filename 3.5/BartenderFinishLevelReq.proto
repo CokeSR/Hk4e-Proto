@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LPPHGLAOCJN
+// CmdId: 9000
+message BartenderFinishLevelReq {
+    uint32 level_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

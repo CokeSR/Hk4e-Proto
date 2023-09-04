@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FKFPCHOFBHP
+// CmdId: 1921
+message InvestigationReadQuestDailyNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

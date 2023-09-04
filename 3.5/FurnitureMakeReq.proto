@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KIOEHGLHJJG
+// CmdId: 4681
+message FurnitureMakeReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

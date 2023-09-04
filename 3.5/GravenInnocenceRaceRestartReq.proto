@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EFPOKHEHFMI
+// CmdId: 22616
+message GravenInnocenceRaceRestartReq {
+    uint32 gallery_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

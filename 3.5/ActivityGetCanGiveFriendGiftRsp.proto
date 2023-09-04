@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GALOOENJOIK
+// CmdId: 8186
+message ActivityGetCanGiveFriendGiftRsp {
+    uint32 schedule_id = 7;
+    map<uint32, uint32> gift_num_map = 9;
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

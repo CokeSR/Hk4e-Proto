@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PMNJDCOMPAP
+// CmdId: 3972
+message MechanicusUnlockGearReq {
+    uint32 gear_id = 4;
+    uint32 mechanicus_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

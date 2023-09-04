@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KPEKABANIFC
+// CmdId: 4053
+message GetFriendShowNameCardInfoReq {
+    uint32 uid = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

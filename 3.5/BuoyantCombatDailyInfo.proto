@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KGNLJBHLIPC
+message BuoyantCombatDailyInfo {
+    uint32 start_time = 6;
+    uint32 best_score = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

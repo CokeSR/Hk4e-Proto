@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JIJPJGHOGBN
+// CmdId: 1831
+message GetPlayerMpModeAvailabilityRsp {
+    int32 mp_ret = 10;
+    repeated uint32 param_list = 1;
+    int32 retcode = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

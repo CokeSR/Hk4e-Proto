@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPPKIIBAODF
+message WeatherInfo {
+    uint32 weather_area_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

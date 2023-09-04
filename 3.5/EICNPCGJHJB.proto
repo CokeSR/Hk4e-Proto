@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BreakoutSyncCreateConnect.proto";
+import "BreakoutSyncPing.proto";
+import "DKPDHJGFLKM.proto";
+import "INJEGNBKGCB.proto";
+import "NNBDKJNOIKH.proto";
+
+// Name: EICNPCGJHJB
+message EICNPCGJHJB {
+    // Name: JHPLCCAFDPP
+    enum SyncType {
+    SYNC_TYPE_NONE           = 0;
+    SYNC_TYPE_CREATE_CONNECT = 1;
+    SYNC_TYPE_START_GAME     = 2;
+    SYNC_TYPE_PING           = 3;
+    SYNC_TYPE_FINISH_GAME    = 4;
+    SYNC_TYPE_SNAP_SHOT      = 5;
+    SYNC_TYPE_ACTION         = 6;
+    }
+
+    SyncType GLHOLPNDBJF = 3;
+    int32 retcode = 13;
+    oneof LFHHLADAFEC {
+        BreakoutSyncCreateConnect sync_create_connect = 11;
+        BreakoutSyncPing sync_ping = 10;
+        NNBDKJNOIKH sync_finish_game = 6;
+        DKPDHJGFLKM sync_snap_shot = 14;
+        INJEGNBKGCB sync_action = 4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

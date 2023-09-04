@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "KJMKJAIFNEC.proto";
+
+// Name: OJGKLIEIMFL
+message OJGKLIEIMFL {
+    repeated KJMKJAIFNEC FIAKFNFDPFP = 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

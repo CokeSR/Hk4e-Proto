@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NLBGODAGDJI
+// CmdId: 8376
+message RoguelikeResourceBonusPropUpdateNotify {
+    float bonus_resource_prop = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "KJMKJAIFNEC.proto";
+
+// Name: LEBACMOBIDE
+message LEBACMOBIDE {
+    repeated KJMKJAIFNEC FIAKFNFDPFP = 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DigMarkPoint.proto";
+
+// Name: MIDHCHFOCFJ
+// CmdId: 8585
+message DigActivityMarkPointChangeNotify {
+    repeated DigMarkPoint dig_mark_point_list = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

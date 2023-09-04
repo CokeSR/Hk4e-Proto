@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PKGGDPOEDKH
+message QueryFilter {
+    int32 IMNKIGNBJFG = 13;
+    int32 DGABGOHFAOB = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LDIIKCCOBPG
+// CmdId: 8752
+message GiveUpRoguelikeDungeonCardRsp {
+    int32 retcode = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

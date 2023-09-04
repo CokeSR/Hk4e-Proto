@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EntityConfigHashEntry.proto";
+
+// Name: GKMMJPKLMAN
+// CmdId: 3103
+message EntityConfigHashNotify {
+    repeated EntityConfigHashEntry combatEntryList = 6; //LJEBDGHMJHG
+    repeated EntityConfigHashEntry abilityEntryList = 3; //LJCPLFAOJJP
+    repeated EntityConfigHashEntry avatarEntryList = 14; //LKOBJJCPKHD
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

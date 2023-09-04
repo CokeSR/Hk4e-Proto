@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ONDFFNHEBHF
+// CmdId: 2089
+message TakeEffigyRewardRsp {
+    int32 retcode = 5;
+    uint32 reward_index = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

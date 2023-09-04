@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CHDINBMNKOC
+// CmdId: 8053
+message TriggerRoguelikeRuneReq {
+    uint32 rune_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BHENIOOFBBP
+// CmdId: 2626
+message BuyBattlePassLevelReq {
+    uint32 buy_level = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

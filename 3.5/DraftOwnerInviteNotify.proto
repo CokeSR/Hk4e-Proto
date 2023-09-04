@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DEJILIINEMK
+// CmdId: 5414
+message DraftOwnerInviteNotify {
+    uint32 invite_deadline_time = 13;
+    uint32 draft_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

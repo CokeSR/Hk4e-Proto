@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BGBECGDMAEH
+// CmdId: 121
+message PlayerCookArgsRsp {
+    int32 retcode = 8;
+    float qte_range_ratio = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

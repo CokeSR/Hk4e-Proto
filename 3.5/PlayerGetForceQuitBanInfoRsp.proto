@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOLOHBKIHLJ
+// CmdId: 4176
+message PlayerGetForceQuitBanInfoRsp {
+    int32 retcode = 6;
+    uint32 match_id = 7;
+    uint32 expire_time = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

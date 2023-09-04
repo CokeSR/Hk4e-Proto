@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: EMACIPMAPCM
+// CmdId: 656
+message WeaponUpgradeReq {
+    repeated uint64 food_weapon_guid_list = 14;
+    uint64 target_weapon_guid = 10;
+    repeated ItemParam item_param_list = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

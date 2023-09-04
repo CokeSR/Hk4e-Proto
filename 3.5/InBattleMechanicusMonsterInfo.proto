@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ADKBFFHEKCF
+message InBattleMechanicusMonsterInfo {
+    uint32 count = 6;
+    uint32 monster_id = 12;
+    uint32 level = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GadgetBornType.proto";
+
+// Name: GICHAGEMNME
+message CreateGadgetInfo {
+    // Name: FHHMGJOLDLM
+    message Chest {
+        uint32 chest_drop_id = 1;
+        bool is_show_cutscene = 2;
+    }
+
+    GadgetBornType born_type = 1;
+    Chest chest = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

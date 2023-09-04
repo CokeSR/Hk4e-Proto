@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KJIKIBJBDBM
+// CmdId: 437
+message PersonalLineAllDataReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: BKPBJLHMEIG
+// CmdId: 637
+message CombineRsp {
+    repeated ItemParam result_item_list = 9; //NOBMIMNDGLA
+    repeated ItemParam AKCCLGFBJMD = 13;
+    uint64 avatar_guid = 10;
+    repeated ItemParam total_return_item_list = 6; //LOCKHJBEGDL
+    repeated ItemParam INKENHANDMB = 14;
+    repeated ItemParam cost_item_list = 5;
+    uint32 combine_count = 1;
+    int32 retcode = 7;
+    uint32 combine_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

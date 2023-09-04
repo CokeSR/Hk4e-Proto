@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EGDIIGHFPJB
+// CmdId: 2037
+message ActivityBannerClearRsp {
+    uint32 activity_id = 8;
+    int32 retcode = 12;
+    uint32 schedule_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

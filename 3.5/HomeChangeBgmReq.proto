@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CNGHODHBILL
+// CmdId: 4806
+message HomeChangeBgmReq {
+    uint32 bgm_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

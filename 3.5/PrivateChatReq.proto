@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OJLJEEAEION
+// CmdId: 5017
+message PrivateChatReq {
+    uint32 target_uid = 13;
+    oneof content {
+        string text = 14;
+        uint32 icon = 8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

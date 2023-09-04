@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OMICDDBLLLP
+// CmdId: 1054
+message AvatarUnlockTalentNotify {
+    uint32 skill_depot_id = 9;
+    uint64 avatar_guid = 6;
+    uint32 talent_id = 4;
+    uint32 entity_id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

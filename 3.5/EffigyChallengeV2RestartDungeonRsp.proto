@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NIOGEJNBFHO
+// CmdId: 20266
+message EffigyChallengeV2RestartDungeonRsp {
+    int32 retcode = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

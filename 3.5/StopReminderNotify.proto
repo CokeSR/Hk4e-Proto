@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CDOBHJNAGEO
+// CmdId: 3241
+message StopReminderNotify {
+    uint32 reminder_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

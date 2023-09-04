@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FJHBMGNDFHD
+message FJHBMGNDFHD {
+    float MBBOKPAIFHM = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

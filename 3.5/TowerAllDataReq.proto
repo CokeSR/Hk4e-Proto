@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EFPKBNLHIBC
+// CmdId: 2482
+message TowerAllDataReq {
+    bool is_interact = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

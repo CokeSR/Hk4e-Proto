@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DKMOABMELAK
+// CmdId: 8356
+message LanternRiteTakeSkinRewardRsp {
+    int32 retcode = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

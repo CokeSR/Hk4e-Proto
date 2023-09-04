@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AnchorPointData.proto";
+
+// Name: NJIPFBKJBLI
+// CmdId: 4298
+message AnchorPointDataNotify {
+    repeated AnchorPointData anchor_point_list = 15;
+    uint32 next_usable_time = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

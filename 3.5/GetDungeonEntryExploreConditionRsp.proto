@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DungeonEntryCond.proto";
+
+// Name: AAPDEPBPHIL
+// CmdId: 3413
+message GetDungeonEntryExploreConditionRsp {
+    DungeonEntryCond dungeon_entry_cond = 3;
+    int32 retcode = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

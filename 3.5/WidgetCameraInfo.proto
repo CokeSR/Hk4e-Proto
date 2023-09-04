@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CANCHLFEMAP
+message WidgetCameraInfo {
+    uint32 target_entity_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

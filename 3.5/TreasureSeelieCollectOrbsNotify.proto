@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PHFOGHDLLBB
+// CmdId: 24055
+message TreasureSeelieCollectOrbsNotify {
+    uint32 LJDMMCIKHLC = 3;
+    uint32 NJENGLLHPJD = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

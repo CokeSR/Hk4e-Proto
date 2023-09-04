@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlatformType.proto";
+
+// Name: POKDLKEBOPO
+// CmdId: 903
+message POKDLKEBOPO {
+    // Name: OCLNGLCLKII
+    message OCLNGLCLKII {
+        repeated PlatformType platform_type = 6;
+        repeated uint32 monster_id_list = 4;
+        string PGGENEOECHL = 3;
+    }
+
+    repeated OCLNGLCLKII HHPMHDLMBIK = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

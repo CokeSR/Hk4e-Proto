@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MAABOGBOJFC
+message ForceUpdateInfo {
+    string force_update_url = 1; //AGLGNFAKDMP
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

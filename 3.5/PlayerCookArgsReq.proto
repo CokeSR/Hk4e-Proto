@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FIEHOAOBLHN
+// CmdId: 145
+message PlayerCookArgsReq {
+    uint32 OMPOMKPPLEH = 14;
+    uint32 DIIJPMJFNOL = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

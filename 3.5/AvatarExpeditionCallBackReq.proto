@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PAOIENMGCAB
+// CmdId: 1791
+message AvatarExpeditionCallBackReq {
+    repeated uint64 avatar_guid = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

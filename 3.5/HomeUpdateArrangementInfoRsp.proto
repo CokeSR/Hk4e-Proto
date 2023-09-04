@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PLLKGLGEOGD
+// CmdId: 4776
+message HomeUpdateArrangementInfoRsp {
+    int32 retcode = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

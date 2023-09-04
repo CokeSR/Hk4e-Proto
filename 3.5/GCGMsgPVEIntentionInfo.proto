@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGMsgPVEIntention.proto";
+
+// Name: DBNHODFFHMG
+message GCGMsgPVEIntentionInfo {
+    map<uint32, GCGMsgPVEIntention> intention_map = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EMIMGLEEBHF
+// CmdId: 5389
+message ChessEscapedMonstersNotify {
+    uint32 excaped_monsters = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarExpeditionInfo.proto";
+
+// Name: GKHLCPBLAID
+// CmdId: 1699
+message AvatarExpeditionStartRsp {
+    int32 retcode = 14;
+    map<uint64, AvatarExpeditionInfo> expedition_info_map = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

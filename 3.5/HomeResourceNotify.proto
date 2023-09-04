@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeResource.proto";
+
+// Name: PEPNHFLKBLG
+// CmdId: 4753
+message HomeResourceNotify {
+    HomeResource fetter_exp = 5; //DPCGMOMFNCD
+    HomeResource home_coin = 14; //ONMIIOIPGAI
+}
+
+
+
+
+
+
+
+
+
+
+
+

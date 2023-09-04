@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "OpActivityInfo.proto";
+
+// Name: LOKEFHDBKHC
+// CmdId: 5154
+message OpActivityDataNotify {
+    repeated OpActivityInfo op_activity_info_list = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

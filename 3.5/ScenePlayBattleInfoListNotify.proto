@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ScenePlayBattleInfo.proto";
+
+// Name: MGCGANHBOHD
+// CmdId: 4379
+message ScenePlayBattleInfoListNotify {
+    repeated ScenePlayBattleInfo battle_info_list = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KONOGCPNPKC
+// CmdId: 1464
+message GetMailItemReq {
+    repeated uint32 mail_id_list = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

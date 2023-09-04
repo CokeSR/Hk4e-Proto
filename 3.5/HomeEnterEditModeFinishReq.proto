@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MDNNIGFAHEO
+// CmdId: 4676
+message HomeEnterEditModeFinishReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

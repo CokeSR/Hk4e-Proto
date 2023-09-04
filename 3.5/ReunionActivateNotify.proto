@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ReunionBriefInfo.proto";
+
+// Name: BLJGDDIJIHG
+// CmdId: 5088
+message ReunionActivateNotify {
+    bool is_activate = 7;
+    ReunionBriefInfo reunion_brief_info = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

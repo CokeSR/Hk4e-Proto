@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KOJOFGNALFB
+message WidgetGadgetData {
+    repeated uint32 gadget_entity_id_list = 1;
+    uint32 gadget_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

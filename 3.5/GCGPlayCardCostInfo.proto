@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Uint32Pair.proto";
+
+// Name: MJMMGKPBGGH
+message GCGPlayCardCostInfo {
+    repeated Uint32Pair costMap = 9;
+    uint32 card_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

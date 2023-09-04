@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KIEJGNOINFO
+// CmdId: 4562
+message HomeEnterEditModeFinishRsp {
+    int32 retcode = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

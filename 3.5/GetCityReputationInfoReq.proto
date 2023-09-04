@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JANGLBNFJMN
+// CmdId: 2867
+message GetCityReputationInfoReq {
+    uint32 city_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

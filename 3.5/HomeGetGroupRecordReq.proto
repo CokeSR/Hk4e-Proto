@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PKDNBHHIMDH
+// CmdId: 4844
+message HomeGetGroupRecordReq {
+    uint32 group_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

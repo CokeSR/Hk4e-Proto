@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HEODAKMCPNE
+// CmdId: 299
+message SceneKickPlayerNotify {
+    uint32 kicker_uid = 12;
+    uint32 target_uid = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

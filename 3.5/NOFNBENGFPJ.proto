@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NOFNBENGFPJ
+message NOFNBENGFPJ {
+    bool OIDBJAELOGA = 12;
+    bool HAGILCBHFDN = 11;
+    uint32 uid = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

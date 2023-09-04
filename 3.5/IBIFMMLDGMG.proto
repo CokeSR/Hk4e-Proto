@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "JNBHKNJHCHG.proto";
+
+// Name: IBIFMMLDGMG
+message IBIFMMLDGMG {
+    repeated JNBHKNJHCHG DEPFNCCIKFA = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

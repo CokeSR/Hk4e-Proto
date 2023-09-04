@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FBCDGELAJFK
+// CmdId: 23503
+message FBCDGELAJFK {
+    uint32 pos_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "SkyCrystalDetectorData.proto";
+
+// Name: JFMBHEPEIKA
+message SkyCrystalDetectorQuickUseResult {
+    SkyCrystalDetectorData sky_crystal_detector_data = 14;
+    int32 retcode = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

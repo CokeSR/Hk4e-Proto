@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JPBCPEIFDOM
+// CmdId: 2639
+message GetBattlePassProductReq {
+    uint32 battle_pass_product_play_type = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

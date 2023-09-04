@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BlossomChestInfo.proto";
+
+// Name: OOLJECNMFDH
+// CmdId: 882
+message BlossomChestInfoNotify {
+    uint32 entity_id = 2;
+    BlossomChestInfo blossom_chest_info = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

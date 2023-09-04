@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HNAOKKPNHAB
+message AsterProgressDetailInfo {
+    uint32 count = 5;
+    uint32 last_auto_add_time = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

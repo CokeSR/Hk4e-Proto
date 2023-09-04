@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LNDNFCAMOFE
+// CmdId: 20383
+message BrickBreakerTwiceStartReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

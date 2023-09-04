@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TreasureSeelieRegionData.proto";
+
+// Name: ENFAEEJBCNC
+message TreasureSeelieActivityDetailInfo {
+    repeated TreasureSeelieRegionData region_data_list = 13;
+    bool is_content_closed = 8;
+    uint32 treasure_close_time = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

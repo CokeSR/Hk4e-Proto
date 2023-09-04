@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MsgParam.proto";
+import "SvrMsgId.proto";
+
+// Name: HIAAGMFNAFI
+// CmdId: 64
+message ShowMessageNotify {
+    repeated MsgParam params = 1;
+    SvrMsgId msg_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

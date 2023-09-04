@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMGPFBEINJM
+// CmdId: 4037
+message TakeFirstShareRewardReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

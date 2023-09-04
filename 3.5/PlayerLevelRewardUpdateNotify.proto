@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PEPKLGNFLGE
+// CmdId: 120
+message PlayerLevelRewardUpdateNotify {
+    repeated uint32 level_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

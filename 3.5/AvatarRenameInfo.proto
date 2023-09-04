@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PONFDKGBPMB
+message AvatarRenameInfo {
+    uint32 avatar_id = 1;
+    string avatar_name = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

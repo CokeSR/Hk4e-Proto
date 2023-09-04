@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IDHOHCMCBND
+// CmdId: 919
+message DungeonFollowNotify {
+    uint32 target_uid = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

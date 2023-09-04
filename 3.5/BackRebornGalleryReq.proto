@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KCBLNOAFPEG
+// CmdId: 5574
+message BackRebornGalleryReq {
+    uint32 gallery_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

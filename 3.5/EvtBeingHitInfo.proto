@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AttackResult.proto";
+
+// Name: IHBAACKKKEC
+message EvtBeingHitInfo {
+    uint32 frame_num = 1;
+    AttackResult attack_result = 8;
+    uint32 peer_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

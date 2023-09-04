@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DCLKDPAJLHG
+// CmdId: 4496
+message HomeSetBlueprintFriendOptionRsp {
+    int32 retcode = 9;
+    bool is_allow_friend_copy = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ClientReconnectReason.proto";
+
+// Name: COHPOPIPCKO
+// CmdId: 7
+message ClientReconnectNotify {
+    ClientReconnectReason reason = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

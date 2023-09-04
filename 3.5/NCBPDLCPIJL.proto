@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NCBPDLCPIJL
+message NCBPDLCPIJL {
+    string LKPCDMIOBJE = 1;
+    string game_biz = 2;
+    string KEBHDHCCFPP = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

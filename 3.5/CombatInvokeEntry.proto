@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CombatTypeArgument.proto";
+import "ForwardType.proto";
+
+// Name: BEGHMDLHHND
+message CombatInvokeEntry {
+    CombatTypeArgument argument_type = 6;
+    ForwardType forward_type = 13;
+    bytes combat_data = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

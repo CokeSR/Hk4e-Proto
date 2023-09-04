@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PADPINHOGCI
+// CmdId: 482
+message GetQuestTalkHistoryReq {
+    uint32 parent_quest_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

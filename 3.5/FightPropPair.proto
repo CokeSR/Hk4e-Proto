@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KOMONGMKKND
+message FightPropPair {
+    uint32 prop_type = 1;
+    float prop_value = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

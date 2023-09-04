@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NCNAGFNCBKE
+// CmdId: 6034
+message AllWidgetBackgroundActiveStateNotify {
+    repeated uint32 background_active_widget_list = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

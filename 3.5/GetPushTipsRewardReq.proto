@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FONADLHMICH
+// CmdId: 2246
+message GetPushTipsRewardReq {
+    repeated uint32 push_tips_id_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

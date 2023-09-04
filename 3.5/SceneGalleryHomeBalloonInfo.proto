@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NKDAEHJEMHE
+message SceneGalleryHomeBalloonInfo {
+    uint32 score = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

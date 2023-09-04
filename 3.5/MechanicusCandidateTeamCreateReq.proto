@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EKEMMHOMDKE
+// CmdId: 3929
+message MechanicusCandidateTeamCreateReq {
+    uint32 difficult_level = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

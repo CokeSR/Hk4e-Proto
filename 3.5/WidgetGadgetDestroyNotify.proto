@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BPDDOOEIIHA
+// CmdId: 4263
+message WidgetGadgetDestroyNotify {
+    uint32 entity_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

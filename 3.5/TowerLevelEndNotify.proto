@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: OAAPNIGGILO
+// CmdId: 2457
+message TowerLevelEndNotify {
+    // Name: DAMKMDIILDC
+    enum ContinueStateType {
+    CONTINUE_STATE_CAN_NOT_CONTINUE     = 0;
+    CONTINUE_STATE_CAN_ENTER_NEXT_LEVEL = 1;
+    CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR = 2;
+    }
+
+    uint32 next_floor_id = 11;
+    repeated uint32 finished_star_cond_list = 13;
+    repeated ItemParam reward_item_list = 9;
+    uint32 continue_state = 8;
+    bool is_success = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

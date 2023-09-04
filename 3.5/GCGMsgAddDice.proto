@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGReason.proto";
+import "GCGDiceSideType.proto";
+
+// Name: JJPBDGJNPOL
+message GCGMsgAddDice {
+    map<uint32, GCGDiceSideType> FHJPIJFMAPL = 11;
+    uint32 controller_id = 5;
+    GCGReason reason = 1;
+    int32 change_count = 14;
+    map<uint32, GCGDiceSideType> PNELDJLCNOP = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

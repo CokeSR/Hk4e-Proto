@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GBKPAIOPIMP
+// CmdId: 5397
+message HideAndSeekSelectAvatarReq {
+    uint32 avatar_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "IrodoriChessMonsterInfo.proto";
+
+// Name: NBGICJDBGIO
+message IrodoriChessEntranceInfo {
+    repeated IrodoriChessMonsterInfo monster_info_list = 4;
+    uint32 entrance_point_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

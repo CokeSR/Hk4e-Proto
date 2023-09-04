@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ELEKPDNEEFC
+// CmdId: 4481
+message UnlockedFurnitureFormulaDataNotify {
+    repeated uint32 furniture_id_list = 3;
+    bool is_all = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

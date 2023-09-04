@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NCLHEKKHBAC
+// CmdId: 3180
+message UnlockTransPointReq {
+    uint32 point_id = 6;
+    uint32 scene_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

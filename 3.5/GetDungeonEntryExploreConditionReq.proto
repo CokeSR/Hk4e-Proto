@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KKKJGBCIOFL
+// CmdId: 3449
+message GetDungeonEntryExploreConditionReq {
+    uint32 scene_id = 2;
+    uint32 dungeon_entry_scene_point_id = 5;
+    uint32 dungeon_entry_config_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

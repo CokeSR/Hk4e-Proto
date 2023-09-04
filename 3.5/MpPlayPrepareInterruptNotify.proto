@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CIDANFONHIN
+// CmdId: 1818
+message MpPlayPrepareInterruptNotify {
+    uint32 mp_play_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

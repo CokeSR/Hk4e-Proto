@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JABIEHMAPOO
+message GCGMsgCharDie {
+    uint32 controller_id = 6;
+    uint32 card_guid = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

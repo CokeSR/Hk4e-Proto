@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GMIFBLJMMNA.proto";
+import "PDKLFCHIAMH.proto";
+
+// Name: OPNBGGNPPOE
+message FishingGallerySettleInfo {
+    repeated GMIFBLJMMNA EKEAHMCHEOH = 5;
+    map<uint32, PDKLFCHIAMH> HIPPDLHJGGN = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

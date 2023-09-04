@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AGGLECNHNNJ
+// CmdId: 42
+message RobotPushPlayerDataNotify {
+    bytes bin = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

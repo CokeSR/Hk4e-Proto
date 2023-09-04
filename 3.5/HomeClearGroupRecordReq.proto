@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EOBLLKBABJA
+// CmdId: 4870
+message HomeClearGroupRecordReq {
+    uint32 group_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

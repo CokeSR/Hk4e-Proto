@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AEFFGGNGFCL
+// CmdId: 678
+message ReliquaryFilterStateSaveNotify {
+    map<uint32, uint32> reliquary_filter_state_map = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

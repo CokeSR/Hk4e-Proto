@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "RogueDiaryAvatar.proto";
+
+// Name: OGDCGLMJODF
+// CmdId: 8388
+message EnterRogueDiaryDungeonReq {
+    repeated RogueDiaryAvatar chosen_avatar_list = 13;
+    repeated uint32 chosen_card_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

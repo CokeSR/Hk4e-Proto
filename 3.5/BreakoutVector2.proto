@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKLJEIJNFBC
+message BreakoutVector2 {
+    int32 x = 1;
+    int32 y = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

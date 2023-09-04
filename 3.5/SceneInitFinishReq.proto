@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DNOAJIFGCJP
+// CmdId: 264
+message SceneInitFinishReq {
+    uint32 enter_scene_token = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

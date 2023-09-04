@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HKINCILJKMB
+// CmdId: 1745
+message AvatarWearFlycloakRsp {
+    uint64 avatar_guid = 11;
+    uint32 flycloak_id = 9;
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MaterialDeleteReturnType.proto";
+
+// Name: GJEJIJMCIBA
+// CmdId: 653
+message MaterialDeleteReturnNotify {
+    MaterialDeleteReturnType type = 1;
+    map<uint32, uint32> ACNILIGFBNM = 2;
+    map<uint32, uint32> FLHCFEJHFIL = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

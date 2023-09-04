@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JBCFNKJOKBB
+// CmdId: 5523
+message HomeGalleryInPlayingNotify {
+    uint32 gallery_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

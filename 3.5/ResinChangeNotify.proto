@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IBIMGHOHNDK
+// CmdId: 649
+message ResinChangeNotify {
+    uint32 cur_value = 14;
+    uint32 KDJDKFKHOEN = 13;
+    uint32 NJLHPIKCNOP = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

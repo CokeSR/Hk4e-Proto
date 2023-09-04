@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NICDJJJMPJJ
+message ChessNormalCardInfo {
+    uint32 cost_points = 6;
+    bool is_attach_curse = 2;
+    uint32 card_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

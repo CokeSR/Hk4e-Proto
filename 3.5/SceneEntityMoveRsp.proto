@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MotionInfo.proto";
+
+// Name: FLMGGILOCAJ
+// CmdId: 265
+message SceneEntityMoveRsp {
+    uint32 reliable_seq = 8;
+    uint32 entity_id = 4;
+    uint32 scene_time = 3;
+    MotionInfo fail_motion = 13;
+    int32 retcode = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

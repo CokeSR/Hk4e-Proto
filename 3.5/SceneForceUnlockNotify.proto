@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LEEEJNOCINN
+// CmdId: 286
+message SceneForceUnlockNotify {
+    bool is_add = 7;
+    repeated uint32 force_id_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FNENCJDNDOH
+// CmdId: 8901
+message TriggerRoguelikeCurseNotify {
+    repeated uint32 effect_param_list = 8;
+    uint32 IFGBOGLCBGG = 10;
+    bool is_trigger_curse = 11;
+    uint32 FOPMNAMKHLG = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

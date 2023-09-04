@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BBCDDOPMBIK
+// CmdId: 75
+message GmTalkReq {
+    string msg = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

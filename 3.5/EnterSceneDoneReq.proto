@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PDLCFFDJLOL
+// CmdId: 269
+message EnterSceneDoneReq {
+    uint32 enter_scene_token = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

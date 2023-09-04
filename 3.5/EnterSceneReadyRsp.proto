@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GPCIOGEMCJP
+// CmdId: 239
+message EnterSceneReadyRsp {
+    int32 retcode = 9;
+    uint32 enter_scene_token = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

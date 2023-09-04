@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ILGPBLHBKNJ
+// CmdId: 3313
+message DungeonEntryToBeExploreNotify {
+    uint32 dungeon_entry_config_id = 7;
+    uint32 scene_id = 2;
+    uint32 dungeon_entry_scene_point_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

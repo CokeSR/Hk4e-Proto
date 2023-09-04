@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CCMKMIKJOOL
+// CmdId: 1636
+message RefreshBackgroundAvatarReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

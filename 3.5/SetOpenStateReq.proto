@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OPFCDCANIBF
+// CmdId: 144
+message SetOpenStateReq {
+    uint32 value = 14;
+    uint32 key = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KHLLMKJHPCI
+// CmdId: 8862
+message RoguelikeEffectViewRsp {
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

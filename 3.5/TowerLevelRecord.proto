@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HHHKDLMDEFF
+message TowerLevelRecord {
+    uint32 level_id = 6;
+    repeated uint32 satisfied_cond_list = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

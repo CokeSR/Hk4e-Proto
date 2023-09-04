@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "OnlinePlayerInfo.proto";
+
+// Name: PHLBANPNLLI
+// CmdId: 4757
+message PlayerApplyEnterHomeNotify {
+    OnlinePlayerInfo src_player_info = 11;
+    uint32 src_app_id = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

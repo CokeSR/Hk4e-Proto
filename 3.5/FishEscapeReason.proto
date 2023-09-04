@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EBLPNABPEMI
+enum FishEscapeReason {
+  FISN_ESCAPE_NONE    = 0;
+  FISH_ESCAPE_SHOCKED = 1;
+  FISH_ESCAPE_UNHOOK  = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

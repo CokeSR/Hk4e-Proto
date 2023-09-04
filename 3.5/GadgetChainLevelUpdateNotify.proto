@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KBDFNIEAMPO
+// CmdId: 823
+message GadgetChainLevelUpdateNotify {
+    map<uint32, uint32> gadget_chain_level_map = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DOFFFMPIPDH
+message SceneGalleryCrystalLinkInfo {
+    uint32 score = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LCLIIAEAFNG
+// CmdId: 673
+message SetIsAutoUnlockSpecificEquipReq {
+    bool is_auto_unlock_specific_equip = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

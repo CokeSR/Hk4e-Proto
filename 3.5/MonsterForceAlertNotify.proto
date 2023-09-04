@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ODIJFDGBOGG
+// CmdId: 357
+message MonsterForceAlertNotify {
+    uint32 monster_entity_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

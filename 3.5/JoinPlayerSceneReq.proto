@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KDFJFPAFIOP
+// CmdId: 285
+message JoinPlayerSceneReq {
+    uint32 target_uid = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

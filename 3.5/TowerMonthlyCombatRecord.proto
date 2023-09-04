@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "TowerFightRecordPair.proto";
+
+// Name: GKPCNMJKNBG
+message TowerMonthlyCombatRecord {
+    TowerFightRecordPair most_kill_avatar_pair = 12; //KFFEALHCIJC
+    TowerFightRecordPair most_cast_energy_skill_avatar_pair = 5; //NDAHNFFJDPL
+    TowerFightRecordPair most_take_damage_avatar_pair = 8; //LNHEKFHKMII
+    repeated TowerFightRecordPair most_reveal_avatar_list = 10;
+    TowerFightRecordPair highest_dps_avatr_pair = 13; //FKHAPDOIMPL
+    TowerFightRecordPair most_cast_normal_skill_avatar_pair = 1; //BJGKHPECJAE
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

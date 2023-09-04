@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ClientMassiveEntity.proto";
+
+// Name: OGJEIFDLMFE
+// CmdId: 349
+message CreateMassiveEntityReq {
+    repeated ClientMassiveEntity massive_entity_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

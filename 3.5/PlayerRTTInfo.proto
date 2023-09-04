@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JFBIKFCKPBC
+message PlayerRTTInfo {
+    uint32 rtt = 14;
+    uint32 uid = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

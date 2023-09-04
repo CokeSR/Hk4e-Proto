@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GravenInnocencePhotoObjectInfo.proto";
+import "GravenInnocencePhotoStageInfo.proto";
+
+// Name: GMBOONICPBM
+message GravenInnocencePhotoInfo {
+    repeated GravenInnocencePhotoStageInfo stage_info_list = 10;
+    repeated GravenInnocencePhotoObjectInfo object_info_list = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

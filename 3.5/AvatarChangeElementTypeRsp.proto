@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FNDGELJGDBB
+// CmdId: 1781
+message AvatarChangeElementTypeRsp {
+    int32 retcode = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

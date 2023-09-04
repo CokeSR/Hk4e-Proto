@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OAAGDDGMABF
+// CmdId: 2494
+message TowerGetFloorStarRewardReq {
+    uint32 floor_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

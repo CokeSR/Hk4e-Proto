@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LJGAJMFDFCF
+message LJGAJMFDFCF {
+    uint32 FAKEOJGBCJI = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GPCKNDGKBBD
+message GPCKNDGKBBD {
+    uint64 begin_time = 8;
+    uint32 controller_id = 14;
+    uint64 time_stamp = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomCommonNodeInfo.proto";
+
+// Name: IKCAPLALLPO
+message CustomGadgetTreeInfo {
+    repeated CustomCommonNodeInfo node_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

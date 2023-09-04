@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MNJBPJGKHLJ
+// CmdId: 5032
+message PullRecentChatReq {
+    uint32 begin_sequence = 15; //GODLNLIJKDE
+    uint32 pull_num = 8; //JBKDCKFOAGH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

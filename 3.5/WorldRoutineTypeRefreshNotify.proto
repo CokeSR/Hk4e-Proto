@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "WorldRoutineTypeInfo.proto";
+
+// Name: KEHJMHEMANF
+// CmdId: 3509
+message WorldRoutineTypeRefreshNotify {
+    WorldRoutineTypeInfo world_routine_type = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DHPIDPOHNDO
+// CmdId: 988
+message DungeonCandidateTeamChangeAvatarReq {
+    repeated uint64 avatar_guid_list = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

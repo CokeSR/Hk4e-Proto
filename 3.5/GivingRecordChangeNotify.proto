@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GivingRecord.proto";
+
+// Name: KOAJCOGAHIE
+// CmdId: 136
+message GivingRecordChangeNotify {
+    bool is_deactive = 9;
+    GivingRecord giving_record = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

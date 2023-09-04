@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DOMPLMOALGE
+message DOMPLMOALGE {
+    uint32 difficulty = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

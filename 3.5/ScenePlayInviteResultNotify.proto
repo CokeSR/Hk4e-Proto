@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IPBEHJKODFE
+// CmdId: 4400
+message ScenePlayInviteResultNotify {
+    uint32 play_id = 9;
+    bool is_all_argee = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

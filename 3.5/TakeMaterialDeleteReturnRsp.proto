@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GOHLFBHEKIN
+// CmdId: 604
+message TakeMaterialDeleteReturnRsp {
+    int32 retcode = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

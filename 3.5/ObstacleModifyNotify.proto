@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ObstacleInfo.proto";
+
+// Name: BMCJDFCFMBO
+// CmdId: 2354
+message ObstacleModifyNotify {
+    repeated ObstacleInfo add_obstacles = 5;
+    uint32 scene_id = 8;
+    repeated int32 remove_obstacle_ids = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

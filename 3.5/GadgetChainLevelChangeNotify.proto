@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OKPDGILKABD
+// CmdId: 819
+message GadgetChainLevelChangeNotify {
+    map<uint32, uint32> gadget_chain_level_map = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

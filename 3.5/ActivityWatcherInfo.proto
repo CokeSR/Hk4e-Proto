@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NACCPGOMNLE
+message ActivityWatcherInfo {
+    uint32 watcher_id = 14;
+    uint32 cur_progress = 1;
+    uint32 total_progress = 13;
+    bool is_taken_reward = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

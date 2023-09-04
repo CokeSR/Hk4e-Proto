@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FOGLKDIHDEL
+message TeamChainChooseAvatarInfo {
+    bool is_trial_avatar = 6;
+    uint32 avatar_id = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

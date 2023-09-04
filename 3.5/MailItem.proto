@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "EquipParam.proto";
+import "MaterialDeleteInfo.proto";
+
+// Name: JBGIPMFDPLF
+message MailItem {
+    EquipParam equip_param = 1;
+    MaterialDeleteInfo delete_info = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PJAICFMHEIK
+// CmdId: 3536
+message WorldRoutineTypeCloseNotify {
+    uint32 routine_type = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

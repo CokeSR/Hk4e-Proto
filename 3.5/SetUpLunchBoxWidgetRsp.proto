@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LunchBoxData.proto";
+
+// Name: BHEMFHAADAI
+// CmdId: 4289
+message SetUpLunchBoxWidgetRsp {
+    int32 retcode = 13;
+    LunchBoxData lunch_box_data = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

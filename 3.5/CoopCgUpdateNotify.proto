@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LIHNNBNGBAF
+// CmdId: 1989
+message CoopCgUpdateNotify {
+    repeated uint32 cg_list = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BPKGHIEIGHK
+message SalvageScoreChallengeInfo {
+    uint32 max_score = 1;
+    uint32 salvage_challenge_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

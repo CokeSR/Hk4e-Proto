@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LKADODPDEDF
+// CmdId: 5400
+message BrickBreakerPlayerSetAvatarNotify {
+    uint32 uid = 11;
+    repeated uint32 costume_id_list = 14;
+    repeated uint32 avatar_id_list = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

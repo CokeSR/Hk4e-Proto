@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PJJCEJAODFG
+// CmdId: 235
+message AddSeenMonsterNotify {
+    repeated uint32 monster_id_list = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

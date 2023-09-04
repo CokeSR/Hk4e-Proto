@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FriendBrief.proto";
+
+// Name: ADKEHLBLLOD
+// CmdId: 4070
+message AddBlacklistRsp {
+    int32 retcode = 6;
+    FriendBrief target_friend_brief = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

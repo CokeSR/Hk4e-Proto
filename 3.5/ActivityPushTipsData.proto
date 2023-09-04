@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ActivityPushTipsState.proto";
+
+// Name: CBEGBPBBDMB
+message ActivityPushTipsData {
+    uint32 activity_push_tips_id = 12;
+    ActivityPushTipsState state = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

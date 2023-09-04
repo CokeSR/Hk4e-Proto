@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ECIDMELIJDF
+// CmdId: 4843
+message HomeChooseModuleReq {
+    uint32 module_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

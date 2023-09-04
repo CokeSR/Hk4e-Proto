@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EBJFLNOHBNO
+// CmdId: 4286
+message AnchorPointOpRsp {
+    int32 retcode = 5;
+    uint32 anchor_point_op_type = 13;
+    uint32 anchor_point_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

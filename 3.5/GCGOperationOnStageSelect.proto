@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HJCEJCIMBAD
+message GCGOperationOnStageSelect {
+    uint32 card_guid = 13;
+    repeated uint32 cost_dice_index_list = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

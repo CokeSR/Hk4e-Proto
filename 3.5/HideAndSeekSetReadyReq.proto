@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GCEBOCHMFOD
+// CmdId: 5311
+message HideAndSeekSetReadyReq {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

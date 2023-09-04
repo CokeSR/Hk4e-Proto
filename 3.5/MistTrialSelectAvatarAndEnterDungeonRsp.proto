@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKPFCDEFAGD
+// CmdId: 8060
+message MistTrialSelectAvatarAndEnterDungeonRsp {
+    int32 retcode = 5;
+    uint32 trial_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

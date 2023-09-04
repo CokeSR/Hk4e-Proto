@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FJLHELDHDHO
+// CmdId: 139
+message PlayerNicknameNotify {
+    string nickname = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

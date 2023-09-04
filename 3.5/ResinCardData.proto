@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: OMAOJPAGCGH
+message ResinCardData {
+    uint32 FAHMOAMOKKF = 15;
+    uint32 expire_time = 2;
+    uint32 PPLAEAIJIAD = 11;
+    uint32 config_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

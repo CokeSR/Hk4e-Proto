@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LOAPMNFOJBM
+// CmdId: 2168
+message SetCurExpeditionChallengeIdReq {
+    uint32 id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

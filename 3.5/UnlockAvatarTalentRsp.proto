@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EFFKKHNDIAF
+// CmdId: 1075
+message UnlockAvatarTalentRsp {
+    uint64 avatar_guid = 5;
+    uint32 talent_id = 13;
+    int32 retcode = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

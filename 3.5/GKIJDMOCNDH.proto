@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GKIJDMOCNDH
+message GKIJDMOCNDH {
+    uint32 PMAHGIMLNFD = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Uint32Pair.proto";
+
+// Name: PLPINEPGFHD
+message GCGAttackCostInfo {
+    repeated Uint32Pair costMap = 3;
+    uint32 skill_id = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

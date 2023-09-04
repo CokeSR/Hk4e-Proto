@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EOJPOKECCCF
+message BlitzRushStage {
+    bool is_open = 13;
+    uint32 open_time = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

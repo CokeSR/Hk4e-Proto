@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UnionCmd.proto";
+
+// Name: JHIIPBFFOAN
+// CmdId: 27
+message UnionCmdNotify {
+    repeated UnionCmd cmd_list = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

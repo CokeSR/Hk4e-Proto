@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LEAMJFGPJOI
+// CmdId: 29
+message ClientReportNotify {
+    string report_value = 7; //EAPMOECPEPG
+    string report_type = 15; //EMODEICADOO
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

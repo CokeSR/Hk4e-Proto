@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "OnlinePlayerInfo.proto";
+
+// Name: OMMENNJPOHG
+message ScenePlayerInfo {
+    uint32 uid = 1;
+    OnlinePlayerInfo online_player_info = 10;
+    string name = 11;
+    uint32 scene_id = 9;
+    uint32 peer_id = 13;
+    bool is_connected = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

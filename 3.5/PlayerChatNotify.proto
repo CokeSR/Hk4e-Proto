@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ChatInfo.proto";
+
+// Name: IOCNDGDEEOL
+// CmdId: 3236
+message PlayerChatNotify {
+    ChatInfo chat_info = 15;
+    uint32 channel_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

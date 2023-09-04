@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JKAFMICKEMF
+// CmdId: 8161
+message BartenderCancelLevelReq {
+    uint32 level_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HKNICPJLBBF
+enum DealAddFriendResultType {
+  DEAL_ADD_FRIEND_REJECT = 0;
+  DEAL_ADD_FRIEND_ACCEPT = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

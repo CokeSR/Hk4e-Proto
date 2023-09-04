@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DIPLFLKIDJN
+// CmdId: 7269
+message DIPLFLKIDJN {
+    string FFBNANJHIEH = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AIOCEOMJKII.proto";
+import "IrodoriChessData.proto";
+import "NMJJDGLFAOO.proto";
+import "ONGFFNHKKIA.proto";
+
+// Name: AGBKOIBOJKP
+message IrodoriActivityDetailInfo {
+    AIOCEOMJKII DCACNKBIMLD = 6;
+    repeated ONGFFNHKKIA DGPMKMAFKBO = 4;
+    IrodoriChessData chess_data = 14;
+    NMJJDGLFAOO BCKHFBJPBHE = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

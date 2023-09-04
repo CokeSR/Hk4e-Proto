@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FOHJEOJIGPE
+// CmdId: 2129
+message ExpeditionTakeRewardReq {
+    uint32 path_id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

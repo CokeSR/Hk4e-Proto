@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VintageMarketStoreOpInfo.proto";
+
+// Name: ECMOIJJBJJD
+// CmdId: 20263
+message VintageMarketFinishStorePlayReq {
+    uint32 store_round = 10;
+    repeated VintageMarketStoreOpInfo store_op_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

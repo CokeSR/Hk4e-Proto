@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NKJOJMLOMFO
+// CmdId: 2127
+message SeaLampCoinNotify {
+    uint32 sea_lamp_coin = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

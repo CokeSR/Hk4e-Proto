@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PGKMKCDIPCM
+message CookRecipeData {
+    uint32 proficiency = 14; // DIIJPMJFNOL
+    uint32 recipe_id = 4; // EJKLKNPMHMC
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

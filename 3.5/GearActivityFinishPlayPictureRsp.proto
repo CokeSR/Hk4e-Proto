@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EDNCCAKIHMO
+// CmdId: 23580
+message GearActivityFinishPlayPictureRsp {
+    bool is_success = 3;
+    int32 retcode = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

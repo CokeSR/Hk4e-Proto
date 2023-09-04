@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "VehicleInteractType.proto";
+
+// Name: DPOAMNMLJFP
+// CmdId: 844
+message VehicleInteractReq {
+    uint32 entity_id = 8;
+    VehicleInteractType interact_type = 9;
+    uint32 pos = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

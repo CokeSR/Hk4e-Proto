@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MMLBJAELMKK
+// CmdId: 979
+message DungeonCandidateTeamSetChangingAvatarReq {
+    bool is_changing_avatar = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

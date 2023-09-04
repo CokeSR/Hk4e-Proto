@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KIPPOJFGGFN
+// CmdId: 2442
+message TowerBuffSelectRsp {
+    uint32 tower_buff_id = 6;
+    int32 retcode = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DynamicLayerNodes.proto";
+
+// Name: AAPBIOOIMNP
+message DynamicNodes {
+    repeated DynamicLayerNodes nodes = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

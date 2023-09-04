@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BOCMIMPOBJP
+// CmdId: 23402
+message InstableSpraySwitchTeamRsp {
+    int32 retcode = 9;
+    uint32 level_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

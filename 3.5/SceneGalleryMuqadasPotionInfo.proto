@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KMGFHFBBNJK
+message SceneGalleryMuqadasPotionInfo {
+    uint32 HLPKHHIGGCA = 3;
+    uint32 capture_weakness_count = 15;
+    uint32 NNANPBBPNGB = 13;
+    uint32 score = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GadgetGeneralRewardInfo.proto";
+
+// Name: OFDJBAJGOPC
+// CmdId: 891
+message GadgetGeneralRewardInfoNotify {
+    uint32 entity_id = 1;
+    GadgetGeneralRewardInfo general_reward_info = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

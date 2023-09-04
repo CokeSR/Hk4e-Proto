@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NHPECLKINBP
+// CmdId: 449
+message PersonalLineNewUnlockNotify {
+    repeated uint32 personal_line_id_list = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

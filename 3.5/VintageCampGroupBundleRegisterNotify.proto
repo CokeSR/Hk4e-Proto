@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BPDFLDKOCCC
+// CmdId: 22699
+message VintageCampGroupBundleRegisterNotify {
+    uint32 group_bundle_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

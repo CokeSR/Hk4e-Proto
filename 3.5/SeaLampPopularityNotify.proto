@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PPMLILPAMKP
+// CmdId: 2087
+message SeaLampPopularityNotify {
+    uint32 popularity = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

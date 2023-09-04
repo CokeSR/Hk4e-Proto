@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomeSeekFurniturePlayerScore.proto";
+
+// Name: DPKDAPMACHJ
+message HomeSeekFurnitureOneRecord {
+    repeated HomeSeekFurniturePlayerScore engaged_player_score_list = 4;
+    uint32 timestamp = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

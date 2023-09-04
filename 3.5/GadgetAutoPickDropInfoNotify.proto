@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Item.proto";
+
+// Name: PBGEBLODBDC
+// CmdId: 842
+message GadgetAutoPickDropInfoNotify {
+    repeated Item item_list = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

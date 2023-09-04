@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FHEHLPMHPID
+// CmdId: 8231
+message GachaActivityResetReq {
+    uint32 stage_id = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

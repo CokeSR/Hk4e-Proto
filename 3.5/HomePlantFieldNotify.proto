@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "HomePlantFieldData.proto";
+
+// Name: COLEPMPNKPG
+// CmdId: 4710
+message HomePlantFieldNotify {
+    HomePlantFieldData field = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

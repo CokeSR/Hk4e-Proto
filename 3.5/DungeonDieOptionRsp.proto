@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlayerDieOption.proto";
+
+// Name: CPEFIENCDPH
+// CmdId: 991
+message DungeonDieOptionRsp {
+    PlayerDieOption die_option = 6;
+    int32 retcode = 7;
+    uint32 revive_count = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

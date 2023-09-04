@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KLLDCDHIOEH
+// CmdId: 8690
+message ChannelerSlabStageOneoffDungeonNotify {
+    uint32 stage_id = 3;
+    bool is_done = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

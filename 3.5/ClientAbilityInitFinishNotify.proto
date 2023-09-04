@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AbilityInvokeEntry.proto";
+
+// Name: KDKNIIHLEKH
+// CmdId: 1164
+message ClientAbilityInitFinishNotify {
+    uint32 entity_id = 8;
+    repeated AbilityInvokeEntry invokes = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

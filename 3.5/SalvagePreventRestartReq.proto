@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GPHDANFOLIM
+// CmdId: 8439
+message SalvagePreventRestartReq {
+    uint32 gallery_id = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

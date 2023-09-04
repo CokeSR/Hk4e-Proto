@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FJOBAJGGBCO
+// CmdId: 1821
+message PlayerSetOnlyMPWithPSPlayerRsp {
+    bool is_only = 4;
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPHKFHIHEBD
+message FurnitureMakeMakeInfo {
+    uint32 make_count = 5;
+    uint32 furniture_id = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

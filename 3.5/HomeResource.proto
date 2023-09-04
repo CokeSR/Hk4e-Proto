@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+// Name: FHCMHOPJELB
+message HomeResource {
+    uint32 next_refresh_time = 1;
+    uint32 store_limit = 14; //MEKKKFKHOPD
+    uint32 store_value = 3; //JECDNACMJKP
+}
+
+
+
+
+
+
+
+
+
+
+
+

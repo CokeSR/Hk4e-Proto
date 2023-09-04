@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MainCoop.proto";
+
+// Name: OEEBFHGFMOD
+// CmdId: 1993
+message MainCoopUpdateNotify {
+    repeated MainCoop main_coop_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

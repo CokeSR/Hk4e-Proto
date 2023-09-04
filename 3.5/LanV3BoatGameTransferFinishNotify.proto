@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DDKDGNHFPFL
+// CmdId: 20763
+message LanV3BoatGameTransferFinishNotify {
+    bool is_reenter = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

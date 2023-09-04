@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGCardSkillLimitsInfo.proto";
+
+// Name: PGCOGOHENKC
+message GCGMsgSkillLimitsChange {
+    map<uint32, GCGCardSkillLimitsInfo> card_limits_change_map = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JFNAHIIBMIP
+// CmdId: 8510
+message PlantFlowerGetCanGiveFriendFlowerReq {
+    uint32 schedule_id = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

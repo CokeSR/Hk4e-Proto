@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AFGBFGAFILO
+// CmdId: 3959
+message EnterMechanicusDungeonReq {
+    uint32 difficult_level = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

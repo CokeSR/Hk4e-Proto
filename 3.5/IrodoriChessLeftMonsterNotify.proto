@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DCHPCOOEKLO
+// CmdId: 5331
+message IrodoriChessLeftMonsterNotify {
+    uint32 left_monsters = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

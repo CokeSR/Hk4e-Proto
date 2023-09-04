@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "UgcMusicBriefInfo.proto";
+import "UgcMusicRecord.proto";
+import "UgcType.proto";
+
+// Name: DMPCNMHFEHN
+// CmdId: 6344
+message SaveUgcReq {
+    UgcType ugc_type = 13;
+    uint32 schedule_id = 2;
+    oneof record {
+        UgcMusicRecord music_record = 11;
+    }
+    oneof brief {
+        UgcMusicBriefInfo music_brief_info = 380;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

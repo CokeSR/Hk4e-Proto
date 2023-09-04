@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GLNIMJKLFPH
+// CmdId: 5086
+message GetReunionSignInInfoReq {
+    uint32 sign_in_config_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FMHOHHADCKH
+// CmdId: 5075
+message ReunionSettleNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

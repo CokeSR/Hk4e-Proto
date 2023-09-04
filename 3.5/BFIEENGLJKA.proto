@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BFIEENGLJKA
+message BFIEENGLJKA {
+    bool DLEFDHEAMHL = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

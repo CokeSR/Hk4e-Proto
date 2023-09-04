@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PNGEFLEOILH
+// CmdId: 5330
+message HideAndSeekPlayerReadyNotify {
+    repeated uint32 uid_list = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

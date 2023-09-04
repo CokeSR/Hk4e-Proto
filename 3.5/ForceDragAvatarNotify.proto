@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MotionInfo.proto";
+
+// Name: LLNPGEGHIHC
+// CmdId: 3017
+message ForceDragAvatarNotify {
+    uint32 scene_time = 12;
+    uint32 entity_id = 10;
+    bool is_first_valid = 9;
+    uint64 delta_time_ms = 7; //NCJDFLPBAJK
+    MotionInfo motion_info = 2;
+    uint64 last_move_time_ms = 13; //HDMGAPIBOBA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "DynamicSVONode.proto";
+
+// Name: LPCBJDFPFII
+message DynamicLayerNodes {
+    int32 level = 15;
+    repeated DynamicSVONode nodes = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

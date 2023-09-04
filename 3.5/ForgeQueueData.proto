@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DBDNABMNFAO
+message ForgeQueueData {
+    uint32 finish_count = 11; //NEGHCLJNONO
+    uint32 avatar_id = 13;
+    uint32 forge_id = 3;
+    uint32 queue_id = 6; //IJIGJHCPBIO
+    uint32 next_finish_timestamp = 5; //DPLHKMGEIKA
+    uint32 unfinish_count = 2; //GFMEEGMBJKI
+    uint32 total_finish_timestamp = 10; //KOLFAOPJMFA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

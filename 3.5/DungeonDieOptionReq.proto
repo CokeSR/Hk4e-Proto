@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PlayerDieOption.proto";
+
+// Name: DICPIHNDLGM
+// CmdId: 907
+message DungeonDieOptionReq {
+    PlayerDieOption die_option = 11;
+    bool is_quit_immediately = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LDNEKLCGAIE
+// CmdId: 1491
+message ChangeMailStarNotify {
+    repeated uint32 mail_id_list = 6;
+    bool is_star = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

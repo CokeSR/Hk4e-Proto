@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IOHHJPOPIJP
+// CmdId: 4309
+message GetCityHuntingOfferReq {
+    uint32 city_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

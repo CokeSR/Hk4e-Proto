@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AddNoGachaAvatarCardTransferItem.proto";
+
+// Name: OKJGBFHLEIK
+// CmdId: 1787
+message AddNoGachaAvatarCardNotify {
+    uint32 reason = 3;
+    uint32 AIGPMLAPMBL = 14;
+    uint32 item_id = 15;
+    uint32 avatar_id = 1;
+    uint32 KNGMKKHPDBJ = 4;
+    bool is_transfer_to_item = 9;
+    repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

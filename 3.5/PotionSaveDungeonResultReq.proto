@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ADNJJDMMMEL
+// CmdId: 8306
+message PotionSaveDungeonResultReq {
+    uint32 stage_id = 7;
+    uint32 level_id = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

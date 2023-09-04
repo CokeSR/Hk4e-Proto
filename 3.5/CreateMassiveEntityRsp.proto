@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ACHCCCKDALM
+// CmdId: 397
+message CreateMassiveEntityRsp {
+    int32 retcode = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

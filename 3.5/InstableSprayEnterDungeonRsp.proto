@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LLDFKODFFBB
+// CmdId: 24557
+message InstableSprayEnterDungeonRsp {
+    int32 retcode = 3;
+    uint32 level_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

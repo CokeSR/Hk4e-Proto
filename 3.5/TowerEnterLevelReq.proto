@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DFMIGMBANII
+// CmdId: 2459
+message TowerEnterLevelReq {
+    uint32 enter_point_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

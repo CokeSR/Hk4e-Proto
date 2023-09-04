@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IINNLEJKOBH
+// CmdId: 21486
+message SingleRestartBrickBreakerReq {
+    bool is_dungeon = 1;
+    uint32 level_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PNFBKOPDCBA
+// CmdId: 8836
+message MichiaeMatsuriInteractStatueReq {
+    uint32 statue_entity_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

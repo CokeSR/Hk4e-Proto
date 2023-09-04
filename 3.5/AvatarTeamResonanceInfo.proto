@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LLKMMEJJNNF
+message AvatarTeamResonanceInfo {
+    repeated uint32 add_team_resonance_id_list = 8; //INOIJMMCNEF
+    uint32 entity_id = 2;
+    repeated uint32 del_team_resonance_id_list = 10; //MJMEKGPPGIO
+    uint64 avatar_guid = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

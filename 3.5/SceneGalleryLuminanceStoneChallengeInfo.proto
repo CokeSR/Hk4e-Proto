@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PIICIGDBHHI
+message SceneGalleryLuminanceStoneChallengeInfo {
+    uint32 clean_mud_count = 11;
+    uint32 score = 5;
+    uint32 kill_monster_count = 7;
+    uint32 kill_special_monster_count = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

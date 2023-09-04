@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NPPGHIKIPJH
+// CmdId: 5931
+message WidgetWeatherWizardDataNotify {
+    uint32 shield_value = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: IMCCMLOGCKM
+// CmdId: 2491
+message TowerBuffSelectReq {
+    uint32 tower_buff_id = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

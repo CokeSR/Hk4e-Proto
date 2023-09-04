@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LBEAKNAOFIL
+// CmdId: 1952
+message StartCoopPointReq {
+    uint32 coop_point = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

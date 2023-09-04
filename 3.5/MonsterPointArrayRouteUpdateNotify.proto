@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "MonsterRoute.proto";
+
+// Name: OIABFKOCGOI
+// CmdId: 3498
+message MonsterPointArrayRouteUpdateNotify {
+    MonsterRoute monster_route = 7;
+    uint32 entity_id = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

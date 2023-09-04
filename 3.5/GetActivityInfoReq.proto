@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ODFEGOJADOK
+// CmdId: 2116
+message GetActivityInfoReq {
+    repeated uint32 activity_id_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

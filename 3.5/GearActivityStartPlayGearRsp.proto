@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: KLMMNLLNNIC
+// CmdId: 22301
+message GearActivityStartPlayGearRsp {
+    int32 retcode = 6;
+    uint32 level_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

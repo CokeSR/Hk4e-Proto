@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPIDFBGHCEJ
+// CmdId: 123
+message SetPlayerNameReq {
+    string nick_name = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

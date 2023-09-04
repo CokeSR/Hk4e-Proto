@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: FPEHEANBFDJ
+// CmdId: 632
+message SetIsAutoUnlockSpecificEquipRsp {
+    int32 retcode = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

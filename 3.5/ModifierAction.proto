@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NFFIAAOHAAO
+enum ModifierAction {
+  ADDED   = 0;
+  REMOVED = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

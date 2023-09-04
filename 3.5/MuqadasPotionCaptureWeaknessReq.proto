@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BEBOPIDLJCN
+// CmdId: 23970
+message MuqadasPotionCaptureWeaknessReq {
+    uint32 capture_weakness_count = 14;
+    uint32 level_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

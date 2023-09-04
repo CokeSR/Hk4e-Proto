@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "PBNavMeshPoly.proto";
+import "Vector.proto";
+
+// Name: BEINIMOEPND
+message PBNavMeshTile {
+    repeated Vector vecs = 7;
+    repeated PBNavMeshPoly polys = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

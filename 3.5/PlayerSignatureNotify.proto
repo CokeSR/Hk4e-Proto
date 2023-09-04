@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LJOBNMAIOOE
+// CmdId: 4089
+message PlayerSignatureNotify {
+    string signature = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

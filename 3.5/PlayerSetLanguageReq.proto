@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PBMGCGFPJOM
+// CmdId: 149
+message PlayerSetLanguageReq {
+    uint32 language_type = 8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

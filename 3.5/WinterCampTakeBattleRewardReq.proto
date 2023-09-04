@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: AGHFKDMOEHG
+// CmdId: 8495
+message WinterCampTakeBattleRewardReq {
+    uint32 id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

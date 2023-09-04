@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: EMBMCPPLGPA
+// CmdId: 201
+message ScenePlayerSoundNotify {
+    // Name: MCCICFBIADN
+    enum PlaySoundType {
+    PLAY_SOUND_NONE  = 0;
+    PLAY_SOUND_START = 1;
+    PLAY_SOUND_STOP  = 2;
+    }
+
+    PlaySoundType play_type = 14;
+    Vector play_pos = 1;
+    string sound_name = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

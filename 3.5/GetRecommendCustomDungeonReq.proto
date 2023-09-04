@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BKNEEMDBCHG
+// CmdId: 6238
+message GetRecommendCustomDungeonReq {
+    bool is_refresh = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

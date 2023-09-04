@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "LunaRiteHintStatusType.proto";
+
+// Name: BOMMBPDKMOH
+message LunaRiteAreaInfo {
+    uint32 area_id = 9;
+    repeated uint32 sacrifice_reward_list = 5;
+    LunaRiteHintStatusType hint_status = 7;
+    uint32 challenge_index = 13;
+    repeated uint32 sacrifice_list = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

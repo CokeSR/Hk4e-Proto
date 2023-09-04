@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MOOPCKFOLNC
+message ArenaChallengeMonsterLevel {
+    uint32 BCHEDLFFNKC = 11;
+    uint32 NEFKFHIPLHG = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

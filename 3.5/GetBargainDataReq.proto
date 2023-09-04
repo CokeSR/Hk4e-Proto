@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ILJBCDKOGDA
+// CmdId: 441
+message GetBargainDataReq {
+    uint32 bargain_id = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

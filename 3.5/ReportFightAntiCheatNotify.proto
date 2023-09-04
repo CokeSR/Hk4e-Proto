@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ECDGBFNCGOG
+// CmdId: 321
+message ReportFightAntiCheatNotify {
+    uint32 LPNNGAJFGDA = 5;
+    uint32 HAIGMMJJDNC = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

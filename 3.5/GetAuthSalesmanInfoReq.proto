@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GAFLEDAHGAG
+// CmdId: 2139
+message GetAuthSalesmanInfoReq {
+    uint32 schedule_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

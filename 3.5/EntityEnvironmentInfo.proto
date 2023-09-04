@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: CPDBIKEOEDK
+message EntityEnvironmentInfo {
+    uint32 json_climate_type = 1;
+    uint32 climate_area_id = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

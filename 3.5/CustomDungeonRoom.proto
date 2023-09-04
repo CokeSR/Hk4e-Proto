@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "CustomDungeonBlock.proto";
+
+// Name: GPGKKBPELBF
+message CustomDungeonRoom {
+    repeated CustomDungeonBlock block_list = 12;
+    uint32 room_id = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: PHMMOBKJDAC
+// CmdId: 2149
+message SeaLampTakeContributionRewardReq {
+    uint32 config_id = 14;
+    uint32 activity_id = 7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

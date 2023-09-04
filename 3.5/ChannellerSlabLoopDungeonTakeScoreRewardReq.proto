@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GLCLPAIFMIP
+// CmdId: 8944
+message ChannellerSlabLoopDungeonTakeScoreRewardReq {
+    uint32 reward_index = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

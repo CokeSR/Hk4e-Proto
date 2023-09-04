@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Vector.proto";
+
+// Name: ILEIPGLHFAP
+message HomeLimitedShopInfo {
+    uint32 CLCPIJBAOEA = 12;
+    uint32 PGENOLMDFEM = 11;
+    Vector djinn_pos = 1; //CKJKPEEKOGG
+    uint32 NIDABDPMHHF = 6;
+    uint32 uid = 14;
+    Vector djinn_rot = 9; //GMPJFCODOLK
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "Birthday.proto";
+
+// Name: POLNCBKMBPC
+// CmdId: 4091
+message SetPlayerBirthdayReq {
+    Birthday birthday = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

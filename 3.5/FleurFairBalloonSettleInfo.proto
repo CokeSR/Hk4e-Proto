@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "BalloonSettleInfo.proto";
+
+// Name: FGMHOBKFKJK
+message FleurFairBalloonSettleInfo {
+    BalloonSettleInfo settle_info = 1;
+    bool is_new_record = 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ItemParam.proto";
+
+// Name: OJEEKAIOFBO
+message OJEEKAIOFBO {
+    uint32 trader_id = 9;
+    repeated ItemParam MEKHDALGJJL = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: MKAPCIPKDFB
+// CmdId: 198
+message ServerDisconnectClientNotify {
+    uint32 data = 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

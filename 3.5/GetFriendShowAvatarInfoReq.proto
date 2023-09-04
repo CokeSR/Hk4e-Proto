@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EOGNJKOAELI
+// CmdId: 4060
+message GetFriendShowAvatarInfoReq {
+    uint32 uid = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

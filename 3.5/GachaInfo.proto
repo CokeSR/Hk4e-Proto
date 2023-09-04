@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GachaUpInfo.proto";
+
+// Name: LIBILADMDKG
+// Name: LIBILADMDKG
+message GachaInfo {
+    bool is_new_wish = 1693;
+    uint32 gachaTimesLimit = 4; // FLDFHFNHNFC
+    repeated GachaUpInfo gacha_up_info_list = 1953;
+    uint32 wishMaxProgress = 911; // KJHBJPGBOFP
+    uint32 leftGachaTimes = 10; // MGFKNHHNMAE
+    string gachaProbUrl = 8; // ABKGLLAGAIN
+    uint32 gachaType = 15; // DGIFMDIADJF
+    string gachaPrefabPath = 5; // JENKDDLIKBK
+    uint32 gachaSortId = 11; // MJPPIKFJBBF
+    uint32 curScheduleDailyGachaTimes = 1245; // NOKMFFEIDNH
+    uint32 costItemNum = 7; // GNIDAANOBDP
+    repeated uint32 displayUp5ItemList = 1564; // GLGFIGNCBPL
+    string gachaProbUrlOversea = 1128; // NBGBMJJAICB
+    string gachaPreviewPrefabPath = 12; // LCHOOLMEHIN
+    uint32 schedule_id = 2;
+    string gachaRecordUrl = 1; // CINCAKDODOD
+    uint32 end_time = 3;
+    repeated uint32 displayUp4ItemList = 446; // IIGOCJAHJDO
+    uint32 wishItemId = 9; // AINLBCOKANA
+    uint32 tenCostItemId = 1298; // DNGKJJJHNEN
+    string titleTextmap = 67; // ANPADHPPJNE
+    uint32 costItemId = 14; // BCKMNIBIPHO
+    uint32 tenCostItemNum = 13; // LMLCPMOOKKA
+    uint32 begin_time = 6;
+    string gachaRecordUrlOversea = 1718; // FGJKAIDJJEH
+    uint32 wishProgress = 1755; // LJJKNKCHHFM
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

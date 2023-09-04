@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: DMKABPIBILH
+// CmdId: 3009
+message LeaveWorldNotify {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

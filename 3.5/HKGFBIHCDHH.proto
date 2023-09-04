@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: HKGFBIHCDHH
+// CmdId: 7677
+message HKGFBIHCDHH {
+    uint32 AHAIAIPGFDN = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

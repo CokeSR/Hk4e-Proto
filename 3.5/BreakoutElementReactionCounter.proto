@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BBFLDMEFACH
+message BreakoutElementReactionCounter {
+    uint32 element_reaction = 1;
+    uint32 count = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

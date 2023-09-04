@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BAKMJKAIJEM
+// CmdId: 8266
+message RoguelikeRefreshCardCostUpdateNotify {
+    uint32 item_id = 8;
+    uint32 item_count = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

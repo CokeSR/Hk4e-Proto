@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: LGJFDLLGBOO
+message ModifierDurability {
+    float reduce_ratio = 1;
+    float remaining_durability = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

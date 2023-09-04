@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "FurnitureMakeSlot.proto";
+
+// Name: LKGNOGMFCAJ
+// CmdId: 4487
+message FurnitureMakeStartRsp {
+    FurnitureMakeSlot furniture_make_slot = 13;
+    int32 retcode = 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

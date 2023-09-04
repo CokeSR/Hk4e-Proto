@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NKAECBFOIGF
+enum FoundationStatus {
+  FOUNDATION_STATUS_NONE     = 0;
+  FOUNDATION_STATUS_INIT     = 1;
+  FOUNDATION_STATUS_BUILDING = 2;
+  FOUNDATION_STATUS_BUILT    = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

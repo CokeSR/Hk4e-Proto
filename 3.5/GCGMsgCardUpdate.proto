@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "GCGCard.proto";
+
+// Name: EJDJOJANKDF
+message GCGMsgCardUpdate {
+    GCGCard card = 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

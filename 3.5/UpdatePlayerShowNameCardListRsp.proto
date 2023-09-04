@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: ICDMJMHFHOB
+// CmdId: 4087
+message UpdatePlayerShowNameCardListRsp {
+    int32 retcode = 7;
+    repeated uint32 show_name_card_id_list = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

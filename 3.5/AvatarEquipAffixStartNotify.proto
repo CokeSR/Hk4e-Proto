@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "AvatarEquipAffixInfo.proto";
+
+// Name: GDBEDIEBFFL
+// CmdId: 1666
+message AvatarEquipAffixStartNotify {
+    uint64 avatar_guid = 5;
+    AvatarEquipAffixInfo equip_affix_info = 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

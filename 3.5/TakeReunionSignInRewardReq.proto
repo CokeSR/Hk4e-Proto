@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: NKMADPICAMJ
+// CmdId: 5094
+message TakeReunionSignInRewardReq {
+    uint32 reward_day = 3;
+    uint32 config_id = 14;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

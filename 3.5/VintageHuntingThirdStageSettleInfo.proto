@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: GAPOAGCLGGA
+message VintageHuntingThirdStageSettleInfo {
+    bool is_success = 5;
+    uint32 left_time = 9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

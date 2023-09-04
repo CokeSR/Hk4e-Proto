@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+import "ScenePlayBattleInfo.proto";
+
+// Name: GANMGHEFDNP
+// CmdId: 4417
+message ScenePlayBattleInfoNotify {
+    ScenePlayBattleInfo battle_info = 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

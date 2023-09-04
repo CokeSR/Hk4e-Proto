@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: EPCHCAEIPNH
+// CmdId: 7875
+message EPCHCAEIPNH {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

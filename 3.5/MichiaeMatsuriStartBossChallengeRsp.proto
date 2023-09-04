@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: JLJHFLLJJMD
+// CmdId: 8826
+message MichiaeMatsuriStartBossChallengeRsp {
+    int32 retcode = 13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

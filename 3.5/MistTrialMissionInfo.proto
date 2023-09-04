@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+
+// Name: BJAGOBLGFKF
+message MistTrialMissionInfo {
+    uint32 watcher_list_id = 13;
+    uint32 param = 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
