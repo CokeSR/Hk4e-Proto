@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FindHilichurlFinishSecondQuestNotify {
+  // CMD_ID = 8774
+
+  uint32 day_index = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AvatarRenameInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarRenameInfoNotify {
+  // CMD_ID = 1665
+
+  repeated AvatarRenameInfo avatar_rename_list = 12;
+}

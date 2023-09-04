@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerApplyEnterMpResultRsp {
+  // CMD_ID = 1843
+
+  uint32 apply_uid = 10;
+  bool is_agreed = 9;
+  int32 retcode = 2;
+  uint32 param = 4;
+}

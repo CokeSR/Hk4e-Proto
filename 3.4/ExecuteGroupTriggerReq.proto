@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExecuteGroupTriggerReq {
+  // CMD_ID = 290
+
+  int32 param3 = 2;
+  int32 param1 = 7;
+  uint32 source_entity_id = 8;
+  int32 param2 = 4;
+  uint32 target_entity_id = 3;
+  string source_name = 5;
+}

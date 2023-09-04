@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "MotionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ForceDragAvatarNotify {
+  // CMD_ID = 3071
+
+  uint64 last_move_time_ms = 14;
+  uint32 entity_id = 8;
+  MotionInfo motion_info = 11;
+  uint64 delta_time_ms = 1;
+  bool is_first_valid = 5;
+  uint32 scene_time = 4;
+}

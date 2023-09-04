@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestTransmitReq {
+  // CMD_ID = 442
+
+  uint32 quest_id = 10;
+  uint32 point_id = 3;
+}

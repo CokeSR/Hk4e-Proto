@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "HideAndSeekPlayerBattleInfo.proto";
+import "HideAndSeekStageType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekStageInfo {
+  uint32 hunter_uid = 11;
+  map<uint32, HideAndSeekPlayerBattleInfo> battle_info_map = 12;
+  bool is_record_score = 15;
+  repeated uint32 hider_uid_list = 9;
+  uint32 map_id = 8;
+  HideAndSeekStageType stage_type = 1;
+}

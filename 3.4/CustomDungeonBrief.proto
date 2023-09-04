@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+import "CustomDungeonAbstract.proto";
+import "CustomDungeonSetting.proto";
+import "CustomDungeonSocial.proto";
+import "CustomDungeonState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonBrief {
+  CustomDungeonSetting setting = 7;
+  bool is_psn_platform = 4;
+  CustomDungeonAbstract abstract = 13;
+  CustomDungeonState state = 9;
+  uint64 dungeon_guid = 5;
+  repeated uint32 tag_list = 15;
+  uint32 last_save_time = 10;
+  CustomDungeonSocial social = 8;
+  uint32 battle_min_cost_time = 2;
+  uint32 dungeon_id = 6;
+}

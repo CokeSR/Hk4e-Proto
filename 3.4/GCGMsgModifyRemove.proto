@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgModifyRemove {
+  uint32 controller_id = 7;
+  repeated uint32 card_guid_list = 3;
+  GCGReason reason = 1;
+  uint32 owner_card_guid = 2;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestCreateEntityReq {
+  // CMD_ID = 414
+
+  uint32 parent_quest_id = 4;
+  bool is_rewind = 12;
+  CreateEntityInfo entity = 11;
+  uint32 quest_id = 10;
+}

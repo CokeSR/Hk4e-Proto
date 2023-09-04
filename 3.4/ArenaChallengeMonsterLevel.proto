@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ArenaChallengeMonsterLevel {
+  uint32 arena_challenge_level = 13;
+  uint32 arena_challenge_id = 3;
+}

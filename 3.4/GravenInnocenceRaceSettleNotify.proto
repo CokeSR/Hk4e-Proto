@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocenceRaceSettleNotify {
+  // CMD_ID = 20447
+
+  uint32 score = 6;
+  bool is_new_record = 11;
+  bool is_success = 1;
+  uint32 total_coint_count = 13;
+  GalleryStopReason reason = 9;
+  uint32 coin_count = 8;
+  uint32 gallery_id = 14;
+  uint32 remain_time = 12;
+  uint32 challenge_progress = 3;
+  uint32 level_id = 2;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ExploreType {
+  EXPLORE_TYPE_NONE = 0;
+  EXPLORE_TYPE_CRYSTAL = 1;
+  EXPLORE_TYPE_CHEST = 2;
+  EXPLORE_TYPE_TEMPLE = 3;
+  EXPLORE_TYPE_TELEPORT = 4;
+}

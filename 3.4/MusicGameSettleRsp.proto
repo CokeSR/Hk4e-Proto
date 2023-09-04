@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MusicGameSettleRsp {
+  // CMD_ID = 8735
+
+  int32 retcode = 9;
+  bool is_unlock_next_level = 1;
+  uint64 ugc_guid = 7;
+  uint32 music_basic_id = 4;
+  bool is_new_record = 14;
+}

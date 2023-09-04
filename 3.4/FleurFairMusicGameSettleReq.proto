@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairMusicGameSettleReq {
+  // CMD_ID = 2072
+
+  uint32 combo = 3;
+  uint32 music_basic_id = 9;
+  uint32 score = 7;
+  uint32 correct_hit = 6;
+}

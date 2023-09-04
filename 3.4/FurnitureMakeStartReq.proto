@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeStartReq {
+  // CMD_ID = 4740
+
+  uint32 make_id = 15;
+  uint32 avatar_id = 13;
+}

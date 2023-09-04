@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeEffigyFirstPassRewardRsp {
+  // CMD_ID = 2170
+
+  uint32 challenge_id = 13;
+  int32 retcode = 10;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WatcherEventNotify {
+  // CMD_ID = 2287
+
+  uint32 add_progress = 3;
+  uint32 watcher_id = 15;
+}

@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterTrainingGallerySettleNotify {
+  // CMD_ID = 23677
+
+  uint32 final_score = 6;
+  uint32 gadget_life_percentage = 14;
+  GalleryStopReason reason = 3;
+  uint32 settle_round = 11;
+  uint32 dead_fungus_num = 12;
+  uint32 total_used_time = 9;
+  bool is_final_settle = 7;
+  bool is_new_record = 5;
+}

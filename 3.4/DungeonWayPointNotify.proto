@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonWayPointNotify {
+  // CMD_ID = 980
+
+  repeated uint32 active_way_point_list = 15;
+  bool is_add = 3;
+}

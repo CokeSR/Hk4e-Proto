@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderStartLevelRsp {
+  // CMD_ID = 8495
+
+  repeated uint32 order_list = 3;
+  int32 retcode = 4;
+  uint32 level_id = 14;
+  uint32 time = 6;
+}

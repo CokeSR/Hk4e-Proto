@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtGrapplingHookMove {
+  uint32 entity_id = 2;
+  float max_speed = 14;
+  float speed = 10;
+  repeated uint32 animator_state_id_list = 7;
+  string override_collider = 12;
+  float acceleration = 5;
+  bool need_set_is_in_air = 4;
+  Vector target_pos = 3;
+  bool check_animator_state_on_exit_only = 13;
+}

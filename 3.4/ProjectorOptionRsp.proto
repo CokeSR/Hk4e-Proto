@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ProjectorOptionRsp {
+  // CMD_ID = 845
+
+  int32 retcode = 11;
+  uint32 entity_id = 10;
+  uint32 op_type = 3;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryCharAmusementInfo {
+  bool is_last_level = 10;
+  uint32 max_score = 8;
+  bool is_success = 7;
+  bool is_finish = 5;
+  uint32 cur_score = 12;
+}

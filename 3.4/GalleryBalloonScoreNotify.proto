@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryBalloonScoreNotify {
+  // CMD_ID = 5587
+
+  map<uint32, uint32> uid_score_map = 12;
+  uint32 gallery_id = 2;
+}

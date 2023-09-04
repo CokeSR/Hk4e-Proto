@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "FishBattleResult.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishBattleEndReq {
+  // CMD_ID = 5837
+
+  FishBattleResult battle_result = 11;
+  uint32 max_bonus_time = 10;
+  bool is_always_bonus = 5;
+}

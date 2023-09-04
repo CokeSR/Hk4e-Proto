@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AvatarTeamResonanceInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamResonanceChangeNotify {
+  // CMD_ID = 1006
+
+  repeated AvatarTeamResonanceInfo info_list = 3;
+}

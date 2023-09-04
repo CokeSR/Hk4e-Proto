@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarPropNotify {
+  // CMD_ID = 1224
+
+  uint64 avatar_guid = 15;
+  map<uint32, int64> prop_map = 11;
+}

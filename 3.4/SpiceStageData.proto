@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpiceStageData {
+  bool is_open = 10;
+  uint32 success_times = 3;
+  uint32 stage_id = 9;
+}

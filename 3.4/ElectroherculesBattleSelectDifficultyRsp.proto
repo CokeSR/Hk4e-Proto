@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ElectroherculesBattleSelectDifficultyRsp {
+  // CMD_ID = 24683
+
+  int32 retcode = 14;
+  uint32 gallery_id = 7;
+  uint32 diffculty = 1;
+  uint32 stage_id = 10;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGTCInviteReq {
+  // CMD_ID = 7579
+
+  uint32 level_id = 2;
+  uint32 character_id = 3;
+}

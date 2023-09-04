@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum TryCustomDungeonType {
+  TRY_CUSTOM_DUNGEON_TYPE_NONE = 0;
+  TRY_CUSTOM_DUNGEON_TYPE_ROOM = 1;
+  TRY_CUSTOM_DUNGEON_TYPE_ALL = 2;
+  TRY_CUSTOM_DUNGEON_TYPE_OFFICIAL_PLAY = 3;
+}

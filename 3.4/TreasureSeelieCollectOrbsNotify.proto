@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureSeelieCollectOrbsNotify {
+  // CMD_ID = 23448
+
+  uint32 current_num = 1;
+  uint32 total_num = 9;
+}

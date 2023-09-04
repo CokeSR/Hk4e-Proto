@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusUnlockGearRsp {
+  // CMD_ID = 3970
+
+  int32 retcode = 2;
+  uint32 gear_id = 9;
+  uint32 mechanicus_id = 13;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GearActivityFinishPlayGearRsp {
+  // CMD_ID = 24722
+
+  bool is_success = 15;
+  int32 retcode = 9;
+  uint32 level_id = 7;
+}

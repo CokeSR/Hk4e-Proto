@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionTakeRewardReq {
+  // CMD_ID = 2163
+
+  uint32 path_id = 2;
+}

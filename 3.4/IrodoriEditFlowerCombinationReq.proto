@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CustomGadgetTreeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriEditFlowerCombinationReq {
+  // CMD_ID = 8795
+
+  uint32 entity_id = 8;
+  CustomGadgetTreeInfo combination_info = 9;
+}

@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "CodexTypeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ViewCodexRsp {
+  // CMD_ID = 4209
+
+  repeated uint32 push_tips_reward_list = 14;
+  repeated uint32 recent_viewed_pushtips_list = 13;
+  repeated CodexTypeData type_data_list = 8;
+  int32 retcode = 10;
+  repeated uint32 push_tips_read_list = 7;
+}

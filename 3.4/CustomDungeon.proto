@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "CustomDungeonRoom.proto";
+import "CustomDungeonSetting.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeon {
+  uint64 dungeon_guid = 8;
+  repeated CustomDungeonRoom room_list = 3;
+  CustomDungeonSetting setting = 1;
+  uint32 dungeon_id = 4;
+}

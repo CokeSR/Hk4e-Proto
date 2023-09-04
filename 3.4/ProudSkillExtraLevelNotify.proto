@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ProudSkillExtraLevelNotify {
+  // CMD_ID = 1013
+
+  uint32 talent_index = 4;
+  uint64 avatar_guid = 2;
+  uint32 talent_type = 5;
+  uint32 extra_level = 13;
+}

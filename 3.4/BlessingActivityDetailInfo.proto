@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingActivityDetailInfo {
+  bool is_content_closed = 5;
+  uint32 content_close_time = 11;
+  uint32 cur_day_scan_num = 12;
+  uint32 cur_day_scan_type = 15;
+  uint32 redeem_reward_num = 9;
+  map<uint32, uint32> pic_num_map = 7;
+  uint32 next_refresh_time = 14;
+  bool is_activated = 8;
+}

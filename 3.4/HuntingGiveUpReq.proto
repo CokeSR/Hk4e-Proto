@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HuntingPair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HuntingGiveUpReq {
+  // CMD_ID = 4337
+
+  HuntingPair hunting_pair = 13;
+}

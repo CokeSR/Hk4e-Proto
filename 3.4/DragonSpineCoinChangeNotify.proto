@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DragonSpineCoinChangeNotify {
+  // CMD_ID = 2067
+
+  uint32 shimmering_essence = 7;
+  uint32 schedule_id = 14;
+  uint32 wondrous_essence = 1;
+  uint32 warm_essence = 5;
+}

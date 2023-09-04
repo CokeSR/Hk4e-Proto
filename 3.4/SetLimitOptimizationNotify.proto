@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetLimitOptimizationNotify {
+  // CMD_ID = 8763
+
+  bool is_active = 10;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "TowerLevelRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerFloorRecord {
+  uint32 floor_star_reward_progress = 4;
+  map<uint32, uint32> passed_level_map = 6;
+  repeated TowerLevelRecord passed_level_record_list = 7;
+  uint32 floor_id = 15;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "DeshretObeliskChestInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DeshretObeliskChestInfoNotify {
+  // CMD_ID = 807
+
+  repeated DeshretObeliskChestInfo chest_info_list = 4;
+}

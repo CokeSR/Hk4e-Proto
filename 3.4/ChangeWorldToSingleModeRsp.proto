@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeWorldToSingleModeRsp {
+  // CMD_ID = 3197
+
+  uint32 quit_mp_valid_time = 13;
+  int32 retcode = 3;
+}

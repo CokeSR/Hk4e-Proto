@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MatchReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerMatchStopNotify {
+  // CMD_ID = 4193
+
+  uint32 host_uid = 4;
+  MatchReason reason = 9;
+}

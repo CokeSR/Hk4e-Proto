@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MaterilaInfo {
+  uint32 count = 3;
+  uint64 guid = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGApplyInviteBattleRsp {
+  // CMD_ID = 7358
+
+  uint32 punish_end_time = 6;
+  int32 retcode = 10;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinElementShield {
+  float shield = 2;
+  float max_shield = 8;
+  bool is_shield_broken = 12;
+  float sub_shield = 13;
+  uint32 player_num = 15;
+  uint32 absorb_type = 1;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerBornDataReq {
+  // CMD_ID = 169
+
+  string nick_name = 10;
+  uint32 avatar_id = 15;
+}

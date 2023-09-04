@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseMiracleRingRsp {
+  // CMD_ID = 5245
+
+  uint32 miracle_ring_op_type = 9;
+  int32 retcode = 8;
+}

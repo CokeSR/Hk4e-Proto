@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusCoinNotify {
+  // CMD_ID = 3998
+
+  uint32 mechanicus_id = 8;
+  uint32 coin = 13;
+}

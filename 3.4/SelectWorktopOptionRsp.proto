@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SelectWorktopOptionRsp {
+  // CMD_ID = 874
+
+  int32 retcode = 11;
+  uint32 gadget_entity_id = 3;
+  uint32 option_id = 4;
+}

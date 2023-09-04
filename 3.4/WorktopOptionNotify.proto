@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WorktopOptionNotify {
+  // CMD_ID = 898
+
+  repeated uint32 option_list = 9;
+  uint32 gadget_entity_id = 15;
+}

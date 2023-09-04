@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CustomDungeonBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonUpdateNotify {
+  // CMD_ID = 6203
+
+  CustomDungeonBrief dungeon_brief = 14;
+}

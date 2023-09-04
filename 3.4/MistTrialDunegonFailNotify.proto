@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialDunegonFailNotify {
+  // CMD_ID = 8775
+
+  int32 dungeon_id = 9;
+}

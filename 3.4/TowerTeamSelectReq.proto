@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "TowerTeam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerTeamSelectReq {
+  // CMD_ID = 2474
+
+  repeated TowerTeam tower_team_list = 1;
+  uint32 floor_id = 11;
+}

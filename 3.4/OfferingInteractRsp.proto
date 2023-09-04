@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "PlayerOfferingData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message OfferingInteractRsp {
+  // CMD_ID = 2922
+
+  int32 retcode = 10;
+  PlayerOfferingData offering_data = 14;
+}

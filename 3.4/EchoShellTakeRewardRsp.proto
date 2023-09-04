@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EchoShellTakeRewardRsp {
+  // CMD_ID = 8180
+
+  uint32 reward_id = 2;
+  int32 retcode = 1;
+}

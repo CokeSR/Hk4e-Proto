@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteHintPointReq {
+  // CMD_ID = 8859
+
+  uint32 area_id = 5;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DestroyMaterialRsp {
+  // CMD_ID = 637
+
+  repeated uint32 item_id_list = 7;
+  int32 retcode = 12;
+  repeated uint32 item_count_list = 13;
+}

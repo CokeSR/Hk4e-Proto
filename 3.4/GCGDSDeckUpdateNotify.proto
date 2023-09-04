@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSDeckUpdateNotify {
+  // CMD_ID = 7267
+
+  bool is_valid = 4;
+  uint32 deck_id = 3;
+}

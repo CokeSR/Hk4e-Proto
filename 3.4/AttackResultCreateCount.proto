@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AttackResultCreateCount {
+  repeated uint32 create_count_no_cost_list = 4;
+  repeated uint32 create_count_list = 12;
+}

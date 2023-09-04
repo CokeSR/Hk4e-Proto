@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AcceptCityReputationRequestReq {
+  // CMD_ID = 2870
+
+  uint32 city_id = 2;
+  uint32 request_id = 12;
+}

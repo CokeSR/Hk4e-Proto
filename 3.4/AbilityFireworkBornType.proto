@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityFireworkBornType {
+  Vector pos = 8;
+  Vector move_dir = 1;
+  uint32 effect_index = 2;
+  Vector rot = 12;
+}

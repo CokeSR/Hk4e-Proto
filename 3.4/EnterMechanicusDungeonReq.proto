@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterMechanicusDungeonReq {
+  // CMD_ID = 3924
+
+  uint32 difficult_level = 10;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FireworksReformData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReformFireworksReq {
+  // CMD_ID = 5941
+
+  FireworksReformData fireworks_reform_data = 8;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionChallengeFinishedNotify {
+  // CMD_ID = 2094
+
+  uint32 id = 8;
+}

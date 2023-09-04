@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneEntityDrownReq {
+  // CMD_ID = 218
+
+  uint32 entity_id = 14;
+}

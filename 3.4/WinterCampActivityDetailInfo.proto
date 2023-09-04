@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+import "WinterCampRaceStageInfo.proto";
+import "WinterCampStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampActivityDetailInfo {
+  repeated WinterCampRaceStageInfo race_info_list = 5;
+  repeated uint32 explore_taken_reward_list = 14;
+  repeated ItemParam used_item_list = 8;
+  repeated uint32 battle_taken_reward_list = 7;
+  WinterCampStageInfo explore_info = 1;
+  repeated uint32 wish_id_list = 3;
+  bool is_content_closed = 11;
+  WinterCampStageInfo battle_info = 10;
+}

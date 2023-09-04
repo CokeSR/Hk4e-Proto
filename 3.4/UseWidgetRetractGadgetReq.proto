@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseWidgetRetractGadgetReq {
+  // CMD_ID = 4251
+
+  uint32 entity_id = 15;
+}

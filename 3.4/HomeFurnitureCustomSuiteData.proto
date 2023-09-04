@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeFurnitureCustomSuiteData {
+  uint32 guid = 10;
+  repeated int32 included_furniture_index_list = 5;
+  Vector spawn_pos = 6;
+}

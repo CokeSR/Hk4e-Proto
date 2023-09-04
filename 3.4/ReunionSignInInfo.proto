@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionSignInInfo {
+  uint32 last_sign_in_time = 9;
+  uint32 config_id = 13;
+  repeated uint32 reward_day_list = 5;
+  uint32 sign_in_count = 14;
+}

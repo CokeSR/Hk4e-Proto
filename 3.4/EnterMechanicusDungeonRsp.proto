@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterMechanicusDungeonRsp {
+  // CMD_ID = 3929
+
+  uint32 difficult_level = 6;
+  int32 retcode = 8;
+  uint32 dungeon_id = 9;
+  uint32 wrong_uid = 14;
+}

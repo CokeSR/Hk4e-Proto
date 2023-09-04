@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityTakeAllScoreRewardRsp {
+  // CMD_ID = 8501
+
+  uint32 activity_id = 13;
+  repeated uint32 reward_config_list = 7;
+  int32 retcode = 4;
+}

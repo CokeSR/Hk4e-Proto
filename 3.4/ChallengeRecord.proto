@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChallengeRecord {
+  uint32 best_value = 2;
+  uint32 challenge_index = 15;
+  uint32 challenge_id = 3;
+  uint32 challenge_record_type = 5;
+}

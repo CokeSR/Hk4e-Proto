@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerGetForceQuitBanInfoRsp {
+  // CMD_ID = 4157
+
+  int32 retcode = 7;
+  uint32 expire_time = 9;
+  uint32 match_id = 10;
+}

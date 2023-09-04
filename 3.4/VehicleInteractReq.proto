@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "VehicleInteractType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message VehicleInteractReq {
+  // CMD_ID = 888
+
+  uint32 pos = 14;
+  VehicleInteractType interact_type = 11;
+  uint32 entity_id = 13;
+}

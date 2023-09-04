@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerSetOnlyMPWithPSPlayerReq {
+  // CMD_ID = 1802
+
+  bool is_only = 6;
+}

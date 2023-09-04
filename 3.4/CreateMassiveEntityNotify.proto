@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ServerMassiveEntity.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CreateMassiveEntityNotify {
+  // CMD_ID = 364
+
+  repeated ServerMassiveEntity massive_entity_list = 8;
+}

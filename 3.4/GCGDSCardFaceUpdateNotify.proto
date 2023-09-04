@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSCardFaceUpdateNotify {
+  // CMD_ID = 7763
+
+  uint32 face_type = 12;
+  uint32 card_id = 1;
+}

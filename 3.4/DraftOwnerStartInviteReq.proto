@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftOwnerStartInviteReq {
+  // CMD_ID = 5487
+
+  uint32 draft_id = 1;
+}

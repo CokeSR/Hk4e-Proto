@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ArenaChallengeChildChallengeInfo {
+  bool is_success = 15;
+  bool is_settled = 4;
+  uint32 challenge_type = 5;
+  uint32 challenge_index = 8;
+  uint32 challenge_id = 14;
+}

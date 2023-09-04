@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBlueprintSlotInfo {
+  bool is_allow_copy = 9;
+  uint32 create_time = 8;
+  uint32 scene_id = 3;
+  uint32 block_id = 2;
+  uint32 slot_id = 12;
+  uint32 module_id = 1;
+  string share_code = 4;
+}

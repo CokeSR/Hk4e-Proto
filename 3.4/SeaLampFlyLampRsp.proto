@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampFlyLampRsp {
+  // CMD_ID = 2127
+
+  uint32 item_num = 13;
+  int32 retcode = 3;
+  uint32 item_id = 2;
+}

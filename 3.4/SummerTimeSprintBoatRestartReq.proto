@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeSprintBoatRestartReq {
+  // CMD_ID = 8994
+
+  uint32 schedule_id = 10;
+  uint32 group_id = 5;
+}

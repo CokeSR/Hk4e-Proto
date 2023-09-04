@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayOwnerInviteNotify {
+  // CMD_ID = 4424
+
+  bool is_remain_reward = 13;
+  uint32 invite_cd = 3;
+  uint32 play_id = 10;
+}

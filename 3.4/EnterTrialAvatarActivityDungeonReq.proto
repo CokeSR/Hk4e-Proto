@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterTrialAvatarActivityDungeonReq {
+  // CMD_ID = 2167
+
+  uint32 activity_id = 3;
+  uint32 enter_point_id = 13;
+  uint32 trial_avatar_index_id = 4;
+}

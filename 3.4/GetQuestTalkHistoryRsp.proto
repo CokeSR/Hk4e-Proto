@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetQuestTalkHistoryRsp {
+  // CMD_ID = 462
+
+  int32 retcode = 8;
+  uint32 parent_quest_id = 13;
+  repeated uint32 talk_id_list = 7;
+}

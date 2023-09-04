@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketStoreChooseStrategyRsp {
+  // CMD_ID = 23497
+
+  repeated uint32 strategy_list = 7;
+  uint32 store_id = 15;
+  int32 retcode = 8;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerDeathZoneNotify {
+  // CMD_ID = 6296
+
+  uint32 cur_death_zone_id = 11;
+}

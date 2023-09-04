@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityInvocationsNotify {
+  // CMD_ID = 1155
+
+  repeated AbilityInvokeEntry invokes = 11;
+}

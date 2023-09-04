@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DoRoguelikeDungeonCardGachaReq {
+  // CMD_ID = 8752
+
+  uint32 cell_id = 13;
+  uint32 dungeon_id = 6;
+}

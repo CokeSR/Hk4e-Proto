@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SelectEffigyChallengeConditionRsp {
+  // CMD_ID = 2068
+
+  int32 retcode = 12;
+  repeated uint32 condition_id_list = 1;
+  uint32 challenge_id = 11;
+  uint32 difficulty_id = 10;
+}

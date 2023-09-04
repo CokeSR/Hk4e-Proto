@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TrackingIOInfo {
+  string rydevicetype = 2;
+  string client_tz = 6;
+  string current_caid = 15;
+  string cached_caid = 11;
+  string deviceid = 5;
+  string mac = 9;
+  string appid = 3;
+}

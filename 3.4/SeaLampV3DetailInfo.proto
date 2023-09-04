@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "SeaLampV3CampInfo.proto";
+import "SeaLampV3RaceInfo.proto";
+import "SeaLampV3ShadowInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampV3DetailInfo {
+  SeaLampV3RaceInfo race_info = 4;
+  SeaLampV3CampInfo camp_info = 11;
+  SeaLampV3ShadowInfo shadow_info = 3;
+}

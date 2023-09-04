@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayGuestReplyInviteReq {
+  // CMD_ID = 1806
+
+  uint32 mp_play_id = 6;
+  bool is_agree = 7;
+}

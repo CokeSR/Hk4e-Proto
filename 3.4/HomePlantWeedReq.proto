@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantWeedReq {
+  // CMD_ID = 4603
+
+  uint32 index = 1;
+  uint32 field_guid = 7;
+}

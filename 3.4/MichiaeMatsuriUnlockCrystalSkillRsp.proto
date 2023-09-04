@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriUnlockCrystalSkillRsp {
+  // CMD_ID = 8889
+
+  uint32 crystal_skill_id = 1;
+  int32 retcode = 13;
+}

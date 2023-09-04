@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabLoopDungeonTakeScoreRewardRsp {
+  // CMD_ID = 8186
+
+  int32 retcode = 5;
+  uint32 reward_index = 11;
+}

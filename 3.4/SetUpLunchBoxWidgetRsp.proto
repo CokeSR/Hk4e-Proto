@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "LunchBoxData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetUpLunchBoxWidgetRsp {
+  // CMD_ID = 4266
+
+  LunchBoxData lunch_box_data = 15;
+  int32 retcode = 3;
+}

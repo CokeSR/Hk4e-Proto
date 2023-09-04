@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGClientSettleRsp {
+  // CMD_ID = 7490
+
+  int32 retcode = 14;
+  uint32 close_time = 7;
+}

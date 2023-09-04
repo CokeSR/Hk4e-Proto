@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "CustomDungeon.proto";
+import "EnterCustomDungeonType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterCustomDungeonRsp {
+  // CMD_ID = 6245
+
+  int32 retcode = 9;
+  EnterCustomDungeonType enter_type = 4;
+  map<uint32, uint32> room_cost_map = 2;
+  CustomDungeon custom_dungeon = 7;
+}

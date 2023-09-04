@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeFieldReq {
+  // CMD_ID = 7691
+
+  uint32 deck_id = 15;
+  uint32 field_id = 2;
+}

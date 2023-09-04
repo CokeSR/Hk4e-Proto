@@ -1,0 +1,54 @@
+
+syntax = "proto3";
+
+import "AdjustTrackingInfo.proto";
+import "TrackingIOInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerLoginReq {
+  // CMD_ID = 187
+
+  string token = 6;
+  uint32 target_home_param = 323;
+  uint32 target_uid = 4;
+  string checksum_client_version = 1738;
+  string account_uid = 9;
+  bool is_editor = 13;
+  string birthday = 1280;
+  bytes extra_bin_data = 78;
+  uint32 reg_platform = 119;
+  uint32 gm_uid = 246;
+  string checksum = 1715;
+  uint32 platform_type = 12;
+  TrackingIOInfo tracking_io_info = 710;
+  uint32 client_token = 1762;
+  string device_info = 14;
+  uint32 target_home_owner_uid = 216;
+  string platform = 2;
+  uint32 channel_id = 324;
+  string country_code = 1616;
+  uint64 login_rand = 8;
+  string online_id = 54;
+  uint32 sub_channel_id = 1709;
+  string device_uuid = 15;
+  uint32 client_port = 2024;
+  string client_verison_hash = 1765;
+  AdjustTrackingInfo adjust_tracking_info = 442;
+  uint32 account_type = 7;
+  string psn_id = 1568;
+  uint32 tag = 1223;
+  uint32 cloud_client_ip = 1394;
+  string system_version = 3;
+  bool is_guest = 10;
+  string client_version = 11;
+  bool is_transfer = 2037;
+  bytes environment_error_code = 1015;
+  string device_name = 1;
+  string security_library_md5 = 378;
+  uint32 language_type = 5;
+  bytes security_cmd_reply = 907;
+  string security_library_version = 684;
+  uint32 client_data_version = 426;
+  string cps = 821;
+}

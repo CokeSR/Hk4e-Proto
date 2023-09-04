@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FindHilichurlDayContentInfo {
+  uint32 start_time = 5;
+}

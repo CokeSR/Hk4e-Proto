@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetIsAutoUnlockSpecificEquipReq {
+  // CMD_ID = 689
+
+  bool is_auto_unlock_specific_equip = 3;
+}

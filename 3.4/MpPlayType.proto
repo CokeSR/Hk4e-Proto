@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum MpPlayType {
+  MP_PLAY_TYPE_NONE = 0;
+  MP_PLAY_TYPE_DUNGEON = 1;
+  MP_PLAY_TYPE_CRUCIBLE = 2;
+}

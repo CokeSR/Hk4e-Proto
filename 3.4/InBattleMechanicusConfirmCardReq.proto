@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusConfirmCardReq {
+  // CMD_ID = 5324
+
+  uint32 play_index = 4;
+  uint32 group_id = 15;
+  uint32 card_id = 9;
+}

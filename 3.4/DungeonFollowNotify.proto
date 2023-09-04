@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonFollowNotify {
+  // CMD_ID = 992
+
+  uint32 target_uid = 9;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MonsterRoute.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MonsterPointArrayRouteUpdateNotify {
+  // CMD_ID = 3271
+
+  uint32 entity_id = 12;
+  MonsterRoute monster_route = 2;
+}

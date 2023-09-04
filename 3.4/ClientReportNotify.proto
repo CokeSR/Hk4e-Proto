@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientReportNotify {
+  // CMD_ID = 13
+
+  string report_value = 7;
+  string report_type = 12;
+}

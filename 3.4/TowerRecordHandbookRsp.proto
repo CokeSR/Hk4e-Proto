@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "TowerMonthlyDetail.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerRecordHandbookRsp {
+  // CMD_ID = 2450
+
+  repeated TowerMonthlyDetail monthly_detail_list = 8;
+  int32 retcode = 12;
+}

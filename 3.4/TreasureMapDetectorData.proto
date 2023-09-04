@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapDetectorData {
+  repeated Vector spot_list = 15;
+  uint32 region_id = 6;
+  uint32 radius = 7;
+  Vector center_pos = 8;
+  bool is_region_detected = 12;
+}

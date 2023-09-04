@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGPlayCardCostInfo {
+  uint32 card_id = 3;
+  repeated Uint32Pair cost_list = 10;
+}

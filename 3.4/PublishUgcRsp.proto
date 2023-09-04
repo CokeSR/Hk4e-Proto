@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PublishUgcRsp {
+  // CMD_ID = 6325
+
+  UgcType ugc_type = 8;
+  int32 retcode = 14;
+  uint64 ugc_guid = 4;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeFurnitureMakeReq {
+  // CMD_ID = 4825
+
+  uint32 index = 6;
+  bool is_fast_finish = 15;
+  uint32 make_id = 9;
+}

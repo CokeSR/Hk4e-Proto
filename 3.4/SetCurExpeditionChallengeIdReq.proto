@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetCurExpeditionChallengeIdReq {
+  // CMD_ID = 2081
+
+  uint32 id = 6;
+}

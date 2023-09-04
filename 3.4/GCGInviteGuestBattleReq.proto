@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGInviteGuestBattleReq {
+  // CMD_ID = 7254
+
+  uint32 uid = 11;
+  uint32 festival_mode_type = 12;
+}

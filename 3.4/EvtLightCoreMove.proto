@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtLightCoreMove {
+  uint32 entity_id = 5;
+  float acelerate = 2;
+  float max_absorb_time = 14;
+  Vector target_pos = 12;
+  float speed = 6;
+}

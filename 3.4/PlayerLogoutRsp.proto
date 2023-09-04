@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerLogoutRsp {
+  // CMD_ID = 174
+
+  int32 retcode = 5;
+}

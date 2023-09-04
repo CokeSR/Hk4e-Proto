@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayGuestReplyInviteRsp {
+  // CMD_ID = 1848
+
+  int32 retcode = 13;
+  uint32 mp_play_id = 14;
+}

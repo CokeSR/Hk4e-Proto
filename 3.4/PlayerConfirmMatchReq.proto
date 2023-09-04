@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MatchType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerConfirmMatchReq {
+  // CMD_ID = 4185
+
+  MatchType match_type = 12;
+  bool is_agreed = 13;
+}

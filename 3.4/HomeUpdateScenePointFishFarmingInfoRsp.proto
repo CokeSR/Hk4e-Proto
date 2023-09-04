@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeUpdateScenePointFishFarmingInfoRsp {
+  // CMD_ID = 4548
+
+  int32 retcode = 15;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AvatarInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarAddNotify {
+  // CMD_ID = 1661
+
+  AvatarInfo avatar = 8;
+  bool is_in_team = 14;
+}

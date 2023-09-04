@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InstableSpraySwitchTeamRsp {
+  // CMD_ID = 20452
+
+  uint32 level_id = 14;
+  int32 retcode = 12;
+}

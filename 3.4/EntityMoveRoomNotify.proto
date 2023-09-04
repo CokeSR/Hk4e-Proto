@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityMoveRoomNotify {
+  // CMD_ID = 3186
+
+  uint32 entity_id = 2;
+  uint32 dest_room_id = 5;
+}

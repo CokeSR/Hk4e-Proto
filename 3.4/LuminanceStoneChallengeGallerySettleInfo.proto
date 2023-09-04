@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LuminanceStoneChallengeGallerySettleInfo {
+  uint32 clean_mud_count = 15;
+  uint32 gallery_id = 11;
+  GalleryStopReason reason = 9;
+  uint32 kill_monster_count = 6;
+  uint32 kill_special_monster_count = 4;
+  uint32 final_score = 5;
+}

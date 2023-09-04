@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectChooseSkillRsp {
+  // CMD_ID = 24303
+
+  uint32 level_id = 5;
+  int32 retcode = 7;
+  uint32 choose_skill_no = 1;
+}

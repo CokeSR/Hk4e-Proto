@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "FireworksReformParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FireworksReformData {
+  repeated FireworksReformParam reform_param_list = 2;
+  uint32 id = 7;
+}

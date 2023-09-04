@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampV3CampStageInfo {
+  bool is_finished = 2;
+  bool is_open = 4;
+  uint32 stage_id = 12;
+  uint32 level_id = 5;
+}

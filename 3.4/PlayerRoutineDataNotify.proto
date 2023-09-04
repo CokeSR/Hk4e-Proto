@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerRoutineInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerRoutineDataNotify {
+  // CMD_ID = 3538
+
+  repeated PlayerRoutineInfo routine_info_list = 12;
+}

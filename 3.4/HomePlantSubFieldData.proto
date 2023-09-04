@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "HomePlantFieldStatus.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantSubFieldData {
+  fixed32 end_time = 15;
+  repeated uint32 entity_id_list = 4;
+  uint32 home_gather_id = 10;
+  HomePlantFieldStatus field_status = 8;
+  uint32 seed_id = 6;
+}

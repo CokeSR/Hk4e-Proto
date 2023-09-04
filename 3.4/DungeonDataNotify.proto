@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonDataNotify {
+  // CMD_ID = 906
+
+  map<uint32, uint32> dungeon_data_map = 6;
+}

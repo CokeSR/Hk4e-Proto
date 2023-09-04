@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "RogueDiaryAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueDiaryPlayRsp {
+  // CMD_ID = 8780
+
+  repeated RogueDiaryAvatar trial_avatar_list = 8;
+  int32 retcode = 3;
+  repeated uint32 rand_card_list = 2;
+  repeated RogueDiaryAvatar avatar_list = 13;
+}

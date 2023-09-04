@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderLevelInfo {
+  bool is_finish = 13;
+  uint32 max_score = 12;
+  uint32 id = 10;
+}

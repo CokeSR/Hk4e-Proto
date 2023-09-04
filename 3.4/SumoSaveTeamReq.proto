@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "SumoTeamData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoSaveTeamReq {
+  // CMD_ID = 8599
+
+  uint32 difficulty_id = 14;
+  repeated SumoTeamData team_list = 2;
+  uint32 stage_id = 7;
+  uint32 activity_id = 12;
+}

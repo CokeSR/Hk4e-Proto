@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EvtSetAttackTargetInfo.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtSetAttackTargetNotify {
+  // CMD_ID = 314
+
+  EvtSetAttackTargetInfo evt_set_attack_target_info = 1;
+  ForwardType forward_type = 15;
+}

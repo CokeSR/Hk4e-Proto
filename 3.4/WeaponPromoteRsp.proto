@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponPromoteRsp {
+  // CMD_ID = 688
+
+  uint32 cur_promote_level = 13;
+  uint64 target_weapon_guid = 2;
+  int32 retcode = 14;
+  uint32 old_promote_level = 10;
+}

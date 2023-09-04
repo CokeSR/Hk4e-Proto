@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BonusActivityInfo {
+  uint32 bonus_activity_id = 5;
+  uint32 state = 4;
+}

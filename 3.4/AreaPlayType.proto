@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum AreaPlayType {
+  AREA_PLAY_TYPE_NONE = 0;
+  AREA_PLAY_TYPE_CLIMATE = 1;
+  AREA_PLAY_TYPE_REGIONAL_PLAY = 2;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabOneOffDungeonInfoNotify {
+  // CMD_ID = 8038
+
+  repeated uint32 scheme_buff_id_list = 9;
+}

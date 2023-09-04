@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarSkillDepotChangeNotify {
+  // CMD_ID = 1098
+
+  repeated uint32 talent_id_list = 14;
+  repeated uint32 proud_skill_list = 11;
+  uint32 skill_depot_id = 8;
+  uint32 entity_id = 3;
+  map<uint32, uint32> proud_skill_extra_level_map = 4;
+  uint32 core_proud_skill_level = 10;
+  map<uint32, uint32> skill_level_map = 13;
+  uint64 avatar_guid = 12;
+}

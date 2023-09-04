@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityWatcherInfo {
+  uint32 cur_progress = 8;
+  bool is_taken_reward = 12;
+  uint32 total_progress = 1;
+  uint32 watcher_id = 10;
+}

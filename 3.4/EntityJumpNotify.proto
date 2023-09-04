@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityJumpNotify {
+  // CMD_ID = 292
+
+  enum Type {
+    TYPE_NULL = 0;
+    TYPE_ACTIVE = 1;
+    TYPE_PASSIVE = 2;
+  }
+
+  Vector rot = 8;
+  Vector pos = 5;
+  uint32 entity_id = 11;
+  Type jump_type = 3;
+}

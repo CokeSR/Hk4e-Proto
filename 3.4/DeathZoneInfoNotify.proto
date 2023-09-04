@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "DeathZoneInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DeathZoneInfoNotify {
+  // CMD_ID = 6295
+
+  repeated DeathZoneInfo death_zone_info_list = 3;
+}

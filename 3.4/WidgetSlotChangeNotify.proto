@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "WidgetSlotData.proto";
+import "WidgetSlotOp.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetSlotChangeNotify {
+  // CMD_ID = 4283
+
+  WidgetSlotOp op = 14;
+  WidgetSlotData slot = 2;
+}

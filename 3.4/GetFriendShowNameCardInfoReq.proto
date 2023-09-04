@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetFriendShowNameCardInfoReq {
+  // CMD_ID = 4015
+
+  uint32 uid = 1;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PrivateChatRsp {
+  // CMD_ID = 5005
+
+  uint32 chat_forbidden_endtime = 8;
+  int32 retcode = 5;
+}

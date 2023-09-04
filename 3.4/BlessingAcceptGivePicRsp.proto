@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingAcceptGivePicRsp {
+  // CMD_ID = 2069
+
+  uint32 pic_id = 12;
+  uint32 index = 13;
+  uint32 uid = 11;
+  int32 retcode = 14;
+}

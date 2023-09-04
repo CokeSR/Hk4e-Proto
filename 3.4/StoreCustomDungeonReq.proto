@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StoreCustomDungeonReq {
+  // CMD_ID = 6211
+
+  bool is_cancel_store = 5;
+  uint64 dungeon_guid = 2;
+}

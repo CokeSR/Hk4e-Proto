@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeAsterSpecialRewardReq {
+  // CMD_ID = 2093
+
+  uint32 schedule_id = 6;
+}

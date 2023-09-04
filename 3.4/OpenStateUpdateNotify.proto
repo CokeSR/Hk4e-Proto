@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OpenStateUpdateNotify {
+  // CMD_ID = 158
+
+  map<uint32, uint32> open_state_map = 9;
+}

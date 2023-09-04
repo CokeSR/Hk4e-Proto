@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ReunionPrivilegeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetReunionPrivilegeInfoRsp {
+  // CMD_ID = 5065
+
+  int32 retcode = 15;
+  ReunionPrivilegeInfo privilege_info = 14;
+}

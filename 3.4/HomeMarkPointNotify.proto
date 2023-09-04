@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeMarkPointSceneData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeMarkPointNotify {
+  // CMD_ID = 4832
+
+  repeated HomeMarkPointSceneData mark_point_data_list = 11;
+}

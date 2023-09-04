@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerApplyEnterHomeNotify {
+  // CMD_ID = 4771
+
+  OnlinePlayerInfo src_player_info = 7;
+  uint32 src_app_id = 13;
+}

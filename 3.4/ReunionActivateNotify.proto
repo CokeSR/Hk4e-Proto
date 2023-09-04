@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ReunionBriefInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionActivateNotify {
+  // CMD_ID = 5060
+
+  ReunionBriefInfo reunion_brief_info = 7;
+  bool is_activate = 5;
+}

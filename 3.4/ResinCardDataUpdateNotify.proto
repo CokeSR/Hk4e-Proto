@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ResinCardData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ResinCardDataUpdateNotify {
+  // CMD_ID = 4125
+
+  uint32 today_start_time = 15;
+  repeated ResinCardData card_data_list = 10;
+}

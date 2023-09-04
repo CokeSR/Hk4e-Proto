@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeNewUnlockedBgmIdListNotify {
+  // CMD_ID = 4732
+
+  repeated uint32 new_unlocked_bgm_id_list = 6;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SealBattleEndNotify {
+  // CMD_ID = 265
+
+  uint32 seal_entity_id = 3;
+  bool is_win = 13;
+}

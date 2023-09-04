@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseWidgetRetractGadgetRsp {
+  // CMD_ID = 4289
+
+  int32 retcode = 11;
+  uint32 entity_id = 4;
+}

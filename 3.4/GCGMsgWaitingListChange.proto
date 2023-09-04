@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgWaitingListChange {
+  uint32 controller_id = 4;
+  uint32 cur_index = 3;
+}

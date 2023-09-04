@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionChallengeInfo {
+  uint32 open_time = 11;
+  uint32 id = 13;
+  bool is_finished = 15;
+}

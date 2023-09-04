@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CityReputationQuestInfo {
+  bool is_open = 14;
+  repeated uint32 taken_parent_quest_reward_list = 4;
+  repeated uint32 finished_parent_quest_list = 10;
+}

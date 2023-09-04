@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MusicGameStartRsp {
+  // CMD_ID = 8893
+
+  int32 retcode = 10;
+  uint64 ugc_guid = 8;
+  uint32 music_basic_id = 15;
+}

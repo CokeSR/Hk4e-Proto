@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeKickPlayerRsp {
+  // CMD_ID = 4883
+
+  bool is_kick_all = 8;
+  uint32 target_uid = 5;
+  int32 retcode = 2;
+}

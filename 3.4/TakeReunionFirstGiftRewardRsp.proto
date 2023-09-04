@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionFirstGiftRewardRsp {
+  // CMD_ID = 5091
+
+  int32 retcode = 14;
+  int32 reward_id = 12;
+}

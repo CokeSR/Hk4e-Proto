@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "HomeFurnitureData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeFurnitureGroupData {
+  repeated HomeFurnitureData virtual_furniure_list = 12;
+  uint32 group_furniture_index = 4;
+}

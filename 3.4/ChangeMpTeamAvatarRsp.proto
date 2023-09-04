@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeMpTeamAvatarRsp {
+  // CMD_ID = 1796
+
+  uint64 cur_avatar_guid = 12;
+  repeated uint64 avatar_guid_list = 10;
+  int32 retcode = 1;
+}

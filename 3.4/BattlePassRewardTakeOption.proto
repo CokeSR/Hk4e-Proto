@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "BattlePassRewardTag.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassRewardTakeOption {
+  BattlePassRewardTag tag = 15;
+  uint32 option_idx = 14;
+}

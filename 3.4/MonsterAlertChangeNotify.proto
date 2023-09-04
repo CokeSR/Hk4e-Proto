@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MonsterAlertChangeNotify {
+  // CMD_ID = 322
+
+  uint32 avatar_entity_id = 2;
+  uint32 is_alert = 10;
+  repeated uint32 monster_entity_list = 15;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteAreaFinishNotify {
+  // CMD_ID = 8711
+
+  uint32 area_id = 12;
+}

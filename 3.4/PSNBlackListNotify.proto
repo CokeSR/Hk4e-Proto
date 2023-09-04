@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PSNBlackListNotify {
+  // CMD_ID = 4001
+
+  repeated FriendBrief psn_blacklist = 10;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeStartReq {
+  // CMD_ID = 652
+
+  uint32 avatar_id = 10;
+  uint32 forge_count = 6;
+  uint32 forge_id = 3;
+}

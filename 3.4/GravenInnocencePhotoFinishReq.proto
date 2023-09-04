@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocencePhotoFinishReq {
+  // CMD_ID = 23521
+
+  uint32 param = 9;
+  uint32 object_id = 3;
+}

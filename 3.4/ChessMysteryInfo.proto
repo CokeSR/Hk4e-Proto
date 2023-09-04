@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ChessEntranceDetailInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessMysteryInfo {
+  repeated uint32 exit_point_id_list = 2;
+  map<uint32, uint32> entrance_point_map = 11;
+  map<uint32, ChessEntranceDetailInfo> detail_info_map = 5;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum FeatureBlockType {
+  FEATURE_BLOCK_TYPE_NONE = 0;
+  FEATURE_BLOCK_TYPE_CHAT = 1;
+  FEATURE_BLOCK_TYPE_MP = 2;
+  FEATURE_BLOCK_TYPE_FEATRURE_BLOCK_TYPE_CRC = 3;
+  FEATURE_BLOCK_TYPE_HOME = 4;
+}

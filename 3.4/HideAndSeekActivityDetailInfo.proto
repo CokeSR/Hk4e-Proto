@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "HideAndSeekMapInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekActivityDetailInfo {
+  repeated uint32 chosen_map_list = 5;
+  repeated uint32 chosen_hider_skill_list = 3;
+  repeated uint32 unlock_map_list = 13;
+  repeated HideAndSeekMapInfo open_map_info_list = 4;
+  repeated uint32 chosen_hunter_skill_list = 8;
+}

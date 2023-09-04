@@ -1,0 +1,29 @@
+
+syntax = "proto3";
+
+import "GCGDiceSideType.proto";
+import "GCGPVEIntention.proto";
+import "GCGWaitingCharacter.proto";
+import "GCGZone.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGPlayerField {
+  GCGZone summon_zone = 4;
+  uint32 dice_count = 12;
+  repeated GCGDiceSideType dice_side_list = 7;
+  uint32 cur_waiting_index = 181;
+  repeated GCGPVEIntention intention_list = 1273;
+  uint32 card_back_show_id = 14;
+  uint32 field_show_id = 1;
+  uint32 on_stage_character_guid = 6;
+  uint32 controller_id = 3;
+  map<uint32, GCGZone> modify_zone_map = 11;
+  GCGZone on_stage_zone = 10;
+  uint32 deck_card_num = 15;
+  GCGZone assist_zone = 5;
+  GCGZone character_zone = 8;
+  GCGZone hand_zone = 9;
+  repeated GCGWaitingCharacter waiting_list = 2;
+  bool is_passed = 13;
+}

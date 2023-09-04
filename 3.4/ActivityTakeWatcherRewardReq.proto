@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityTakeWatcherRewardReq {
+  // CMD_ID = 2124
+
+  uint32 activity_id = 11;
+  uint32 watcher_id = 6;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "EntityClientData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetEntityClientDataNotify {
+  // CMD_ID = 3149
+
+  uint32 entity_id = 15;
+  EntityClientData entity_client_data = 13;
+}

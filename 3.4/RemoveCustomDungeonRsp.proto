@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RemoveCustomDungeonRsp {
+  // CMD_ID = 6202
+
+  uint64 dungeon_guid = 9;
+  int32 retcode = 6;
+}

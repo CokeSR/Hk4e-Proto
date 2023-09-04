@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriInteractStatueReq {
+  // CMD_ID = 8553
+
+  uint32 statue_entity_id = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExecuteGadgetLuaRsp {
+  // CMD_ID = 209
+
+  int32 retcode = 13;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarRenameInfo {
+  uint32 avatar_id = 1;
+  string avatar_name = 8;
+}

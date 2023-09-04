@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum LoginRewardConfigType {
+  LOGIN_REWARD_CONFIG_TYPE_IMMEDIDATE = 0;
+  LOGIN_REWARD_CONFIG_TYPE_FIRST = 1;
+}

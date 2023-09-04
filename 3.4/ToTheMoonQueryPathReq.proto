@@ -1,0 +1,39 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ToTheMoonQueryPathReq {
+  // CMD_ID = 6105
+
+  enum OptionType {
+    OPTION_TYPE_NONE = 0;
+    OPTION_TYPE_NORMAL = 1;
+  }
+
+  enum AStarMethod {
+    A_STAR_METHOD_CLASSIC = 0;
+    A_STAR_METHOD_TENDENCY = 1;
+    A_STAR_METHOD_ADAPTIVE = 2;
+    A_STAR_METHOD_INFLECTION = 3;
+  }
+
+  enum FilterType {
+    FILTER_TYPE_ALL = 0;
+    FILTER_TYPE_AIR = 1;
+    FILTER_TYPE_WATER = 2;
+  }
+
+  OptionType query_type = 15;
+  int32 query_id = 3;
+  Vector source_pos = 12;
+  uint32 scene_id = 6;
+  AStarMethod astar_method = 1;
+  FilterType filter_type = 8;
+  int32 fuzzy_range = 7;
+  bool refined = 10;
+  bool use_full_neighbor = 2;
+  Vector destination_pos = 5;
+}

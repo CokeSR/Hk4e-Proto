@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetSceneWeatherAreaReq {
+  // CMD_ID = 208
+
+  uint32 weather_gadget_id = 15;
+  map<uint32, string> weather_value_map = 6;
+}

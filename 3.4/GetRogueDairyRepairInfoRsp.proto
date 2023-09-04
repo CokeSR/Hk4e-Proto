@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetRogueDairyRepairInfoRsp {
+  // CMD_ID = 8881
+
+  int32 retcode = 9;
+}

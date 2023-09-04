@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayGuestReplyNotify {
+  // CMD_ID = 4412
+
+  uint32 guest_uid = 15;
+  uint32 play_id = 12;
+  bool is_agree = 10;
+}

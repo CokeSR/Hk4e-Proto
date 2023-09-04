@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGPhaseType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgOpTimer {
+  fixed64 time_stamp = 9;
+  fixed64 begin_time = 10;
+  uint32 controller_id = 6;
+  GCGPhaseType phase = 1;
+}

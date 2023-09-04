@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanternRiteFireworksChallengeInfo {
+  bool is_full_score = 11;
+  uint32 best_score = 14;
+  uint32 challenge_id = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampTriathlonRestartRsp {
+  // CMD_ID = 8323
+
+  int32 retcode = 14;
+  uint32 gallery_id = 13;
+}

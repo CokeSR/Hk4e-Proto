@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReportFightAntiCheatNotify {
+  // CMD_ID = 311
+
+  uint32 cheat_type = 12;
+  uint32 cheat_count = 8;
+}

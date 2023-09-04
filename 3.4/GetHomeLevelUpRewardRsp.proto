@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetHomeLevelUpRewardRsp {
+  // CMD_ID = 4668
+
+  uint32 level = 5;
+  int32 retcode = 6;
+}

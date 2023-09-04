@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponUpgradeReq {
+  // CMD_ID = 646
+
+  repeated ItemParam item_param_list = 1;
+  uint64 target_weapon_guid = 11;
+  repeated uint64 food_weapon_guid_list = 7;
+}

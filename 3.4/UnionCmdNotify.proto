@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "UnionCmd.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message UnionCmdNotify {
+  // CMD_ID = 69
+
+  repeated UnionCmd cmd_list = 11;
+}

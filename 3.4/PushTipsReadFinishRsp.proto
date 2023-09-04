@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PushTipsReadFinishRsp {
+  // CMD_ID = 2258
+
+  int32 retcode = 1;
+  uint32 push_tips_id = 15;
+}

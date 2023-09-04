@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAnimatorStateChangedInfo {
+  uint32 normalized_time_compact = 9;
+  float fade_duration = 8;
+  uint32 entity_id = 11;
+  bool force_sync = 13;
+  bool handle_animator_state_immediately = 12;
+  int32 face_angle_compact = 3;
+  uint32 to_state_hash = 4;
+  uint32 layer = 5;
+  Vector pos = 7;
+}

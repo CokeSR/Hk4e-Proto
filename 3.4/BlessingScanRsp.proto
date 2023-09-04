@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingScanRsp {
+  // CMD_ID = 2122
+
+  int32 retcode = 8;
+  uint32 cur_day_scan_num = 4;
+  uint32 scan_pic_id = 9;
+}

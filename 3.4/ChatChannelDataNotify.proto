@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ChatChannelInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChatChannelDataNotify {
+  // CMD_ID = 5028
+
+  repeated uint32 channel_list = 12;
+  repeated ChatChannelInfo channel_info_list = 7;
+}

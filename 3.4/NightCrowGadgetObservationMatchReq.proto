@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message NightCrowGadgetObservationMatchReq {
+  // CMD_ID = 843
+
+  uint32 gadget_entity_id = 7;
+  uint32 target_gadget_state = 9;
+}

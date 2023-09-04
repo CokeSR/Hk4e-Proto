@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ClientReconnectReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientReconnectNotify {
+  // CMD_ID = 29
+
+  ClientReconnectReason reason = 1;
+}

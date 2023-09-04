@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeExchangeWoodRsp {
+  // CMD_ID = 4812
+
+  uint32 wood_id = 11;
+  int32 retcode = 13;
+  uint32 exchanged_count = 2;
+  uint32 wood_count = 5;
+}

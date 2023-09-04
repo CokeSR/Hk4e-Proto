@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+import "ServerBuff.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LifeStateChangeNotify {
+  // CMD_ID = 1255
+
+  uint32 entity_id = 7;
+  repeated ServerBuff server_buff_list = 2;
+  uint32 move_reliable_seq = 5;
+  string attack_tag = 13;
+  uint32 source_entity_id = 15;
+  uint32 life_state = 9;
+  PlayerDieType die_type = 6;
+}

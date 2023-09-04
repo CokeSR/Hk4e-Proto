@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GadgetPlayType {
+  GADGET_PLAY_TYPE_NONE = 0;
+  GADGET_PLAY_TYPE_CRUSIBLE = 1;
+}

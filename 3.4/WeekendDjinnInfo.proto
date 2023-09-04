@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WeekendDjinnInfo {
+  Vector rot = 11;
+  Vector pos = 10;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerApplyEnterMpNotify {
+  // CMD_ID = 1838
+
+  uint32 src_thread_index = 14;
+  OnlinePlayerInfo src_player_info = 11;
+  uint32 src_app_id = 12;
+}

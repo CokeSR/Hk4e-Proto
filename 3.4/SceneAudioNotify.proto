@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneAudioNotify {
+  // CMD_ID = 3132
+
+  int32 type = 14;
+  repeated string param3 = 12;
+  repeated float param2 = 4;
+  uint32 source_uid = 5;
+  repeated uint32 param1 = 9;
+}

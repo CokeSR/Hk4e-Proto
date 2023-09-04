@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "AranaraCollectionState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AranaraCollectionSuite {
+  map<uint32, AranaraCollectionState> collection_id_state_map = 8;
+  uint32 collection_type = 12;
+}

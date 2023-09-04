@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "CityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LevelupCityRsp {
+  // CMD_ID = 267
+
+  int32 retcode = 2;
+  CityInfo city_info = 15;
+  uint32 area_id = 12;
+  uint32 scene_id = 3;
+}

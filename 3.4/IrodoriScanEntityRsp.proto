@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "IrodoriPoetryThemeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriScanEntityRsp {
+  // CMD_ID = 8540
+
+  bool is_get_inspiration = 4;
+  IrodoriPoetryThemeData theme_data = 8;
+  int32 retcode = 12;
+}

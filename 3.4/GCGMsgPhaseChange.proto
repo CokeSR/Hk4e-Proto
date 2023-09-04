@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGPhaseType.proto";
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgPhaseChange {
+  repeated Uint32Pair allow_controller_list = 7;
+  GCGPhaseType after_phase = 13;
+  GCGPhaseType before_phase = 8;
+}

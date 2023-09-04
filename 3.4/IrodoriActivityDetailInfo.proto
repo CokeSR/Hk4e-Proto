@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "IrodoriChessData.proto";
+import "IrodoriFlowerData.proto";
+import "IrodoriMasterLevelInfo.proto";
+import "IrodoriPoetryData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriActivityDetailInfo {
+  IrodoriFlowerData flower_data = 6;
+  IrodoriPoetryData poetry_data = 14;
+  IrodoriChessData chess_data = 10;
+  repeated IrodoriMasterLevelInfo master_level_list = 15;
+}

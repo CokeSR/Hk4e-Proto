@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TriggerCreateGadgetToEquipPartNotify {
+  // CMD_ID = 342
+
+  uint32 entity_id = 3;
+  uint32 gadget_id = 5;
+  uint32 gadget_entity_id = 4;
+  string equip_part = 7;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CrystalLinkTeamInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CrystalLinkLevelInfo {
+  uint32 level_id = 3;
+  uint32 best_score = 6;
+  bool is_open = 7;
+  repeated CrystalLinkTeamInfo team_info_list = 8;
+}

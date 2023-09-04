@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RogueDiaryAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReserveRogueDiaryAvatarReq {
+  // CMD_ID = 8607
+
+  repeated RogueDiaryAvatar reserve_avatar_list = 1;
+}

@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponUpgradeRsp {
+  // CMD_ID = 700
+
+  uint32 cur_level = 5;
+  repeated ItemParam item_param_list = 9;
+  int32 retcode = 14;
+  uint32 old_level = 1;
+  uint64 target_weapon_guid = 13;
+}

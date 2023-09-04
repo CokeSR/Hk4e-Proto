@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CompoundUnlockNotify {
+  // CMD_ID = 159
+
+  uint32 compound_id = 6;
+}

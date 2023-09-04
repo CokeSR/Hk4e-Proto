@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "SceneGalleryInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryInfoNotify {
+  // CMD_ID = 5513
+
+  SceneGalleryInfo gallery_info = 7;
+}

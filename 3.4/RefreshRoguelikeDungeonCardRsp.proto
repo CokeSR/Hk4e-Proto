@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RefreshRoguelikeDungeonCardRsp {
+  // CMD_ID = 8302
+
+  int32 retcode = 9;
+  repeated uint32 res_card_list = 12;
+}

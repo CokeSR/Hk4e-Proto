@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarTalkReq {
+  // CMD_ID = 4729
+
+  uint32 talk_id = 4;
+  uint32 avatar_id = 6;
+}

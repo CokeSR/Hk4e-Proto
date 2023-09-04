@@ -1,0 +1,42 @@
+
+syntax = "proto3";
+
+import "AbilityIdentifier.proto";
+import "AttackHitEffectResult.proto";
+import "HitCollision.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AttackResult {
+  uint32 endure_break = 6;
+  uint32 bullet_fly_time_ms = 1940;
+  float damage = 12;
+  bool is_crit = 9;
+  AttackHitEffectResult hit_eff_result = 5;
+  float element_durability_attenuation = 1333;
+  float damage_shield = 198;
+  bool use_gadget_damage_action = 1698;
+  uint32 element_type = 1;
+  uint32 target_type = 346;
+  bool is_resist_text = 531;
+  uint32 critical_rand = 1576;
+  AbilityIdentifier ability_identifier = 2;
+  HitCollision hit_collision = 14;
+  uint32 attack_timestamp_ms = 1829;
+  uint32 attacker_id = 4;
+  string anim_event_id = 11;
+  int32 hit_retreat_angle_compat = 15;
+  uint32 gadget_damage_action_idx = 55;
+  uint32 defense_id = 13;
+  bool mute_element_hurt = 555;
+  uint32 attack_count = 1593;
+  Vector resolved_dir = 8;
+  uint32 hit_pos_type = 7;
+  uint32 hashed_anim_event_id = 2009;
+  uint32 addhurt_reaction_type = 1569;
+  float endure_delta = 1169;
+  uint32 create_count_sync_to_server = 701;
+  float element_amplify_rate = 1858;
+  uint32 amplify_reaction_type = 888;
+}

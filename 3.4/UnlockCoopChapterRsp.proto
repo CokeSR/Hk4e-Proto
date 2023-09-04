@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UnlockCoopChapterRsp {
+  // CMD_ID = 1990
+
+  int32 retcode = 6;
+  uint32 chapter_id = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "MoonfinTrialLevelInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MoonfinTrialActivityDetailInfo {
+  map<uint32, MoonfinTrialLevelInfo> level_info_map = 7;
+  uint32 special_fish_count = 2;
+}

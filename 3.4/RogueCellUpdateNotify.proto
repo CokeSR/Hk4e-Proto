@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RogueCellInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueCellUpdateNotify {
+  // CMD_ID = 8067
+
+  RogueCellInfo cell_info = 15;
+}

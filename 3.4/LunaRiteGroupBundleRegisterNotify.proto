@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteGroupBundleRegisterNotify {
+  // CMD_ID = 8078
+
+  uint32 group_link_bundle_id = 14;
+}

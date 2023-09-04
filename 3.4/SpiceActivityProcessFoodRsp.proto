@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SpiceActivityProcessFoodRsp {
+  // CMD_ID = 8845
+
+  repeated ItemParam special_food_list = 13;
+  repeated ItemParam normal_food_list = 10;
+  int32 retcode = 7;
+}

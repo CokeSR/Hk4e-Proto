@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerCondMeetQuestListUpdateNotify {
+  // CMD_ID = 485
+
+  repeated uint32 add_quest_id_list = 2;
+  repeated uint32 del_quest_id_list = 7;
+}

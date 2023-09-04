@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message JigsawPictureData {
+  uint32 shortest_time = 12;
+  uint32 last_duration = 11;
+  bool is_open = 4;
+  bool is_finished = 8;
+}

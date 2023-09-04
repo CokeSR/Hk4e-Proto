@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GivingRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GivingRecordNotify {
+  // CMD_ID = 195
+
+  repeated GivingRecord giving_record_list = 4;
+}

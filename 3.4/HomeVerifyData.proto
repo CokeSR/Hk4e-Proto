@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "HomeSceneArrangementMuipData.proto";
+import "HomeVerifySceneData.proto";
+import "LanguageType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeVerifyData {
+  uint32 uid = 10;
+  string aid = 4;
+  string token = 2;
+  string region = 14;
+  HomeVerifySceneData home_info = 11;
+  HomeSceneArrangementMuipData arrangement_data = 7;
+  LanguageType lang = 1;
+  fixed32 timestamp = 13;
+}

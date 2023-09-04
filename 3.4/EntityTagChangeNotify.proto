@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityTagChangeNotify {
+  // CMD_ID = 3442
+
+  string tag = 14;
+  uint32 entity_id = 11;
+  bool is_add = 1;
+}

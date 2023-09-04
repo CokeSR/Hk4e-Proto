@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarSummonEventRsp {
+  // CMD_ID = 4696
+
+  uint32 event_id = 9;
+  int32 retcode = 13;
+}

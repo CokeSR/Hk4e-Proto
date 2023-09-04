@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3BoatPlayerPrepareNotify {
+  // CMD_ID = 6548
+
+  uint32 play_index = 11;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayGuestReplyInviteRsp {
+  // CMD_ID = 4420
+
+  bool is_agree = 1;
+  int32 retcode = 7;
+  uint32 play_id = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriStartBossChallengeRsp {
+  // CMD_ID = 8507
+
+  int32 retcode = 15;
+}

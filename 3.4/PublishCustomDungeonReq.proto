@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PublishCustomDungeonReq {
+  // CMD_ID = 6214
+
+  uint64 dungeon_guid = 10;
+  repeated uint32 tag_list = 1;
+}

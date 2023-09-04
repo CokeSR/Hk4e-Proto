@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ModifierAction {
+  MODIFIER_ACTION_ADDED = 0;
+  MODIFIER_ACTION_REMOVED = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGiveFriendFlowerRsp {
+  // CMD_ID = 8151
+
+  uint32 schedule_id = 9;
+  int32 retcode = 1;
+  repeated uint32 limit_flower_list = 13;
+}

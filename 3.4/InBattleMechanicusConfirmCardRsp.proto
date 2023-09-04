@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusConfirmCardRsp {
+  // CMD_ID = 5329
+
+  int32 retcode = 3;
+  uint32 group_id = 12;
+  uint32 play_index = 11;
+  uint32 card_id = 6;
+}

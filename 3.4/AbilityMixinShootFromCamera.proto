@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinShootFromCamera {
+  Vector init_pos = 6;
+  Vector forward = 9;
+}

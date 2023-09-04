@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum CityidConstValue {
+  CITYID_CONST_VALUE_NONE = 0;
+  CITYID_CONST_VALUE_MENGDE = 1;
+  CITYID_CONST_VALUE_LIYUE = 2;
+  CITYID_CONST_VALUE_DAOQI = 3;
+  CITYID_CONST_VALUE_XUMI = 4;
+}

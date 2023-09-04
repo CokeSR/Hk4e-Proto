@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusRenameReq {
+  // CMD_ID = 21219
+
+  uint32 name_id = 2;
+  uint32 fungus_id = 5;
+}

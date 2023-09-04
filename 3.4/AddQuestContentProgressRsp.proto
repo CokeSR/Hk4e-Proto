@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AddQuestContentProgressRsp {
+  // CMD_ID = 480
+
+  uint32 content_type = 13;
+  int32 retcode = 8;
+}

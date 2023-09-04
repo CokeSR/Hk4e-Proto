@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetBonusActivityRewardReq {
+  // CMD_ID = 2513
+
+  uint32 bonus_activity_id = 2;
+}

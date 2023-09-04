@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayGuestReplyNotify {
+  // CMD_ID = 1812
+
+  bool is_agree = 7;
+  uint32 mp_play_id = 12;
+  uint32 uid = 6;
+}

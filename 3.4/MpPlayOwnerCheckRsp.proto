@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayOwnerCheckRsp {
+  // CMD_ID = 1807
+
+  int32 retcode = 13;
+  bool is_skip_match = 14;
+  uint32 wrong_uid = 15;
+  uint32 mp_play_id = 4;
+}

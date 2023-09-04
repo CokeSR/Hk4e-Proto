@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftOwnerTwiceConfirmNotify {
+  // CMD_ID = 5414
+
+  uint32 draft_id = 15;
+  uint32 twice_confirm_deadline_time = 7;
+}

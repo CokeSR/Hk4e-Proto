@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "PlayerDieOption.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonDieOptionReq {
+  // CMD_ID = 929
+
+  PlayerDieOption die_option = 3;
+  bool is_quit_immediately = 11;
+}

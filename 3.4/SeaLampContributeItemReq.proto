@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampContributeItemReq {
+  // CMD_ID = 2110
+
+  repeated ItemParam item_list = 13;
+  uint32 activity_id = 12;
+}

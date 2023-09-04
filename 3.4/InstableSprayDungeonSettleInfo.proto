@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InstableSprayDungeonSettleInfo {
+  bool is_new_record = 5;
+  uint32 stage_id = 4;
+  uint32 difficulty = 15;
+  repeated uint32 score_list = 10;
+}

@@ -1,0 +1,25 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinWindSeedSpawner {
+  message AddSignal {
+  }
+
+  message RefreshSeed {
+    repeated Vector pos_list = 1;
+  }
+
+  message CatchSeed {
+    uint32 entity_id = 5;
+  }
+
+  oneof cmd {
+    AddSignal add_signal = 13;
+    RefreshSeed refresh_seed = 3;
+    CatchSeed catch_seed = 4;
+  }
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CoopPoint.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopPointUpdateNotify {
+  // CMD_ID = 1987
+
+  CoopPoint coop_point = 11;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCityReputationParentQuestReq {
+  // CMD_ID = 2874
+
+  repeated uint32 parent_quest_list = 1;
+  uint32 city_id = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientLoadingCostumeVerificationNotify {
+  // CMD_ID = 3441
+
+  uint64 prefab_hash = 15;
+  uint32 costume_id = 8;
+  uint64 guid = 13;
+}

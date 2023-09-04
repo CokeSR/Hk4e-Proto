@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeResourceBonusPropUpdateNotify {
+  // CMD_ID = 8858
+
+  float bonus_resource_prop = 2;
+}

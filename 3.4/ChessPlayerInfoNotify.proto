@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ChessPlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessPlayerInfoNotify {
+  // CMD_ID = 5326
+
+  ChessPlayerInfo player_info = 15;
+}

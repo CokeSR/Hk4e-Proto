@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerBuffSelectReq {
+  // CMD_ID = 2478
+
+  uint32 tower_buff_id = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketDeliverItemRsp {
+  // CMD_ID = 21050
+
+  uint32 trader_id = 14;
+  int32 retcode = 10;
+}

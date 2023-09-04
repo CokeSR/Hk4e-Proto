@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderCancelOrderReq {
+  // CMD_ID = 8663
+
+  uint32 quest_id = 10;
+}

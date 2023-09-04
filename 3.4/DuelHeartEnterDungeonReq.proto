@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartEnterDungeonReq {
+  // CMD_ID = 23310
+
+  uint32 level_id = 13;
+}

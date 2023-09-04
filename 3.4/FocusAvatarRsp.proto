@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FocusAvatarRsp {
+  // CMD_ID = 1779
+
+  bool is_focus = 11;
+  int32 retcode = 1;
+  uint64 avatar_guid = 15;
+}

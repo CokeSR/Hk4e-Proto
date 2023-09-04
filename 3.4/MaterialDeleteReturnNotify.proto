@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "MaterialDeleteReturnType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MaterialDeleteReturnNotify {
+  // CMD_ID = 615
+
+  map<uint32, uint32> return_item_map = 7;
+  map<uint32, uint32> delete_material_map = 10;
+  MaterialDeleteReturnType type = 11;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusLevelupGearReq {
+  // CMD_ID = 3962
+
+  uint32 mechanicus_id = 6;
+  uint32 gear_id = 10;
+}

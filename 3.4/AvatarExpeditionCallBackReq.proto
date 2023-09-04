@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarExpeditionCallBackReq {
+  // CMD_ID = 1697
+
+  repeated uint64 avatar_guid = 14;
+}

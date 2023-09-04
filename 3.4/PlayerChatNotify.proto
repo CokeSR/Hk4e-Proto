@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ChatInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerChatNotify {
+  // CMD_ID = 3092
+
+  uint32 channel_id = 14;
+  ChatInfo chat_info = 6;
+}

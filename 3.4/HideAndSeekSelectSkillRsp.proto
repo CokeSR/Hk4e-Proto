@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekSelectSkillRsp {
+  // CMD_ID = 8442
+
+  int32 retcode = 14;
+  repeated uint32 skill_list = 10;
+}

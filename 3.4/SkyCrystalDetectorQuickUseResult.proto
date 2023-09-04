@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "SkyCrystalDetectorData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SkyCrystalDetectorQuickUseResult {
+  SkyCrystalDetectorData sky_crystal_detector_data = 14;
+  int32 retcode = 7;
+}

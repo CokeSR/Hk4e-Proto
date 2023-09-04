@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGallerySumoInfo {
+  uint32 kill_elite_monster_num = 3;
+  uint32 kill_normal_mosnter_num = 5;
+  uint32 score = 4;
+}

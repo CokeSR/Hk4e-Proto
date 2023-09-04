@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GmTalkRsp {
+  // CMD_ID = 87
+
+  string retmsg = 3;
+  int32 retcode = 7;
+  string msg = 5;
+}

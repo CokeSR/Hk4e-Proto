@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PlayerDieOption.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonDieOptionRsp {
+  // CMD_ID = 978
+
+  int32 retcode = 15;
+  PlayerDieOption die_option = 4;
+  uint32 revive_count = 10;
+}

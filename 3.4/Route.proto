@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "RoutePoint.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message Route {
+  repeated RoutePoint route_points = 1;
+  uint32 route_type = 2;
+}

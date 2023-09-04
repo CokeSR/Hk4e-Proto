@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeRegionSearchRewardReq {
+  // CMD_ID = 5646
+
+  uint32 id = 13;
+  uint32 search_id = 14;
+}

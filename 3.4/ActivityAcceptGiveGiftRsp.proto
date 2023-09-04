@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ActivityAcceptGiftResultInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityAcceptGiveGiftRsp {
+  // CMD_ID = 8235
+
+  uint32 schedule_id = 4;
+  ActivityAcceptGiftResultInfo accept_gift_result_info = 9;
+  int32 retcode = 6;
+}

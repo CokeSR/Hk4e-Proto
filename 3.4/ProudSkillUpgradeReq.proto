@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ProudSkillUpgradeReq {
+  // CMD_ID = 1062
+
+  uint64 avatar_guid = 2;
+  uint32 proud_skill_id = 8;
+  uint32 old_proud_skill_level = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetBlossomBriefInfoListReq {
+  // CMD_ID = 2705
+
+  repeated uint32 city_id_list = 5;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryBounceConjuringHitNotify {
+  // CMD_ID = 5569
+
+  bool is_perfect = 15;
+  uint32 gallery_id = 7;
+  uint32 add_score = 14;
+}

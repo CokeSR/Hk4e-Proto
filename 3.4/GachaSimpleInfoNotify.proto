@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaSimpleInfoNotify {
+  // CMD_ID = 1570
+
+  bool is_new = 8;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueDiaryRoomReq {
+  // CMD_ID = 8792
+
+  bool is_select_hard = 4;
+  uint32 room_difficulty = 1;
+}

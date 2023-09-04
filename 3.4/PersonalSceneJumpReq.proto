@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PersonalSceneJumpReq {
+  // CMD_ID = 260
+
+  uint32 point_id = 13;
+}

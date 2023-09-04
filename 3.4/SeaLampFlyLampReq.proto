@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampFlyLampReq {
+  // CMD_ID = 2193
+
+  Vector pos = 14;
+  uint32 item_id = 4;
+  uint32 item_num = 1;
+  int32 param = 15;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GivingRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GivingRecordChangeNotify {
+  // CMD_ID = 167
+
+  GivingRecord giving_record = 8;
+  bool is_deactive = 4;
+}

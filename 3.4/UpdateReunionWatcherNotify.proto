@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ReunionWatcherInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdateReunionWatcherNotify {
+  // CMD_ID = 5087
+
+  uint32 mission_id = 12;
+  ReunionWatcherInfo watcher_info = 14;
+}

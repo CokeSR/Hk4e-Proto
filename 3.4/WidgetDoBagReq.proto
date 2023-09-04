@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCreatorInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetDoBagReq {
+  // CMD_ID = 4255
+
+  uint32 material_id = 12;
+  oneof op_info {
+    WidgetCreateLocationInfo location_info = 135;
+    WidgetCreatorInfo widget_creator_info = 362;
+  }
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarChangeCostumeRsp {
+  // CMD_ID = 1753
+
+  uint32 costume_id = 15;
+  uint64 avatar_guid = 5;
+  int32 retcode = 7;
+}

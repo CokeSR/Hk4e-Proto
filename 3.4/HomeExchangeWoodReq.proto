@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeExchangeWoodReq {
+  // CMD_ID = 4672
+
+  map<uint32, uint32> material_count_map = 1;
+  uint32 wood_id = 8;
+}

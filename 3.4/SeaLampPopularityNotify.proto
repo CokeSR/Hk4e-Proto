@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampPopularityNotify {
+  // CMD_ID = 2076
+
+  uint32 popularity = 2;
+}

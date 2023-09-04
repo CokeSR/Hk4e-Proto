@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityFightPropNotify {
+  // CMD_ID = 1287
+
+  uint32 entity_id = 7;
+  map<uint32, float> fight_prop_map = 15;
+}

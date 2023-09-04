@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarSatiationData {
+  uint64 avatar_guid = 5;
+  float finish_time = 15;
+  float penalty_finish_time = 12;
+}

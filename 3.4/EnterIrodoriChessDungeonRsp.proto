@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterIrodoriChessDungeonRsp {
+  // CMD_ID = 8598
+
+  uint32 level_id = 11;
+  int32 retcode = 4;
+  bool is_hard_map = 3;
+}

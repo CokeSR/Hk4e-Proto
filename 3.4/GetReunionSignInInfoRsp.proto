@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ReunionSignInInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetReunionSignInInfoRsp {
+  // CMD_ID = 5093
+
+  int32 retcode = 14;
+  ReunionSignInInfo sign_in_info = 4;
+}

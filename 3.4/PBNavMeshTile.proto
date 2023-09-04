@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PBNavMeshPoly.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PBNavMeshTile {
+  repeated PBNavMeshPoly polys = 11;
+  repeated Vector vecs = 1;
+}

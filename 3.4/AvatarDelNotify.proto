@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarDelNotify {
+  // CMD_ID = 1670
+
+  repeated uint64 avatar_guid_list = 1;
+}

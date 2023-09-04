@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapBonusChallengeInfo {
+  bool is_active = 5;
+  map<uint32, bool> fragment_map = 13;
+  uint32 solution_id = 14;
+  bool is_done = 2;
+  uint32 config_id = 9;
+}

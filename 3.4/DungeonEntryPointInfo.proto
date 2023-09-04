@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "DungeonEntryInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonEntryPointInfo {
+  uint32 scene_id = 1;
+  uint32 point_id = 15;
+  repeated DungeonEntryInfo dungeon_entry_list = 5;
+  uint32 recommend_dungeon_id = 7;
+}

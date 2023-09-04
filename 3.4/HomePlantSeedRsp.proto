@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantSeedRsp {
+  // CMD_ID = 4779
+
+  int32 retcode = 9;
+}

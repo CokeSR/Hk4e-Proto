@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampTakeContributionRewardReq {
+  // CMD_ID = 2022
+
+  uint32 activity_id = 12;
+  uint32 config_id = 7;
+}

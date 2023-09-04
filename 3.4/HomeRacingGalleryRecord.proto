@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeGroupPlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeRacingGalleryRecord {
+  uint32 use_time = 3;
+  uint32 timestamp = 8;
+  HomeGroupPlayerInfo player_info = 4;
+}

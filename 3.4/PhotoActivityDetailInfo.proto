@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "PhotoPosData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PhotoActivityDetailInfo {
+  repeated PhotoPosData photo_pos_data_list = 13;
+  bool is_content_closed = 9;
+}

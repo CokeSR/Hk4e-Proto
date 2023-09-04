@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ItemRenameAvatarRsp {
+  // CMD_ID = 1628
+
+  int32 retcode = 15;
+  uint32 rename_id = 8;
+  uint32 cd_time = 7;
+}

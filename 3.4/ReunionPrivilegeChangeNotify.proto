@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ReunionPrivilegeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionPrivilegeChangeNotify {
+  // CMD_ID = 5056
+
+  ReunionPrivilegeInfo privilege_info = 13;
+}

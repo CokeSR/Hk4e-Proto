@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FallPlayerBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryFallScoreNotify {
+  // CMD_ID = 5574
+
+  uint32 gallery_id = 8;
+  map<uint32, FallPlayerBrief> uid_brief_map = 4;
+}

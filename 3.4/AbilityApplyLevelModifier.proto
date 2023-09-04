@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityApplyLevelModifier {
+  uint32 apply_entity_id = 6;
+}

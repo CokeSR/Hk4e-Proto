@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "VintageMarketStoreOpInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketFinishStorePlayReq {
+  // CMD_ID = 23780
+
+  uint32 store_round = 8;
+  repeated VintageMarketStoreOpInfo store_op_list = 12;
+}

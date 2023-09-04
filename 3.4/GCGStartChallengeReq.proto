@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGLevelType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGStartChallengeReq {
+  // CMD_ID = 7857
+
+  uint32 config_id = 15;
+  GCGLevelType level_type = 11;
+  uint32 level_id = 10;
+}

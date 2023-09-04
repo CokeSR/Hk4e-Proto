@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeNpcData {
+  Vector spawn_pos = 4;
+  uint32 costume_id = 13;
+  uint32 avatar_id = 5;
+  Vector spawn_rot = 6;
+}

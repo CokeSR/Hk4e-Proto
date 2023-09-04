@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaActivityPercentNotify {
+  // CMD_ID = 8200
+
+  map<uint32, uint32> target_num_map = 5;
+  uint32 sub_item_stage = 13;
+  uint32 item_stage = 14;
+  uint32 percent = 15;
+}

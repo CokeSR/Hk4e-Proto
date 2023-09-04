@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeCustomFurnitureInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeEditCustomFurnitureReq {
+  // CMD_ID = 4685
+
+  HomeCustomFurnitureInfo custom_furniture_info = 5;
+}

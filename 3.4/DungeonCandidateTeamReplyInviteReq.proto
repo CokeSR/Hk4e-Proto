@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamReplyInviteReq {
+  // CMD_ID = 907
+
+  bool is_accept = 3;
+}

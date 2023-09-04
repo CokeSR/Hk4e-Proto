@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChallengeBrief {
+  uint32 cur_progress = 9;
+  bool is_success = 5;
+  uint32 challenge_index = 15;
+  uint32 challenge_id = 2;
+}

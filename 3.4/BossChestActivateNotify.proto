@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BossChestActivateNotify {
+  // CMD_ID = 880
+
+  repeated uint32 qualify_uid_list = 6;
+  uint32 entity_id = 4;
+}

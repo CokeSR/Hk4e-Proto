@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterScenePeerNotify {
+  // CMD_ID = 286
+
+  uint32 host_peer_id = 10;
+  uint32 dest_scene_id = 8;
+  uint32 enter_scene_token = 9;
+  uint32 peer_id = 6;
+}

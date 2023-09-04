@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "IrodoriChessLevelData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriChessData {
+  repeated IrodoriChessLevelData level_data_list = 9;
+  bool is_open = 7;
+}

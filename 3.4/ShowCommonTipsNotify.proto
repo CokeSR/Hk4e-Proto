@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ShowCommonTipsNotify {
+  // CMD_ID = 3048
+
+  string content = 4;
+  uint32 close_time = 7;
+  string title = 8;
+}

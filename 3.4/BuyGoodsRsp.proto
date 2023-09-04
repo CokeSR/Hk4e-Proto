@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "ShopGoods.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BuyGoodsRsp {
+  // CMD_ID = 798
+
+  uint32 buy_count = 2;
+  ShopGoods goods = 1;
+  repeated ShopGoods goods_list = 7;
+  int32 retcode = 5;
+  uint32 shop_type = 14;
+}

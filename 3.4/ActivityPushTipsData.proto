@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "ActivityPushTipsState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityPushTipsData {
+  ActivityPushTipsState state = 12;
+  uint32 activity_push_tips_id = 11;
+}

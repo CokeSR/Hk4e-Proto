@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "PlayerDieType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonPlayerDieReq {
+  // CMD_ID = 913
+
+  uint32 dungeon_id = 14;
+  PlayerDieType die_type = 1;
+}

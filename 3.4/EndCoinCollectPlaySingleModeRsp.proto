@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EndCoinCollectPlaySingleModeRsp {
+  // CMD_ID = 20893
+
+  int32 retcode = 2;
+}

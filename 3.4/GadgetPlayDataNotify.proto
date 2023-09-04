@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetPlayDataNotify {
+  // CMD_ID = 824
+
+  uint32 play_type = 2;
+  uint32 progress = 15;
+  uint32 entity_id = 5;
+}

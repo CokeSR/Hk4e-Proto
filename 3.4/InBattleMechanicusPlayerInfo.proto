@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "InBattleMechanicusBuildingInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusPlayerInfo {
+  repeated InBattleMechanicusBuildingInfo building_list = 12;
+  uint32 uid = 6;
+  uint32 pick_card_id = 15;
+  bool is_card_confirmed = 9;
+  uint32 building_points = 3;
+}

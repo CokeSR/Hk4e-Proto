@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpgradeRoguelikeShikigamiReq {
+  // CMD_ID = 8153
+
+  uint32 shikigami_group_id = 10;
+  uint32 upgrade_level = 6;
+}

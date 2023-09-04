@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum LunchBoxSlotType {
+  LUNCH_BOX_SLOT_TYPE_NONE = 0;
+  LUNCH_BOX_SLOT_TYPE_REVIVE = 1;
+  LUNCH_BOX_SLOT_TYPE_HEAL = 2;
+}

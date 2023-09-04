@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ActivityScheduleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityScheduleInfoNotify {
+  // CMD_ID = 2047
+
+  repeated ActivityScheduleInfo activity_schedule_list = 5;
+  uint32 remain_fly_sea_lamp_num = 11;
+}

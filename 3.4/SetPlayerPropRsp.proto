@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerPropRsp {
+  // CMD_ID = 113
+
+  int32 retcode = 13;
+}

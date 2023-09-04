@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "AISnapshotEntitySkillCycle.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AISnapshotEntityData {
+  float tick_time = 11;
+  uint32 attack_target_id = 15;
+  float moved_distance = 6;
+  repeated AISnapshotEntitySkillCycle finished_skill_cycles = 1;
+  float real_time = 3;
+  float distance_to_player = 14;
+  map<uint32, uint32> hitting_avatars = 12;
+  uint32 threat_target_id = 7;
+  uint32 ai_target_id = 4;
+  uint32 tactic = 9;
+  uint32 threat_list_size = 5;
+  uint32 entity_id = 2;
+}

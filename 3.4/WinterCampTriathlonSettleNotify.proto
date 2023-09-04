@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampTriathlonSettleNotify {
+  // CMD_ID = 8723
+
+  uint32 normal_coin = 12;
+  bool is_success = 6;
+  uint32 limited_coin = 8;
+  bool is_new_record = 2;
+  uint32 gallery_id = 13;
+  uint32 race_id = 4;
+  uint32 remain_time = 7;
+  uint32 score = 1;
+}

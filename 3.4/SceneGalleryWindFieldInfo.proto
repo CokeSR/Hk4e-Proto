@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryWindFieldInfo {
+  uint32 killed_monster_num = 13;
+  uint32 challenge_timestamp = 4;
+  uint32 coin_num = 12;
+  uint32 element_ball_num = 10;
+  uint32 challenge_ball_cur_count = 15;
+  uint32 challenge_total_time = 8;
+  uint32 show_id = 7;
+  uint32 challenge_ball_max_count = 9;
+}

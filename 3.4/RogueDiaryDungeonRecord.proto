@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryDungeonRecord {
+  uint32 finish_time = 9;
+  uint32 max_round = 12;
+  bool is_finish = 7;
+  uint32 difficulty = 13;
+}

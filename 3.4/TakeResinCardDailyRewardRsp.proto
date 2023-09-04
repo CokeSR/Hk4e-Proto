@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeResinCardDailyRewardRsp {
+  // CMD_ID = 4116
+
+  repeated ItemParam item_vec = 15;
+  uint32 product_config_id = 4;
+  int32 retcode = 9;
+}

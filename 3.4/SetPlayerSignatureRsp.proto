@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerSignatureRsp {
+  // CMD_ID = 4069
+
+  string signature = 13;
+  int32 retcode = 10;
+}

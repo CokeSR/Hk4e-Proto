@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ActivityScheduleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetActivityScheduleRsp {
+  // CMD_ID = 2015
+
+  uint32 remain_fly_sea_lamp_num = 10;
+  int32 retcode = 9;
+  repeated ActivityScheduleInfo activity_schedule_list = 12;
+}

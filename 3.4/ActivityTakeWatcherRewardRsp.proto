@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityTakeWatcherRewardRsp {
+  // CMD_ID = 2009
+
+  int32 retcode = 9;
+  uint32 watcher_id = 5;
+  uint32 activity_id = 3;
+}

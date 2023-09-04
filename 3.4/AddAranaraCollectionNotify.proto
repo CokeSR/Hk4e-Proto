@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "AranaraCollectionState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AddAranaraCollectionNotify {
+  // CMD_ID = 6395
+
+  AranaraCollectionState from_state = 10;
+  AranaraCollectionState target_state = 15;
+  uint32 collection_id = 1;
+  uint32 collection_type = 5;
+}

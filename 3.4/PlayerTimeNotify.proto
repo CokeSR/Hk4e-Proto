@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerTimeNotify {
+  // CMD_ID = 103
+
+  uint64 player_time = 13;
+  uint64 server_time = 15;
+  bool is_paused = 7;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PotionResetChallengeReq {
+  // CMD_ID = 8097
+
+  uint32 stage_id = 5;
+}

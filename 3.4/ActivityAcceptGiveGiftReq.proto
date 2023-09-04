@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityAcceptGiveGiftReq {
+  // CMD_ID = 8679
+
+  uint32 schedule_id = 2;
+  uint32 uid = 7;
+}

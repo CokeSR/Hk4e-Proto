@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckUgcStateRsp {
+  // CMD_ID = 6342
+
+  int32 retcode = 13;
+}

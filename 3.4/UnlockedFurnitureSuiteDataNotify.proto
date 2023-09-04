@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UnlockedFurnitureSuiteDataNotify {
+  // CMD_ID = 4475
+
+  repeated uint32 furniture_suite_id_list = 12;
+  bool is_all = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityGetCanGiveFriendGiftRsp {
+  // CMD_ID = 8965
+
+  uint32 schedule_id = 10;
+  map<uint32, uint32> gift_num_map = 4;
+  int32 retcode = 12;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UnlockPersonalLineReq {
+  // CMD_ID = 452
+
+  uint32 personal_line_id = 7;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TryCustomDungeonRsp {
+  // CMD_ID = 6237
+
+  uint32 room_id = 13;
+  int32 retcode = 9;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGTavernNPCState {
+  GCG_TAVERN_NPC_STATE_TRAVERN_NPC_STATE_NONE = 0;
+  GCG_TAVERN_NPC_STATE_TRAVERN_NPC_STATE_DUEL = 1;
+  GCG_TAVERN_NPC_STATE_TRAVERN_NPC_STATE_STAND = 2;
+}

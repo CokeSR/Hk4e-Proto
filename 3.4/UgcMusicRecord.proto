@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "UgcMusicTrack.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message UgcMusicRecord {
+  repeated UgcMusicTrack music_track_list = 3;
+  uint32 music_id = 2;
+}

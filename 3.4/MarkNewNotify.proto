@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MarkNewNotify {
+  // CMD_ID = 1229
+
+  repeated uint32 id_list = 1;
+  uint32 mark_new_type = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "AnimatorParameterValueInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AnimatorParameterValueInfoPair {
+  int32 name_id = 1;
+  AnimatorParameterValueInfo animator_para = 2;
+}

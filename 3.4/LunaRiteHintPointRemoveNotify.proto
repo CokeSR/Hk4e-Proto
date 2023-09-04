@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteHintPointRemoveNotify {
+  // CMD_ID = 8181
+
+  repeated uint32 hint_point_index = 2;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AskAddFriendRsp {
+  // CMD_ID = 4074
+
+  int32 retcode = 11;
+  uint32 param = 13;
+  uint32 target_uid = 10;
+}

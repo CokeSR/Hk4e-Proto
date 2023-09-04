@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+import "SumoDungeonAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoDungeonTeam {
+  repeated SumoDungeonAvatar dungeon_avatar_list = 4;
+}

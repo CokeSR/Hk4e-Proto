@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneWeatherForcastRsp {
+  // CMD_ID = 3500
+
+  repeated uint32 forcast_climate_list = 13;
+  uint64 next_climate_time = 10;
+  int32 retcode = 4;
+}

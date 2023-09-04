@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinBroadcastGV {
+  float gv_value = 7;
+}

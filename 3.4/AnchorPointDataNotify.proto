@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AnchorPointData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AnchorPointDataNotify {
+  // CMD_ID = 4288
+
+  uint32 next_usable_time = 10;
+  repeated AnchorPointData anchor_point_list = 11;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FallSettleInfo {
+  OnlinePlayerInfo player_info = 7;
+  uint32 remain_time = 14;
+  uint32 uid = 3;
+  uint32 catch_count = 10;
+  map<uint32, uint32> flower_ring_catch_count_map = 4;
+  uint32 final_score = 9;
+}

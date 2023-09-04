@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckUgcUpdateRsp {
+  // CMD_ID = 6340
+
+  int32 retcode = 14;
+  UgcType ugc_type = 6;
+  repeated uint64 update_ugc_guid_list = 2;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterProgressDetailInfo {
+  uint32 last_auto_add_time = 14;
+  uint32 count = 8;
+}

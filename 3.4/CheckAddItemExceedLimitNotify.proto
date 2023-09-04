@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckAddItemExceedLimitNotify {
+  // CMD_ID = 634
+
+  enum ItemExceedLimitMsgType {
+    ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT = 0;
+    ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT = 1;
+    ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG = 2;
+    ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK = 3;
+  }
+
+  repeated uint32 exceeded_item_type_list = 15;
+  repeated uint32 exceeded_item_list = 5;
+  uint32 reason = 2;
+  ItemExceedLimitMsgType msg_type = 7;
+  bool is_drop = 1;
+}

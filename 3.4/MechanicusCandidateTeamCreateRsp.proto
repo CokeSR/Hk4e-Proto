@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusCandidateTeamCreateRsp {
+  // CMD_ID = 3969
+
+  uint32 difficult_level = 4;
+  uint32 dungeon_id = 15;
+  int32 retcode = 10;
+}

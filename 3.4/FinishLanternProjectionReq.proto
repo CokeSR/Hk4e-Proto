@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FinishLanternProjectionReq {
+  // CMD_ID = 8236
+
+  uint32 finish_time = 15;
+  uint32 level_id = 10;
+}

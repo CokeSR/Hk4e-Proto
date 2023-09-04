@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoDungeonSettleNotify {
+  // CMD_ID = 8830
+
+  uint32 kill_elite_monster_num = 13;
+  uint32 stage_id = 3;
+  bool is_new_record = 15;
+  uint32 kill_monster_num = 4;
+  uint32 difficulty_id = 2;
+  uint32 final_score = 11;
+}

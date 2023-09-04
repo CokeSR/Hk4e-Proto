@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeBasicInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBasicInfoNotify {
+  // CMD_ID = 4607
+
+  HomeBasicInfo basic_info = 7;
+}

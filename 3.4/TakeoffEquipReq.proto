@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeoffEquipReq {
+  // CMD_ID = 669
+
+  uint64 avatar_guid = 8;
+  uint32 slot = 3;
+}

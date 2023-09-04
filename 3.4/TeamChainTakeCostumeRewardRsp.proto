@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamChainTakeCostumeRewardRsp {
+  // CMD_ID = 21178
+
+  int32 retcode = 2;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CrystalLinkBuffInfo {
+  uint32 effect_buff_id = 8;
+  uint32 cond_buff_id = 7;
+}

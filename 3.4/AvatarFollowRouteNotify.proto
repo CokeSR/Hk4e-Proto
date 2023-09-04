@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "Route.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarFollowRouteNotify {
+  // CMD_ID = 3097
+
+  uint32 start_scene_time_ms = 6;
+  uint32 template_id = 2;
+  string client_params = 10;
+  Route route = 4;
+  uint32 entity_id = 1;
+}

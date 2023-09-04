@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftGuestReplyInviteRsp {
+  // CMD_ID = 5480
+
+  uint32 draft_id = 4;
+  bool is_agree = 7;
+  int32 retcode = 2;
+}

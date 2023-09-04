@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "DungeonCandidateTeamDismissReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamDismissNotify {
+  // CMD_ID = 922
+
+  uint32 player_uid = 3;
+  DungeonCandidateTeamDismissReason reason = 4;
+}

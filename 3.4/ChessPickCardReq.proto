@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessPickCardReq {
+  // CMD_ID = 5391
+
+  uint32 card_index = 9;
+  uint32 card_id = 3;
+}

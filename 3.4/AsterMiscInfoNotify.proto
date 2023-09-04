@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterMiscInfoNotify {
+  // CMD_ID = 2165
+
+  uint32 aster_token = 7;
+  uint32 aster_credit = 8;
+}

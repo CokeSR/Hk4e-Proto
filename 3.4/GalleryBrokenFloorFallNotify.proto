@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryBrokenFloorFallNotify {
+  // CMD_ID = 5529
+
+  uint32 fall_count = 2;
+  uint32 gallery_id = 6;
+}

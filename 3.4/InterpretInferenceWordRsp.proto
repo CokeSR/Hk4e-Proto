@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InterpretInferenceWordRsp {
+  // CMD_ID = 415
+
+  uint32 page_id = 2;
+  int32 retcode = 13;
+  uint32 word_id = 6;
+}

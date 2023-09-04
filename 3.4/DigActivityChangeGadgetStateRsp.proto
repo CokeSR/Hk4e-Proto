@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DigActivityChangeGadgetStateRsp {
+  // CMD_ID = 8810
+
+  int32 retcode = 5;
+  uint32 entity_id = 14;
+}

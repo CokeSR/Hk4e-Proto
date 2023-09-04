@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeMailStarNotify {
+  // CMD_ID = 1478
+
+  repeated uint32 mail_id_list = 11;
+  bool is_star = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGInviteBattleNotify {
+  // CMD_ID = 7482
+
+  uint32 festival_mode_type = 8;
+  uint32 confirm_end_time = 9;
+}

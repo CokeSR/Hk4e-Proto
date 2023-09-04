@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ForgeQueueData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeDataNotify {
+  // CMD_ID = 604
+
+  uint32 max_queue_num = 8;
+  map<uint32, ForgeQueueData> forge_queue_map = 14;
+  repeated uint32 forge_id_list = 4;
+}

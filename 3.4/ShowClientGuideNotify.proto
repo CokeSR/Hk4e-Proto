@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ShowClientGuideNotify {
+  // CMD_ID = 3054
+
+  string guide_name = 2;
+}

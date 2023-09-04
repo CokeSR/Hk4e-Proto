@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityScheduleInfo {
+  uint32 activity_id = 12;
+  uint32 schedule_id = 13;
+  uint32 begin_time = 2;
+  uint32 end_time = 9;
+  bool is_open = 7;
+}

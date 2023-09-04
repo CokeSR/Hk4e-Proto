@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CompoundQueueData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCompoundMaterialRsp {
+  // CMD_ID = 150
+
+  CompoundQueueData compound_que_data = 8;
+  int32 retcode = 15;
+}

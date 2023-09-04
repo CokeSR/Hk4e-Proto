@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingGiveFriendPicReq {
+  // CMD_ID = 2002
+
+  uint32 uid = 9;
+  uint32 pic_id = 8;
+}

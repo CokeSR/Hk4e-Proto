@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerTakeSeedRewardRsp {
+  // CMD_ID = 8727
+
+  int32 retcode = 1;
+  uint32 schedule_id = 14;
+}

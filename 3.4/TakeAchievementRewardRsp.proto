@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeAchievementRewardRsp {
+  // CMD_ID = 2691
+
+  repeated ItemParam item_list = 7;
+  repeated uint32 id_list = 4;
+  int32 retcode = 13;
+}

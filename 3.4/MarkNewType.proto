@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum MarkNewType {
+  MARK_NEW_TYPE_NONE = 0;
+  MARK_NEW_TYPE_COMBINE = 1;
+  MARK_NEW_TYPE_FORGE = 2;
+}

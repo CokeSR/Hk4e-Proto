@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeAvatarTalkFinishInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarTalkRsp {
+  // CMD_ID = 4704
+
+  HomeAvatarTalkFinishInfo avatar_talk_info = 5;
+  int32 retcode = 10;
+}

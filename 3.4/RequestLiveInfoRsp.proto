@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RequestLiveInfoRsp {
+  // CMD_ID = 828
+
+  string live_url = 3;
+  int32 retcode = 15;
+  uint32 live_id = 11;
+  string spare_live_url = 1;
+}

@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "ForgeQueueManipulateType.proto";
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeQueueManipulateRsp {
+  // CMD_ID = 636
+
+  repeated ItemParam return_item_list = 3;
+  ForgeQueueManipulateType manipulate_type = 7;
+  repeated ItemParam extra_output_item_list = 13;
+  repeated ItemParam output_item_list = 12;
+  int32 retcode = 5;
+}

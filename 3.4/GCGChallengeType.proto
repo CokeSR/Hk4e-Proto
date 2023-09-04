@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGChallengeType {
+  GCG_CHALLENGE_TYPE_NONE = 0;
+  GCG_CHALLENGE_TYPE_CONST = 1;
+  GCG_CHALLENGE_TYPE_WEEK = 2;
+  GCG_CHALLENGE_TYPE_WORLD = 3;
+}

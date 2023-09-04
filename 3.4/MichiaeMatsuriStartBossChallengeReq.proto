@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriStartBossChallengeReq {
+  // CMD_ID = 8680
+
+  uint32 gadget_entity_id = 1;
+  uint32 difficulty = 6;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ChatChannelInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChatChannelUpdateNotify {
+  // CMD_ID = 4979
+
+  bool is_create = 13;
+  ChatChannelInfo channel_info = 6;
+  uint32 channel_id = 12;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeBlueprintSlotInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeCreateBlueprintRsp {
+  // CMD_ID = 4765
+
+  HomeBlueprintSlotInfo slot_info = 4;
+  int32 retcode = 13;
+}

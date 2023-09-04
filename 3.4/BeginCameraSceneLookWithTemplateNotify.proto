@@ -1,0 +1,23 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BeginCameraSceneLookWithTemplateNotify {
+  // CMD_ID = 3201
+
+  enum FollowType {
+    FOLLOW_TYPE_INIT_FOLLOW_POS = 0;
+    FOLLOW_TYPE_SET_FOLLOW_POS = 1;
+    FOLLOW_TYPE_SET_ABS_FOLLOW_POS = 2;
+  }
+
+  uint32 template_id = 9;
+  Vector look_pos = 4;
+  FollowType follow_type = 3;
+  repeated string other_params = 8;
+  uint32 entity_id = 14;
+  Vector follow_pos = 7;
+}

@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AnchorPointOpReq {
+  // CMD_ID = 4291
+
+  enum AnchorPointOpType {
+    ANCHOR_POINT_OP_TYPE_NONE = 0;
+    ANCHOR_POINT_OP_TYPE_TELEPORT = 1;
+    ANCHOR_POINT_OP_TYPE_REMOVE = 2;
+  }
+
+  uint32 anchor_point_id = 15;
+  uint32 anchor_point_op_type = 3;
+}

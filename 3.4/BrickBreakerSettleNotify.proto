@@ -1,0 +1,28 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerSettleNotify {
+  // CMD_ID = 21188
+
+  enum SettleReason {
+    SETTLE_REASON_TIME_OUT = 0;
+    SETTLE_REASON_PLAY_END = 1;
+    SETTLE_REASON_PLAYER_QUIT = 2;
+    SETTLE_REASON_LIFE_COUNT = 3;
+  }
+
+  uint32 gallery_id = 11;
+  uint32 combo = 13;
+  uint32 time = 3;
+  repeated Uint32Pair update_skill_list = 8;
+  uint32 score = 1;
+  bool is_dungeon = 4;
+  uint32 level_id = 5;
+  SettleReason reason = 10;
+  bool is_single_mode = 14;
+  bool is_new_record = 7;
+}

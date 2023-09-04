@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterTrainingSettleInfo {
+  uint32 used_time = 6;
+  string transaction = 5;
+  GalleryStopReason reason = 13;
+}

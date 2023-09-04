@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterUseBackupFungusReq {
+  // CMD_ID = 22618
+
+  repeated uint32 backup_fungus_id_list = 13;
+}

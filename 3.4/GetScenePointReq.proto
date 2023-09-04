@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetScenePointReq {
+  // CMD_ID = 216
+
+  uint32 scene_id = 15;
+  uint32 belong_uid = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterSceneDoneReq {
+  // CMD_ID = 248
+
+  uint32 enter_scene_token = 14;
+}

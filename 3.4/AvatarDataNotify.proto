@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+import "AvatarInfo.proto";
+import "AvatarRenameInfo.proto";
+import "AvatarTeam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarDataNotify {
+  // CMD_ID = 1645
+
+  uint64 choose_avatar_guid = 4;
+  repeated uint32 owned_costume_list = 15;
+  repeated AvatarInfo avatar_list = 8;
+  uint32 cur_avatar_team_id = 5;
+  map<uint32, AvatarTeam> avatar_team_map = 6;
+  repeated uint32 owned_flycloak_list = 2;
+  repeated AvatarRenameInfo avatar_rename_list = 7;
+  repeated uint32 backup_avatar_team_order_list = 12;
+  repeated uint64 temp_avatar_guid_list = 14;
+}

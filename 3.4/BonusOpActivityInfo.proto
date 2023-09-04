@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BonusOpActivityInfo {
+  uint32 left_bonus_count = 13;
+}

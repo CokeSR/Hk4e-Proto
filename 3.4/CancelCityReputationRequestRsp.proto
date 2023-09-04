@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CancelCityReputationRequestRsp {
+  // CMD_ID = 2824
+
+  uint32 request_id = 9;
+  int32 retcode = 12;
+  uint32 city_id = 14;
+}

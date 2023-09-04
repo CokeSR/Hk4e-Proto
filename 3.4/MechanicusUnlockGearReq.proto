@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusUnlockGearReq {
+  // CMD_ID = 3980
+
+  uint32 mechanicus_id = 13;
+  uint32 gear_id = 1;
+}

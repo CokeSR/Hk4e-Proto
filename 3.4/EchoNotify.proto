@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EchoNotify {
+  // CMD_ID = 88
+
+  string content = 4;
+  uint32 seq_id = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EchoShellUpdateNotify {
+  // CMD_ID = 8560
+
+  uint32 shell_id = 12;
+}

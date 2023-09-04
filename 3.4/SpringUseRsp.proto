@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpringUseRsp {
+  // CMD_ID = 1677
+
+  uint64 guid = 13;
+  int32 retcode = 15;
+}

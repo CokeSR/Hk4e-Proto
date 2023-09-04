@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAvatarSitDownNotify {
+  // CMD_ID = 353
+
+  Vector position = 2;
+  uint32 entity_id = 4;
+  uint64 chair_id = 11;
+}

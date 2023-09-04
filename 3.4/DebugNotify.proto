@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DebugNotify {
+  // CMD_ID = 101
+
+  enum Retcode {
+    SUCC = 0;
+    FAIL = 1;
+  }
+
+  uint32 id = 1;
+  string name = 2;
+  Retcode retcode = 3;
+}

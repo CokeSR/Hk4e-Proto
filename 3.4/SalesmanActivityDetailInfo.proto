@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "SalesmanStatusType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SalesmanActivityDetailInfo {
+  SalesmanStatusType status = 4;
+  uint32 last_deliver_time = 7;
+  uint32 special_reward_preview_id = 6;
+  uint32 day_index = 8;
+  bool is_today_has_delivered = 15;
+  map<uint32, uint32> selected_reward_id_map = 13;
+  uint32 cond_day_count = 11;
+  bool is_has_taken_special_reward = 5;
+  uint32 day_reward_id = 2;
+  uint32 deliver_count = 9;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ProudSkillChangeNotify {
+  // CMD_ID = 1024
+
+  uint32 entity_id = 14;
+  uint64 avatar_guid = 6;
+  repeated uint32 proud_skill_list = 10;
+  uint32 skill_depot_id = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "FireworksLaunchParamType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FireworksLaunchParam {
+  FireworksLaunchParamType type = 5;
+  int32 value = 14;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "SummerTimeV2BoatStageInfo.proto";
+import "SummerTimeV2DungeonStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeV2DetailInfo {
+  bool is_content_closed = 7;
+  uint32 cur_dungeon_reward_limit = 10;
+  repeated SummerTimeV2BoatStageInfo boat_stage_info_list = 6;
+  uint32 taken_reward_count = 14;
+  repeated SummerTimeV2DungeonStageInfo dungeon_stage_info_list = 11;
+}

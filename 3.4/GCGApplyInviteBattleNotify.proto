@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGApplyInviteBattleNotify {
+  // CMD_ID = 7941
+
+  int32 retcode = 14;
+  bool is_agree = 10;
+}

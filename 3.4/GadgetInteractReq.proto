@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "InterOpType.proto";
+import "ResinCostType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetInteractReq {
+  // CMD_ID = 805
+
+  InterOpType op_type = 1;
+  bool is_use_condense_resin = 14;
+  uint32 gadget_entity_id = 8;
+  uint32 gadget_id = 15;
+  ResinCostType resin_cost_type = 7;
+  uint32 ui_interact_id = 6;
+}

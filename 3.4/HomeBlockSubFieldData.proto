@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBlockSubFieldData {
+  Vector rot = 6;
+  Vector pos = 11;
+}

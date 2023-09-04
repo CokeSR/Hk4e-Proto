@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GroupLinkBundle {
+  bool is_activated = 7;
+  Vector center = 6;
+  uint32 scene_id = 8;
+  uint32 radius = 13;
+  bool is_show_mark = 12;
+  uint32 bundle_id = 9;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetCoopChapterViewedReq {
+  // CMD_ID = 1974
+
+  uint32 chapter_id = 1;
+}

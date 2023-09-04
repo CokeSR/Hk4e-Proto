@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3ShadowFinishLevelRsp {
+  // CMD_ID = 23853
+
+  int32 retcode = 14;
+}

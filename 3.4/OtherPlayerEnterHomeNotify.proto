@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OtherPlayerEnterHomeNotify {
+  // CMD_ID = 4582
+
+  enum Reason {
+    REASON_INVALID = 0;
+    REASON_ENTER = 1;
+    REASON_LEAVE = 2;
+  }
+
+  Reason reason = 15;
+  string nickname = 11;
+}

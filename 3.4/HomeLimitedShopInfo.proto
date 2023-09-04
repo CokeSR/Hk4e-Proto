@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeLimitedShopInfo {
+  fixed32 next_guest_open_time = 14;
+  uint32 uid = 4;
+  Vector djinn_rot = 12;
+  fixed32 next_close_time = 2;
+  Vector djinn_pos = 6;
+  fixed32 next_open_time = 15;
+}

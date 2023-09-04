@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ResetAvatarRenameReason {
+  RESET_AVATAR_RENAME_REASON_NONE = 0;
+  RESET_AVATAR_RENAME_REASON_IP_BLACK_LIST = 1;
+  RESET_AVATAR_RENAME_REASON_QUEST_AUDIT = 2;
+  RESET_AVATAR_RENAME_REASON_ACTIVE = 3;
+}

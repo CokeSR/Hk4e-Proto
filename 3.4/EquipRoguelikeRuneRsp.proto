@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EquipRoguelikeRuneRsp {
+  // CMD_ID = 8054
+
+  repeated uint32 rune_list = 13;
+  int32 retcode = 7;
+}

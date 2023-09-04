@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RestartEffigyChallengeRsp {
+  // CMD_ID = 2077
+
+  int32 retcode = 14;
+}

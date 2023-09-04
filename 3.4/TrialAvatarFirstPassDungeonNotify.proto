@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TrialAvatarFirstPassDungeonNotify {
+  // CMD_ID = 2175
+
+  uint32 trial_avatar_index_id = 9;
+}

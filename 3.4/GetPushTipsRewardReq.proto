@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPushTipsRewardReq {
+  // CMD_ID = 2218
+
+  repeated uint32 push_tips_id_list = 7;
+}

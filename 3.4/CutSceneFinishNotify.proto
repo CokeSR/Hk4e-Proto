@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CutSceneFinishNotify {
+  // CMD_ID = 257
+
+  uint32 cutscene_id = 14;
+}

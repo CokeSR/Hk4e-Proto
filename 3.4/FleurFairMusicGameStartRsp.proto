@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairMusicGameStartRsp {
+  // CMD_ID = 2088
+
+  int32 retcode = 3;
+  uint32 music_basic_id = 5;
+}

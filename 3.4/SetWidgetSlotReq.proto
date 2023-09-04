@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "WidgetSlotOp.proto";
+import "WidgetSlotTag.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetWidgetSlotReq {
+  // CMD_ID = 4299
+
+  repeated WidgetSlotTag tag_list = 13;
+  WidgetSlotOp op = 3;
+  uint32 material_id = 4;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityInvokeEntryHead {
+  int32 local_id = 7;
+  uint32 server_buff_uid = 15;
+  uint32 target_id = 5;
+  uint32 instanced_ability_id = 2;
+  uint32 instanced_modifier_id = 9;
+  bool is_serverbuff_modifier = 10;
+  int32 modifier_config_local_id = 8;
+}

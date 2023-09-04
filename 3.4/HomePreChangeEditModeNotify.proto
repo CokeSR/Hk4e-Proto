@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePreChangeEditModeNotify {
+  // CMD_ID = 4637
+
+  bool is_enter_edit_mode = 3;
+}

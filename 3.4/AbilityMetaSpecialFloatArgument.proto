@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaSpecialFloatArgument {
+  bool is_on = 9;
+  float argument_value = 2;
+}

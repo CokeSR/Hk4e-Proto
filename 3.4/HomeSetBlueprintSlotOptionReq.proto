@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSetBlueprintSlotOptionReq {
+  // CMD_ID = 4632
+
+  uint32 slot_id = 11;
+  bool is_allow_copy = 10;
+}

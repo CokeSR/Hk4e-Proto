@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StopReminderNotify {
+  // CMD_ID = 3423
+
+  uint32 reminder_id = 12;
+}

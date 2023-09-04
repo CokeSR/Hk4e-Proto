@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestUpdateQuestTimeVarNotify {
+  // CMD_ID = 436
+
+  uint32 parent_quest_id = 5;
+  map<uint32, uint32> time_var_map = 8;
+}

@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGGameCreateFailReasonNotify {
+  // CMD_ID = 7551
+
+  enum GCGGameCreateReason {
+    GCG_GAME_CREATE_REASON_NONE = 0;
+    GCG_GAME_CREATE_REASON_GAME_MAX = 1;
+    GCG_GAME_CREATE_REASON_CLIENT_VERSION_NOT_LASTEST = 2;
+    GCG_GAME_CREATE_REASON_RESOURCE_NOT_COMPLETE = 3;
+    GCG_GAME_CREATE_REASON_TIMEOUT = 4;
+    GCG_GAME_CREATE_REASON_OPPONENT_CLIENT_VERSION_NOT_LASTEST = 5;
+  }
+
+  GCGGameCreateReason reason = 2;
+}

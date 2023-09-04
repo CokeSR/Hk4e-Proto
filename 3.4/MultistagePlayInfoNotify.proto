@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MultistagePlayInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MultistagePlayInfoNotify {
+  // CMD_ID = 5305
+
+  MultistagePlayInfo info = 5;
+}

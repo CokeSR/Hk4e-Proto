@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocencePhotoReminderNotify {
+  // CMD_ID = 20385
+
+  uint32 reminder_id = 9;
+  uint32 group_bundle_id = 11;
+}

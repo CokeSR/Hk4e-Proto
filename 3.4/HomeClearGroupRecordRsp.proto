@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeClearGroupRecordRsp {
+  // CMD_ID = 4536
+
+  int32 retcode = 6;
+  uint32 group_id = 7;
+}

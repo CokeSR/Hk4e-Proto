@@ -1,0 +1,23 @@
+
+syntax = "proto3";
+
+import "VintageHuntingFirstStageSettleInfo.proto";
+import "VintageHuntingSecondStageSettleInfo.proto";
+import "VintageHuntingThirdStageSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryVintageHuntingSettleNotify {
+  // CMD_ID = 21852
+
+  bool has_new_watcher = 1;
+  uint32 stage_id = 2;
+  uint32 total_watcher_num = 9;
+  bool is_new_record = 6;
+  uint32 finished_watcher_num = 5;
+  oneof info {
+    VintageHuntingFirstStageSettleInfo first_stage_info = 15;
+    VintageHuntingSecondStageSettleInfo second_stage_info = 8;
+    VintageHuntingThirdStageSettleInfo third_stage_info = 4;
+  }
+}

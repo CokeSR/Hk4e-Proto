@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaActivityUpdateElemNotify {
+  // CMD_ID = 8850
+
+  uint32 elem_type = 9;
+}

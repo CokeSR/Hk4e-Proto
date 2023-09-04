@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSTakeCardProficiencyRewardRsp {
+  // CMD_ID = 7198
+
+  int32 retcode = 11;
+  uint32 card_id = 14;
+  uint32 reward_index = 12;
+}

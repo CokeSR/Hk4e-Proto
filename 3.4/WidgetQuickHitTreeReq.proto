@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HitTreeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetQuickHitTreeReq {
+  // CMD_ID = 3428
+
+  repeated HitTreeInfo hit_tree_info_list = 2;
+}

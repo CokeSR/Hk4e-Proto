@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+import "IslandPartySailStage.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryIslandPartySailInfo {
+  GalleryStartSource start_source = 1;
+  uint32 kill_progress = 5;
+  uint32 max_clean_progress = 11;
+  IslandPartySailStage stage = 14;
+  uint32 max_kill_progress = 7;
+  uint32 coin = 13;
+  uint32 clean_progress = 8;
+}

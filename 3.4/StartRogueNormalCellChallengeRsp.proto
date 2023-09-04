@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueNormalCellChallengeRsp {
+  // CMD_ID = 8485
+
+  uint32 dungeon_id = 4;
+  int32 retcode = 2;
+  uint32 cell_id = 7;
+}

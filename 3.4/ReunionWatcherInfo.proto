@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionWatcherInfo {
+  uint32 reward_unlock_time = 7;
+  uint32 cur_progress = 11;
+  uint32 watcher_id = 12;
+  uint32 total_progress = 10;
+  bool is_taken_reward = 5;
+}

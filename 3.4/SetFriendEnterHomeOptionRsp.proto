@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetFriendEnterHomeOptionRsp {
+  // CMD_ID = 4581
+
+  int32 retcode = 13;
+}

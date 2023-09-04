@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusRenameRsp {
+  // CMD_ID = 23858
+
+  int32 retcode = 12;
+  uint32 fungus_id = 3;
+  uint32 name_id = 7;
+}

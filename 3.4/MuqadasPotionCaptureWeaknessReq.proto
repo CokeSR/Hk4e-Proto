@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MuqadasPotionCaptureWeaknessReq {
+  // CMD_ID = 20534
+
+  uint32 level_id = 10;
+  uint32 capture_weakness_count = 12;
+}

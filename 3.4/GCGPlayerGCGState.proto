@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGPlayerGCGState {
+  bool is_reasouce_complete = 14;
+  uint32 uid = 15;
+  bool is_gcg_state_open = 11;
+}

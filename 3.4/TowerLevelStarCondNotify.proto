@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "TowerLevelStarCondData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerLevelStarCondNotify {
+  // CMD_ID = 2485
+
+  uint32 floor_id = 13;
+  uint32 level_index = 4;
+  repeated TowerLevelStarCondData cond_data_list = 15;
+}

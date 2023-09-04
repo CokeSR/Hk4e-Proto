@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerInjectFixNotify {
+  // CMD_ID = 126
+
+  uint32 id = 14;
+  bytes inject_fix = 6;
+}

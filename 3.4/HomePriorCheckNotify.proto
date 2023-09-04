@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePriorCheckNotify {
+  // CMD_ID = 4694
+
+  fixed32 end_time = 7;
+}

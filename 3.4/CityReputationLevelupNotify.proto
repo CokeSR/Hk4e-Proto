@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CityReputationLevelupNotify {
+  // CMD_ID = 2820
+
+  uint32 city_id = 10;
+  uint32 level = 11;
+}

@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaLoseHp {
+  uint32 lose_hp_config_idx = 4;
+}

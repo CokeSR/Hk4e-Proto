@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGIntentionChangeType.proto";
+import "GCGMsgPVEIntention.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgPVEIntentionChange {
+  GCGIntentionChangeType change_type = 6;
+  repeated GCGMsgPVEIntention change_intention_list = 2;
+}

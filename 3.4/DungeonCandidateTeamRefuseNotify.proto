@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamRefuseNotify {
+  // CMD_ID = 928
+
+  uint32 player_uid = 10;
+}

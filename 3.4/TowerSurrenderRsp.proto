@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerSurrenderRsp {
+  // CMD_ID = 2488
+
+  int32 retcode = 2;
+}

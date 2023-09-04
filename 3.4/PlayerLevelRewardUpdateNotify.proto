@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerLevelRewardUpdateNotify {
+  // CMD_ID = 154
+
+  repeated uint32 level_list = 5;
+}

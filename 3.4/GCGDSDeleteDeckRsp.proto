@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSDeleteDeckRsp {
+  // CMD_ID = 7399
+
+  uint32 deck_id = 14;
+  int32 retcode = 10;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "OtherCustomDungeonBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetRecommendCustomDungeonRsp {
+  // CMD_ID = 6206
+
+  repeated OtherCustomDungeonBrief custom_dungeon_list = 10;
+  int32 retcode = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ReliquaryFilterKey {
+  RELIQUARY_FILTER_KEY_NONE = 0;
+  RELIQUARY_FILTER_KEY_LOCK = 1;
+  RELIQUARY_FILTER_KEY_LEVEL = 2;
+  RELIQUARY_FILTER_KEY_WEARING = 3;
+}

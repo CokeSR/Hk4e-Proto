@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerPlayerSetSkillNotify {
+  // CMD_ID = 5333
+
+  uint32 uid = 12;
+  repeated uint32 skill_id_list = 5;
+}

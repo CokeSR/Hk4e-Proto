@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseWidgetCreateGadgetRsp {
+  // CMD_ID = 4267
+
+  uint32 material_id = 13;
+  int32 retcode = 4;
+}

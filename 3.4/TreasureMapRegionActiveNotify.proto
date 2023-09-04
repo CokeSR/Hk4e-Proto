@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapRegionActiveNotify {
+  // CMD_ID = 2177
+
+  uint32 active_region_index = 14;
+}

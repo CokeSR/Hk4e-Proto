@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocenceCampStageInfo {
+  bool is_open = 8;
+  uint32 stage_id = 14;
+  bool is_finished = 13;
+  uint32 level_id = 12;
+}

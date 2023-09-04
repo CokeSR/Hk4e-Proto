@@ -1,0 +1,23 @@
+
+syntax = "proto3";
+
+import "AbilityAttachedModifier.proto";
+import "AbilityString.proto";
+import "ModifierAction.proto";
+import "ModifierProperty.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaModifierChange {
+  uint32 apply_entity_id = 8;
+  AbilityAttachedModifier attached_instanced_modifier = 7;
+  bool is_durability_zero = 1;
+  repeated ModifierProperty properties = 13;
+  AbilityString parent_ability_name = 10;
+  AbilityString parent_ability_override = 5;
+  bool is_mute_remote = 11;
+  bool is_attached_parent_ability = 3;
+  uint32 server_buff_uid = 9;
+  int32 modifier_local_id = 6;
+  ModifierAction action = 2;
+}

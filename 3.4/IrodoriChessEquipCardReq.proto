@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriChessEquipCardReq {
+  // CMD_ID = 8093
+
+  uint32 card_id = 1;
+  bool is_hard_map = 7;
+  uint32 level_id = 12;
+}

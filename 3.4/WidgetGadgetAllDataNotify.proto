@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "WidgetGadgetData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetGadgetAllDataNotify {
+  // CMD_ID = 4259
+
+  repeated WidgetGadgetData widget_gadget_data = 4;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "HomeGroupPlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSeekFurniturePlayerScore {
+  HomeGroupPlayerInfo player_info = 4;
+  uint32 score = 9;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "AvatarTeam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarTeamAllDataNotify {
+  // CMD_ID = 1763
+
+  repeated uint64 temp_avatar_guid_list = 15;
+  repeated uint32 backup_avatar_team_order_list = 14;
+  map<uint32, AvatarTeam> avatar_team_map = 12;
+}

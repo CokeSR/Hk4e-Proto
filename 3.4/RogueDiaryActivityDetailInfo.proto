@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "RogueDiaryProgress.proto";
+import "RogueDiaryStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryActivityDetailInfo {
+  RogueDiaryProgress cur_progress = 5;
+  repeated RogueDiaryStageInfo stage_list = 8;
+  bool is_content_closed = 1;
+  bool is_have_progress = 13;
+}

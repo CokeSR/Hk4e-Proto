@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "WidgetCameraInfo.proto";
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCreatorInfo.proto";
+import "WidgetThunderBirdFeatherInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuickUseWidgetReq {
+  // CMD_ID = 4275
+  oneof param {
+    WidgetCreateLocationInfo location_info = 1542;
+    WidgetCameraInfo camera_info = 1754;
+    WidgetCreatorInfo creator_info = 825;
+    WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 1365;
+  }
+}

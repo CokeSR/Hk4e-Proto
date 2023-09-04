@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AreaPlayType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AreaPlayInfoNotify {
+  // CMD_ID = 3069
+
+  uint32 detail_play_type = 12;
+  AreaPlayType area_play_type = 9;
+}

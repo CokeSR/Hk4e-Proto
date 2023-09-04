@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeEffectViewReq {
+  // CMD_ID = 8207
+
+  repeated uint32 view_curse_list = 12;
+  repeated uint32 view_card_list = 10;
+}

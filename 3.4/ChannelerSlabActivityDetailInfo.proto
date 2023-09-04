@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ChannelerSlabChallengeStage.proto";
+import "ChannellerSlabBuffInfo.proto";
+import "ChannellerSlabLoopDungeonStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannelerSlabActivityDetailInfo {
+  ChannellerSlabBuffInfo buff_info = 13;
+  uint32 play_end_time = 7;
+  ChannellerSlabLoopDungeonStageInfo loop_dungeon_stage_info = 4;
+  repeated ChannelerSlabChallengeStage stage_list = 9;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ClientInputType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ViewLanternProjectionTipsReq {
+  // CMD_ID = 8102
+
+  bool is_input_tips = 2;
+  ClientInputType input_type = 1;
+}

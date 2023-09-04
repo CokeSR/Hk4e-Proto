@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGActionType.proto";
+import "GCGMessage.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMessagePack {
+  uint32 controller_id = 12;
+  uint32 action_trans_id = 1;
+  repeated GCGMessage msg_list = 3;
+  GCGActionType action_type = 8;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonWayPointActivateRsp {
+  // CMD_ID = 962
+
+  uint32 way_point_id = 10;
+  int32 retcode = 3;
+}

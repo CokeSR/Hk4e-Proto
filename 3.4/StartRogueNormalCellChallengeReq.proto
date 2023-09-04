@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueNormalCellChallengeReq {
+  // CMD_ID = 8840
+
+  uint32 dungeon_id = 7;
+  uint32 cell_id = 12;
+}

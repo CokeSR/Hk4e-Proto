@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MultistagePlayFinishStageRsp {
+  // CMD_ID = 5313
+
+  uint32 play_index = 7;
+  uint32 group_id = 12;
+  int32 retcode = 1;
+}

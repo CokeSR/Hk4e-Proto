@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientNewMailNotify {
+  // CMD_ID = 1414
+
+  uint32 not_read_num = 3;
+  uint32 not_got_attachment_num = 11;
+}

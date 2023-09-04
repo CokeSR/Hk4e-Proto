@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FurnitureMakeHelpData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeHelpRsp {
+  // CMD_ID = 4533
+
+  int32 retcode = 7;
+  repeated FurnitureMakeHelpData help_data_list = 4;
+}

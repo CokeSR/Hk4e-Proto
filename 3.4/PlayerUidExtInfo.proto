@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerUidExtInfo {
+  uint32 reg_platform = 1;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "LuminanceStoneChallengeGallerySettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LuminanceStoneChallengeSettleInfo {
+  bool is_new_record = 8;
+  LuminanceStoneChallengeGallerySettleInfo settle_info = 11;
+}

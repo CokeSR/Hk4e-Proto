@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabOneOffDungeonInfoRsp {
+  // CMD_ID = 8731
+
+  int32 retcode = 2;
+  repeated uint32 scheme_buff_id_list = 11;
+}

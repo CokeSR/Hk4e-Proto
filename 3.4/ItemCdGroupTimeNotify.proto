@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ItemCdGroupTimeNotify {
+  // CMD_ID = 651
+
+  map<uint32, uint64> item_cd_map = 13;
+}

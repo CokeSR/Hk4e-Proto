@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SocialDataNotify {
+  // CMD_ID = 4050
+
+  bool is_have_first_share = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MapMarkPoint.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AllMarkPointNotify {
+  // CMD_ID = 3284
+
+  repeated MapMarkPoint mark_list = 6;
+}

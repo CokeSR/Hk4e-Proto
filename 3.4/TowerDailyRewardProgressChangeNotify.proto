@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerDailyRewardProgressChangeNotify {
+  // CMD_ID = 2498
+
+  uint32 daily_level_index = 4;
+  uint32 daily_floor_id = 3;
+}

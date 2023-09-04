@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantSeedReq {
+  // CMD_ID = 4669
+
+  uint32 index = 5;
+  uint32 field_guid = 13;
+  repeated uint32 seed_id_list = 10;
+}

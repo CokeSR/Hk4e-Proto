@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ExchangeMcoinType {
+  EXCHANGE_MCOIN_TYPE_EXCHANGEMCOIN_NONE = 0;
+  EXCHANGE_MCOIN_TYPE_EXCHANGEMCOIN_PCM_TO_PSN = 1;
+  EXCHANGE_MCOIN_TYPE_EXCHANGEMCOIN_PSN_TO_PCM = 2;
+}

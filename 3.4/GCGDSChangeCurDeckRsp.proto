@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeCurDeckRsp {
+  // CMD_ID = 7565
+
+  int32 retcode = 9;
+  uint32 deck_id = 12;
+}

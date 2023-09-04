@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "GalleryElectroherculesBattleStartParam.proto";
+import "GalleryFlowerStartParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryStartNotify {
+  // CMD_ID = 5505
+
+  uint32 start_time = 3;
+  uint32 owner_uid = 14;
+  uint32 player_count = 4;
+  uint32 gallery_id = 12;
+  uint32 end_time = 1;
+  oneof detail {
+    GalleryFlowerStartParam flower_start_param = 10;
+    GalleryElectroherculesBattleStartParam electrohercules_start_param = 7;
+  }
+}

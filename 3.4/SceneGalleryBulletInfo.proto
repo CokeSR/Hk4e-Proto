@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryBulletInfo {
+  uint32 end_time = 8;
+  map<uint32, uint32> hit_count_map = 1;
+}

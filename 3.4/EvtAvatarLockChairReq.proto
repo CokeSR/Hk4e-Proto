@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAvatarLockChairReq {
+  // CMD_ID = 337
+
+  uint64 chair_id = 3;
+  Vector position = 14;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GCGDuel.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGReplayRecordData {
+  uint32 op_seq = 13;
+  uint32 controller_id = 14;
+  oneof detail {
+    string gm_msg = 12;
+    GCGDuel duel = 5;
+  }
+}

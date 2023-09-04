@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AiSyncInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityAiSyncNotify {
+  // CMD_ID = 354
+
+  repeated uint32 local_avatar_alerted_monster_list = 8;
+  repeated AiSyncInfo info_list = 10;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGDuelChallenge.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGChallengeUpdateNotify {
+  // CMD_ID = 7731
+
+  GCGDuelChallenge challenge = 4;
+  uint32 server_seq = 9;
+}

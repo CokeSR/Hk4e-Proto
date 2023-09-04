@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageHuntingSecondStageSettleInfo {
+  map<uint32, uint32> animal_count_map = 7;
+  uint32 total_num = 14;
+  uint32 capture_animal_num = 1;
+}

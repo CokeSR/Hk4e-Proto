@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RechargeRsp {
+  // CMD_ID = 4145
+
+  int32 retcode = 8;
+  string product_id = 11;
+  bool is_show_minors_hint = 5;
+}

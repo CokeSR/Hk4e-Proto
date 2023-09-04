@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ReunionMissionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionMissionRewardRsp {
+  // CMD_ID = 5092
+
+  ReunionMissionInfo mission_info = 12;
+  uint32 reward_index = 5;
+  int32 retcode = 4;
+  uint32 reward_id = 11;
+}

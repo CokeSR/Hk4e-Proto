@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryCoinAddNotify {
+  // CMD_ID = 8264
+
+  uint32 num = 7;
+}

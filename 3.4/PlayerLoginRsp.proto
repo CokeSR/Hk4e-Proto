@@ -1,0 +1,49 @@
+
+syntax = "proto3";
+
+import "BlockInfo.proto";
+import "FeatureBlockInfo.proto";
+import "ResVersionConfig.proto";
+import "ShortAbilityHashPair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerLoginRsp {
+  // CMD_ID = 198
+
+  bool is_audit = 201;
+  bool is_relogin = 6;
+  string client_md5 = 1070;
+  uint32 player_data_version = 9;
+  string client_version_suffix = 624;
+  uint64 login_rand = 8;
+  repeated FeatureBlockInfo feature_block_info_list = 2035;
+  bool is_use_ability_hash = 15;
+  bool is_sc_open = 1852;
+  bytes player_data = 14;
+  double total_tick_time = 1769;
+  map<uint32, BlockInfo> block_info_map = 982;
+  string country_code = 238;
+  ResVersionConfig res_version_config = 777;
+  uint32 client_silence_data_version = 2;
+  string client_silence_version_suffix = 935;
+  bool is_enable_client_hash_debug = 1254;
+  string client_silence_md5 = 979;
+  bool is_data_need_relogin = 1021;
+  repeated ShortAbilityHashPair short_ability_hash_map = 1199;
+  uint32 target_uid = 3;
+  string game_biz = 4;
+  bool is_transfer = 956;
+  int32 retcode = 1;
+  map<string, int32> ability_hash_map = 5;
+  bool is_login_rsp_split = 1435;
+  bytes sc_info = 151;
+  bool is_new_player = 10;
+  uint32 client_data_version = 7;
+  uint32 target_home_owner_uid = 787;
+  string register_cps = 552;
+  string birthday = 163;
+  ResVersionConfig next_res_version_config = 1331;
+  int32 ability_hash_code = 13;
+  string next_resource_url = 1095;
+}

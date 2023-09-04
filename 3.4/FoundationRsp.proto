@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "FoundationOpType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FoundationRsp {
+  // CMD_ID = 806
+
+  uint32 point_config_id = 14;
+  int32 retcode = 1;
+  uint32 gadget_entity_id = 10;
+  FoundationOpType op_type = 15;
+  uint32 building_id = 8;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseItemReq {
+  // CMD_ID = 670
+
+  uint64 guid = 8;
+  uint32 option_idx = 14;
+  uint32 count = 12;
+  bool is_enter_mp_dungeon_team = 13;
+  uint64 target_guid = 6;
+}

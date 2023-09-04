@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RemoveRandTaskInfoNotify {
+  // CMD_ID = 115
+
+  enum FinishReason {
+    FINISH_REASON_DEFAULT = 0;
+    FINISH_REASON_CLEAR = 1;
+    FINISH_REASON_DISTANCE = 2;
+    FINISH_REASON_FINISH = 3;
+  }
+
+  uint32 rand_task_id = 9;
+  bool is_succ = 7;
+  FinishReason reason = 2;
+}

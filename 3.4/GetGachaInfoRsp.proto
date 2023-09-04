@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "GachaInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetGachaInfoRsp {
+  // CMD_ID = 1555
+
+  int32 retcode = 14;
+  bool is_under_general_restrict = 11;
+  uint32 daily_gacha_times = 1;
+  uint32 gacha_random = 6;
+  bool is_under_minors_restrict = 13;
+  repeated GachaInfo gacha_info_list = 3;
+}

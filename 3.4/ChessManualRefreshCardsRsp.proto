@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessManualRefreshCardsRsp {
+  // CMD_ID = 5365
+
+  int32 retcode = 1;
+}

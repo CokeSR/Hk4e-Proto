@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSetBlueprintFriendOptionRsp {
+  // CMD_ID = 4818
+
+  int32 retcode = 6;
+  bool is_allow_friend_copy = 9;
+}

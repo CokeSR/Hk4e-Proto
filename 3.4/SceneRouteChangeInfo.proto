@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "RoutePointChangeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneRouteChangeInfo {
+  bool is_forward = 7;
+  repeated RoutePointChangeInfo point_list = 14;
+  uint32 type = 11;
+  uint32 route_id = 6;
+}

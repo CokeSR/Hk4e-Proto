@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabEnterLoopDungeonRsp {
+  // CMD_ID = 8892
+
+  int32 retcode = 5;
+  uint32 dungeon_index = 6;
+  repeated uint32 condition_id_list = 11;
+  uint32 point_id = 2;
+  uint32 difficulty_id = 4;
+}

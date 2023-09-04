@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinShieldBar {
+  float shield = 8;
+  float max_shield = 11;
+  uint32 element_type = 1;
+  uint32 player_num = 7;
+}

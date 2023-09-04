@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerOfferingData {
+  bool is_new_max_level = 11;
+  uint32 offering_id = 8;
+  bool is_first_interact = 4;
+  repeated uint32 taken_level_reward_list = 7;
+  uint32 level = 1;
+}

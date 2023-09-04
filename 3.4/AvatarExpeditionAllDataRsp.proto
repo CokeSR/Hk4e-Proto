@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "AvatarExpeditionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarExpeditionAllDataRsp {
+  // CMD_ID = 1654
+
+  uint32 expedition_count_limit = 12;
+  repeated uint32 open_expedition_list = 9;
+  int32 retcode = 4;
+  map<uint64, AvatarExpeditionInfo> expedition_info_map = 10;
+}

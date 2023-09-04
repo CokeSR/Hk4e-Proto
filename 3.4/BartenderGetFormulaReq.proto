@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderGetFormulaReq {
+  // CMD_ID = 8258
+
+  repeated ItemParam item_list = 4;
+  uint32 quest_id = 6;
+}

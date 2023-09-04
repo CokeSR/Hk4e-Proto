@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum SecurityCheckType {
+  SECURITY_CHECK_TYPE_NONE = 0;
+  SECURITY_CHECK_TYPE_LOGIN = 1;
+}

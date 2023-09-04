@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+import "CylinderRegionSize.proto";
+import "PolygonRegionSize.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerEyePointStateNotify {
+  // CMD_ID = 3435
+
+  bool is_use_eye_point = 1;
+  Vector eye_point_pos = 14;
+  uint32 region_group_id = 11;
+  uint32 region_shape = 2;
+  uint32 region_config_id = 4;
+  int32 fix_lod_level = 6;
+  uint32 region_entity_id = 5;
+  bool is_filter_stream_pos = 10;
+  oneof region_size {
+    float sphere_radius = 152;
+    Vector cubic_size = 879;
+    CylinderRegionSize cylinder_size = 1320;
+    PolygonRegionSize polygon_size = 1996;
+  }
+}

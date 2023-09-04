@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCoopRewardReq {
+  // CMD_ID = 1953
+
+  uint32 reward_config_id = 11;
+}

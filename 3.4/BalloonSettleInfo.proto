@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BalloonSettleInfo {
+  uint32 shoot_count = 3;
+  uint32 max_combo = 14;
+  uint32 final_score = 1;
+  uint32 uid = 11;
+  OnlinePlayerInfo player_info = 15;
+}

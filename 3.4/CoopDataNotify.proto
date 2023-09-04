@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "CoopChapter.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopDataNotify {
+  // CMD_ID = 1981
+
+  repeated uint32 viewed_chapter_list = 8;
+  bool is_have_progress = 14;
+  repeated CoopChapter chapter_list = 12;
+  uint32 cur_coop_point = 1;
+}

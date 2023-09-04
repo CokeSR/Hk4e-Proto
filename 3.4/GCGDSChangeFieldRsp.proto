@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeFieldRsp {
+  // CMD_ID = 7818
+
+  uint32 field_id = 12;
+  uint32 deck_id = 1;
+  int32 retcode = 6;
+}

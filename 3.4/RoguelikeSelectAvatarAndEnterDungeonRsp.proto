@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeSelectAvatarAndEnterDungeonRsp {
+  // CMD_ID = 8932
+
+  int32 retcode = 2;
+  uint32 stage_id = 4;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AssociateInferenceWordRsp {
+  // CMD_ID = 490
+
+  uint32 associate_word_id = 14;
+  uint32 base_word_id = 5;
+  uint32 page_id = 11;
+  int32 retcode = 13;
+}

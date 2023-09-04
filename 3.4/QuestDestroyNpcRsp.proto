@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestDestroyNpcRsp {
+  // CMD_ID = 488
+
+  uint32 npc_id = 4;
+  uint32 parent_quest_id = 6;
+  int32 retcode = 2;
+}

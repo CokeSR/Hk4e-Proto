@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BigTalentPointConvertRsp {
+  // CMD_ID = 1074
+
+  int32 retcode = 14;
+  uint64 avatar_guid = 12;
+}

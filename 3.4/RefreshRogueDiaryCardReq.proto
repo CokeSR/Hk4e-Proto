@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RefreshRogueDiaryCardReq {
+  // CMD_ID = 8157
+
+  repeated uint32 refresh_card_list = 4;
+}

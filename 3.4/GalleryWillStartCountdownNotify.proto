@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryWillStartCountdownNotify {
+  // CMD_ID = 5575
+
+  uint32 gallery_id = 8;
+  bool is_end = 1;
+  GalleryStartSource start_source = 13;
+  uint32 end_time = 9;
+}

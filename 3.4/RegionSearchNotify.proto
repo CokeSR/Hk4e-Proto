@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "RegionSearchInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RegionSearchNotify {
+  // CMD_ID = 5638
+
+  uint32 uid = 1;
+  repeated RegionSearchInfo region_search_list = 15;
+}

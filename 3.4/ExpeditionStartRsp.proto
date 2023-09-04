@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionStartRsp {
+  // CMD_ID = 2157
+
+  int32 retcode = 13;
+  uint32 assist_uid = 7;
+  uint32 assist_avatar_id = 9;
+  uint32 path_id = 4;
+  repeated uint32 avatar_id_list = 12;
+}

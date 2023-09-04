@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CombineReq {
+  // CMD_ID = 650
+
+  uint32 combine_count = 10;
+  uint32 combine_id = 8;
+  uint64 avatar_guid = 15;
+}

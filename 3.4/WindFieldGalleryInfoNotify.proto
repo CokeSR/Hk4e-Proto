@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WindFieldGalleryInfoNotify {
+  // CMD_ID = 5573
+
+  uint32 element_ball_num = 9;
+  uint32 challenge_timestamp = 4;
+  uint32 show_id = 13;
+  uint32 coin_num = 1;
+  uint32 challenge_ball_cur_count = 5;
+  uint32 challenge_ball_max_count = 15;
+  uint32 challenge_total_time = 11;
+  uint32 killed_monster_num = 3;
+}

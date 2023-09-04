@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeRefreshCardCostUpdateNotify {
+  // CMD_ID = 8164
+
+  uint32 item_id = 4;
+  uint32 item_count = 8;
+}

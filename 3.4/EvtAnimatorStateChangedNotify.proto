@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EvtAnimatorStateChangedInfo.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAnimatorStateChangedNotify {
+  // CMD_ID = 324
+
+  ForwardType forward_type = 6;
+  EvtAnimatorStateChangedInfo evt_animator_state_changed_info = 8;
+}

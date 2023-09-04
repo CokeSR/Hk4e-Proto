@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "MatchReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerGeneralMatchDismissNotify {
+  // CMD_ID = 4187
+
+  uint32 match_id = 6;
+  MatchReason reason = 13;
+  repeated uint32 uid_list = 5;
+}

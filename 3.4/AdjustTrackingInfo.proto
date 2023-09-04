@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AdjustTrackingInfo {
+  string app_token = 5;
+  string gps_adid = 8;
+  string fire_adid = 15;
+  string adid = 3;
+  string idfa = 7;
+  string event_token = 13;
+}

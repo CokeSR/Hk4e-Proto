@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RedPointData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdateRedPointNotify {
+  // CMD_ID = 58
+
+  repeated RedPointData red_point_list = 8;
+}

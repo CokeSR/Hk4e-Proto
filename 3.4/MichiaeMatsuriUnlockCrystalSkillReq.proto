@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriUnlockCrystalSkillReq {
+  // CMD_ID = 8341
+
+  uint32 crystal_skill_id = 9;
+}

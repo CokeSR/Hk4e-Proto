@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeKickPlayerReq {
+  // CMD_ID = 4511
+
+  bool is_kick_all = 7;
+  uint32 target_uid = 15;
+}

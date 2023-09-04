@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PersonalLineNewUnlockNotify {
+  // CMD_ID = 494
+
+  repeated uint32 personal_line_id_list = 11;
+}

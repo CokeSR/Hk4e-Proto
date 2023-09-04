@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "WinterCampRecvItemData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampRecvItemNotify {
+  // CMD_ID = 8667
+
+  WinterCampRecvItemData recv_item_data = 5;
+}

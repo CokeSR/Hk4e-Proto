@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "ActivityInfo.proto";
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetActivityInfoRsp {
+  // CMD_ID = 2073
+
+  repeated ActivityInfo activity_info_list = 13;
+  repeated Uint32Pair disable_transfer_point_interaction_list = 3;
+  repeated uint32 activated_sale_id_list = 7;
+  int32 retcode = 14;
+}

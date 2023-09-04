@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "LuaShellType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerLuaShellNotify {
+  // CMD_ID = 191
+
+  bytes lua_shell = 5;
+  uint32 use_type = 8;
+  LuaShellType shell_type = 7;
+  uint32 id = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGSkillPreviewCardInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSkillPreviewExtraInfo {
+  repeated GCGSkillPreviewCardInfo refresh_card_when_exist_list = 6;
+  repeated GCGSkillPreviewCardInfo fail_added_when_full_list = 11;
+}

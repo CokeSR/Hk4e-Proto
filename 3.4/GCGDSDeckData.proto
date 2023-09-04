@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSDeckData {
+  repeated uint32 character_card_list = 14;
+  bool is_valid = 4;
+  fixed32 create_time = 9;
+  string name = 3;
+  uint32 card_back_id = 2;
+  uint32 field_id = 6;
+  repeated uint32 card_list = 12;
+  uint32 id = 15;
+}

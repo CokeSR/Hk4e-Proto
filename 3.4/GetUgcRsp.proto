@@ -1,0 +1,24 @@
+
+syntax = "proto3";
+
+import "RecordUsage.proto";
+import "UgcMusicBriefInfo.proto";
+import "UgcMusicRecord.proto";
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetUgcRsp {
+  // CMD_ID = 6345
+
+  UgcType ugc_type = 12;
+  int32 retcode = 8;
+  RecordUsage ugc_record_usage = 7;
+  uint64 ugc_guid = 9;
+  oneof record {
+    UgcMusicRecord music_record = 1;
+  }
+  oneof brief {
+    UgcMusicBriefInfo music_brief_info = 616;
+  }
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MarkEntityInMinMapNotify {
+  // CMD_ID = 263
+
+  uint32 monster_id = 12;
+  uint32 entity_id = 3;
+  Vector position = 13;
+}

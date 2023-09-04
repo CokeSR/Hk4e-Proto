@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryCrystalLinkKillMonsterNotify {
+  // CMD_ID = 5539
+
+  uint32 gallery_id = 10;
+  uint32 score = 9;
+}

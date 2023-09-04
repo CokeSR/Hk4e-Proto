@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetH5ActivityRedDotTimestampRsp {
+  // CMD_ID = 5669
+
+  int32 retcode = 4;
+}

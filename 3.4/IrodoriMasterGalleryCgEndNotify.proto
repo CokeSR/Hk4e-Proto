@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriMasterGalleryCgEndNotify {
+  // CMD_ID = 8260
+
+  uint32 gallery_id = 5;
+  uint32 level_id = 1;
+}

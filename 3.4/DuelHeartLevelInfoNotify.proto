@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartLevelInfoNotify {
+  // CMD_ID = 21856
+
+  bool is_need_play_cg = 11;
+}

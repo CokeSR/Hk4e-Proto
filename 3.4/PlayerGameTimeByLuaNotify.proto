@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerGameTimeByLuaNotify {
+  // CMD_ID = 121
+
+  uint32 uid = 9;
+  uint32 sim_speed = 1;
+  uint32 game_time = 8;
+}

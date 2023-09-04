@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetOpenStateRsp {
+  // CMD_ID = 125
+
+  int32 retcode = 9;
+  uint32 value = 15;
+  uint32 key = 10;
+}

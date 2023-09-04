@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PullRecentChatReq {
+  // CMD_ID = 5020
+
+  uint32 begin_sequence = 14;
+  uint32 pull_num = 2;
+}

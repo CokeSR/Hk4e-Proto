@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3RaceSettleNotify {
+  // CMD_ID = 23477
+
+  bool is_new_record = 3;
+  uint32 score = 8;
+  uint32 gallery_id = 9;
+  uint32 total_coint_count = 15;
+  bool is_success = 7;
+  uint32 level_id = 14;
+  uint32 coin_count = 11;
+  uint32 remain_time = 5;
+}

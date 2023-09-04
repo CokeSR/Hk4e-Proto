@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PSNFriendListNotify {
+  // CMD_ID = 4067
+
+  repeated FriendBrief psn_friend_list = 11;
+}

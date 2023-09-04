@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "BattlePassRewardTakeOption.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeBattlePassRewardReq {
+  // CMD_ID = 2619
+
+  repeated BattlePassRewardTakeOption take_option_list = 1;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LiveStartNotify {
+  // CMD_ID = 873
+
+  uint32 live_id = 10;
+}

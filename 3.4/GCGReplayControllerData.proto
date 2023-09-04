@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGReplayControllerData {
+  uint32 controller_id = 7;
+  repeated uint32 card_id_list = 9;
+}

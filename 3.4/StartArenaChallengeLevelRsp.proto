@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartArenaChallengeLevelRsp {
+  // CMD_ID = 2116
+
+  uint32 arena_challenge_id = 1;
+  uint32 gadget_entity_id = 2;
+  int32 retcode = 6;
+  uint32 arena_challenge_level = 7;
+}

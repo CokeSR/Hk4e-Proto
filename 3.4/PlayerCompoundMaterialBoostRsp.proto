@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "CompoundBoostTakeStatusType.proto";
+import "CompoundQueueData.proto";
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCompoundMaterialBoostRsp {
+  // CMD_ID = 119
+
+  repeated CompoundQueueData compound_que_data_list = 6;
+  int32 retcode = 15;
+  repeated ItemParam take_item_list = 14;
+  CompoundBoostTakeStatusType take_status = 8;
+}

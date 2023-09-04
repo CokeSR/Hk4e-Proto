@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryBalloonShootNotify {
+  // CMD_ID = 5555
+
+  uint32 gallery_id = 8;
+  uint32 trigger_entity_id = 2;
+  int32 add_score = 5;
+  uint32 cur_score = 14;
+  uint32 combo = 7;
+  uint64 combo_disable_time = 6;
+}

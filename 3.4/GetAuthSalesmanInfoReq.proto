@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAuthSalesmanInfoReq {
+  // CMD_ID = 2108
+
+  uint32 schedule_id = 8;
+}

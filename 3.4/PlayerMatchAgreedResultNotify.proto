@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+import "MatchType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerMatchAgreedResultNotify {
+  // CMD_ID = 4152
+
+  enum Reason {
+    REASON_SUCC = 0;
+    REASON_TARGET_SCENE_CANNOT_ENTER = 1;
+    REASON_SELF_MP_UNAVAILABLE = 2;
+    REASON_OTHER_DATA_VERSION_NOT_LATEST = 3;
+    REASON_DATA_VERSION_NOT_LATEST = 4;
+  }
+
+  Reason reason = 5;
+  MatchType match_type = 12;
+  uint32 target_uid = 7;
+}

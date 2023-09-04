@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftInviteResultNotify {
+  // CMD_ID = 5462
+
+  bool is_all_argee = 1;
+  uint32 draft_id = 5;
+}

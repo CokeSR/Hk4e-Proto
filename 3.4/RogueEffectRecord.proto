@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueEffectRecord {
+  bool is_new = 3;
+  uint32 source_id = 5;
+  uint32 count = 1;
+  repeated uint32 extra_param_list = 9;
+}

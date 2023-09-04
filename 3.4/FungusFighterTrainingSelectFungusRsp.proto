@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterTrainingSelectFungusRsp {
+  // CMD_ID = 20972
+
+  int32 retcode = 15;
+}

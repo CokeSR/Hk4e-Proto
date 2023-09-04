@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CanUseSkillNotify {
+  // CMD_ID = 1069
+
+  bool is_can_use_skill = 2;
+}

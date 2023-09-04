@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BargainTerminateNotify {
+  // CMD_ID = 475
+
+  uint32 bargain_id = 14;
+}

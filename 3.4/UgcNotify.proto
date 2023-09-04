@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UgcNotify {
+  // CMD_ID = 6337
+
+  bool is_ugc_publish_ban = 13;
+  bool is_ugc_publish_feature_closed = 5;
+  bool is_ugc_feature_closed = 10;
+}

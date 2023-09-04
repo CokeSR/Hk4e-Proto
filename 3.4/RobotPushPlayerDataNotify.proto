@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RobotPushPlayerDataNotify {
+  // CMD_ID = 16
+
+  bytes bin = 6;
+}

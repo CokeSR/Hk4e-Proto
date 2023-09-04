@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "LockedPersonallineData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PersonalLineAllDataRsp {
+  // CMD_ID = 443
+
+  repeated uint32 ongoing_personal_line_list = 5;
+  uint32 legendary_key_count = 7;
+  uint32 cur_finished_daily_task_count = 2;
+  repeated uint32 can_be_unlocked_personal_line_list = 4;
+  int32 retcode = 11;
+  repeated LockedPersonallineData locked_personal_line_list = 10;
+}

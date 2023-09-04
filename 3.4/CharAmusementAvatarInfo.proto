@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CharAmusementAvatarInfo {
+  uint32 uid = 3;
+  repeated uint32 avatar_id_list = 11;
+  uint32 punish_time = 1;
+}

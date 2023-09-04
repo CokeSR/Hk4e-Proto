@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "LanternRiteFireworksReformFactorInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LanternRiteDoFireworksReformRsp {
+  // CMD_ID = 8644
+
+  uint32 fire_element_addition_ratio = 3;
+  bool is_lucky = 7;
+  repeated LanternRiteFireworksReformFactorInfo factor_info_list = 6;
+  uint32 stage_id = 1;
+  uint32 challenge_id = 9;
+  uint32 stamina_value = 5;
+  uint32 reform_score = 14;
+  uint32 fire_element_value = 2;
+  int32 retcode = 12;
+}

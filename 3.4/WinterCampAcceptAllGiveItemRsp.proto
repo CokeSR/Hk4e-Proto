@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WinterCampAcceptItemResultInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampAcceptAllGiveItemRsp {
+  // CMD_ID = 8366
+
+  repeated WinterCampAcceptItemResultInfo accept_item_result_info = 1;
+  int32 retcode = 6;
+}

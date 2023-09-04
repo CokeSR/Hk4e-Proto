@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSDeckSaveReq {
+  // CMD_ID = 7478
+
+  string name = 11;
+  uint32 deck_id = 14;
+  repeated uint32 card_list = 13;
+  repeated uint32 character_card_list = 12;
+}

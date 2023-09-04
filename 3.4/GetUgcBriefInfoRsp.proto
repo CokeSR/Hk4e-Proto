@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "UgcMusicBriefInfo.proto";
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetUgcBriefInfoRsp {
+  // CMD_ID = 6341
+
+  uint64 ugc_guid = 15;
+  UgcType ugc_type = 9;
+  int32 retcode = 1;
+  oneof brief {
+    UgcMusicBriefInfo music_brief_info = 8;
+  }
+}

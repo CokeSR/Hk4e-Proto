@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FireworksLaunchSchemeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LaunchFireworksReq {
+  // CMD_ID = 5921
+
+  FireworksLaunchSchemeData scheme_data = 1;
+}

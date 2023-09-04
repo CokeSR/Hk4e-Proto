@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityBornType {
+  Vector pos = 7;
+  Vector move_dir = 12;
+  Vector rot = 9;
+}

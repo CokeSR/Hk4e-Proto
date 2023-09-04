@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampEditSnowmanCombinationRsp {
+  // CMD_ID = 8237
+
+  int32 retcode = 1;
+}

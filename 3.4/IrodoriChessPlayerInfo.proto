@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriChessPlayerInfo {
+  uint32 settle_score = 4;
+  uint32 building_points = 8;
+  uint32 uid = 9;
+}

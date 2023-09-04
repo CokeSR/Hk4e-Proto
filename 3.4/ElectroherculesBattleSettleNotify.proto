@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ElectroherculesBattleSettleNotify {
+  // CMD_ID = 21217
+
+  uint32 gallery_id = 6;
+  bool is_activity_finish = 1;
+  uint32 stage_id = 5;
+  uint32 finish_time = 15;
+  bool is_new_record = 11;
+  uint32 diffculty = 9;
+  bool is_succ = 7;
+}

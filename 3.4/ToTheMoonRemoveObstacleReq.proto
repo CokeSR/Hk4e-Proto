@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ToTheMoonRemoveObstacleReq {
+  // CMD_ID = 6170
+
+  enum ObstacleType {
+    OBSTACLE_TYPE_BOX = 0;
+    OBSTACLE_TYPE_CAPSULE = 1;
+  }
+
+  uint32 scene_id = 2;
+  int32 query_id = 13;
+  int32 handle = 9;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerAskFriendListRsp {
+  // CMD_ID = 4084
+
+  int32 retcode = 5;
+  repeated FriendBrief ask_friend_list = 6;
+}

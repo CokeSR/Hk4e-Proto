@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarRewardEventGetReq {
+  // CMD_ID = 4692
+
+  uint32 event_id = 7;
+  uint32 avatar_id = 12;
+}

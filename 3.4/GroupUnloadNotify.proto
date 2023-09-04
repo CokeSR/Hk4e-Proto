@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GroupUnloadNotify {
+  // CMD_ID = 3144
+
+  repeated uint32 group_list = 6;
+}

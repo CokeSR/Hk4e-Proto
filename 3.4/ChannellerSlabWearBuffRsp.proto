@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabWearBuffRsp {
+  // CMD_ID = 8651
+
+  uint32 buff_id = 4;
+  uint32 slot_id = 5;
+  bool is_mp = 9;
+  int32 retcode = 12;
+}

@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MusicGameSettleReq {
+  // CMD_ID = 8066
+
+  uint64 ugc_guid = 4;
+  repeated uint32 button_list = 1626;
+  bool is_save_score = 11;
+  uint32 music_basic_id = 7;
+  uint32 score = 2;
+  uint32 is_full_combo = 493;
+  repeated uint32 note_list = 5;
+  float speed = 484;
+  uint32 combo = 15;
+  bool is_custom_speed = 527;
+  uint32 max_combo = 12;
+  uint32 delay = 252;
+  uint32 correct_hit = 13;
+  uint32 volume = 108;
+  uint32 restart_times = 9;
+  bool is_custom_delay = 497;
+  uint32 star_rating = 3;
+  uint32 score_rating = 8;
+}

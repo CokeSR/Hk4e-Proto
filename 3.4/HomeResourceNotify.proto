@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeResource.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeResourceNotify {
+  // CMD_ID = 4639
+
+  HomeResource fetter_exp = 9;
+  HomeResource home_coin = 1;
+}

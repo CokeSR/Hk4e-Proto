@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomePlantFieldData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantInfoNotify {
+  // CMD_ID = 4547
+
+  repeated HomePlantFieldData field_list = 8;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "EntityAbilityInvokeEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientAbilitiesInitFinishCombineNotify {
+  // CMD_ID = 1180
+
+  repeated EntityAbilityInvokeEntry entity_invoke_list = 4;
+}

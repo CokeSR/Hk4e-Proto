@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGApplyInviteBattleReq {
+  // CMD_ID = 7300
+
+  bool is_agree = 7;
+}

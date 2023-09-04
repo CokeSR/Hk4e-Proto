@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ElectroherculesBattleSelectDifficultyReq {
+  // CMD_ID = 23202
+
+  uint32 diffculty = 7;
+  uint32 stage_id = 10;
+}

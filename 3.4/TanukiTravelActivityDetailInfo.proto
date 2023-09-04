@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TanukiTravelLevelData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TanukiTravelActivityDetailInfo {
+  uint32 finished_level_index = 11;
+  bool is_content_closed = 2;
+  repeated TanukiTravelLevelData tanuki_travel_level_data_list = 6;
+}

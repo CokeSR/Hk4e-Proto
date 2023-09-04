@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "DungeonEntryCond.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetDungeonEntryExploreConditionRsp {
+  // CMD_ID = 3355
+
+  int32 retcode = 14;
+  DungeonEntryCond dungeon_entry_cond = 7;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerWidgetInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RemotePlayerWidgetNotify {
+  // CMD_ID = 5996
+
+  repeated PlayerWidgetInfo player_widget_info_list = 8;
+}

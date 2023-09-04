@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ShareCDInfo {
+  uint32 share_cd_id = 13;
+  uint64 cd_start_time = 1;
+  uint32 index = 11;
+}

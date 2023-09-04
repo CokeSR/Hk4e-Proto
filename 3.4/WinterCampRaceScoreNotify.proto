@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampRaceScoreNotify {
+  // CMD_ID = 8068
+
+  uint32 max_score = 7;
+  uint32 id = 11;
+}

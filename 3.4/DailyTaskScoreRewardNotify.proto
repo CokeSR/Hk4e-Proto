@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskScoreRewardNotify {
+  // CMD_ID = 127
+
+  uint32 reward_id = 9;
+}

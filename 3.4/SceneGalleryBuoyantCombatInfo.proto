@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryBuoyantCombatInfo {
+  uint32 kill_monster_count = 3;
+  uint32 kill_special_monster_count = 15;
+  uint32 score = 12;
+}

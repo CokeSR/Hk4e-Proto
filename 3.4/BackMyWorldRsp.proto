@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BackMyWorldRsp {
+  // CMD_ID = 276
+
+  int32 retcode = 9;
+}

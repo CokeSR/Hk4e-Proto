@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "GameplayRecommendationElementReliquaryResponse.proto";
+import "GameplayRecommendationReliquaryResponse.proto";
+import "GameplayRecommendationSkillResponse.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetGameplayRecommendationRsp {
+  // CMD_ID = 196
+
+  uint32 avatar_id = 1;
+  int32 retcode = 12;
+  oneof detail {
+    GameplayRecommendationSkillResponse skill_response = 223;
+    GameplayRecommendationReliquaryResponse reliquary_response = 1964;
+    GameplayRecommendationElementReliquaryResponse element_reliquary_response = 1912;
+  }
+}

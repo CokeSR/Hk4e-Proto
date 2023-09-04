@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamChainDungeonInfoNotify {
+  // CMD_ID = 20331
+
+  repeated uint32 skill_no_list = 12;
+  uint32 stage_id = 11;
+}

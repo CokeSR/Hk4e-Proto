@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MeetNpcRsp {
+  // CMD_ID = 570
+
+  uint32 npc_first_met_id = 12;
+  int32 retcode = 14;
+}

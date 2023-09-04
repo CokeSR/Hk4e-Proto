@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GameplayRecommendationReliquaryMainPropData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GameplayRecommendationReliquaryResponse {
+  repeated GameplayRecommendationReliquaryMainPropData main_prop_data_list = 12;
+  uint32 equip_type = 15;
+}

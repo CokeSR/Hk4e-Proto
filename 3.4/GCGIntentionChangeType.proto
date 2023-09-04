@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGIntentionChangeType {
+  GCG_INTENTION_CHANGE_TYPE_NONE = 0;
+  GCG_INTENTION_CHANGE_TYPE_RM = 1;
+}

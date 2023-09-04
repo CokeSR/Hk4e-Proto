@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaWishRsp {
+  // CMD_ID = 1574
+
+  uint32 wish_progress = 3;
+  uint32 wish_max_progress = 7;
+  uint32 gacha_type = 6;
+  uint32 gacha_schedule_id = 11;
+  int32 retcode = 9;
+  uint32 wish_item_id = 5;
+}

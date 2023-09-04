@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HachiStageInfo {
+  uint32 open_time = 10;
+  bool is_finished = 12;
+  uint32 stage_id = 13;
+  bool is_open = 3;
+}

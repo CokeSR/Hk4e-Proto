@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBlockNotify {
+  // CMD_ID = 4641
+
+  uint32 end_time = 13;
+}

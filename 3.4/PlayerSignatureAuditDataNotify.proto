@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ContentAuditInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerSignatureAuditDataNotify {
+  // CMD_ID = 4077
+
+  ContentAuditInfo info = 4;
+}

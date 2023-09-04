@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonVerify {
+  uint32 uid = 9;
+  uint32 lang = 15;
+  uint64 dungeon_guid = 11;
+  string region = 7;
+  uint32 timestamp = 13;
+}

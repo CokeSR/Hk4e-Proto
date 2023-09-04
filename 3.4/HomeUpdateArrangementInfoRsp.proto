@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeUpdateArrangementInfoRsp {
+  // CMD_ID = 4466
+
+  int32 retcode = 1;
+}

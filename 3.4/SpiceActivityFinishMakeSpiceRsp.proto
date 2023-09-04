@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpiceActivityFinishMakeSpiceRsp {
+  // CMD_ID = 8964
+
+  int32 retcode = 2;
+  bool is_success = 4;
+  uint32 stage_id = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonAbstract {
+  uint32 finish_room_id = 10;
+  uint32 total_coin_num = 2;
+  uint32 first_publish_time = 1;
+  uint32 last_publish_time = 4;
+  map<uint32, uint32> brick_statistics_map = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGClientPerformType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgClientPerform {
+  GCGClientPerformType perform_type = 2;
+  repeated uint32 param_list = 5;
+}

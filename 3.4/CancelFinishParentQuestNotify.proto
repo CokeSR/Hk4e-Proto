@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CancelFinishParentQuestNotify {
+  // CMD_ID = 453
+
+  uint32 parent_quest_id = 10;
+}

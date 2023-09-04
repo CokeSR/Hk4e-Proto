@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PlatformInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlatformStartRouteNotify {
+  // CMD_ID = 237
+
+  uint32 entity_id = 2;
+  uint32 scene_time = 6;
+  PlatformInfo platform = 7;
+}

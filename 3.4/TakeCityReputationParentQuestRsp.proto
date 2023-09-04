@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCityReputationParentQuestRsp {
+  // CMD_ID = 2880
+
+  repeated uint32 parent_quest_list = 14;
+  int32 retcode = 6;
+  uint32 city_id = 13;
+  repeated ItemParam item_list = 11;
+}

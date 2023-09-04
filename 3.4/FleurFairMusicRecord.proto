@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairMusicRecord {
+  uint32 max_combo = 1;
+  bool is_unlock = 7;
+  uint32 max_score = 8;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AsterMidCampInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterMidCampInfoNotify {
+  // CMD_ID = 2151
+
+  repeated AsterMidCampInfo camp_list = 2;
+}

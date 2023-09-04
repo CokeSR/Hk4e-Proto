@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "StoreType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DropItemRsp {
+  // CMD_ID = 624
+
+  StoreType store_type = 14;
+  uint64 guid = 9;
+  int32 retcode = 10;
+}

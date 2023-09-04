@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ReliquaryFilterWearedState {
+  RELIQUARY_FILTER_WEARED_STATE_NONE = 0;
+  RELIQUARY_FILTER_WEARED_STATE_HAS_BEEN_WEARED = 1;
+  RELIQUARY_FILTER_WEARED_STATE_HAS_NOT_BEEN_WEARED = 2;
+}

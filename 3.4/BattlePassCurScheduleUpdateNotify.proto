@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "BattlePassSchedule.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassCurScheduleUpdateNotify {
+  // CMD_ID = 2641
+
+  bool have_cur_schedule = 5;
+  BattlePassSchedule cur_schedule = 14;
+}

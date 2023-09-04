@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Quest.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestListUpdateNotify {
+  // CMD_ID = 455
+
+  repeated Quest quest_list = 13;
+}

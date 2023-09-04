@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarSummonEventReq {
+  // CMD_ID = 4880
+
+  uint32 guid = 7;
+  uint32 avatar_id = 11;
+  uint32 suit_id = 2;
+}

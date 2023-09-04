@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayPrepareNotify {
+  // CMD_ID = 1822
+
+  uint32 prepare_end_time = 2;
+  uint32 mp_play_id = 1;
+}

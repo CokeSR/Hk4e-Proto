@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message NpcTalkRsp {
+  // CMD_ID = 555
+
+  int32 retcode = 5;
+  uint32 npc_entity_id = 11;
+  uint32 cur_talk_id = 1;
+  uint32 entity_id = 9;
+}

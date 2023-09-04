@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionRecallReq {
+  // CMD_ID = 2011
+
+  uint32 path_id = 7;
+}

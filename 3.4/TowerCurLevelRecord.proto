@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "TowerTeam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerCurLevelRecord {
+  repeated TowerTeam tower_team_list = 13;
+  uint32 cur_level_index = 14;
+  repeated uint32 buff_id_list = 12;
+  bool is_upper_part = 1;
+  bool is_empty = 7;
+  uint32 cur_floor_id = 9;
+}

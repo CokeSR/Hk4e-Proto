@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "SalvageEscortGallerySettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SalvageEscortSettleInfo {
+  SalvageEscortGallerySettleInfo settle_info = 8;
+  bool is_new_record = 9;
+}

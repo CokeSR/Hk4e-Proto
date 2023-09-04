@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InfernceWordInfo {
+  bool is_associate = 3;
+  uint32 word_id = 5;
+  uint32 unlock_by_word_id = 13;
+  bool is_submit = 4;
+  bool is_interpret = 7;
+}

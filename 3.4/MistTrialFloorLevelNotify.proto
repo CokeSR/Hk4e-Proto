@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialFloorLevelNotify {
+  // CMD_ID = 911
+
+  uint32 dungeon_scene_id = 9;
+  uint32 floor_level = 11;
+}

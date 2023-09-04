@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EnterCustomDungeonType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterCustomDungeonReq {
+  // CMD_ID = 6238
+
+  EnterCustomDungeonType enter_type = 2;
+  uint32 dungeon_id = 13;
+  uint64 dungeon_guid = 3;
+}

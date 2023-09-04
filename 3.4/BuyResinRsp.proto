@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BuyResinRsp {
+  // CMD_ID = 623
+
+  uint32 cur_value = 15;
+  int32 retcode = 1;
+}

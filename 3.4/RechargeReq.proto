@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "PlayProduct.proto";
+import "ShopCardProduct.proto";
+import "ShopConcertProduct.proto";
+import "ShopMcoinProduct.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RechargeReq {
+  // CMD_ID = 4138
+
+  ShopMcoinProduct mcoin_product = 11;
+  ShopCardProduct card_product = 5;
+  PlayProduct play_product = 6;
+  ShopConcertProduct concert_product = 3;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriFillPoetryReq {
+  // CMD_ID = 8590
+
+  uint32 line_id = 13;
+  uint32 theme_id = 2;
+}

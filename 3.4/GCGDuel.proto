@@ -1,0 +1,38 @@
+
+syntax = "proto3";
+
+import "GCGCard.proto";
+import "GCGControllerShowInfo.proto";
+import "GCGCostReviseInfo.proto";
+import "GCGDuelChallenge.proto";
+import "GCGGameBusinessType.proto";
+import "GCGMessagePack.proto";
+import "GCGOpTimer.proto";
+import "GCGPhase.proto";
+import "GCGPlayerField.proto";
+import "GCGPVEIntention.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDuel {
+  repeated GCGCard card_list = 1;
+  uint32 operation_seq = 5;
+  repeated uint32 forbid_finish_challenge_list = 1985;
+  repeated GCGCard history_card_list = 1326;
+  repeated GCGMessagePack history_msg_pack_list = 1636;
+  uint32 cur_controller_id = 14;
+  repeated GCGControllerShowInfo show_info_list = 10;
+  repeated GCGOpTimer op_timer_list = 1950;
+  repeated GCGPVEIntention intetion_list = 15;
+  GCGCostReviseInfo cost_revise = 6;
+  uint32 controller_id = 2;
+  repeated GCGPlayerField field_list = 3;
+  GCGGameBusinessType business_type = 7;
+  GCGPhase phase = 8;
+  repeated GCGDuelChallenge challenge_list = 37;
+  repeated uint32 card_id_list = 12;
+  uint32 server_seq = 11;
+  uint32 round = 4;
+  uint32 game_id = 9;
+  uint32 game_type = 13;
+}

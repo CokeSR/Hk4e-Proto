@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RestartCoinCollectPlaySingleModeReq {
+  // CMD_ID = 22217
+
+  uint32 level_id = 13;
+  uint32 multistage_play_index = 4;
+}

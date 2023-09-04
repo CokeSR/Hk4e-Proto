@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum MonsterGuestBanDrop {
+  MONSTER_GUEST_BAN_DROP_NONE = 0;
+  MONSTER_GUEST_BAN_DROP_DIE_EXP = 1;
+  MONSTER_GUEST_BAN_DROP_DIE_LUA = 2;
+  MONSTER_GUEST_BAN_DROP_DIE_EXCEL = 4;
+  MONSTER_GUEST_BAN_DROP_DIE_ACTIVITY = 8;
+  MONSTER_GUEST_BAN_DROP_HP = 16;
+  MONSTER_GUEST_BAN_DROP_SUBFIELD = 32;
+}

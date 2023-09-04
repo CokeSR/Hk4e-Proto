@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "SalvagePreventGallerySettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SalvagePreventSettleInfo {
+  bool is_new_record = 4;
+  SalvagePreventGallerySettleInfo settle_info = 6;
+}

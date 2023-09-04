@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetEquipLockStateRsp {
+  // CMD_ID = 611
+
+  int32 retcode = 8;
+  bool is_locked = 4;
+  uint64 target_equip_guid = 11;
+}

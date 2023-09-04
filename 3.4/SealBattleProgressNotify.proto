@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SealBattleProgressNotify {
+  // CMD_ID = 226
+
+  uint32 max_progress = 15;
+  uint32 seal_radius = 8;
+  uint32 progress = 4;
+  uint32 end_time = 14;
+  uint32 seal_entity_id = 7;
+}

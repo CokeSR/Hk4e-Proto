@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "LunaRiteHintStatusType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteAreaInfo {
+  uint32 challenge_index = 9;
+  repeated uint32 sacrifice_reward_list = 13;
+  repeated uint32 sacrifice_list = 2;
+  LunaRiteHintStatusType hint_status = 3;
+  uint32 area_id = 12;
+}

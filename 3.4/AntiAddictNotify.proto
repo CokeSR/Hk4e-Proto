@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AntiAddictNotify {
+  // CMD_ID = 104
+
+  string msg = 3;
+  string level = 14;
+  int32 msg_type = 13;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdatePlayerShowNameCardListRsp {
+  // CMD_ID = 4023
+
+  repeated uint32 show_name_card_id_list = 10;
+  int32 retcode = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetWorldMpInfoRsp {
+  // CMD_ID = 3320
+
+  int32 retcode = 12;
+  bool is_in_mp_mode = 11;
+  uint32 quit_mp_valid_time = 15;
+}

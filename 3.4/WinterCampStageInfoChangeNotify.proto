@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WinterCampStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampStageInfoChangeNotify {
+  // CMD_ID = 8517
+
+  WinterCampStageInfo battle_info = 15;
+  WinterCampStageInfo explore_info = 3;
+}

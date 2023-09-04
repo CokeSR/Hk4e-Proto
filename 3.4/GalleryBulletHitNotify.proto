@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryBulletHitNotify {
+  // CMD_ID = 5524
+
+  uint32 hit_count = 11;
+  uint32 gallery_id = 10;
+}

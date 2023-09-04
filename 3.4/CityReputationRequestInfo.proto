@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CityReputationRequestInfo {
+  message RequestInfo {
+    uint32 request_id = 11;
+    uint32 quest_id = 14;
+    bool is_taken_reward = 13;
+  }
+
+  bool is_open = 1;
+  repeated RequestInfo request_info_list = 2;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeCardBackReq {
+  // CMD_ID = 7628
+
+  uint32 deck_id = 1;
+  uint32 card_back_id = 9;
+}

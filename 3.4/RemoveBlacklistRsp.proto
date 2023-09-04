@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RemoveBlacklistRsp {
+  // CMD_ID = 4045
+
+  uint32 target_uid = 7;
+  int32 retcode = 1;
+}

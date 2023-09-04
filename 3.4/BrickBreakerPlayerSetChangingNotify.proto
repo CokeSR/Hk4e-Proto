@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerPlayerSetChangingNotify {
+  // CMD_ID = 5366
+
+  bool is_changing = 1;
+  uint32 uid = 9;
+}

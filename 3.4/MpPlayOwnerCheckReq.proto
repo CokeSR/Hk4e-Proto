@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayOwnerCheckReq {
+  // CMD_ID = 1842
+
+  bool is_skip_match = 5;
+  uint32 mp_play_id = 13;
+}

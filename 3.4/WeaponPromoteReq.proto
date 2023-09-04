@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponPromoteReq {
+  // CMD_ID = 692
+
+  uint64 target_weapon_guid = 3;
+}

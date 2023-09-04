@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "RogueEffectRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeEffectDataNotify {
+  // CMD_ID = 8256
+
+  repeated RogueEffectRecord curse_list = 11;
+  repeated RogueEffectRecord card_list = 1;
+}

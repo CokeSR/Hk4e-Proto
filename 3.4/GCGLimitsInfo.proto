@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGLimitsInfo {
+  uint32 limit_type = 15;
+  uint32 limit_value = 3;
+}

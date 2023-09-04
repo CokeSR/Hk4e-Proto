@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "PlayerLocationInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerWorldLocationInfo {
+  uint32 scene_id = 4;
+  PlayerLocationInfo player_loc = 1;
+}

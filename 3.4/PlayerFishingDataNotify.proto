@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerFishingDataNotify {
+  // CMD_ID = 5810
+
+  uint32 last_fish_rod_id = 4;
+}

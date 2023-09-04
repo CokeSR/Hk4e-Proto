@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TreasureSeelieRegionData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureSeelieActivityDetailInfo {
+  bool is_content_closed = 6;
+  uint32 treasure_close_time = 8;
+  repeated TreasureSeelieRegionData region_data_list = 5;
+}

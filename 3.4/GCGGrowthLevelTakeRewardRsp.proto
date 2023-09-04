@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGGrowthLevelTakeRewardRsp {
+  // CMD_ID = 7671
+
+  int32 retcode = 13;
+  uint32 level = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerSetChangingReq {
+  // CMD_ID = 5371
+
+  bool is_changing = 13;
+}

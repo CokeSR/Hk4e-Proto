@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AddRandTaskInfoNotify {
+  // CMD_ID = 123
+
+  Vector pos = 6;
+  uint32 rand_task_id = 2;
+}

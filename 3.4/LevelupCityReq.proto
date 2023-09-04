@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LevelupCityReq {
+  // CMD_ID = 295
+
+  uint32 scene_id = 14;
+  uint32 item_num = 8;
+  uint32 area_id = 13;
+}

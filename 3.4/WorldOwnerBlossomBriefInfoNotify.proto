@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "BlossomBriefInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldOwnerBlossomBriefInfoNotify {
+  // CMD_ID = 2798
+
+  repeated BlossomBriefInfo brief_info_list = 11;
+}

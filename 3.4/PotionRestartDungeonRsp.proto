@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PotionRestartDungeonRsp {
+  // CMD_ID = 8864
+
+  int32 retcode = 11;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanternProjectionLevelInfo {
+  bool is_can_start = 4;
+  uint32 id = 7;
+  uint32 min_finish_time = 1;
+  bool is_finished = 14;
+  bool is_show_tips = 2;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterMonsterDetail {
+  float cur_hp_percentage = 9;
+  uint32 fungus_id = 10;
+  bool is_alive = 12;
+}

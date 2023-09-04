@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarGainCostumeNotify {
+  // CMD_ID = 1714
+
+  uint32 costume_id = 6;
+}

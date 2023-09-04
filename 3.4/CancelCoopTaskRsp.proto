@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CancelCoopTaskRsp {
+  // CMD_ID = 1965
+
+  uint32 chapter_id = 12;
+  int32 retcode = 3;
+}

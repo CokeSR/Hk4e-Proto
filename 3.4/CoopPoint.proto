@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopPoint {
+  enum State {
+    STATE_UNSTARTED = 0;
+    STATE_STARTED = 1;
+    STATE_FINISHED = 2;
+  }
+
+  uint32 id = 10;
+  State state = 5;
+  uint32 self_confidence = 15;
+}

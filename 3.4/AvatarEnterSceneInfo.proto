@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "AbilitySyncStateInfo.proto";
+import "ServerBuff.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarEnterSceneInfo {
+  uint64 avatar_guid = 8;
+  uint32 weapon_entity_id = 13;
+  AbilitySyncStateInfo avatar_ability_info = 1;
+  repeated uint32 buff_id_list = 7;
+  uint32 avatar_entity_id = 10;
+  repeated ServerBuff server_buff_list = 4;
+  AbilitySyncStateInfo weapon_ability_info = 11;
+  uint64 weapon_guid = 14;
+}

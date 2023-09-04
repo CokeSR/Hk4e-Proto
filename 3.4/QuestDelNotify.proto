@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestDelNotify {
+  // CMD_ID = 487
+
+  uint32 quest_id = 15;
+}

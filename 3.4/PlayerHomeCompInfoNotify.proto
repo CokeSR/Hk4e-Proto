@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerHomeCompInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerHomeCompInfoNotify {
+  // CMD_ID = 4844
+
+  PlayerHomeCompInfo comp_info = 5;
+}

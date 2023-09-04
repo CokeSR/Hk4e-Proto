@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderGetFormulaRsp {
+  // CMD_ID = 8550
+
+  bool is_new = 12;
+  uint32 formula_id = 15;
+  repeated uint32 affix_list = 9;
+  int32 retcode = 3;
+}

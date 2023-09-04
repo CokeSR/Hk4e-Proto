@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDungeonPlayerCellChangeNotify {
+  // CMD_ID = 8954
+
+  uint32 cell_id = 9;
+  uint32 old_cell_id = 1;
+}

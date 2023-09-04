@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GCGLevelType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGStartChallengeRsp {
+  // CMD_ID = 7351
+
+  uint32 config_id = 11;
+  GCGLevelType level_type = 6;
+  uint32 level_id = 5;
+  int32 retcode = 14;
+}

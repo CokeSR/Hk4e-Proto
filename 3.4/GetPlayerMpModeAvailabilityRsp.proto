@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerMpModeAvailabilityRsp {
+  // CMD_ID = 1825
+
+  int32 mp_ret = 12;
+  int32 retcode = 3;
+  repeated uint32 param_list = 7;
+}

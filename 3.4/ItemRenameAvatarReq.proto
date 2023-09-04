@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ItemRenameAvatarReq {
+  // CMD_ID = 1747
+
+  string avatar_name = 4;
+  uint32 rename_id = 14;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RemoveCustomDungeonReq {
+  // CMD_ID = 6225
+
+  uint64 dungeon_guid = 1;
+}

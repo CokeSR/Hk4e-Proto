@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintagePresentFinishNotify {
+  // CMD_ID = 23457
+
+  uint32 present_id = 4;
+}

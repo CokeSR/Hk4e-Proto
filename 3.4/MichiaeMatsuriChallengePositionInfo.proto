@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriChallengePositionInfo {
+  uint32 group_id = 5;
+  uint32 gadget_id = 14;
+  Vector pos = 13;
+}

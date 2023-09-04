@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusInfo {
+  uint32 mechanicus_id = 14;
+  repeated uint32 finish_difficult_level_list = 7;
+  repeated Uint32Pair gear_level_pair_list = 6;
+  repeated uint32 open_sequence_id_list = 12;
+  bool is_finish_teach_dungeon = 3;
+  uint32 coin = 8;
+  uint32 punish_over_time = 10;
+}

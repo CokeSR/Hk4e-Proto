@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "HomeGroupRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeGetGroupRecordRsp {
+  // CMD_ID = 4691
+
+  uint32 record_type = 12;
+  int32 retcode = 7;
+  HomeGroupRecord group_record = 13;
+}

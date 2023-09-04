@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DoGachaReq {
+  // CMD_ID = 1587
+
+  uint32 gacha_random = 12;
+  uint32 gacha_type = 2;
+  uint32 gacha_schedule_id = 3;
+  string gacha_tag = 15;
+  uint32 gacha_times = 10;
+}

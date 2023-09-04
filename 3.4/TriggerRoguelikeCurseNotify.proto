@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TriggerRoguelikeCurseNotify {
+  // CMD_ID = 8642
+
+  bool is_trigger_curse = 7;
+  uint32 curse_group_id = 13;
+  repeated uint32 effect_param_list = 6;
+  uint32 curse_level = 5;
+}

@@ -1,0 +1,32 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WindSeedClientNotify {
+  // CMD_ID = 1114
+
+  message RefreshNotify {
+    uint32 refresh_num = 13;
+  }
+
+  message AddWindBulletNotify {
+    uint32 seed_entity_id = 1;
+    Vector seed_pos = 10;
+    uint32 catch_player_uid = 13;
+  }
+
+  message AreaNotify {
+    uint32 area_type = 5;
+    uint32 area_id = 12;
+    bytes area_code = 1;
+  }
+
+  oneof notify {
+    RefreshNotify refresh_notify = 11;
+    AddWindBulletNotify add_wind_bullet_notify = 8;
+    AreaNotify area_notify = 2;
+  }
+}

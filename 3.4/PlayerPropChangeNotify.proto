@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerPropChangeNotify {
+  // CMD_ID = 146
+
+  uint32 prop_delta = 8;
+  uint32 prop_type = 12;
+}

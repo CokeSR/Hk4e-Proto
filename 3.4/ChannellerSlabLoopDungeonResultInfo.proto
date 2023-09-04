@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabLoopDungeonResultInfo {
+  uint32 challenge_max_score = 5;
+  bool is_success = 13;
+  bool is_in_time_limit = 6;
+  uint32 challenge_score = 1;
+  uint32 dungeon_index = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeChooseModuleReq {
+  // CMD_ID = 4654
+
+  uint32 module_id = 11;
+}

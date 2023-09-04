@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetChatEmojiCollectionRsp {
+  // CMD_ID = 4004
+
+  int32 retcode = 12;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ContentAuditAuxiliaryField {
+  string name = 1;
+  string value = 2;
+}

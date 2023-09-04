@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "CustomDungeonBlock.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SaveCustomDungeonRoomRsp {
+  // CMD_ID = 6241
+
+  repeated CustomDungeonBlock error_block_list = 4;
+  int32 retcode = 8;
+  uint32 room_id = 9;
+}

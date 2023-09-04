@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAuthkeyReq {
+  // CMD_ID = 1470
+
+  uint32 authkey_ver = 6;
+  string auth_appid = 14;
+  uint32 sign_type = 8;
+}

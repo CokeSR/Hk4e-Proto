@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum LanV3BoatKickReason {
+  LAN_V3_BOAT_KICK_REASON_NONE = 0;
+  LAN_V3_BOAT_KICK_REASON_EXIT_VEHICLE = 1;
+  LAN_V3_BOAT_KICK_REASON_AVATAR_DIE = 2;
+  LAN_V3_BOAT_KICK_REASON_SLOW_ENTER = 3;
+}

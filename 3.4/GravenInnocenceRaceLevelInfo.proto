@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocenceRaceLevelInfo {
+  uint32 level_id = 7;
+  bool is_open = 13;
+  uint32 max_score = 15;
+}

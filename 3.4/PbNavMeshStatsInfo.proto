@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PbNavMeshStatsInfo {
+  int32 total_no_authority_ai = 1;
+  int32 no_authority_ai_in_combat = 11;
+  int32 total_authority_ai = 12;
+  int32 authority_ai_in_combat = 2;
+}

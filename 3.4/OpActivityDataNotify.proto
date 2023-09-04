@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "OpActivityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message OpActivityDataNotify {
+  // CMD_ID = 5187
+
+  repeated OpActivityInfo op_activity_info_list = 13;
+}

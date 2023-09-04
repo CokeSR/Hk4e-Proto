@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionSignInRewardReq {
+  // CMD_ID = 5081
+
+  uint32 reward_day = 2;
+  uint32 config_id = 3;
+}

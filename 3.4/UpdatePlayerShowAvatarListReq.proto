@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdatePlayerShowAvatarListReq {
+  // CMD_ID = 4064
+
+  repeated uint32 show_avatar_id_list = 11;
+  bool is_show_avatar = 4;
+}

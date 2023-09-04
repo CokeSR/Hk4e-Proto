@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CommonPlayerTipsNotify {
+  // CMD_ID = 8996
+
+  uint32 notify_type = 11;
+  repeated string text_map_id_list = 14;
+}

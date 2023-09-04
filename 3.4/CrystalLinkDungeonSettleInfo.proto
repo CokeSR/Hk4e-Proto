@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CrystalLinkDungeonSettleInfo {
+  uint32 kill_normal_mosnter_num = 11;
+  bool is_new_record = 6;
+  uint32 final_score = 13;
+  uint32 kill_elite_monster_num = 15;
+  uint32 difficulty_id = 3;
+  uint32 level_id = 10;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "CustomDungeonRoom.proto";
+import "CustomDungeonSetting.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SaveCustomDungeonRoomReq {
+  // CMD_ID = 6246
+
+  CustomDungeonSetting setting = 14;
+  CustomDungeonRoom custom_dungeon_room = 15;
+  bool is_update_setting = 3;
+}

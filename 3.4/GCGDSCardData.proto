@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSCardData {
+  uint32 card_id = 7;
+  repeated uint32 proficiency_reward_taken_idx_list = 15;
+  uint32 face_type = 2;
+  uint32 num = 4;
+  uint32 proficiency = 12;
+  repeated uint32 unlock_face_type_list = 10;
+}

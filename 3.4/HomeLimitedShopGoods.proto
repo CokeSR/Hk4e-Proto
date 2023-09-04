@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeLimitedShopGoods {
+  uint32 disable_type = 5;
+  ItemParam goods_item = 12;
+  uint32 goods_id = 6;
+  repeated ItemParam cost_item_list = 15;
+  uint32 bought_num = 7;
+  uint32 buy_limit = 13;
+}

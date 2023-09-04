@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReadNicknameAuditRsp {
+  // CMD_ID = 197
+
+  int32 retcode = 1;
+}

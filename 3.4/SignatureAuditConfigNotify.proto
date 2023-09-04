@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SignatureAuditConfigNotify {
+  // CMD_ID = 4034
+
+  bool is_open = 11;
+  uint32 submit_limit = 13;
+}

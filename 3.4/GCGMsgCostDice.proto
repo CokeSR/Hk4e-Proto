@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgCostDice {
+  GCGReason reason = 7;
+  uint32 controller_id = 9;
+  repeated uint32 select_dice_index_list = 8;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSkillPreviewTokenInfo {
+  uint32 before_value = 7;
+  uint32 after_value = 6;
+  uint32 token_type = 8;
+}

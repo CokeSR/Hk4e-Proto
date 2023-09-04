@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekPlayerCapturedNotify {
+  // CMD_ID = 5551
+
+  uint32 ghost_skill_id = 13;
+}

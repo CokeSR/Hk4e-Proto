@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FleurFairFallSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairFallSettleNotify {
+  // CMD_ID = 2150
+
+  map<uint32, FleurFairFallSettleInfo> settle_info_map = 5;
+  uint32 minigame_id = 12;
+}

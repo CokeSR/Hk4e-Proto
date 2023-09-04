@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeSettleCoinInfo {
+  uint32 cell_num = 12;
+  uint32 coin_c = 7;
+  uint32 coin_b = 15;
+}

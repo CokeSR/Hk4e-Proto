@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampTakeContributionRewardRsp {
+  // CMD_ID = 2101
+
+  int32 retcode = 13;
+  uint32 config_id = 14;
+}

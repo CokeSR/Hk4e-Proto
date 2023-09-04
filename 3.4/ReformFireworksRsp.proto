@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReformFireworksRsp {
+  // CMD_ID = 6008
+
+  int32 retcode = 15;
+}

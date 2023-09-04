@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonBattleRecordNotify {
+  // CMD_ID = 6201
+
+  uint64 dungeon_guid = 13;
+  uint32 min_cost_time = 12;
+}

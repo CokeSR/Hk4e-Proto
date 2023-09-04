@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryFallCatchNotify {
+  // CMD_ID = 5520
+
+  uint32 time_cost = 1;
+  uint32 add_score = 4;
+  uint32 gallery_id = 2;
+  uint32 cur_score = 5;
+  bool is_ground = 3;
+  map<uint32, uint32> ball_catch_count_map = 15;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderLevelProgressNotify {
+  // CMD_ID = 8317
+
+  uint32 level_id = 13;
+  uint32 score = 3;
+  bool is_new_record = 10;
+  bool is_finish = 5;
+}

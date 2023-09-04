@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AdjustWorldLevelReq {
+  // CMD_ID = 138
+
+  uint32 cur_world_level = 3;
+  uint32 expect_world_level = 11;
+}

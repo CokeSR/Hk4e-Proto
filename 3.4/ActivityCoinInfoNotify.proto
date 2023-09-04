@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityCoinInfoNotify {
+  // CMD_ID = 2055
+
+  uint32 activity_id = 7;
+  map<uint32, uint32> activity_coin_map = 14;
+  uint32 schedule_id = 15;
+}

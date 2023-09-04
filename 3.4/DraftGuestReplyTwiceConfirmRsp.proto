@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftGuestReplyTwiceConfirmRsp {
+  // CMD_ID = 5429
+
+  int32 retcode = 3;
+  bool is_agree = 5;
+  uint32 draft_id = 15;
+}

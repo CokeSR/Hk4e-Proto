@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingRedeemRewardRsp {
+  // CMD_ID = 2104
+
+  int32 retcode = 2;
+  map<uint32, uint32> pic_num_map = 6;
+}

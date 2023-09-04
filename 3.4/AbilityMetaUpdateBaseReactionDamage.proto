@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AbilityString.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaUpdateBaseReactionDamage {
+  uint32 reaction_type = 12;
+  AbilityString global_value_key = 13;
+  AbilityString ability_name = 11;
+  uint32 source_caster_id = 14;
+}

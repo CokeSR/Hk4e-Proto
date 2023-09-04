@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerSetLanguageRsp {
+  // CMD_ID = 181
+
+  int32 retcode = 6;
+}

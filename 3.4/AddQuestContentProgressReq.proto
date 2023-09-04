@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AddQuestContentProgressReq {
+  // CMD_ID = 474
+
+  uint32 add_progress = 2;
+  uint32 param = 9;
+  uint32 content_type = 14;
+}

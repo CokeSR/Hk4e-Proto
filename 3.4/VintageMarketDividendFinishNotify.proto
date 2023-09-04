@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketDividendFinishNotify {
+  // CMD_ID = 20769
+
+  uint32 coin_a = 11;
+  uint32 coin_c = 3;
+}

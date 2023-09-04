@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "PropChangeReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarPropChangeReasonNotify {
+  // CMD_ID = 1262
+
+  float cur_value = 2;
+  uint32 prop_type = 10;
+  float old_value = 4;
+  PropChangeReason reason = 5;
+  uint64 avatar_guid = 12;
+}

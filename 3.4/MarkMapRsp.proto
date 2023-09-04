@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MapMarkPoint.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MarkMapRsp {
+  // CMD_ID = 3413
+
+  int32 retcode = 1;
+  repeated MapMarkPoint mark_list = 5;
+}

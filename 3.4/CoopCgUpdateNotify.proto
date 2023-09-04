@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopCgUpdateNotify {
+  // CMD_ID = 1966
+
+  repeated uint32 cg_list = 14;
+}

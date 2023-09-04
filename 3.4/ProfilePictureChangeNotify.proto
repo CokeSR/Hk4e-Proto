@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ProfilePictureChangeNotify {
+  // CMD_ID = 4095
+
+  ProfilePicture profile_picture = 13;
+}

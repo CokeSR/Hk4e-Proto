@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "HomePlantSubFieldData.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePlantFieldData {
+  uint32 scene_id = 1;
+  uint32 field_guid = 3;
+  repeated HomePlantSubFieldData sub_field_list = 2;
+  uint32 furniture_id = 4;
+  Vector spawn_pos = 9;
+}

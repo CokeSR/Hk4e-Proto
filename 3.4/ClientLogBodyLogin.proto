@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientLogBodyLogin {
+  string action_type = 1;
+  string action_result = 2;
+  uint32 action_time = 3;
+  string xg = 4;
+  uint32 signal_level = 5;
+  string dns = 6;
+}

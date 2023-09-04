@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "InvestigationMonster.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message InvestigationMonsterUpdateNotify {
+  // CMD_ID = 1919
+
+  InvestigationMonster investigation_monster = 15;
+}

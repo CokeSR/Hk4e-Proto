@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DisableRoguelikeTrapNotify {
+  // CMD_ID = 8726
+
+  uint32 card_id = 8;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CustomDungeonBanType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonBanInfo {
+  uint32 expire_time = 12;
+  CustomDungeonBanType ban_type = 6;
+  uint64 dungeon_guid = 1;
+}

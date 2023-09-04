@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetActivityShopSheetInfoReq {
+  // CMD_ID = 780
+
+  uint32 shop_type = 14;
+}

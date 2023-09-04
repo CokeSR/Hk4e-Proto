@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "BattlePassUnlockStatus.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassRewardTag {
+  uint32 level = 8;
+  BattlePassUnlockStatus unlock_status = 13;
+  uint32 reward_id = 15;
+}

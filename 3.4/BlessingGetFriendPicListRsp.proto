@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "BlessingFriendPicData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingGetFriendPicListRsp {
+  // CMD_ID = 2102
+
+  repeated BlessingFriendPicData friend_pic_data_list = 12;
+  int32 retcode = 2;
+}

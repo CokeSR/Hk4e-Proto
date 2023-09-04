@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapRegionInfo {
+  uint32 current_progress = 5;
+  uint32 goal_points = 12;
+  uint32 start_time = 6;
+  uint32 scene_id = 1;
+  uint32 region_id = 14;
+  uint32 region_radius = 8;
+  bool is_find_mp_spot = 15;
+  bool is_done_mp_spot = 2;
+  Vector region_center_pos = 13;
+}

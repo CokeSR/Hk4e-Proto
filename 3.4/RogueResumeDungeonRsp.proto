@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueResumeDungeonRsp {
+  // CMD_ID = 8241
+
+  uint32 stage_id = 1;
+  int32 retcode = 11;
+}

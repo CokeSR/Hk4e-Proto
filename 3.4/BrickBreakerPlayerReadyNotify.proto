@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerPlayerReadyNotify {
+  // CMD_ID = 5332
+
+  repeated uint32 uid_list = 9;
+}

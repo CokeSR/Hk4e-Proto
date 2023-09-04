@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "RogueEliteCellDifficultyType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueEliteCellChallengeReq {
+  // CMD_ID = 8981
+
+  uint32 cell_id = 12;
+  RogueEliteCellDifficultyType difficulty = 7;
+  uint32 dungeon_id = 2;
+}

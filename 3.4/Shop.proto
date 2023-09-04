@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "ShopCardProduct.proto";
+import "ShopConcertProduct.proto";
+import "ShopGoods.proto";
+import "ShopMcoinProduct.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message Shop {
+  repeated ShopMcoinProduct mcoin_product_list = 6;
+  uint32 city_id = 10;
+  repeated ShopConcertProduct concert_product_list = 13;
+  uint32 next_refresh_time = 14;
+  repeated ShopCardProduct card_product_list = 9;
+  uint32 city_reputation_level = 4;
+  uint32 shop_type = 5;
+  repeated ShopGoods goods_list = 15;
+}

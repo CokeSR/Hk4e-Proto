@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PotionLevelData {
+  uint32 score = 12;
+  uint32 level_id = 6;
+  uint32 difficulty_level = 10;
+  uint32 mode_id = 11;
+}

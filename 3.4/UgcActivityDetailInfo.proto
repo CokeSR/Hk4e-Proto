@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "OfficialCustomDungeon.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message UgcActivityDetailInfo {
+  bool is_ugc_feature_closed = 5;
+  repeated OfficialCustomDungeon official_custom_dungeon_list = 10;
+  bool is_enable_ugc = 15;
+  uint32 custom_dungeon_group_id = 3;
+}

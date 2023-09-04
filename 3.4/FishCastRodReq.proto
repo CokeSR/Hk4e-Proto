@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishCastRodReq {
+  // CMD_ID = 5819
+
+  uint32 rod_entity_id = 2;
+  Vector pos = 1;
+  uint32 rod_id = 15;
+  uint32 bait_id = 8;
+}

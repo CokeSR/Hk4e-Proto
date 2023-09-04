@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "DealAddFriendResultType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DealAddFriendReq {
+  // CMD_ID = 4080
+
+  uint32 target_uid = 1;
+  DealAddFriendResultType deal_add_friend_result = 6;
+}

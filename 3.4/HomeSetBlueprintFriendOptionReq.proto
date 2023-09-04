@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSetBlueprintFriendOptionReq {
+  // CMD_ID = 4590
+
+  bool is_allow_friend_copy = 10;
+}

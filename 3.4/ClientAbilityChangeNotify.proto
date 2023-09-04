@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientAbilityChangeNotify {
+  // CMD_ID = 1129
+
+  repeated AbilityInvokeEntry invokes = 10;
+  bool is_init_hash = 4;
+  uint32 entity_id = 9;
+}

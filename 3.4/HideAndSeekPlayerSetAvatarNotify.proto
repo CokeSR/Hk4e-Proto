@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekPlayerSetAvatarNotify {
+  // CMD_ID = 5323
+
+  uint32 costume_id = 9;
+  uint32 uid = 2;
+  uint32 avatar_id = 10;
+}

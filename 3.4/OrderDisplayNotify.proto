@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OrderDisplayNotify {
+  // CMD_ID = 4143
+
+  uint32 order_id = 9;
+}

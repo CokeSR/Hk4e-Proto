@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InstableSprayLevelFinishNotify {
+  // CMD_ID = 24172
+
+  bool is_skip_black_screen = 14;
+  uint32 round = 2;
+  uint32 stage_id = 11;
+  uint32 level_id = 9;
+  bool is_need_switch_team = 6;
+}

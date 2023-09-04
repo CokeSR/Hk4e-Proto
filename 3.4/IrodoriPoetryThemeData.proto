@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriPoetryThemeData {
+  repeated uint32 scanned_index_list = 6;
+  repeated uint32 line_id_list = 4;
+  uint32 progress = 14;
+  uint32 max_progress = 13;
+  uint32 selected_line_id = 7;
+  uint32 theme_id = 1;
+  uint32 min_progress = 15;
+}

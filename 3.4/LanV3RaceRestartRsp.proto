@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3RaceRestartRsp {
+  // CMD_ID = 21596
+
+  uint32 gallery_id = 12;
+  int32 retcode = 9;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageBoothUsedItemData {
+  uint32 gadget_id = 12;
+  bool is_open = 2;
+}

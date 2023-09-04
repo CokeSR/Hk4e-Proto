@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "DynamicNodes.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ToTheMoonAddObstacleRsp {
+  // CMD_ID = 6180
+
+  int32 retcode = 11;
+  int32 query_id = 8;
+  DynamicNodes dynamic_nodes = 4;
+}

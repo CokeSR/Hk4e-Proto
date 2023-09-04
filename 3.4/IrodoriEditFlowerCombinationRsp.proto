@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriEditFlowerCombinationRsp {
+  // CMD_ID = 8542
+
+  int32 retcode = 2;
+  bool is_already_finished = 10;
+  bool is_can_take_reward = 1;
+}

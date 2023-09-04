@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneTransToPointReq {
+  // CMD_ID = 246
+
+  uint32 scene_id = 3;
+  uint32 point_id = 10;
+}

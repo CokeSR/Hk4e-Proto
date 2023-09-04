@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeWidgetBackgroundActiveStateReq {
+  // CMD_ID = 6092
+
+  uint32 material_id = 8;
+  bool is_active = 9;
+}

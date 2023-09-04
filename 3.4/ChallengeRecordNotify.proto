@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ChallengeRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChallengeRecordNotify {
+  // CMD_ID = 958
+
+  uint32 group_id = 3;
+  repeated ChallengeRecord challenge_record_list = 5;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ContentAuditData {
+  string type = 1;
+  string content = 2;
+  uint32 auto_pass_time = 3;
+}

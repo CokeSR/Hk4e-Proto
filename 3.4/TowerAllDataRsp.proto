@@ -1,0 +1,30 @@
+
+syntax = "proto3";
+
+import "TowerCurLevelRecord.proto";
+import "TowerFloorRecord.proto";
+import "TowerMonthlyBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerAllDataRsp {
+  // CMD_ID = 2462
+
+  uint32 daily_level_index = 7;
+  TowerCurLevelRecord cur_level_record = 1;
+  bool is_first_interact = 8;
+  repeated TowerFloorRecord tower_floor_record_list = 6;
+  uint32 next_schedule_change_time = 15;
+  uint32 tower_schedule_id = 9;
+  map<uint32, uint32> floor_open_time_map = 12;
+  uint32 valid_tower_record_num = 5;
+  map<uint32, uint32> skip_floor_granted_reward_item_map = 11;
+  uint32 schedule_start_time = 591;
+  TowerMonthlyBrief last_schedule_monthly_brief = 1482;
+  uint32 skip_to_floor_index = 10;
+  uint32 commemorative_reward_id = 3;
+  uint32 daily_floor_id = 14;
+  bool is_finished_entrance_floor = 2;
+  TowerMonthlyBrief monthly_brief = 13;
+  int32 retcode = 4;
+}

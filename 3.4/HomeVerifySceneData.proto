@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "HomeVerifyBlockData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeVerifySceneData {
+  uint32 scene_id = 11;
+  uint32 is_room = 15;
+  repeated HomeVerifyBlockData blocks = 5;
+  uint32 module_id = 13;
+  uint32 version = 9;
+}

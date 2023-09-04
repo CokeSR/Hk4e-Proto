@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamChainEnterDungeonRsp {
+  // CMD_ID = 21537
+
+  int32 retcode = 12;
+}

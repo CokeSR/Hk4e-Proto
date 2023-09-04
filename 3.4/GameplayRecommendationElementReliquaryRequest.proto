@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GameplayRecommendationElementReliquaryRequest {
+  uint32 element_type = 12;
+  uint32 equip_type = 7;
+}

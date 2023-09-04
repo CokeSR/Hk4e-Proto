@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerGameTimeNotify {
+  // CMD_ID = 124
+
+  uint32 game_time = 1;
+  bool is_home = 3;
+  uint32 uid = 14;
+}

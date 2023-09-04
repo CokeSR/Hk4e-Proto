@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldChestOpenNotify {
+  // CMD_ID = 3085
+
+  uint32 group_id = 3;
+  uint32 scene_id = 6;
+  uint32 config_id = 8;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetBattlePassProductReq {
+  // CMD_ID = 2616
+
+  uint32 battle_pass_product_play_type = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaOpenWishNotify {
+  // CMD_ID = 1580
+
+  uint32 gacha_type = 1;
+  uint32 gacha_schedule_id = 13;
+}

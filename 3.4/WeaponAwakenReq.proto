@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponAwakenReq {
+  // CMD_ID = 645
+
+  map<uint32, uint32> affix_level_map = 12;
+  uint64 item_guid = 2;
+  uint64 target_weapon_guid = 9;
+}

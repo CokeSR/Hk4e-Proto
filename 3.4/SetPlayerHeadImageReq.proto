@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerHeadImageReq {
+  // CMD_ID = 4006
+
+  uint32 avatar_id = 10;
+}

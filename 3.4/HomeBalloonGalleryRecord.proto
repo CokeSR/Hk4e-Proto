@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeGroupPlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBalloonGalleryRecord {
+  uint32 hit_count = 2;
+  uint32 score = 12;
+  HomeGroupPlayerInfo player_info = 11;
+  uint32 timestamp = 13;
+}

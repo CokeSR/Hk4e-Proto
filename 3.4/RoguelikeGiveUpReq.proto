@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeGiveUpReq {
+  // CMD_ID = 8140
+
+  uint32 stage_id = 14;
+}

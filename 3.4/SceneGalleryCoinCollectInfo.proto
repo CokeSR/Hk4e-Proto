@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryCoinCollectInfo {
+  uint32 coin_total_num = 11;
+  uint32 coin_collect_num = 9;
+}

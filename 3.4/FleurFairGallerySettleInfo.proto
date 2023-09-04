@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairGallerySettleInfo {
+  bool is_success = 5;
+  uint32 energy = 7;
+  map<uint32, int32> energy_stat_map = 9;
+  uint32 gallery_stage_count = 14;
+  uint32 gallery_stage_index = 15;
+}

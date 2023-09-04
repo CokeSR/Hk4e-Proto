@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MusicGameStartReq {
+  // CMD_ID = 8536
+
+  uint64 ugc_guid = 5;
+  uint32 music_basic_id = 7;
+  bool is_save_score = 15;
+}

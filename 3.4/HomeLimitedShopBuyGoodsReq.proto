@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeLimitedShopGoods.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeLimitedShopBuyGoodsReq {
+  // CMD_ID = 4647
+
+  HomeLimitedShopGoods goods = 1;
+  uint32 buy_count = 10;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivitySelectAvatarCardRsp {
+  // CMD_ID = 2154
+
+  uint32 reward_id = 14;
+  uint32 activity_id = 1;
+  int32 retcode = 5;
+}

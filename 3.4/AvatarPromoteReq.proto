@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarPromoteReq {
+  // CMD_ID = 1715
+
+  uint64 guid = 1;
+}

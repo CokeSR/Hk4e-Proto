@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GuestBeginEnterSceneNotify {
+  // CMD_ID = 3490
+
+  uint32 uid = 4;
+  uint32 scene_id = 9;
+}

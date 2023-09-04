@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetBattlePassViewedReq {
+  // CMD_ID = 2637
+
+  uint32 schedule_id = 10;
+}

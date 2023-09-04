@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PersistentDungeonSwitchAvatarReq {
+  // CMD_ID = 1709
+
+  uint64 cur_avatar_guid = 14;
+  repeated uint64 avatar_team_guid_list = 2;
+}

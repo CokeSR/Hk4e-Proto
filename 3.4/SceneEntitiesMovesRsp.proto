@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "EntityMoveFailInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneEntitiesMovesRsp {
+  // CMD_ID = 293
+
+  repeated EntityMoveFailInfo entity_move_fail_info_list = 5;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerSignatureReq {
+  // CMD_ID = 4013
+
+  string signature = 15;
+}

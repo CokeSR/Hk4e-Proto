@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayOutofRegionNotify {
+  // CMD_ID = 4419
+
+  uint32 play_id = 5;
+}

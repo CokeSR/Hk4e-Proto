@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "HuntingPair.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HuntingRevealFinalNotify {
+  // CMD_ID = 4316
+
+  HuntingPair hunting_pair = 11;
+  uint32 finished_group_id = 2;
+  Vector final_position = 5;
+}

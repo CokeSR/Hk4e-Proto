@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGTavernNpcInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGTavernNpcInfoNotify {
+  // CMD_ID = 7851
+
+  repeated GCGTavernNpcInfo const_npc_list = 15;
+  repeated GCGTavernNpcInfo week_npc_list = 5;
+  GCGTavernNpcInfo character_npc = 12;
+}

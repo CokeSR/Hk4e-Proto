@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetHomeExchangeWoodInfoRsp {
+  // CMD_ID = 4757
+
+  message HomeExchangeWoodInfo {
+    uint32 exchange_limit = 8;
+    uint32 wood_id = 2;
+    uint32 next_refresh_time = 3;
+    uint32 exchanged_count = 9;
+  }
+
+  repeated HomeExchangeWoodInfo wood_info_list = 11;
+  int32 retcode = 2;
+}

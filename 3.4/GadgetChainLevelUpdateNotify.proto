@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetChainLevelUpdateNotify {
+  // CMD_ID = 900
+
+  map<uint32, uint32> gadget_chain_level_map = 4;
+}

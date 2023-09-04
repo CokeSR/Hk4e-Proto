@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FriendInfoChangeNotify {
+  // CMD_ID = 4026
+
+  string online_id = 2;
+  uint32 uid = 9;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeResinCardDailyRewardReq {
+  // CMD_ID = 4135
+
+  uint32 product_config_id = 10;
+}

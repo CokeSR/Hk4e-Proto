@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarTeamResonanceInfo {
+  uint64 avatar_guid = 10;
+  repeated uint32 del_team_resonance_id_list = 8;
+  uint32 entity_id = 15;
+  repeated uint32 add_team_resonance_id_list = 2;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartSettleNotify {
+  // CMD_ID = 20655
+
+  bool is_new_record = 4;
+  bool is_succ = 5;
+  uint32 cost_time = 1;
+}

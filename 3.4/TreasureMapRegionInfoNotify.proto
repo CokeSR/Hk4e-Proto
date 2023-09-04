@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TreasureMapRegionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapRegionInfoNotify {
+  // CMD_ID = 2064
+
+  TreasureMapRegionInfo region_info = 6;
+}

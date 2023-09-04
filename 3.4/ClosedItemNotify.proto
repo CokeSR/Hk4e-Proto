@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClosedItemNotify {
+  // CMD_ID = 612
+
+  repeated uint32 item_id_list = 6;
+}

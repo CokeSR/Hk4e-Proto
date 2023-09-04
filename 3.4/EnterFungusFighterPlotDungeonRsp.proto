@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterFungusFighterPlotDungeonRsp {
+  // CMD_ID = 23496
+
+  int32 retcode = 3;
+  repeated uint32 fungus_id_list = 13;
+  uint32 dungeon_id = 4;
+}

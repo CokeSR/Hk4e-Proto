@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "FungusTrainingMonsterPreviewDetail.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusTrainingPoolPreviewDetail {
+  uint32 pool_id = 10;
+  repeated FungusTrainingMonsterPreviewDetail monster_preview_detail_list = 5;
+}

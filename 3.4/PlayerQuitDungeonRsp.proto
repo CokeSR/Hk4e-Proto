@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerQuitDungeonRsp {
+  // CMD_ID = 974
+
+  uint32 point_id = 11;
+  int32 retcode = 9;
+}

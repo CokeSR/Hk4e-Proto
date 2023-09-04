@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionAssistInfo {
+  uint32 assist_time = 4;
+  uint32 avatar_id = 11;
+  string target_nick_name = 9;
+  uint32 costume_id = 15;
+  string online_id = 13;
+}

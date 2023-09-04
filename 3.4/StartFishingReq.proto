@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartFishingReq {
+  // CMD_ID = 5846
+
+  uint32 rod_entity_id = 14;
+  uint32 fish_pool_id = 3;
+}

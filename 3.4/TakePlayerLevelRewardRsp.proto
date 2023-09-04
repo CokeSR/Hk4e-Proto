@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakePlayerLevelRewardRsp {
+  // CMD_ID = 190
+
+  uint32 level = 7;
+  uint32 reward_id = 4;
+  int32 retcode = 5;
+}

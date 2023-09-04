@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeWidgetBackgroundActiveStateRsp {
+  // CMD_ID = 6088
+
+  int32 retcode = 7;
+  uint32 material_id = 13;
+}

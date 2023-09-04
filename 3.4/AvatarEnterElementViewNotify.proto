@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarEnterElementViewNotify {
+  // CMD_ID = 351
+
+  bool is_triggerd = 6;
+  uint32 avatar_entity_id = 1;
+}

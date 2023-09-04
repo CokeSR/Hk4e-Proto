@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekSelectAvatarRsp {
+  // CMD_ID = 5364
+
+  uint32 avatar_id = 10;
+  int32 retcode = 14;
+}

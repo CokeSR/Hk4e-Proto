@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestUpdateQuestVarRsp {
+  // CMD_ID = 446
+
+  int32 retcode = 2;
+  uint32 parent_quest_var_seq = 15;
+  uint32 parent_quest_id = 4;
+  uint32 quest_id = 9;
+}

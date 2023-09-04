@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BargainOfferPriceReq {
+  // CMD_ID = 458
+
+  uint32 bargain_id = 12;
+  uint32 price = 7;
+}

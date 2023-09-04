@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeGroupPlayerInfo {
+  string nickname = 15;
+  uint32 uid = 3;
+  uint32 player_level = 14;
+  string online_id = 11;
+  ProfilePicture profile_picture = 2;
+  string psn_id = 1;
+}

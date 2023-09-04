@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WorldRoutineInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldRoutineChangeNotify {
+  // CMD_ID = 3541
+
+  uint32 routine_type = 11;
+  WorldRoutineInfo routine_info = 2;
+}

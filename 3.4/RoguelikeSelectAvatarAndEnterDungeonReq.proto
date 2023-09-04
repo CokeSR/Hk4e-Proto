@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeSelectAvatarAndEnterDungeonReq {
+  // CMD_ID = 8281
+
+  repeated uint64 onstage_avatar_guid_list = 5;
+  uint32 stage_id = 12;
+  repeated uint64 backstage_avatar_guid_list = 1;
+}

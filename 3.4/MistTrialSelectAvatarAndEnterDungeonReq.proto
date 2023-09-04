@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialSelectAvatarAndEnterDungeonReq {
+  // CMD_ID = 8537
+
+  message SelectAvatarIndex {
+  }
+
+  uint32 trial_id = 14;
+  uint32 enter_point_id = 5;
+  repeated SelectAvatarIndex select_avatar_index_list = 6;
+  repeated uint32 select_trial_avatar_id_list = 9;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCompoundMaterialReq {
+  // CMD_ID = 142
+
+  uint32 count = 3;
+  uint32 compound_id = 2;
+}

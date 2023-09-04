@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum DungeonRestartReason {
+  DUNGEON_RESTART_REASON_NONE = 0;
+  DUNGEON_RESTART_REASON_DAILY_RESTART = 1;
+  DUNGEON_RESTART_REASON_DIE_RETRY = 2;
+}

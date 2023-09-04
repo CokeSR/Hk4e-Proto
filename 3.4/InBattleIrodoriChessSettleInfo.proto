@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleIrodoriChessSettleInfo {
+  bool is_activity_end = 10;
+  uint32 kill_monster_num = 2;
+  bool is_new_record = 12;
+  uint64 scene_time_ms = 14;
+  uint32 settle_score = 15;
+  bool is_perfect = 5;
+}

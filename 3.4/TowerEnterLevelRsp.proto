@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerEnterLevelRsp {
+  // CMD_ID = 2429
+
+  uint32 level_index = 15;
+  repeated uint32 tower_buff_id_list = 6;
+  int32 retcode = 3;
+  uint32 floor_id = 11;
+}

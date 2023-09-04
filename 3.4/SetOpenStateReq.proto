@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetOpenStateReq {
+  // CMD_ID = 188
+
+  uint32 value = 14;
+  uint32 key = 7;
+}

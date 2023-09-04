@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ContentAuditInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerNicknameAuditDataNotify {
+  // CMD_ID = 168
+
+  ContentAuditInfo info = 13;
+}

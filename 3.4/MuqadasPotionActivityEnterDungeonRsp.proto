@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MuqadasPotionActivityEnterDungeonRsp {
+  // CMD_ID = 20138
+
+  uint32 level_id = 8;
+  int32 retcode = 15;
+}

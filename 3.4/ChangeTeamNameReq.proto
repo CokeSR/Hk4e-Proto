@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeTeamNameReq {
+  // CMD_ID = 1631
+
+  string team_name = 8;
+  int32 team_id = 1;
+}

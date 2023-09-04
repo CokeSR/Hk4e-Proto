@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerPlayerBattleInfo {
+  repeated uint32 skill_list = 9;
+  bool is_ready = 6;
+  string nickname = 15;
+  bool is_changing = 14;
+  repeated uint32 costume_id = 12;
+  repeated uint32 avatar_id = 5;
+  uint32 uid = 3;
+}

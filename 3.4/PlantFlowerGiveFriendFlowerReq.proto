@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGiveFriendFlowerReq {
+  // CMD_ID = 8176
+
+  uint32 uid = 1;
+  map<uint32, uint32> flower_num_map = 14;
+  uint32 schedule_id = 5;
+}

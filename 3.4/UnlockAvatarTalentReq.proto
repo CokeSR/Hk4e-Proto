@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UnlockAvatarTalentReq {
+  // CMD_ID = 1005
+
+  uint32 talent_id = 9;
+  uint64 avatar_guid = 1;
+}

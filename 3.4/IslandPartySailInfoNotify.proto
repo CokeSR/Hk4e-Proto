@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "IslandPartySailStage.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IslandPartySailInfoNotify {
+  // CMD_ID = 5525
+
+  uint32 progress = 5;
+  uint32 coin = 1;
+  uint32 kill_monster_count = 9;
+  IslandPartySailStage stage = 2;
+}

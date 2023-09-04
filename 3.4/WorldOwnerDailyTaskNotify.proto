@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "DailyTaskInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldOwnerDailyTaskNotify {
+  // CMD_ID = 163
+
+  uint32 finished_daily_task_num = 4;
+  repeated DailyTaskInfo task_list = 9;
+  uint32 filter_city_id = 15;
+}

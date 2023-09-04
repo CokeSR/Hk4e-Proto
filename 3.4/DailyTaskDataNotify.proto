@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskDataNotify {
+  // CMD_ID = 183
+
+  bool is_taken_score_reward = 13;
+  uint32 finished_num = 11;
+  uint32 score_reward_id = 2;
+}

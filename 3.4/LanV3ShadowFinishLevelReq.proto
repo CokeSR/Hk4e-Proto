@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3ShadowFinishLevelReq {
+  // CMD_ID = 23802
+
+  uint32 finish_time = 7;
+  uint32 level_id = 6;
+}

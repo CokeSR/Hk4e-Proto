@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GroupSuiteNotify {
+  // CMD_ID = 3115
+
+  map<uint32, uint32> group_map = 12;
+}

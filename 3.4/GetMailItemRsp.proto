@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EquipParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetMailItemRsp {
+  // CMD_ID = 1420
+
+  repeated EquipParam item_list = 9;
+  repeated uint32 mail_id_list = 6;
+  int32 retcode = 12;
+}

@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "ReunionWatcherInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionMissionInfo {
+  uint32 mission_id = 7;
+  repeated bool is_taken_reward_list = 15;
+  bool is_taken_reward = 3;
+  uint32 cur_score = 4;
+  bool is_finished = 2;
+  repeated ReunionWatcherInfo watcher_list = 13;
+  repeated ReunionWatcherInfo cur_day_watcher_list = 1;
+  uint32 next_refresh_time = 6;
+}

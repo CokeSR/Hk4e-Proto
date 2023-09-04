@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannellerSlabLoopDungeonSelectConditionReq {
+  // CMD_ID = 8368
+
+  uint32 dungeon_index = 4;
+  uint32 difficulty_id = 2;
+  repeated uint32 condition_id_list = 3;
+}

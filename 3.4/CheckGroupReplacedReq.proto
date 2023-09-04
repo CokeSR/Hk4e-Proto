@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckGroupReplacedReq {
+  // CMD_ID = 3329
+
+  repeated uint32 group_id_list = 7;
+}

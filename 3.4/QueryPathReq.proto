@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+import "QueryFilter.proto";
+import "Vector.proto";
+import "Vector3Int.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QueryPathReq {
+  // CMD_ID = 2305
+
+  enum OptionType {
+    OPTION_TYPE_NONE = 0;
+    OPTION_TYPE_NORMAL = 1;
+    OPTION_TYPE_FIRST_CAN_GO = 2;
+  }
+
+  int32 query_id = 13;
+  repeated Vector destination_pos = 4;
+  Vector3Int destination_extend = 5;
+  OptionType query_type = 12;
+  QueryFilter filter = 2;
+  Vector3Int source_extend = 15;
+  uint32 scene_id = 7;
+  Vector source_pos = 10;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGInviteGuestBattleRsp {
+  // CMD_ID = 7465
+
+  uint32 festival_mode_type = 13;
+  int32 retcode = 15;
+  uint32 confirm_end_time = 7;
+  uint32 uid = 4;
+  uint32 punish_end_time = 5;
+}

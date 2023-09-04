@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarSkillUpgradeReq {
+  // CMD_ID = 1029
+
+  uint32 avatar_skill_id = 10;
+  uint64 avatar_guid = 2;
+  uint32 old_level = 12;
+}

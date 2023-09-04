@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarFightPropUpdateNotify {
+  // CMD_ID = 1274
+
+  uint64 avatar_guid = 8;
+  map<uint32, float> fight_prop_map = 10;
+}

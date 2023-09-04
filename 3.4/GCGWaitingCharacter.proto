@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGWaitingCharacter {
+  uint32 cond_count = 9;
+  uint32 card_id = 2;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CrystalLinkAvatarInfo {
+  bool is_trial = 9;
+  uint64 avatar_id = 7;
+}

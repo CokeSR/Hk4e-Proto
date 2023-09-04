@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+import "GCGZoneType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgRemoveCards {
+  repeated uint32 card_guid_list = 14;
+  GCGZoneType zone = 9;
+  uint32 controller_id = 4;
+  GCGReason reason = 6;
+}

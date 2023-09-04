@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LeaveSceneRsp {
+  // CMD_ID = 287
+
+  int32 retcode = 7;
+}

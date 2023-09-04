@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CombatInvokeEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CombatInvocationsNotify {
+  // CMD_ID = 323
+
+  repeated CombatInvokeEntry invoke_list = 11;
+}

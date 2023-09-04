@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionPrivilegeInfo {
+  uint32 total_count = 7;
+  uint32 privilege_id = 12;
+  uint32 cur_day_count = 8;
+}

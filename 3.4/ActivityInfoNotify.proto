@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ActivityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityInfoNotify {
+  // CMD_ID = 2136
+
+  ActivityInfo activity_info = 3;
+}

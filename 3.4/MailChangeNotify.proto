@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MailData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MailChangeNotify {
+  // CMD_ID = 1455
+
+  repeated uint32 del_mail_id_list = 4;
+  repeated MailData mail_list = 5;
+}

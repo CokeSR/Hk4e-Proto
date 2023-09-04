@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectCheckDoubleStartPlayRsp {
+  // CMD_ID = 24464
+
+  int32 retcode = 11;
+  uint32 level_id = 8;
+}

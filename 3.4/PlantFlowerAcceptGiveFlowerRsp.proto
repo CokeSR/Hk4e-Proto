@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PlantFlowerAcceptFlowerResultInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerAcceptGiveFlowerRsp {
+  // CMD_ID = 8039
+
+  uint32 schedule_id = 4;
+  int32 retcode = 12;
+  PlantFlowerAcceptFlowerResultInfo accept_flower_result_info = 14;
+}

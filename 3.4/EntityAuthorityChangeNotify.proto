@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AuthorityChange.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityAuthorityChangeNotify {
+  // CMD_ID = 375
+
+  repeated AuthorityChange authority_change_list = 2;
+}

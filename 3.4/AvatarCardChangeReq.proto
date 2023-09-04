@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarCardChangeReq {
+  // CMD_ID = 628
+
+  uint32 item_id = 11;
+  uint64 avatar_guid = 1;
+  uint32 count = 6;
+}

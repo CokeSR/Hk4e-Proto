@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FishInfo.proto";
+import "FishingScore.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishingGallerySettleInfo {
+  repeated FishingScore fishing_score_list = 4;
+  map<uint32, FishInfo> fish_map = 9;
+}

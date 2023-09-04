@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "DailyTaskInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskProgressNotify {
+  // CMD_ID = 179
+
+  DailyTaskInfo info = 12;
+}

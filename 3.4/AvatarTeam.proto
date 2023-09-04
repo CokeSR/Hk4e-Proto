@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarTeam {
+  string team_name = 11;
+  repeated uint64 avatar_guid_list = 5;
+}

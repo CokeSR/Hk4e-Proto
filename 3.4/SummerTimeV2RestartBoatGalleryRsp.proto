@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeV2RestartBoatGalleryRsp {
+  // CMD_ID = 8972
+
+  uint32 gallery_id = 15;
+  int32 retcode = 12;
+}

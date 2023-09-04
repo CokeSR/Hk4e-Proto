@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeV2LevelData {
+  bool is_level_open = 13;
+  uint32 challenge_mode_difficulty_open = 14;
+  uint32 level_id = 15;
+  uint32 challenge_mode_last_choose_skill_no = 5;
+  uint32 best_cost_time = 7;
+  uint32 challenge_mode_difficulty_pass = 9;
+}

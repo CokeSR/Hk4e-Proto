@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonChallengeBeginNotify {
+  // CMD_ID = 939
+
+  uint32 challenge_id = 3;
+  uint32 challenge_index = 2;
+  uint32 group_id = 6;
+  uint32 father_index = 7;
+  repeated uint32 uid_list = 12;
+  repeated uint32 param_list = 14;
+}

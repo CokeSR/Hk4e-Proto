@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "HomeSceneArrangementInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeCreateBlueprintReq {
+  // CMD_ID = 4645
+
+  HomeSceneArrangementInfo scene_arrangement_info = 15;
+  uint32 slot_id = 13;
+  string server_share_code = 8;
+  uint32 gen_share_code_count = 1;
+}

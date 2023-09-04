@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "RegionalPlayVar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RegionalPlayInfoNotify {
+  // CMD_ID = 6288
+
+  string play_name = 8;
+  repeated RegionalPlayVar var_list = 11;
+  uint32 play_type = 14;
+  bool is_enabled = 2;
+  bool is_in_region = 7;
+}

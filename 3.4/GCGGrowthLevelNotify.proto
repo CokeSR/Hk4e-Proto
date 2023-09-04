@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGGrowthLevelNotify {
+  // CMD_ID = 7327
+
+  uint32 exp = 15;
+  uint32 level = 5;
+}

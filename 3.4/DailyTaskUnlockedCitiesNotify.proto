@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskUnlockedCitiesNotify {
+  // CMD_ID = 131
+
+  repeated uint32 unlocked_city_list = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReliquaryDecomposeRsp {
+  // CMD_ID = 682
+
+  int32 retcode = 13;
+  repeated uint64 guid_list = 12;
+}

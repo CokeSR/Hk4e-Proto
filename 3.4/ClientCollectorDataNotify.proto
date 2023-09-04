@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ClientCollectorData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientCollectorDataNotify {
+  // CMD_ID = 4292
+
+  repeated ClientCollectorData client_collector_data_list = 9;
+}

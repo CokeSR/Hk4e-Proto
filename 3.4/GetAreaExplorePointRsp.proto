@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAreaExplorePointRsp {
+  // CMD_ID = 252
+
+  repeated uint32 area_id_list = 13;
+  int32 retcode = 14;
+  repeated uint32 explore_point_list = 3;
+}

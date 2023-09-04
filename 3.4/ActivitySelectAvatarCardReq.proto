@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivitySelectAvatarCardReq {
+  // CMD_ID = 2085
+
+  uint32 reward_id = 8;
+  uint32 activity_id = 1;
+}

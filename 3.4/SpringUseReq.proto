@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpringUseReq {
+  // CMD_ID = 1731
+
+  uint64 guid = 1;
+}

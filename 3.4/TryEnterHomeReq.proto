@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TryEnterHomeReq {
+  // CMD_ID = 4455
+
+  uint32 target_point = 11;
+  bool is_transfer_to_safe_point = 4;
+  uint32 target_uid = 6;
+}

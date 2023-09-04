@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairPlayerStatInfo {
+  int32 param = 4;
+  ProfilePicture profile_picture = 14;
+  string online_id = 3;
+  string nick_name = 5;
+  uint32 stat_id = 2;
+  uint32 head_image = 8;
+  uint32 uid = 13;
+}

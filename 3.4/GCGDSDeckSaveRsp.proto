@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSDeckSaveRsp {
+  // CMD_ID = 7791
+
+  fixed32 create_time = 8;
+  uint32 deck_id = 1;
+  bool is_valid = 11;
+  int32 retcode = 3;
+}

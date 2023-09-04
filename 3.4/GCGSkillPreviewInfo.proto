@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+import "GCGSkillPreviewCardInfo.proto";
+import "GCGSkillPreviewElementReactionInfo.proto";
+import "GCGSkillPreviewExtraInfo.proto";
+import "GCGSkillPreviewHpInfo.proto";
+import "GCGSkillPreviewOnstageChangeInfo.proto";
+import "GCGSkillPreviewTokenChangeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSkillPreviewInfo {
+  map<uint32, GCGSkillPreviewTokenChangeInfo> card_token_change_map = 12;
+  repeated GCGSkillPreviewOnstageChangeInfo change_onstage_character_list = 14;
+  GCGSkillPreviewExtraInfo extra_info = 6;
+  map<uint32, GCGSkillPreviewHpInfo> hp_info_map = 1;
+  map<uint32, GCGSkillPreviewElementReactionInfo> reaction_info_map = 9;
+  repeated GCGSkillPreviewCardInfo add_card_list = 11;
+  uint32 skill_id = 2;
+  repeated GCGSkillPreviewCardInfo rm_card_list = 15;
+}

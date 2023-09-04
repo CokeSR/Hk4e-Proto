@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RacingGallerySettleInfo {
+  uint32 use_time = 9;
+  GalleryStopReason reason = 3;
+  uint32 winner_uid = 10;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneForceUnlockNotify {
+  // CMD_ID = 285
+
+  bool is_add = 8;
+  repeated uint32 force_id_list = 14;
+}

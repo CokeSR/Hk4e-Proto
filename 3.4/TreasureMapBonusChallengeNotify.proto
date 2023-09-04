@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TreasureMapBonusChallengeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapBonusChallengeNotify {
+  // CMD_ID = 2056
+
+  TreasureMapBonusChallengeInfo info = 5;
+}

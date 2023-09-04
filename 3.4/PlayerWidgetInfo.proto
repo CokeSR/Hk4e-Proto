@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "WidgetSlotData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerWidgetInfo {
+  repeated WidgetSlotData slot_list = 15;
+  uint32 uid = 10;
+}

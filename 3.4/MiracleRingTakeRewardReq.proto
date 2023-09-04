@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MiracleRingTakeRewardReq {
+  // CMD_ID = 5241
+
+  uint32 gadget_entity_id = 1;
+  uint32 gadget_id = 11;
+}

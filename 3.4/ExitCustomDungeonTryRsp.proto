@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExitCustomDungeonTryRsp {
+  // CMD_ID = 6215
+
+  int32 retcode = 7;
+}

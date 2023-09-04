@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusCultivateReq {
+  // CMD_ID = 22123
+
+  uint32 cultivate_id = 15;
+  uint32 time = 12;
+  uint32 place_step = 5;
+  uint32 undo_step = 3;
+  uint32 copy_step = 7;
+  uint32 rotate_step = 8;
+  uint32 exchange_step = 13;
+  uint32 cultivate_step = 2;
+}

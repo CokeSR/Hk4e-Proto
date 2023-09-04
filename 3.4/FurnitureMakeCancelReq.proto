@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeCancelReq {
+  // CMD_ID = 4577
+
+  uint32 make_id = 5;
+  uint32 index = 12;
+}

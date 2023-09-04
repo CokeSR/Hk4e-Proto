@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "PropValue.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PropPair {
+  uint32 type = 1;
+  PropValue prop_value = 2;
+}

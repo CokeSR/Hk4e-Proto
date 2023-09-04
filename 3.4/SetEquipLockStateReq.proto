@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetEquipLockStateReq {
+  // CMD_ID = 684
+
+  uint64 target_equip_guid = 10;
+  bool is_locked = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AddSeenMonsterNotify {
+  // CMD_ID = 296
+
+  repeated uint32 monster_id_list = 1;
+}

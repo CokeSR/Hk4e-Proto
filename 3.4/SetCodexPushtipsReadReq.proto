@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetCodexPushtipsReadReq {
+  // CMD_ID = 4204
+
+  uint32 type_id = 10;
+  uint32 codex_id = 2;
+}

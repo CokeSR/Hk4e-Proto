@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayBattleSettleRewardInfo {
+  uint32 uid = 8;
+  repeated ItemParam reward_item_list = 5;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ActivityDungeonAvatar.proto";
+import "RogueDiaryAvatarDisableStatus.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryAvatar {
+  repeated RogueDiaryAvatarDisableStatus disable_status_list = 4;
+  uint32 level = 2;
+  uint32 tired_round = 9;
+  ActivityDungeonAvatar avatar = 6;
+}

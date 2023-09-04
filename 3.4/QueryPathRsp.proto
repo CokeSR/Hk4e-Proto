@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QueryPathRsp {
+  // CMD_ID = 2355
+
+  enum PathStatusType {
+    PATH_STATUS_TYPE_FAIL = 0;
+    PATH_STATUS_TYPE_SUCC = 1;
+    PATH_STATUS_TYPE_PARTIAL = 2;
+  }
+
+  int32 retcode = 13;
+  repeated Vector corners = 11;
+  PathStatusType query_status = 6;
+  int32 query_id = 15;
+}

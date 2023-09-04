@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CityReputationExploreInfo {
+  repeated uint32 taken_explore_reward_list = 9;
+  bool is_open = 1;
+  uint32 explore_percent = 11;
+}

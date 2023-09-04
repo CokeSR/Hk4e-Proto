@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectGallerySettleNotify {
+  // CMD_ID = 5542
+
+  uint32 coin_total_num = 6;
+  bool is_new_record = 8;
+  uint32 coin_collect_time = 15;
+  uint32 multistage_play_index = 10;
+  uint32 level_id = 1;
+  uint32 coin_collect_num = 14;
+}

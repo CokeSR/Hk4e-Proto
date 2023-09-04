@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayOwnerInviteNotify {
+  // CMD_ID = 1810
+
+  uint32 cd = 6;
+  bool is_remain_reward = 9;
+  uint32 mp_play_id = 3;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusBuildingInfo {
+  uint32 building_id = 6;
+  uint32 level = 3;
+  uint32 refund_points = 14;
+  uint32 cost_points = 4;
+}

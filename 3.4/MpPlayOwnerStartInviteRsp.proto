@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayOwnerStartInviteRsp {
+  // CMD_ID = 1803
+
+  uint32 mp_play_id = 3;
+  bool is_skip_match = 7;
+  int32 retcode = 8;
+}

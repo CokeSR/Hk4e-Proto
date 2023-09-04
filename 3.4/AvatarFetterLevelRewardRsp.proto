@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarFetterLevelRewardRsp {
+  // CMD_ID = 1612
+
+  uint32 reward_id = 15;
+  int32 retcode = 14;
+  uint32 fetter_level = 2;
+  uint64 avatar_guid = 6;
+}

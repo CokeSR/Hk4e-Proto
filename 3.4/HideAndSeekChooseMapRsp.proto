@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekChooseMapRsp {
+  // CMD_ID = 8321
+
+  int32 retcode = 3;
+  repeated uint32 map_list = 5;
+}

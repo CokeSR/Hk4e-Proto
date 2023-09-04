@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "ChallengeBrief.proto";
+import "CustomDungeonFinishType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonResultInfo {
+  CustomDungeonFinishType finish_type = 2;
+  bool is_stored = 8;
+  uint64 dungeon_guid = 9;
+  bool is_liked = 14;
+  bool is_arrive_finish = 15;
+  uint32 got_coin_num = 11;
+  repeated ChallengeBrief child_challenge_list = 3;
+  uint32 time_cost = 4;
+}

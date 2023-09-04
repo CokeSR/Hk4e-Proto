@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusCloseNotify {
+  // CMD_ID = 3974
+
+  uint32 mechanicus_id = 12;
+}

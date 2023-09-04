@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetBattlePassProductRsp {
+  // CMD_ID = 2625
+
+  string price_tier = 15;
+  int32 retcode = 4;
+  uint32 battle_pass_product_play_type = 9;
+  uint32 cur_schedule_id = 6;
+  string product_id = 7;
+}

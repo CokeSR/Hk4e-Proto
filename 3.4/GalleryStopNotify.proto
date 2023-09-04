@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryStopNotify {
+  // CMD_ID = 5598
+
+  uint32 gallery_id = 3;
+}

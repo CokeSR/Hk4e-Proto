@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EntityConfigHashEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityConfigHashNotify {
+  // CMD_ID = 3265
+
+  repeated EntityConfigHashEntry avatar_entry_list = 12;
+  repeated EntityConfigHashEntry ability_entry_list = 7;
+  repeated EntityConfigHashEntry combat_entry_list = 1;
+}

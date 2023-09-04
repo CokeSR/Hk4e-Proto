@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TowerCurLevelRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerCurLevelRecordChangeNotify {
+  // CMD_ID = 2487
+
+  TowerCurLevelRecord cur_level_record = 5;
+}

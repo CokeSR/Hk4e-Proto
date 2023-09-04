@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "MotionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneEntityMoveNotify {
+  // CMD_ID = 229
+
+  MotionInfo motion_info = 14;
+  uint32 entity_id = 1;
+  uint32 scene_time = 7;
+  uint32 reliable_seq = 12;
+}

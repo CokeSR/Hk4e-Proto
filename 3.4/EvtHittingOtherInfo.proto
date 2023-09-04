@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "AttackResult.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtHittingOtherInfo {
+  AttackResult attack_result = 13;
+  uint32 peer_id = 3;
+}

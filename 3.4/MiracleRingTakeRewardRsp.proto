@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MiracleRingTakeRewardRsp {
+  // CMD_ID = 5219
+
+  int32 retcode = 3;
+}

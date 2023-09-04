@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PushTipsReadFinishReq {
+  // CMD_ID = 2225
+
+  uint32 push_tips_id = 2;
+}

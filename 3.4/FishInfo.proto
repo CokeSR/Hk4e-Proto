@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FishInfo {
+  uint32 free_count = 4;
+  uint32 into_bag_count = 6;
+}

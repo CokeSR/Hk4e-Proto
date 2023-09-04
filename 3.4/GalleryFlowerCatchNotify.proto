@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryFlowerCatchNotify {
+  // CMD_ID = 5562
+
+  uint32 add_score = 1;
+  uint32 cur_score = 8;
+  uint32 gallery_id = 13;
+}

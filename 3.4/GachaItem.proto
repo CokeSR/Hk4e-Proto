@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GachaTransferItem.proto";
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaItem {
+  repeated GachaTransferItem transfer_items = 10;
+  bool is_gacha_item_new = 9;
+  repeated ItemParam token_item_list = 12;
+  ItemParam gacha_item = 4;
+  bool is_flash_card = 11;
+}

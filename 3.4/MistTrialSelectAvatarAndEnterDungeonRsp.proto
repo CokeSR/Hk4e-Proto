@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialSelectAvatarAndEnterDungeonRsp {
+  // CMD_ID = 8551
+
+  uint32 trial_id = 14;
+  int32 retcode = 1;
+}

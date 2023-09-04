@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivitySetGiftWishReq {
+  // CMD_ID = 8597
+
+  uint32 schedule_id = 2;
+  map<uint32, uint32> gift_num_map = 7;
+}

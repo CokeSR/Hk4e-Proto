@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartBuoyantCombatGalleryReq {
+  // CMD_ID = 8096
+
+  uint32 gallery_id = 11;
+  uint32 gallery_level = 7;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonPlayerDieRsp {
+  // CMD_ID = 969
+
+  int32 retcode = 14;
+}

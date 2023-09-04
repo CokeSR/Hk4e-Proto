@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ReunionBriefInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionBriefInfoRsp {
+  // CMD_ID = 5095
+
+  int32 retcode = 3;
+  bool is_activate = 11;
+  ReunionBriefInfo reunion_brief_info = 8;
+}

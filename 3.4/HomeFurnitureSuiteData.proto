@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeFurnitureSuiteData {
+  repeated int32 included_furniture_index_list = 7;
+  uint32 guid = 12;
+  uint32 suite_id = 15;
+  bool is_allow_summon = 14;
+  Vector spawn_pos = 10;
+}

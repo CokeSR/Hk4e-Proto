@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AISnapshotEntitySkillCycle {
+  bool selected = 4;
+  bool trydoskill = 12;
+  bool failed = 3;
+  uint32 skill_id = 15;
+  bool success = 9;
+}

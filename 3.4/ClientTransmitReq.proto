@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "TransmitReason.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientTransmitReq {
+  // CMD_ID = 203
+
+  Vector rot = 9;
+  TransmitReason reason = 13;
+  Vector pos = 12;
+  uint32 scene_id = 8;
+}

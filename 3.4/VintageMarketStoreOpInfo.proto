@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketStoreOpInfo {
+  uint32 help_uid = 14;
+  uint32 help_skill_id = 13;
+  repeated uint32 add_attr_list = 3;
+  uint32 store_id = 2;
+  repeated uint32 strategy_list = 4;
+}

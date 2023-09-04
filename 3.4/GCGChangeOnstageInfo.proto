@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGSkillPreviewInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGChangeOnstageInfo {
+  uint32 card_guid = 4;
+  GCGSkillPreviewInfo change_onstage_preview_info = 8;
+  bool is_quick = 5;
+}

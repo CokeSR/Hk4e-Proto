@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerUpdateGlobalValueNotify {
+  // CMD_ID = 1178
+
+  enum UpdateType {
+    UPDATE_TYPE_INVALUE = 0;
+    UPDATE_TYPE_ADD = 1;
+    UPDATE_TYPE_SET = 2;
+  }
+
+  float value = 2;
+  UpdateType update_type = 8;
+  uint32 key_hash = 10;
+  uint32 entity_id = 3;
+  float delta = 12;
+}

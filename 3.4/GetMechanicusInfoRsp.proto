@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MechanicusInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetMechanicusInfoRsp {
+  // CMD_ID = 3955
+
+  MechanicusInfo mechanicus_info = 1;
+  int32 retcode = 12;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityActionFireAfterImgae {
+  Vector dir = 2;
+}

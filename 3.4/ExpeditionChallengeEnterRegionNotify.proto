@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionChallengeEnterRegionNotify {
+  // CMD_ID = 2092
+
+  uint32 id = 7;
+  bool is_puzzle_finished = 11;
+}

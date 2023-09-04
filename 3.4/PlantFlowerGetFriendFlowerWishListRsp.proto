@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PlantFlowerFriendFlowerWishData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGetFriendFlowerWishListRsp {
+  // CMD_ID = 8025
+
+  int32 retcode = 15;
+  uint32 schedule_id = 7;
+  repeated PlantFlowerFriendFlowerWishData friend_flower_wish_list = 1;
+}

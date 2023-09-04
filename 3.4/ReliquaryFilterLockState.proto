@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ReliquaryFilterLockState {
+  RELIQUARY_FILTER_LOCK_STATE_NONE = 0;
+  RELIQUARY_FILTER_LOCK_STATE_LOCK = 1;
+  RELIQUARY_FILTER_LOCK_STATE_UNLOCK = 2;
+}

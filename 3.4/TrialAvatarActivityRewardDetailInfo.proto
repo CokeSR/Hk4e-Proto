@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TrialAvatarActivityRewardDetailInfo {
+  uint32 trial_avatar_index_id = 5;
+  bool received_reward = 2;
+  uint32 reward_id = 7;
+  bool passed_dungeon = 14;
+}

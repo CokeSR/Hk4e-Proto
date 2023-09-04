@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeMpTeamAvatarReq {
+  // CMD_ID = 1784
+
+  uint64 cur_avatar_guid = 8;
+  repeated uint64 avatar_guid_list = 2;
+}

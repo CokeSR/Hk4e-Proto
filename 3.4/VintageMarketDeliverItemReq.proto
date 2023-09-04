@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketDeliverItemReq {
+  // CMD_ID = 21636
+
+  repeated ItemParam deliver_item_list = 15;
+  uint32 trader_id = 4;
+}

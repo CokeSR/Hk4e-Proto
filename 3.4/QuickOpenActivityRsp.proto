@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuickOpenActivityRsp {
+  // CMD_ID = 8108
+
+  uint32 activity_id = 7;
+  int32 retcode = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoDungeonAvatar {
+  bool is_avlive = 10;
+  bool is_trial = 5;
+  uint64 avatar_guid = 3;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FlightActivityRestartRsp {
+  // CMD_ID = 2071
+
+  uint32 schedule_id = 6;
+  int32 retcode = 13;
+  uint32 group_id = 12;
+}

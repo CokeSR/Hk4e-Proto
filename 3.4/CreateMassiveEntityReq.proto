@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ClientMassiveEntity.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CreateMassiveEntityReq {
+  // CMD_ID = 394
+
+  repeated ClientMassiveEntity massive_entity_list = 5;
+}

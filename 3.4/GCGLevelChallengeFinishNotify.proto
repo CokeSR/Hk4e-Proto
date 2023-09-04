@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGLevelChallengeFinishNotify {
+  // CMD_ID = 7360
+
+  repeated uint32 finished_challenge_id_list = 1;
+  uint32 level_id = 7;
+}

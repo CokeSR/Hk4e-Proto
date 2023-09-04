@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "EventTriggerType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientTriggerEventNotify {
+  // CMD_ID = 178
+
+  uint32 force_id = 5;
+  EventTriggerType event_type = 1;
+}

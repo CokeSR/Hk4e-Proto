@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGSettleOption {
+  GCG_SETTLE_OPTION_OPT_NONE = 0;
+  GCG_SETTLE_OPTION_OPT_EXIT = 1;
+  GCG_SETTLE_OPTION_OPT_CONTINUE = 2;
+  GCG_SETTLE_OPTION_OPT_RESTART = 3;
+}

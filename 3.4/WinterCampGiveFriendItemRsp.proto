@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampGiveFriendItemRsp {
+  // CMD_ID = 8656
+
+  repeated uint32 limit_item_id_list = 7;
+  int32 retcode = 15;
+}

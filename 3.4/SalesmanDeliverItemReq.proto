@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SalesmanDeliverItemReq {
+  // CMD_ID = 2117
+
+  uint32 schedule_id = 9;
+}

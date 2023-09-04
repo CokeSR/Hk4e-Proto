@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterFungusFighterTrainingDungeonReq {
+  // CMD_ID = 22698
+
+  uint32 dungeon_id = 10;
+}

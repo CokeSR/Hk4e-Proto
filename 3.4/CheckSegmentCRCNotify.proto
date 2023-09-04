@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "SegmentInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckSegmentCRCNotify {
+  // CMD_ID = 46
+
+  repeated SegmentInfo info_list = 9;
+}

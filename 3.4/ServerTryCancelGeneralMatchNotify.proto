@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerTryCancelGeneralMatchNotify {
+  // CMD_ID = 4165
+
+  uint32 match_id = 1;
+}

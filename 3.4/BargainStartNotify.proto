@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "BargainSnapshot.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BargainStartNotify {
+  // CMD_ID = 425
+
+  uint32 bargain_id = 12;
+  BargainSnapshot snapshot = 2;
+}

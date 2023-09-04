@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RefreshBackgroundAvatarRsp {
+  // CMD_ID = 1720
+
+  int32 retcode = 13;
+  map<uint64, uint32> hp_full_time_map = 4;
+}

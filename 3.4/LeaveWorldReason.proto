@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum LeaveWorldReason {
+  LEAVE_WORLD_REASON_NONE = 0;
+  LEAVE_WORLD_REASON_LOGOUT = 1;
+  LEAVE_WORLD_REASON_BACK_MY_WORLD = 2;
+  LEAVE_WORLD_REASON_KICK_BY_OWNER = 3;
+}

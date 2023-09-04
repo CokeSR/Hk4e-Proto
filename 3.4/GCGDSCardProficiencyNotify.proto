@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSCardProficiencyNotify {
+  // CMD_ID = 7895
+
+  uint32 proficiency = 4;
+  uint32 card_id = 7;
+}

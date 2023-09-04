@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DelMailRsp {
+  // CMD_ID = 1480
+
+  int32 retcode = 7;
+  repeated uint32 mail_id_list = 9;
+}

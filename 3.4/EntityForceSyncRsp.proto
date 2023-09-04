@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "MotionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EntityForceSyncRsp {
+  // CMD_ID = 243
+
+  MotionInfo fail_motion = 1;
+  int32 retcode = 3;
+  uint32 entity_id = 6;
+  uint32 scene_time = 2;
+}

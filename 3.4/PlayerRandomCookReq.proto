@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerRandomCookReq {
+  // CMD_ID = 173
+
+  repeated ItemParam material_list = 2;
+}

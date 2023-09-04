@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeMakeInfo {
+  uint32 make_count = 9;
+  uint32 furniture_id = 7;
+}

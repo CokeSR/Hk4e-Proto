@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MaterialDeleteReturnType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeMaterialDeleteReturnReq {
+  // CMD_ID = 656
+
+  MaterialDeleteReturnType type = 6;
+}

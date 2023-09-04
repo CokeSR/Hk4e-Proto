@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestRenameAvatarRsp {
+  // CMD_ID = 401
+
+  string avatar_name = 15;
+  bool is_check = 2;
+  uint32 rename_id = 13;
+  int32 retcode = 10;
+}

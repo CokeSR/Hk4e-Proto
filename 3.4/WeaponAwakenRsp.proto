@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WeaponAwakenRsp {
+  // CMD_ID = 685
+
+  int32 retcode = 11;
+  uint32 target_weapon_awaken_level = 3;
+  uint64 target_weapon_guid = 2;
+  uint64 avatar_guid = 5;
+  map<uint32, uint32> old_affix_level_map = 6;
+  map<uint32, uint32> cur_affix_level_map = 12;
+}

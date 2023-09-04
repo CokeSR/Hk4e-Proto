@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivitySetGiftWishRsp {
+  // CMD_ID = 8828
+
+  uint32 schedule_id = 14;
+  int32 retcode = 11;
+}

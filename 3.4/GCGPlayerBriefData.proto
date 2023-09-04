@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGPlayerBriefData {
+  string psn_id = 7;
+  map<uint32, uint32> card_face_map = 4;
+  ProfilePicture profile_picture = 14;
+  uint32 uid = 3;
+  string nick_name = 2;
+  string online_id = 10;
+  uint32 controller_id = 11;
+  repeated uint32 card_id_list = 13;
+}

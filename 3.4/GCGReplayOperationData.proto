@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGOperation.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGReplayOperationData {
+  GCGOperation op = 15;
+  uint32 controller_id = 10;
+}

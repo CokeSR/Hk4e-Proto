@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WearEquipReq {
+  // CMD_ID = 616
+
+  uint64 equip_guid = 12;
+  uint64 avatar_guid = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocencePhotoFinishRsp {
+  // CMD_ID = 22592
+
+  int32 retcode = 2;
+  uint32 object_id = 5;
+  uint32 param = 11;
+}

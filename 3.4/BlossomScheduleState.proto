@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum BlossomScheduleState {
+  BLOSSOM_SCHEDULE_STATE_NONE = 0;
+  BLOSSOM_SCHEDULE_STATE_INIT = 1;
+  BLOSSOM_SCHEDULE_STATE_IN_PROGRESS = 2;
+  BLOSSOM_SCHEDULE_STATE_REWARD = 3;
+}

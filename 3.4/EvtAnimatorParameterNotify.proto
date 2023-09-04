@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EvtAnimatorParameterInfo.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAnimatorParameterNotify {
+  // CMD_ID = 355
+
+  EvtAnimatorParameterInfo animator_param_info = 10;
+  ForwardType forward_type = 4;
+}

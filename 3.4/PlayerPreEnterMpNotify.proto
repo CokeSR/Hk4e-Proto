@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerPreEnterMpNotify {
+  // CMD_ID = 1835
+
+  enum State {
+    STATE_INVALID = 0;
+    STATE_START = 1;
+    STATE_TIMEOUT = 2;
+  }
+
+  State state = 7;
+  uint32 uid = 10;
+  string nickname = 15;
+}

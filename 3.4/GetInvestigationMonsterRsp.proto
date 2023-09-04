@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "InvestigationMonster.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetInvestigationMonsterRsp {
+  // CMD_ID = 1927
+
+  int32 retcode = 6;
+  repeated InvestigationMonster monster_list = 2;
+  bool is_for_mark = 11;
+}

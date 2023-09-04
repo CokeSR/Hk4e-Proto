@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "DungeonCandidateTeamPlayerLeaveReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamPlayerLeaveNotify {
+  // CMD_ID = 973
+
+  DungeonCandidateTeamPlayerLeaveReason reason = 2;
+  uint32 player_uid = 12;
+}

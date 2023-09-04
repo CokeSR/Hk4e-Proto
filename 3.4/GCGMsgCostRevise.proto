@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGCostReviseInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgCostRevise {
+  uint32 controller_id = 15;
+  GCGCostReviseInfo cost_revise = 10;
+}

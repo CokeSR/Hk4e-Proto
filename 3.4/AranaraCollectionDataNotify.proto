@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AranaraCollectionSuite.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AranaraCollectionDataNotify {
+  // CMD_ID = 6388
+
+  repeated AranaraCollectionSuite collection_suite_list = 7;
+}

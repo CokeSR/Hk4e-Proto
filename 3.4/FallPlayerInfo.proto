@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FallPlayerInfo {
+  uint32 time_cost = 10;
+  uint32 uid = 4;
+  map<uint32, uint32> ball_catch_count_map = 8;
+  uint32 cur_score = 11;
+  bool is_ground = 15;
+}

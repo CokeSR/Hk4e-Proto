@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "MailData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAllMailResultNotify {
+  // CMD_ID = 1413
+
+  bool is_collected = 12;
+  repeated MailData mail_list = 1;
+  uint32 total_page_count = 7;
+  int32 retcode = 8;
+  uint32 page_index = 6;
+  string transaction = 15;
+}

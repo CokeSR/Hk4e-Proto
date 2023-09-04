@@ -1,0 +1,35 @@
+
+syntax = "proto3";
+
+import "BrickBreakerStageInfo.proto";
+import "CharAmusementInfo.proto";
+import "CoinCollectStageInfo.proto";
+import "HideAndSeekStageInfo.proto";
+import "InBattleChessInfo.proto";
+import "InBattleFleurFairInfo.proto";
+import "InBattleIrodoriChessInfo.proto";
+import "InBattleMechanicusInfo.proto";
+import "LanV3BoatStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MultistagePlayInfo {
+  uint32 stage_index = 13;
+  uint32 begin_time = 8;
+  uint32 duration = 15;
+  uint32 play_index = 3;
+  uint32 stage_type = 9;
+  uint32 group_id = 12;
+  uint32 play_type = 10;
+  oneof detail {
+    InBattleMechanicusInfo mechanicus_info = 1387;
+    InBattleFleurFairInfo fleur_fair_info = 2006;
+    HideAndSeekStageInfo hide_and_seek_info = 1418;
+    InBattleChessInfo chess_info = 1939;
+    InBattleIrodoriChessInfo irodori_chess_info = 452;
+    CharAmusementInfo char_amusement_info = 1200;
+    BrickBreakerStageInfo brick_breaker_info = 1701;
+    CoinCollectStageInfo coin_collect_info = 1451;
+    LanV3BoatStageInfo lan_v3_boat_info = 424;
+  }
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CookRecipeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CookRecipeDataNotify {
+  // CMD_ID = 185
+
+  CookRecipeData recipe_data = 6;
+}

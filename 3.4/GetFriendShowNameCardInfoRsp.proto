@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetFriendShowNameCardInfoRsp {
+  // CMD_ID = 4056
+
+  int32 retcode = 3;
+  uint32 uid = 2;
+  repeated uint32 show_name_card_id_list = 15;
+}

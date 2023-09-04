@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CombineDataNotify {
+  // CMD_ID = 665
+
+  repeated uint32 combine_id_list = 4;
+}

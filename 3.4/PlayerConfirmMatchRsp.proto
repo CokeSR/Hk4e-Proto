@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "MatchType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerConfirmMatchRsp {
+  // CMD_ID = 4166
+
+  bool is_agreed = 6;
+  MatchType match_type = 12;
+  uint32 match_id = 3;
+  int32 retcode = 1;
+}

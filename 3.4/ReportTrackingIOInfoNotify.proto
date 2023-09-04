@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReportTrackingIOInfoNotify {
+  // CMD_ID = 4131
+
+  string appid = 5;
+  string rydevicetype = 8;
+  string mac = 3;
+  string client_tz = 2;
+  string deviceid = 9;
+}

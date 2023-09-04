@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "FurnitureMakeBeHelpedData.proto";
+import "FurnitureMakeSlot.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeBeHelpedNotify {
+  // CMD_ID = 4522
+
+  FurnitureMakeSlot furniture_make_slot = 2;
+  FurnitureMakeBeHelpedData furniture_make_helped_data = 12;
+}

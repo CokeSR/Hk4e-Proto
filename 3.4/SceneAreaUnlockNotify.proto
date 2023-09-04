@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneAreaUnlockNotify {
+  // CMD_ID = 258
+
+  repeated uint32 area_list = 12;
+  uint32 scene_id = 11;
+}

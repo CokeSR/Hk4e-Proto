@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlitzRushStage {
+  uint32 open_time = 14;
+  bool is_open = 6;
+}

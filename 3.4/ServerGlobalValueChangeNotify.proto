@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerGlobalValueChangeNotify {
+  // CMD_ID = 1116
+
+  float value = 10;
+  uint32 key_hash = 6;
+  uint32 entity_id = 11;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarUpgradeRsp {
+  // CMD_ID = 1788
+
+  map<uint32, float> cur_fight_prop_map = 11;
+  uint64 avatar_guid = 8;
+  map<uint32, float> old_fight_prop_map = 14;
+  uint32 old_level = 15;
+  int32 retcode = 13;
+  uint32 cur_level = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekPlayerReadyNotify {
+  // CMD_ID = 5363
+
+  repeated uint32 uid_list = 12;
+}

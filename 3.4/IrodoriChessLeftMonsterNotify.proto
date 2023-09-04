@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriChessLeftMonsterNotify {
+  // CMD_ID = 5340
+
+  uint32 left_monsters = 6;
+}

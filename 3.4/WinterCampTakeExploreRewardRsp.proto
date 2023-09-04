@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampTakeExploreRewardRsp {
+  // CMD_ID = 8788
+
+  int32 retcode = 6;
+  uint32 id = 13;
+}

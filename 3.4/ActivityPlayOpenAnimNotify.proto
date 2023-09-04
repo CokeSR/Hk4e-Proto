@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityPlayOpenAnimNotify {
+  // CMD_ID = 2178
+
+  uint32 activity_id = 15;
+}

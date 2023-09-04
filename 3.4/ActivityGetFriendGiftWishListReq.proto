@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityGetFriendGiftWishListReq {
+  // CMD_ID = 8246
+
+  uint32 schedule_id = 11;
+}

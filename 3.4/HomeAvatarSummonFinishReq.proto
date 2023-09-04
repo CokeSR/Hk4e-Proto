@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarSummonFinishReq {
+  // CMD_ID = 4628
+
+  uint32 event_id = 6;
+}

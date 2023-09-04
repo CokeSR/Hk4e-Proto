@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "FungusFighterMonsterDetail.proto";
+import "FungusTrainingPoolPreviewDetail.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusTrainingProgressDetail {
+  repeated uint32 backup_monster_list = 15;
+  uint32 cur_round = 1;
+  repeated uint32 choosen_monster_list = 8;
+  repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 9;
+  uint32 total_used_time = 4;
+  repeated FungusFighterMonsterDetail monster_detail_list = 2;
+  uint32 dungeon_id = 13;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterIrodoriChessDungeonReq {
+  // CMD_ID = 8505
+
+  uint32 level_id = 1;
+  bool is_hard_map = 6;
+}

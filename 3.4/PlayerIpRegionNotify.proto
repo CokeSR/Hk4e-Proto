@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerIpRegionNotify {
+  // CMD_ID = 171
+
+  string ip_code = 6;
+}

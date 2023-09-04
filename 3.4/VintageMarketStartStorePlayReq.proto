@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketStartStorePlayReq {
+  // CMD_ID = 20758
+
+  uint32 store_round = 1;
+}

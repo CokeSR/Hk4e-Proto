@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+import "SeaLampV3CampStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampV3CampInfo {
+  repeated SeaLampV3CampStageInfo stage_info_list = 12;
+}

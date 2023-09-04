@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ResinChangeNotify {
+  // CMD_ID = 694
+
+  uint32 cur_value = 12;
+  uint32 next_add_timestamp = 4;
+  uint32 cur_buy_count = 5;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ArenaChallengeChildChallengeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ArenaChallengeFinishNotify {
+  // CMD_ID = 2199
+
+  bool is_success = 7;
+  repeated ArenaChallengeChildChallengeInfo child_challenge_list = 6;
+  uint32 arena_challenge_id = 15;
+  uint32 arena_challenge_level = 9;
+}

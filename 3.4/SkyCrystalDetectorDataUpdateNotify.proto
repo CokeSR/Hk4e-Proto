@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "SkyCrystalDetectorData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SkyCrystalDetectorDataUpdateNotify {
+  // CMD_ID = 4265
+
+  SkyCrystalDetectorData sky_crystal_detector_data = 12;
+}

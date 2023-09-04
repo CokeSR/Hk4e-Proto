@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGOperationRsp {
+  // CMD_ID = 7651
+
+  uint32 op_seq = 7;
+  int32 retcode = 3;
+}

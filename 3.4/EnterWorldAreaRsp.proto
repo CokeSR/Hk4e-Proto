@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterWorldAreaRsp {
+  // CMD_ID = 250
+
+  uint32 area_type = 3;
+  int32 retcode = 12;
+  uint32 area_id = 6;
+}

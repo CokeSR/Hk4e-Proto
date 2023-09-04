@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GiveUpRoguelikeDungeonCardRsp {
+  // CMD_ID = 8024
+
+  int32 retcode = 9;
+}

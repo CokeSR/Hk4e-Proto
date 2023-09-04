@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BigTalentPointConvertReq {
+  // CMD_ID = 1020
+
+  repeated uint64 item_guid_list = 5;
+  uint64 avatar_guid = 3;
+}

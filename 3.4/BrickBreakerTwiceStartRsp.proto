@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerTwiceStartRsp {
+  // CMD_ID = 23952
+
+  int32 retcode = 9;
+}

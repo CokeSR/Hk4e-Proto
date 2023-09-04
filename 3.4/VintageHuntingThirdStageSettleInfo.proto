@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageHuntingThirdStageSettleInfo {
+  uint32 left_time = 7;
+  bool is_success = 6;
+}

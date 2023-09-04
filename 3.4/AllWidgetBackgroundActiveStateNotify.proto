@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AllWidgetBackgroundActiveStateNotify {
+  // CMD_ID = 6011
+
+  repeated uint32 background_active_widget_list = 11;
+}

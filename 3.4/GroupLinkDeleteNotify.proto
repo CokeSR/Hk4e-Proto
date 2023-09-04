@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GroupLinkDeleteNotify {
+  // CMD_ID = 5796
+
+  uint32 bundle_id = 13;
+}

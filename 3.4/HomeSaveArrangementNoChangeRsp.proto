@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSaveArrangementNoChangeRsp {
+  // CMD_ID = 4762
+
+  int32 retcode = 6;
+  uint32 scene_id = 15;
+}

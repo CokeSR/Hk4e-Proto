@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryIslandPartyRaftInfo {
+  uint32 coin = 10;
+  uint32 raft_entity_id = 5;
+  uint32 point_id = 13;
+  uint32 fuel = 4;
+  uint32 component = 7;
+  GalleryStartSource start_source = 15;
+}

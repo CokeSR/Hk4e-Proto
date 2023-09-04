@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekSetReadyRsp {
+  // CMD_ID = 5379
+
+  int32 retcode = 13;
+}

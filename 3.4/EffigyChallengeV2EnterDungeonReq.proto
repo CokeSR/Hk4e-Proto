@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeV2EnterDungeonReq {
+  // CMD_ID = 23798
+
+  uint32 level_id = 10;
+  uint32 challenge_mode_skill_no = 12;
+  uint32 challenge_mode_difficulty = 8;
+}

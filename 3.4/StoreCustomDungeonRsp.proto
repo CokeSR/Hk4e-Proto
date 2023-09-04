@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StoreCustomDungeonRsp {
+  // CMD_ID = 6226
+
+  int32 retcode = 2;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaActivityTakeRewardReq {
+  // CMD_ID = 8947
+
+  map<uint32, uint32> robot_num_map = 1;
+}

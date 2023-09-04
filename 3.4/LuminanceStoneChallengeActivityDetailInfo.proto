@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LuminanceStoneChallengeActivityDetailInfo {
+  uint32 best_score = 10;
+  bool is_final_gallery_complete = 12;
+  bool is_content_closed = 4;
+  uint32 current_stage_id = 11;
+}

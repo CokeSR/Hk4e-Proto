@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureCurModuleArrangeCountNotify {
+  // CMD_ID = 4851
+
+  repeated Uint32Pair furniture_arrange_count_list = 13;
+}

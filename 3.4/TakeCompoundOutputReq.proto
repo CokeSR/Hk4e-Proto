@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCompoundOutputReq {
+  // CMD_ID = 130
+
+  uint32 compound_id = 13;
+  uint32 compound_group_id = 4;
+}

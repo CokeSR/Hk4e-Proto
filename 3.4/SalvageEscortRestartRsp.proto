@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SalvageEscortRestartRsp {
+  // CMD_ID = 8107
+
+  uint32 gallery_id = 6;
+  int32 retcode = 12;
+}

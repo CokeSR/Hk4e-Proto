@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RequestLiveInfoReq {
+  // CMD_ID = 875
+
+  uint32 live_id = 10;
+}

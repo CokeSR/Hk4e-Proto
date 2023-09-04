@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayOwnerCheckRsp {
+  // CMD_ID = 4437
+
+  int32 retcode = 5;
+  repeated uint32 param_list = 14;
+  bool is_skip_match = 7;
+  uint32 play_id = 8;
+  uint32 wrong_uid = 6;
+}

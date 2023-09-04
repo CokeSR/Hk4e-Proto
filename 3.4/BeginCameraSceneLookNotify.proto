@@ -1,0 +1,36 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BeginCameraSceneLookNotify {
+  // CMD_ID = 279
+
+  enum KeepRotType {
+    KEEP_ROT_TYPE_X = 0;
+    KEEP_ROT_TYPE_XY = 1;
+  }
+
+  bool is_force_walk = 2;
+  bool is_set_screen_xy = 8;
+  bool is_change_play_mode = 1;
+  float duration = 10;
+  KeepRotType keep_rot_type = 14;
+  Vector look_pos = 13;
+  float screen_y = 5;
+  float custom_radius = 11;
+  repeated string other_params = 12;
+  uint32 entity_id = 167;
+  bool is_set_follow_pos = 4;
+  bool is_allow_input = 3;
+  uint32 blend_type = 1965;
+  bool is_recover_keep_current = 15;
+  float blend_duration = 2004;
+  uint32 disable_protect = 106;
+  Vector follow_pos = 7;
+  bool is_abs_follow_pos = 644;
+  float screen_x = 6;
+  bool is_force = 9;
+}

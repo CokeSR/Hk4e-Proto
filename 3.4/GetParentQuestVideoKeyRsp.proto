@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetParentQuestVideoKeyRsp {
+  // CMD_ID = 427
+
+  uint64 video_key = 2;
+  int32 retcode = 9;
+  uint32 parent_quest_id = 11;
+}

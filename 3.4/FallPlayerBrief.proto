@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FallPlayerBrief {
+  uint32 uid = 12;
+  bool is_ground = 8;
+  uint32 score = 13;
+}

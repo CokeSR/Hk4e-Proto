@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReadPrivateChatReq {
+  // CMD_ID = 4964
+
+  uint32 target_uid = 5;
+}

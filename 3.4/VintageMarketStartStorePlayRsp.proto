@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketStartStorePlayRsp {
+  // CMD_ID = 21141
+
+  int32 retcode = 3;
+  uint32 prev_round_coin_c = 1;
+  uint32 prev_round_coin_b = 13;
+  uint32 store_round = 6;
+}

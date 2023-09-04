@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairBuffEnergyNotify {
+  // CMD_ID = 5353
+
+  uint32 energy = 1;
+}

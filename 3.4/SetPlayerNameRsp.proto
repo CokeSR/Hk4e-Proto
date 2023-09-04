@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerNameRsp {
+  // CMD_ID = 192
+
+  int32 retcode = 11;
+  string nick_name = 13;
+}

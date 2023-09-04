@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartSelectDifficultyRsp {
+  // CMD_ID = 21405
+
+  int32 retcode = 8;
+}

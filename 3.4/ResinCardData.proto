@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ResinCardData {
+  uint32 config_id = 14;
+  uint32 remain_reward_days = 10;
+  uint32 expire_time = 5;
+  uint32 last_daily_reward_time = 7;
+}

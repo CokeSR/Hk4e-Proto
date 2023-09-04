@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "MatchType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerStartMatchRsp {
+  // CMD_ID = 4195
+
+  MatchType match_type = 7;
+  uint32 dungeon_id = 3;
+  uint32 punish_end_time = 11;
+  int32 retcode = 6;
+  uint32 param = 5;
+  uint32 match_id = 2;
+  uint32 mp_play_id = 9;
+  uint32 mechanicus_difficult_level = 12;
+}

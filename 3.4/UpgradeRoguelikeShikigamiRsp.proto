@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpgradeRoguelikeShikigamiRsp {
+  // CMD_ID = 8113
+
+  uint32 cur_level = 4;
+  uint32 shikigami_group_id = 5;
+  int32 retcode = 9;
+}

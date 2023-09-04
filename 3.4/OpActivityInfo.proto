@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "BonusOpActivityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message OpActivityInfo {
+  uint32 schedule_id = 1;
+  uint32 begin_time = 8;
+  uint32 activity_id = 15;
+  bool is_has_change = 3;
+  uint32 end_time = 10;
+  oneof detail {
+    BonusOpActivityInfo bonus_info = 11;
+  }
+}

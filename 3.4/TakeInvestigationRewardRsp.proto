@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeInvestigationRewardRsp {
+  // CMD_ID = 1920
+
+  uint32 id = 13;
+  int32 retcode = 15;
+}

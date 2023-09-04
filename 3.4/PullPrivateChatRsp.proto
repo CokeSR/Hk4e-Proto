@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ChatInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PullPrivateChatRsp {
+  // CMD_ID = 5030
+
+  repeated ChatInfo chat_info = 9;
+  int32 retcode = 11;
+}

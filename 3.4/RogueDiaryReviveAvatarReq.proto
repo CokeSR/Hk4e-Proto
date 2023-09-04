@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RogueDiaryAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryReviveAvatarReq {
+  // CMD_ID = 8076
+
+  RogueDiaryAvatar revive_avatar = 13;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AnnounceData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerAnnounceNotify {
+  // CMD_ID = 2148
+
+  repeated AnnounceData announce_data_list = 1;
+}

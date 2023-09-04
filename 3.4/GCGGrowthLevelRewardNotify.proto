@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGGrowthLevelRewardNotify {
+  // CMD_ID = 7338
+
+  repeated uint32 level_reward_taken_list = 1;
+}

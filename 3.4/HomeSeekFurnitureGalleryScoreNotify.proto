@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+import "HomeSeekFurnitureOneRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSeekFurnitureGalleryScoreNotify {
+  // CMD_ID = 4612
+
+  uint32 gallery_id = 2;
+  GalleryStopReason reason = 9;
+  HomeSeekFurnitureOneRecord record = 7;
+}

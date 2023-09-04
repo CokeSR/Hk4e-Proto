@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "DungeonEnterPosInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerEnterDungeonReq {
+  // CMD_ID = 987
+
+  uint32 dungeon_id = 2;
+  uint32 point_id = 9;
+  DungeonEnterPosInfo enter_pos_info = 4;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WatcherChangeNotify {
+  // CMD_ID = 2255
+
+  repeated uint32 new_watcher_list = 4;
+  repeated uint32 removed_watcher_list = 3;
+}

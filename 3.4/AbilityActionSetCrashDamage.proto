@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityActionSetCrashDamage {
+  Vector hit_pos = 10;
+  float damage = 4;
+}

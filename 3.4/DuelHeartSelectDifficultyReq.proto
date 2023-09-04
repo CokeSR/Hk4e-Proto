@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartSelectDifficultyReq {
+  // CMD_ID = 23596
+
+  uint32 difficulty = 2;
+}

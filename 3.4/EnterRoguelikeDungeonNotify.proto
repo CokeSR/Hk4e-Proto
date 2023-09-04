@@ -1,0 +1,28 @@
+
+syntax = "proto3";
+
+import "RogueCellInfo.proto";
+import "RoguelikeRuneRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterRoguelikeDungeonNotify {
+  // CMD_ID = 8098
+
+  repeated uint64 onstage_avatar_guid_list = 11;
+  map<uint32, RogueCellInfo> cell_info_map = 14;
+  uint32 dungeon_id = 2;
+  uint32 dungeon_weight_config_id = 15;
+  uint32 refresh_cost_item_count = 917;
+  uint32 cur_cell_id = 3;
+  float bonus_resource_prop = 1;
+  uint32 revise_monster_level = 1665;
+  uint32 stage_id = 8;
+  repeated uint32 explored_cell_list = 5;
+  repeated uint64 backstage_avatar_guid_list = 7;
+  uint32 cur_level = 12;
+  bool is_mist_clear = 6;
+  repeated RoguelikeRuneRecord rune_record_list = 4;
+  uint32 refresh_cost_item_id = 13;
+  bool is_first_enter = 379;
+}

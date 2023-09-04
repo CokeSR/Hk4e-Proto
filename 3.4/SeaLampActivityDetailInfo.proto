@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampActivityDetailInfo {
+  uint32 days = 11;
+  uint32 progress = 3;
+  uint32 factor = 10;
+  uint32 contribution = 9;
+  uint32 phase_id = 7;
+  repeated uint32 taken_phase_reward_list = 14;
+  repeated uint32 taken_contribution_reward_list = 15;
+}

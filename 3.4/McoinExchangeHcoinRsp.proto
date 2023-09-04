@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message McoinExchangeHcoinRsp {
+  // CMD_ID = 667
+
+  int32 retcode = 7;
+  uint32 mcoin_cost = 11;
+  uint32 hcoin = 15;
+}

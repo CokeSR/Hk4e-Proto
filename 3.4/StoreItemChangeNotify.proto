@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Item.proto";
+import "StoreType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message StoreItemChangeNotify {
+  // CMD_ID = 687
+
+  repeated Item item_list = 13;
+  StoreType store_type = 5;
+}

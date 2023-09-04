@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeFurnitureArrangementMuipData {
+  uint32 furniture_id = 1;
+  Vector spawn_pos = 2;
+  Vector spawn_rot = 3;
+}

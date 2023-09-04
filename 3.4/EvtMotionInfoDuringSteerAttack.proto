@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtMotionInfoDuringSteerAttack {
+  Vector velocity = 5;
+  Vector face_dir = 10;
+  uint32 entity_id = 14;
+  Vector pos = 9;
+}

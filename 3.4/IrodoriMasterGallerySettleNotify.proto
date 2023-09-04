@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "IrodoriMasterGallerySettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriMasterGallerySettleNotify {
+  // CMD_ID = 8194
+
+  uint32 gallery_id = 8;
+  IrodoriMasterGallerySettleInfo settle_info = 4;
+}

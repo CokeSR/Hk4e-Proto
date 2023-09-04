@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerDisconnectClientNotify {
+  // CMD_ID = 160
+
+  uint32 data = 10;
+}

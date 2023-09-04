@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityActionSetBulletTrackTarget {
+  uint32 chased_entity_id = 5;
+  uint32 lock_point_index = 7;
+}

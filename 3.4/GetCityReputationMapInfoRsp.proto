@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetCityReputationMapInfoRsp {
+  // CMD_ID = 2878
+
+  bool is_new_request = 13;
+  int32 retcode = 4;
+  repeated uint32 unlock_hunting_city_list = 12;
+  bool is_new_hunting = 7;
+  repeated uint32 reward_city_list = 1;
+}

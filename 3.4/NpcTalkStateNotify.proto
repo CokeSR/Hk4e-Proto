@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message NpcTalkStateNotify {
+  // CMD_ID = 481
+
+  bool is_ban = 1;
+}

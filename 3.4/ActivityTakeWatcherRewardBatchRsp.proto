@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityTakeWatcherRewardBatchRsp {
+  // CMD_ID = 2186
+
+  uint32 activity_id = 12;
+  repeated uint32 watcher_id_list = 9;
+  repeated ItemParam item_list = 8;
+  int32 retcode = 15;
+}

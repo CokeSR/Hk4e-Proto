@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+import "GCGZoneType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgAddCards {
+  uint32 controller_id = 11;
+  GCGReason reason = 1;
+  uint32 pos = 6;
+  GCGZoneType zone = 9;
+  repeated uint32 card_guid_list = 5;
+}

@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "SignInData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SignInInfo {
+  uint32 config_id = 2;
+  uint32 sign_in_count = 5;
+  bool is_cond_satisfied = 13;
+  repeated uint32 reward_day_list = 7;
+  uint32 last_sign_in_time = 4;
+  uint32 end_time = 12;
+  repeated SignInData signin_data_list = 14;
+  uint32 schedule_id = 1;
+  uint32 begin_time = 8;
+}

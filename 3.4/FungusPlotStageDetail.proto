@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusPlotStageDetail {
+  uint32 stage_id = 3;
+  bool is_open = 15;
+}

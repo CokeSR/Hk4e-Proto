@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "DigMarkPoint.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DigActivityMarkPointChangeNotify {
+  // CMD_ID = 8508
+
+  repeated DigMarkPoint dig_mark_point_list = 4;
+}

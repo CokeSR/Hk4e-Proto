@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessNormalCardInfo {
+  uint32 card_id = 6;
+  bool is_attach_curse = 9;
+  uint32 cost_points = 2;
+}

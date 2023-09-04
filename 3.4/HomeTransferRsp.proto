@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeTransferRsp {
+  // CMD_ID = 4524
+
+  int32 retcode = 10;
+}

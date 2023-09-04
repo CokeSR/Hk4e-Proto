@@ -1,0 +1,26 @@
+
+syntax = "proto3";
+
+import "FishBattleResult.proto";
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishBattleEndRsp {
+  // CMD_ID = 5814
+
+  enum FishNoRewardReason {
+    FISH_NO_REWARD_REASON_NONE = 0;
+    FISH_NO_REWARD_REASON_ACTIVITY_LIMIT = 1;
+    FISH_NO_REWARD_REASON_BAG_LIMIT = 2;
+    FISH_NO_REWARD_REASON_POOL_LIMIT = 3;
+  }
+
+  repeated ItemParam reward_item_list = 3;
+  repeated ItemParam drop_item_list = 12;
+  FishBattleResult battle_result = 10;
+  FishNoRewardReason no_reward_reason = 5;
+  bool is_got_reward = 8;
+  int32 retcode = 2;
+  repeated ItemParam talent_item_list = 15;
+}

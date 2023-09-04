@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Item.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetAutoPickDropInfoNotify {
+  // CMD_ID = 816
+
+  repeated Item item_list = 15;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeV2ChooseSkillRsp {
+  // CMD_ID = 21025
+
+  int32 retcode = 9;
+  uint32 level_id = 14;
+  uint32 challenge_mode_skill_no = 13;
+}

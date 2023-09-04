@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CalcWeaponUpgradeReturnItemsRsp {
+  // CMD_ID = 660
+
+  int32 retcode = 4;
+  uint64 target_weapon_guid = 9;
+  repeated ItemParam item_param_list = 7;
+}

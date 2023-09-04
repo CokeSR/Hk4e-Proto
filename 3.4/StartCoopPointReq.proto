@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartCoopPointReq {
+  // CMD_ID = 1964
+
+  uint32 coop_point = 8;
+}

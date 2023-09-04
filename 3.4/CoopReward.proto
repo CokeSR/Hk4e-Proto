@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopReward {
+  enum State {
+    STATE_UNLOCK = 0;
+    STATE_LOCK = 1;
+    STATE_TAKEN = 2;
+  }
+
+  State state = 8;
+  uint32 id = 1;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerBlacklistRsp {
+  // CMD_ID = 4003
+
+  int32 retcode = 11;
+  repeated FriendBrief blacklist = 1;
+}

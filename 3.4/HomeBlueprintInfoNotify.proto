@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBlueprintInfoNotify {
+  // CMD_ID = 4870
+
+  bool is_allow_friend_copy = 11;
+}

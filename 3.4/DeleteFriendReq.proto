@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DeleteFriendReq {
+  // CMD_ID = 4024
+
+  uint32 target_uid = 6;
+}

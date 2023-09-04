@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamInviteRsp {
+  // CMD_ID = 942
+
+  repeated uint32 invalid_player_uids = 4;
+  int32 retcode = 13;
+}

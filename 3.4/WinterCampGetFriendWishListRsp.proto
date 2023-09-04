@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WinterCampFriendWishData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampGetFriendWishListRsp {
+  // CMD_ID = 8987
+
+  int32 retcode = 6;
+  repeated WinterCampFriendWishData wish_data_list = 14;
+}

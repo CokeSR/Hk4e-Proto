@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGBossChallengeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGBossChallengeUpdateNotify {
+  // CMD_ID = 7119
+
+  GCGBossChallengeData boss_challenge = 9;
+}

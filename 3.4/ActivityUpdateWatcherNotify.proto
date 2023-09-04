@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ActivityWatcherInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityUpdateWatcherNotify {
+  // CMD_ID = 2079
+
+  ActivityWatcherInfo watcher_info = 11;
+  uint32 activity_id = 3;
+}

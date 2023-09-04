@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGWeekChallengeInfo {
+  bool is_finished = 12;
+  uint32 npc_id = 14;
+  uint32 unlock_time = 15;
+}

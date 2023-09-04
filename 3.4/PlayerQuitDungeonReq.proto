@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerQuitDungeonReq {
+  // CMD_ID = 920
+
+  uint32 point_id = 6;
+  bool is_quit_immediately = 5;
+}

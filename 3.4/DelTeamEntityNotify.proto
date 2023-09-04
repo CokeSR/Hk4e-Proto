@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DelTeamEntityNotify {
+  // CMD_ID = 363
+
+  uint32 scene_id = 15;
+  repeated uint32 del_entity_id_list = 1;
+}

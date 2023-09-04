@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerSelectAvatarReq {
+  // CMD_ID = 5397
+
+  repeated uint32 avatar_id = 13;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamChainReorganizeTeamReq {
+  // CMD_ID = 23974
+
+  repeated uint64 new_team_guid_list = 2;
+}

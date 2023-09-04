@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakePlayerLevelRewardReq {
+  // CMD_ID = 156
+
+  uint32 level = 9;
+}

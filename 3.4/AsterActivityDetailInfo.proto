@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "AsterLargeDetailInfo.proto";
+import "AsterLittleDetailInfo.proto";
+import "AsterMidDetailInfo.proto";
+import "AsterProgressDetailInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterActivityDetailInfo {
+  AsterLargeDetailInfo aster_large = 2;
+  uint32 aster_token = 8;
+  bool is_special_reward_taken = 9;
+  AsterLittleDetailInfo aster_little = 3;
+  uint32 content_close_time = 14;
+  uint32 aster_credit = 10;
+  AsterMidDetailInfo aster_mid = 4;
+  AsterProgressDetailInfo aster_progress = 7;
+  bool is_content_closed = 15;
+}

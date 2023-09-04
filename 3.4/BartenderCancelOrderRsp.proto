@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderCancelOrderRsp {
+  // CMD_ID = 8908
+
+  int32 retcode = 1;
+  uint32 quest_id = 8;
+}

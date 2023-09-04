@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBlueprintSearchInfo {
+  uint32 scene_id = 9;
+  string share_code = 15;
+  uint32 block_id = 2;
+  uint32 module_id = 13;
+}

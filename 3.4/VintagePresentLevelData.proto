@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintagePresentLevelData {
+  bool is_open = 2;
+  uint32 stage_id = 7;
+  uint32 present_id = 5;
+  bool is_finish = 3;
+}

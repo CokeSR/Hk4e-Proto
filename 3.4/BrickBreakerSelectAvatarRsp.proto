@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BrickBreakerSelectAvatarRsp {
+  // CMD_ID = 5302
+
+  repeated uint32 avatar_id = 13;
+  int32 retcode = 9;
+}

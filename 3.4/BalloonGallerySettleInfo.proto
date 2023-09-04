@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BalloonGallerySettleInfo {
+  uint32 owner_uid = 5;
+  uint32 hit_count = 3;
+  GalleryStopReason reason = 15;
+  uint32 score = 6;
+}

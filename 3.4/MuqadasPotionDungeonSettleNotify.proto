@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MuqadasPotionDungeonSettleNotify {
+  // CMD_ID = 23665
+
+  uint32 level_id = 11;
+  uint32 capture_weakness_count = 7;
+  uint32 final_score = 14;
+  bool is_success = 3;
+  bool is_new_record = 2;
+}

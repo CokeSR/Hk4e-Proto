@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "BuildingInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GlobalBuildingInfoNotify {
+  // CMD_ID = 5389
+
+  uint32 max_num = 4;
+  uint32 current_num = 8;
+  repeated BuildingInfo building_list = 3;
+}

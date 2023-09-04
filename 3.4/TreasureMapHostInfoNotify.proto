@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapHostInfoNotify {
+  // CMD_ID = 8218
+
+  repeated uint32 mp_challenge_region_list = 15;
+}

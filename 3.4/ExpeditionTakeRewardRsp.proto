@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionTakeRewardRsp {
+  // CMD_ID = 2065
+
+  uint32 path_id = 14;
+  uint32 reward_level = 7;
+  int32 retcode = 8;
+  bool is_bonus = 13;
+}

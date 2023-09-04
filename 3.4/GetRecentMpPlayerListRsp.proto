@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetRecentMpPlayerListRsp {
+  // CMD_ID = 4042
+
+  int32 retcode = 14;
+  repeated FriendBrief recent_mp_player_brief_list = 6;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGOperation.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGOperationReq {
+  // CMD_ID = 7487
+
+  uint32 redirect_uid = 3;
+  uint32 op_seq = 6;
+  GCGOperation op = 11;
+}

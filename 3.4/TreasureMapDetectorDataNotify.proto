@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TreasureMapDetectorData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapDetectorDataNotify {
+  // CMD_ID = 4298
+
+  TreasureMapDetectorData data = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomePreviewBlueprintReq {
+  // CMD_ID = 4609
+
+  string share_code = 6;
+}

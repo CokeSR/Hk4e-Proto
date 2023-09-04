@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+import "HomeRacingGalleryRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeRacingRecord {
+  repeated HomeRacingGalleryRecord record_list = 2;
+}

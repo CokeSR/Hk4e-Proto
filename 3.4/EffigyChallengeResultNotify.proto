@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeResultNotify {
+  // CMD_ID = 2145
+
+  uint32 challenge_id = 14;
+  uint32 challenge_max_score = 1;
+  uint32 challenge_score = 5;
+  bool is_success = 4;
+}

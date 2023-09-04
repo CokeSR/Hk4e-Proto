@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaActivityNextStageRsp {
+  // CMD_ID = 8592
+
+  uint32 stage_id = 4;
+  int32 retcode = 12;
+}

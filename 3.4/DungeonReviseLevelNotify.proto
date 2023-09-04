@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonReviseLevelNotify {
+  // CMD_ID = 991
+
+  uint32 revise_level = 11;
+  uint32 scene_level = 13;
+  uint32 dungeon_id = 12;
+}

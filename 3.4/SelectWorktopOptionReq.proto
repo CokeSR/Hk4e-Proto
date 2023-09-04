@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SelectWorktopOptionReq {
+  // CMD_ID = 820
+
+  uint32 option_id = 1;
+  uint32 gadget_entity_id = 15;
+}

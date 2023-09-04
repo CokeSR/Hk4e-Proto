@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeLimitedShop.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeLimitedShopGoodsListRsp {
+  // CMD_ID = 4770
+
+  HomeLimitedShop shop = 13;
+  int32 retcode = 9;
+}

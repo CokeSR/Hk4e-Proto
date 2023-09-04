@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayOwnerStartInviteRsp {
+  // CMD_ID = 4370
+
+  int32 retcode = 8;
+  uint32 play_id = 7;
+  bool is_skip_match = 11;
+}

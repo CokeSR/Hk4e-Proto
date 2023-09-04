@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeFloatSignalPositionNotify {
+  // CMD_ID = 8322
+
+  bool is_transfer_anchor = 11;
+  uint32 float_signal_id = 3;
+  Vector position = 10;
+}

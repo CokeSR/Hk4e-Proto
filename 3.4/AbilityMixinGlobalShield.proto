@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinGlobalShield {
+  bool is_create_effect = 13;
+  float sub_shield = 2;
+  float height_offset = 6;
+  uint32 avatar_id = 7;
+  string shield_effect_name = 5;
+  float max_shield = 3;
+}

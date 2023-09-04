@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CombineFormulaDataNotify {
+  // CMD_ID = 626
+
+  bool is_locked = 7;
+  uint32 combine_id = 3;
+}

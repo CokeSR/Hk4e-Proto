@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGPhaseType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGPhase {
+  GCGPhaseType phase_type = 5;
+  map<uint32, uint32> allow_controller_map = 14;
+}

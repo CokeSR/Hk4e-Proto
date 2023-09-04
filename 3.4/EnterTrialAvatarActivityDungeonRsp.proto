@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterTrialAvatarActivityDungeonRsp {
+  // CMD_ID = 2046
+
+  uint32 trial_avatar_index_id = 8;
+  uint32 activity_id = 2;
+  int32 retcode = 11;
+}

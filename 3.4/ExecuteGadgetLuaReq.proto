@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExecuteGadgetLuaReq {
+  // CMD_ID = 210
+
+  int32 param2 = 15;
+  int32 param3 = 8;
+  uint32 source_entity_id = 6;
+  int32 param1 = 14;
+}

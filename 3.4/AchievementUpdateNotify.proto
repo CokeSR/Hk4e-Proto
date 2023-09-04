@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Achievement.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AchievementUpdateNotify {
+  // CMD_ID = 2695
+
+  repeated Achievement achievement_list = 4;
+}

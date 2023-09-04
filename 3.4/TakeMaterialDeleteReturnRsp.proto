@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeMaterialDeleteReturnRsp {
+  // CMD_ID = 690
+
+  int32 retcode = 12;
+}

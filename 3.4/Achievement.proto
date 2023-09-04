@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message Achievement {
+  enum Status {
+    STATUS_INVALID = 0;
+    STATUS_UNFINISHED = 1;
+    STATUS_FINISHED = 2;
+    STATUS_REWARD_TAKEN = 3;
+  }
+
+  uint32 cur_progress = 10;
+  uint32 id = 13;
+  uint32 total_progress = 14;
+  Status status = 5;
+  uint32 finish_timestamp = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OutStuckCustomDungeonRsp {
+  // CMD_ID = 6209
+
+  int32 retcode = 14;
+}

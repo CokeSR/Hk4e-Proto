@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "SumoTeamData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoStageData {
+  uint32 max_score = 5;
+  uint32 stage_id = 9;
+  uint32 open_time = 14;
+  repeated SumoTeamData team_list = 13;
+  bool is_open = 15;
+}

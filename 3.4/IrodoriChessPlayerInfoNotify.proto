@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "IrodoriChessPlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriChessPlayerInfoNotify {
+  // CMD_ID = 5338
+
+  IrodoriChessPlayerInfo player_info = 13;
+}

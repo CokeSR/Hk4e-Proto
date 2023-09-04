@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CoopReward.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopRewardUpdateNotify {
+  // CMD_ID = 1975
+
+  repeated CoopReward reward_list = 11;
+}

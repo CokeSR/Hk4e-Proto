@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestCreateEntityRsp {
+  // CMD_ID = 424
+
+  bool is_rewind = 14;
+  uint32 parent_quest_id = 7;
+  CreateEntityInfo entity = 12;
+  uint32 entity_id = 6;
+  uint32 quest_id = 3;
+  int32 retcode = 13;
+}

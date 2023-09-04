@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ActivityPushTipsState {
+  ACTIVITY_PUSH_TIPS_STATE_NONE = 0;
+  ACTIVITY_PUSH_TIPS_STATE_START = 1;
+  ACTIVITY_PUSH_TIPS_STATE_READ = 2;
+}

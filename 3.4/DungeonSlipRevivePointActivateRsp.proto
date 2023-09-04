@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonSlipRevivePointActivateRsp {
+  // CMD_ID = 979
+
+  uint32 slip_revive_point_id = 11;
+  int32 retcode = 5;
+}

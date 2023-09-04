@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AvatarExpeditionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarExpeditionDataNotify {
+  // CMD_ID = 1638
+
+  map<uint64, AvatarExpeditionInfo> expedition_info_map = 4;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "MapMarkTipsInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetMapMarkTipsRsp {
+  // CMD_ID = 3089
+
+  int32 retcode = 12;
+  repeated MapMarkTipsInfo mark_tips_list = 14;
+}

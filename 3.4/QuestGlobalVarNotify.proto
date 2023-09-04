@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "QuestGlobalVar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestGlobalVarNotify {
+  // CMD_ID = 451
+
+  repeated QuestGlobalVar var_list = 12;
+}

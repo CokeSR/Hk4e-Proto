@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeCardFaceReq {
+  // CMD_ID = 7178
+
+  uint32 card_id = 12;
+  uint32 face_type = 9;
+}

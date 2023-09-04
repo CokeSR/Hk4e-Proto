@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdateAbilityCreatedMovingPlatformNotify {
+  // CMD_ID = 813
+
+  enum OpType {
+    OP_TYPE_NONE = 0;
+    OP_TYPE_ACTIVATE = 1;
+    OP_TYPE_DEACTIVATE = 2;
+  }
+
+  uint32 entity_id = 4;
+  OpType op_type = 6;
+}

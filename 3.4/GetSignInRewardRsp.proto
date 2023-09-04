@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "SignInInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetSignInRewardRsp {
+  // CMD_ID = 2574
+
+  int32 retcode = 7;
+  SignInInfo sign_in_info = 13;
+}

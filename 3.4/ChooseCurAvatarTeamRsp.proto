@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChooseCurAvatarTeamRsp {
+  // CMD_ID = 1770
+
+  int32 retcode = 2;
+  uint32 cur_team_id = 8;
+}

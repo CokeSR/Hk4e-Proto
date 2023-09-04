@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FireworksLaunchParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FireworksLaunchSchemeData {
+  uint32 scheme_id = 2;
+  repeated FireworksLaunchParam launch_param_list = 13;
+  repeated uint32 fireworks_id_list = 1;
+}

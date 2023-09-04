@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum ScenePlayBattleState {
+  SCENE_PLAY_BATTLE_STATE_NONE = 0;
+  SCENE_PLAY_BATTLE_STATE_INIT = 1;
+  SCENE_PLAY_BATTLE_STATE_PREPARE = 2;
+  SCENE_PLAY_BATTLE_STATE_READY = 3;
+  SCENE_PLAY_BATTLE_STATE_PRESTART = 4;
+  SCENE_PLAY_BATTLE_STATE_START = 5;
+  SCENE_PLAY_BATTLE_STATE_STOP = 6;
+}

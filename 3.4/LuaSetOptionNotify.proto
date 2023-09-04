@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LuaSetOptionNotify {
+  // CMD_ID = 395
+
+  enum LuaOptionType {
+    LUA_OPTION_TYPE_NONE = 0;
+    LUA_OPTION_TYPE_PLAYER_INPUT = 1;
+  }
+
+  string lua_set_param = 4;
+  LuaOptionType option_type = 14;
+}

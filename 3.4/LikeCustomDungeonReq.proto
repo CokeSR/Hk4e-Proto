@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LikeCustomDungeonReq {
+  // CMD_ID = 6229
+
+  bool is_cancel_like = 15;
+  uint64 dungeon_guid = 5;
+}

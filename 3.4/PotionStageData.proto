@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PotionLevelData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PotionStageData {
+  repeated uint32 cool_down_avatar_id_list = 9;
+  uint32 stage_id = 14;
+  repeated uint32 cool_down_buff_id_list = 12;
+  repeated PotionLevelData level_list = 1;
+  bool is_open = 15;
+}

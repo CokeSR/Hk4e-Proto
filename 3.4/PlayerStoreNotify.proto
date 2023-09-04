@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Item.proto";
+import "StoreType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerStoreNotify {
+  // CMD_ID = 605
+
+  repeated Item item_list = 5;
+  uint32 weight_limit = 6;
+  StoreType store_type = 10;
+}

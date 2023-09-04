@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeBackGivingItemRsp {
+  // CMD_ID = 132
+
+  uint32 giving_id = 3;
+  int32 retcode = 11;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGOpTimer {
+  uint64 time_stamp = 14;
+  uint32 controller_id = 4;
+  uint64 begin_time = 12;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeTransferReq {
+  // CMD_ID = 4618
+
+  uint32 guid = 2;
+  bool is_transfer_to_safe_point = 11;
+}

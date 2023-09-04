@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "EquipParam.proto";
+import "MaterialDeleteInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MailItem {
+  EquipParam equip_param = 1;
+  MaterialDeleteInfo delete_info = 2;
+}

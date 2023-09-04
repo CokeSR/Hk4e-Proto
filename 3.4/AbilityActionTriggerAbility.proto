@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityActionTriggerAbility {
+  uint32 other_id = 10;
+}

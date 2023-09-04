@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "GravenInnocenceCampInfo.proto";
+import "GravenInnocenceCarveInfo.proto";
+import "GravenInnocencePhotoInfo.proto";
+import "GravenInnocenceRaceInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocenceDetailInfo {
+  GravenInnocenceCarveInfo carve_info = 12;
+  GravenInnocencePhotoInfo photo_info = 5;
+  GravenInnocenceRaceInfo race_info = 13;
+  bool is_content_closed = 8;
+  GravenInnocenceCampInfo camp_info = 11;
+}

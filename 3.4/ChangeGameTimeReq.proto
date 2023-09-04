@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeGameTimeReq {
+  // CMD_ID = 162
+
+  uint32 extra_days = 7;
+  bool is_force_set = 6;
+  uint32 game_time = 9;
+}

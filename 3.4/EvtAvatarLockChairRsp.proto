@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAvatarLockChairRsp {
+  // CMD_ID = 384
+
+  Vector position = 3;
+  uint64 chair_id = 15;
+  int32 retcode = 12;
+  uint32 entity_id = 4;
+}

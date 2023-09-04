@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BuoyantCombatDailyInfo {
+  uint32 best_score = 12;
+  uint32 start_time = 2;
+}

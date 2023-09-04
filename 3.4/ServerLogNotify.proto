@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ServerLogLevel.proto";
+import "ServerLogType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerLogNotify {
+  // CMD_ID = 24
+
+  string server_log = 10;
+  ServerLogLevel log_level = 15;
+  ServerLogType log_type = 9;
+}

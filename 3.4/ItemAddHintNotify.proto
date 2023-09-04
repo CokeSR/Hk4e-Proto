@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "ItemHint.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ItemAddHintNotify {
+  // CMD_ID = 620
+
+  uint32 quest_id = 7;
+  repeated ItemHint overflow_transformed_item_list = 1;
+  bool is_position_valid = 14;
+  bool is_transfered_from_avatar_card = 12;
+  uint32 reason = 3;
+  Vector position = 9;
+  repeated ItemHint item_list = 8;
+  bool is_general_reward_hiden = 11;
+}

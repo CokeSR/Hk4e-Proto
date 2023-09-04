@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "CustomGadgetTreeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetChangeLevelTagReq {
+  // CMD_ID = 850
+
+  uint32 gadget_entity_id = 5;
+  uint32 level_tag_id = 13;
+  CustomGadgetTreeInfo combination_info = 10;
+}

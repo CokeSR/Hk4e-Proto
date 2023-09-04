@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ScenePlayBattleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayBattleInfoNotify {
+  // CMD_ID = 4355
+
+  ScenePlayBattleInfo battle_info = 3;
+}

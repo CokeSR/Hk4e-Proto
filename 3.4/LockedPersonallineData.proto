@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LockedPersonallineData {
+  enum LockReason {
+    LOCK_REASON_LEVEL = 0;
+    LOCK_REASON_QUEST = 1;
+  }
+
+  uint32 personal_line_id = 6;
+  LockReason lock_reason = 4;
+  oneof param {
+    uint32 chapter_id = 5;
+    uint32 level = 13;
+  }
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "ContentAuditData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ContentAuditField {
+  repeated ContentAuditData segment_list = 1;
+  string name = 2;
+}

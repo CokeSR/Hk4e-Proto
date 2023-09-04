@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AttackHitEffectResult {
+  uint32 original_hit_eff_level = 3;
+  float air_strength = 6;
+  uint32 hit_eff_level = 13;
+  float hit_halt_time = 15;
+  float retreat_strength = 4;
+  float hit_halt_time_scale = 7;
+}

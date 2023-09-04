@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCompoundOutputRsp {
+  // CMD_ID = 143
+
+  repeated ItemParam item_list = 13;
+  int32 retcode = 2;
+}

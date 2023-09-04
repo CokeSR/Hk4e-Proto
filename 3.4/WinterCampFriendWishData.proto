@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampFriendWishData {
+  uint32 uid = 8;
+  repeated uint32 item_id_list = 14;
+  string nickname = 7;
+  ProfilePicture profile_picture = 9;
+}

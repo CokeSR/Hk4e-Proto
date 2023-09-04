@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "LunaRiteHintPoint.proto";
+import "LunaRiteHintStatusType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteHintPointRsp {
+  // CMD_ID = 8361
+
+  int32 retcode = 1;
+  uint32 area_id = 5;
+  LunaRiteHintStatusType hint_status = 3;
+  repeated LunaRiteHintPoint hint_point = 12;
+}

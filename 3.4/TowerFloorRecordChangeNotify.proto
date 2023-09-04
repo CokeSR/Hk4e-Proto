@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "TowerFloorRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerFloorRecordChangeNotify {
+  // CMD_ID = 2455
+
+  bool is_finished_entrance_floor = 11;
+  repeated TowerFloorRecord tower_floor_record_list = 12;
+}

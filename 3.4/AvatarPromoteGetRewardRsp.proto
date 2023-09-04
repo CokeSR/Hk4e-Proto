@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarPromoteGetRewardRsp {
+  // CMD_ID = 1718
+
+  uint32 reward_id = 8;
+  uint32 promote_level = 5;
+  int32 retcode = 12;
+  uint64 avatar_guid = 14;
+}

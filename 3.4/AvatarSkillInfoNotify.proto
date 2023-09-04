@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AvatarSkillInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarSkillInfoNotify {
+  // CMD_ID = 1070
+
+  map<uint32, AvatarSkillInfo> skill_map = 2;
+  uint64 guid = 4;
+}

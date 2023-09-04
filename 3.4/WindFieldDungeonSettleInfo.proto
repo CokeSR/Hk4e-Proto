@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "WindFieldDungeonFailReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WindFieldDungeonSettleInfo {
+  repeated uint32 after_watcher_id_list = 6;
+  WindFieldDungeonFailReason fail_reason = 12;
+  repeated uint32 before_watcher_id_list = 3;
+}

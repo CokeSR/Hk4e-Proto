@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetReunionSignInInfoReq {
+  // CMD_ID = 5069
+
+  uint32 sign_in_config_id = 8;
+}

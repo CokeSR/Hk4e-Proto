@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampGiveFriendItemReq {
+  // CMD_ID = 8528
+
+  repeated ItemParam item_list = 5;
+  uint32 uid = 2;
+}

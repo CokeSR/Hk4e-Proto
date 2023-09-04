@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeVerifyBlockData {
+  uint32 block_id = 14;
+  uint32 furniture_count = 13;
+}

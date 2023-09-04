@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SubmitInferenceWordRsp {
+  // CMD_ID = 495
+
+  uint32 conclusion_id = 7;
+  uint32 page_id = 13;
+  uint32 word_id = 6;
+  int32 retcode = 8;
+}

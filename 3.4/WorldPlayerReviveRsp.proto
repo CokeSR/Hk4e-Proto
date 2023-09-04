@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldPlayerReviveRsp {
+  // CMD_ID = 221
+
+  int32 retcode = 6;
+}

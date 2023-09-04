@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "BlossomScheduleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldOwnerBlossomScheduleInfoNotify {
+  // CMD_ID = 2720
+
+  BlossomScheduleInfo schedule_info = 4;
+}

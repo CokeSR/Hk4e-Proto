@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlossomChestCreateNotify {
+  // CMD_ID = 2774
+
+  uint32 circle_camp_id = 9;
+  uint32 refresh_id = 1;
+}

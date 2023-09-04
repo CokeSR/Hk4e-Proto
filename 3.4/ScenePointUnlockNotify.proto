@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePointUnlockNotify {
+  // CMD_ID = 239
+
+  repeated uint32 locked_point_list = 5;
+  uint32 scene_id = 12;
+  repeated uint32 point_list = 9;
+  repeated uint32 hide_point_list = 15;
+  repeated uint32 unhide_point_list = 7;
+}

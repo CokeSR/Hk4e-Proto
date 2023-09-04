@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamInviteNotify {
+  // CMD_ID = 975
+
+  uint32 dungeon_id = 15;
+  uint32 player_uid = 9;
+  uint32 vaild_deadline_time_sec = 4;
+}

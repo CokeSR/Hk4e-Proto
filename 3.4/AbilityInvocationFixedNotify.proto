@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityInvocationFixedNotify {
+  // CMD_ID = 1105
+
+  AbilityInvokeEntry invoke2nd = 3;
+  AbilityInvokeEntry invoke3rd = 6;
+  AbilityInvokeEntry invoke5th = 8;
+  AbilityInvokeEntry invoke4th = 5;
+  AbilityInvokeEntry invoke6th = 15;
+  AbilityInvokeEntry invoke1st = 1;
+}

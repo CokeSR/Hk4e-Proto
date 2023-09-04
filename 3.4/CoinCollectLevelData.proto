@@ -1,0 +1,21 @@
+
+syntax = "proto3";
+
+import "CoinCollectTeamInfoData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectLevelData {
+  bool is_have_play_double_level = 15;
+  repeated CoinCollectTeamInfoData double_best_team_info_list = 6;
+  CoinCollectTeamInfoData single_best_team_info = 5;
+  uint32 double_best_pass_time_ms = 13;
+  bool is_have_play_single_level = 9;
+  bool is_have_watched_cutscene = 2;
+  uint32 double_best_collect_num = 10;
+  uint32 last_choose_skill_no = 8;
+  uint32 single_best_collect_num = 14;
+  uint32 single_best_pass_time_ms = 3;
+  uint32 level_id = 7;
+  bool is_level_open = 12;
+}

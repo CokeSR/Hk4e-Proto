@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetQuestLackingResourceReq {
+  // CMD_ID = 464
+
+  uint32 quest_id = 15;
+}

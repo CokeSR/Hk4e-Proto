@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlessingScanReq {
+  // CMD_ID = 2179
+
+  uint32 entity_id = 13;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EvtRushMoveInfo.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtRushMoveNotify {
+  // CMD_ID = 329
+
+  EvtRushMoveInfo evt_rush_move_info = 13;
+  ForwardType forward_type = 1;
+}

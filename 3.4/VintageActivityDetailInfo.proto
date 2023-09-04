@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "VintageBoothUsedItemData.proto";
+import "VintageCampChallengeStageData.proto";
+import "VintageHuntingStageData.proto";
+import "VintageMarketInfo.proto";
+import "VintagePresentStageData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageActivityDetailInfo {
+  bool is_content_closed = 12;
+  VintageBoothUsedItemData booth_data = 15;
+  map<uint32, VintageHuntingStageData> hunting_stage_map = 7;
+  map<uint32, VintagePresentStageData> present_stage_map = 2;
+  map<uint32, VintageCampChallengeStageData> camp_stage_map = 3;
+  VintageMarketInfo market_info = 1;
+}

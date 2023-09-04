@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdatePS4FriendListNotify {
+  // CMD_ID = 4046
+
+  repeated string psn_id_list = 8;
+}

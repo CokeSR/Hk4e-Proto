@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AsterLittleDetailInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterLittleInfoNotify {
+  // CMD_ID = 2063
+
+  AsterLittleDetailInfo info = 7;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReceivedTrialAvatarActivityRewardRsp {
+  // CMD_ID = 2074
+
+  uint32 activity_id = 12;
+  int32 retcode = 5;
+  uint32 trial_avatar_index_id = 4;
+}

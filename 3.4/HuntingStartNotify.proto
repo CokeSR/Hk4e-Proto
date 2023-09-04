@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "HuntingPair.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HuntingStartNotify {
+  // CMD_ID = 4331
+
+  uint32 fail_time = 4;
+  HuntingPair hunting_pair = 12;
+  bool is_final = 7;
+  Vector clue_position = 14;
+}

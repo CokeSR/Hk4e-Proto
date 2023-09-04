@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGallerySalvageEscortInfo {
+  uint32 max_box_count = 6;
+  uint32 box_count = 2;
+  uint32 max_monster_count = 4;
+  uint32 monster_count = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerRTTInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldPlayerRTTNotify {
+  // CMD_ID = 92
+
+  repeated PlayerRTTInfo player_rtt_list = 2;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SegmentInfo {
+  uint32 size = 6;
+  uint32 offset = 9;
+  uint32 module = 12;
+}

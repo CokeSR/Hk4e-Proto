@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MatchType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCancelMatchReq {
+  // CMD_ID = 4191
+
+  MatchType match_type = 1;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GravenInnocenceEditCarveCombinationRsp {
+  // CMD_ID = 24700
+
+  int32 retcode = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AiSkillCdInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAiSyncSkillCdNotify {
+  // CMD_ID = 343
+
+  map<uint32, AiSkillCdInfo> ai_cd_map = 11;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum OpActivityType {
+  OP_ACTIVITY_TYPE_NONE = 0;
+  OP_ACTIVITY_TYPE_SIGN_IN = 1;
+  OP_ACTIVITY_TYPE_BONUS = 2;
+  OP_ACTIVITY_TYPE_TRAVEL_BUSINESS = 3;
+  OP_ACTIVITY_TYPE_CRUCIBLE = 4;
+}

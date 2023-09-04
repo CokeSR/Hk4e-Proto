@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoutePointChangeInfo {
+  float target_velocity = 7;
+  uint32 point_index = 11;
+  float wait_time = 15;
+}

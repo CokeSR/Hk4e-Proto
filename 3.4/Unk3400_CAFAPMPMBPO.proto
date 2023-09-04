@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message Unk3400_CAFAPMPMBPO {
+  // CMD_ID = 6124
+
+  bool is_need_sync_ping = 14;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAuthSalesmanInfoRsp {
+  // CMD_ID = 2113
+
+  uint32 schedule_id = 14;
+  int32 retcode = 6;
+  uint32 day_reward_id = 13;
+}

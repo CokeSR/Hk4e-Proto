@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "FurnitureMakeSlot.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FurnitureMakeCancelRsp {
+  // CMD_ID = 4561
+
+  int32 retcode = 4;
+  FurnitureMakeSlot furniture_make_slot = 14;
+  uint32 make_id = 10;
+}

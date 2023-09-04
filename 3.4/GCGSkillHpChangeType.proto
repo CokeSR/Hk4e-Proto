@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGSkillHpChangeType {
+  GCG_SKILL_HP_CHANGE_TYPE_NONE = 0;
+  GCG_SKILL_HP_CHANGE_TYPE_DAMAGE = 1;
+  GCG_SKILL_HP_CHANGE_TYPE_HEAL = 2;
+}

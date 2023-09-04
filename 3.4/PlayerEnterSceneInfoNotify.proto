@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "AvatarEnterSceneInfo.proto";
+import "MPLevelEntityInfo.proto";
+import "TeamEnterSceneInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerEnterSceneInfoNotify {
+  // CMD_ID = 212
+
+  MPLevelEntityInfo mp_level_entity_info = 7;
+  TeamEnterSceneInfo team_enter_info = 5;
+  uint32 cur_avatar_entity_id = 8;
+  uint32 enter_scene_token = 13;
+  repeated AvatarEnterSceneInfo avatar_enter_info = 12;
+}

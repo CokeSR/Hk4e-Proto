@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GMObstacleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GMShowObstacleRsp {
+  // CMD_ID = 2356
+
+  int32 retcode = 12;
+  repeated GMObstacleInfo obstacles = 7;
+}

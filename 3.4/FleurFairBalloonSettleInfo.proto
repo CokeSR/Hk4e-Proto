@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "BalloonSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairBalloonSettleInfo {
+  BalloonSettleInfo settle_info = 13;
+  bool is_new_record = 8;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ClientInputType.proto";
+import "LanternProjectionLevelInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LanternProjectionInfo {
+  repeated ClientInputType view_switch_tips_list = 2;
+  repeated ClientInputType view_input_tips_list = 14;
+  repeated LanternProjectionLevelInfo level_list = 11;
+  repeated uint32 open_stage_list = 12;
+}

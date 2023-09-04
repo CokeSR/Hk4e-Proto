@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriMasterLevelDetailInfo {
+  bool is_finish = 6;
+  bool is_have_try = 5;
+  uint32 min_finish_time = 14;
+  uint32 diffculty = 3;
+}

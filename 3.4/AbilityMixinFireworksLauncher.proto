@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinFireworksLauncher {
+  uint32 fired_bullet_count = 13;
+  uint32 turn_index = 2;
+  uint32 invoke_type = 15;
+  uint32 phase = 4;
+  uint32 start_count_down_time = 6;
+  repeated uint32 fireworks_config = 11;
+}

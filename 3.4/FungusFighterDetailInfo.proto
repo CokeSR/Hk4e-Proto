@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "FungusDetail.proto";
+import "FungusPlotStageDetail.proto";
+import "FungusTrainingDungeonDetail.proto";
+import "FungusTrainingProgressDetail.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterDetailInfo {
+  repeated FungusDetail fungus_detail_list = 3;
+  repeated uint32 unlock_camp_id_list = 9;
+  repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 4;
+  repeated uint32 finish_camp_id_list = 2;
+  repeated uint32 unlock_cultivate_id_list = 13;
+  repeated FungusPlotStageDetail plot_stage_detail_list = 6;
+  repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 12;
+}

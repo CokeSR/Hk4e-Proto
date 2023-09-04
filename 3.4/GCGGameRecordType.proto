@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGGameRecordType {
+  GCG_GAME_RECORD_TYPE_INVALID = 0;
+  GCG_GAME_RECORD_TYPE_PVE = 1;
+  GCG_GAME_RECORD_TYPE_PVP = 2;
+}

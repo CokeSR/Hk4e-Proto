@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExpeditionRecallRsp {
+  // CMD_ID = 2156
+
+  uint32 path_id = 3;
+  int32 retcode = 8;
+}

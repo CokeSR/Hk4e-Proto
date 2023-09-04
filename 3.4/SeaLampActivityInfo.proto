@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "SeaLampSectionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampActivityInfo {
+  bool is_content_closed = 1;
+  bool is_mechanicus_open = 3;
+  repeated SeaLampSectionInfo section_info_list = 2;
+  uint32 first_day_start_time = 10;
+  uint32 popularity = 5;
+  bool is_mechanicus_feature_close = 14;
+  uint32 day_index = 4;
+  uint32 mechanicus_id = 12;
+  uint32 sea_lamp_coin = 6;
+}

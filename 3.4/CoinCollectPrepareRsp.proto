@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectPrepareRsp {
+  // CMD_ID = 23815
+
+  int32 retcode = 5;
+}

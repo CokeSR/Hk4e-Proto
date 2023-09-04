@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InstableSprayEnterDungeonRsp {
+  // CMD_ID = 23633
+
+  uint32 level_id = 8;
+  int32 retcode = 14;
+}

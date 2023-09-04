@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3BoatMultiPlayerData {
+  uint32 accumulate_coin_num = 2;
+  uint32 uid = 6;
+}

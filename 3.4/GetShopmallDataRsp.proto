@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetShopmallDataRsp {
+  // CMD_ID = 774
+
+  repeated uint32 shop_type_list = 10;
+  int32 retcode = 3;
+}

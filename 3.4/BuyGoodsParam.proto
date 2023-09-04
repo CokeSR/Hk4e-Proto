@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "ShopGoods.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BuyGoodsParam {
+  ShopGoods goods = 8;
+  uint32 buy_count = 3;
+}

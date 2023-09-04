@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AskAddFriendReq {
+  // CMD_ID = 4020
+
+  uint32 target_uid = 10;
+}

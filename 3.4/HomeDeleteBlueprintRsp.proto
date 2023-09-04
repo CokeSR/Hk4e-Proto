@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeDeleteBlueprintRsp {
+  // CMD_ID = 4564
+
+  int32 retcode = 9;
+  uint32 slot_id = 10;
+}

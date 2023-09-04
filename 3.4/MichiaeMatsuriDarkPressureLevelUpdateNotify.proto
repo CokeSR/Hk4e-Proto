@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriDarkPressureLevelUpdateNotify {
+  // CMD_ID = 8618
+
+  uint32 dark_pressure_level = 15;
+}

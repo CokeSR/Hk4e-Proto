@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeV2SettleInfo {
+  uint32 create_dungeon_player_uid = 14;
+  bool is_new_record_time = 5;
+  uint32 record_time = 15;
+  uint32 first_time_finish_difficulty = 10;
+  uint32 challenge_mode_difficulty = 13;
+  bool is_challenge_highest_difficulty = 1;
+}

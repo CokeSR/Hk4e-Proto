@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialGetDungeonExhibitionDataReq {
+  // CMD_ID = 8202
+
+  uint32 trial_id = 8;
+}

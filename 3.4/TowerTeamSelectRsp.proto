@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerTeamSelectRsp {
+  // CMD_ID = 2480
+
+  int32 retcode = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SelectRoguelikeDungeonCardReq {
+  // CMD_ID = 8572
+
+  uint32 card_id = 8;
+}

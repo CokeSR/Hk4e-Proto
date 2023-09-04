@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MainCoop {
+  enum Status {
+    STATUS_INVALID = 0;
+    STATUS_RUNNING = 1;
+    STATUS_FINISHED = 2;
+  }
+
+  uint32 self_confidence = 3;
+  repeated uint32 save_point_id_list = 6;
+  uint32 id = 15;
+  map<uint32, int32> normal_var_map = 12;
+  Status status = 8;
+  map<uint32, int32> temp_var_map = 2;
+  map<uint32, uint32> seen_ending_map = 4;
+}

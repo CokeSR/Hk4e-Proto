@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGetCanGiveFriendFlowerReq {
+  // CMD_ID = 8982
+
+  uint32 schedule_id = 15;
+}

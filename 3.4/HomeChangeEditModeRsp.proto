@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeChangeEditModeRsp {
+  // CMD_ID = 4767
+
+  bool is_enter_edit_mode = 9;
+  int32 retcode = 3;
+}

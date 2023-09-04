@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageHuntingFirstStageInfo {
+  uint32 brutal_cnt = 14;
+  uint32 elite_cnt = 1;
+  uint32 timid_cnt = 12;
+  uint32 score = 15;
+}

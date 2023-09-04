@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldRoutineTypeCloseNotify {
+  // CMD_ID = 3519
+
+  uint32 routine_type = 7;
+}

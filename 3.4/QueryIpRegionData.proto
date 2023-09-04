@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QueryIpRegionData {
+  string ip = 1;
+  string game_biz = 2;
+  string source = 3;
+}

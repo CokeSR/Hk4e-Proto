@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "LuminanceStoneChallengeSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message LuminanceStoneChallengeSettleNotify {
+  // CMD_ID = 8545
+
+  LuminanceStoneChallengeSettleInfo settle_info = 1;
+  uint32 gallery_id = 14;
+}

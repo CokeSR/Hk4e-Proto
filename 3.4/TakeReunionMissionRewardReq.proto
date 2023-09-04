@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionMissionRewardReq {
+  // CMD_ID = 5064
+
+  uint32 mission_id = 8;
+  uint32 reward_index = 15;
+  uint32 reward_id = 7;
+}

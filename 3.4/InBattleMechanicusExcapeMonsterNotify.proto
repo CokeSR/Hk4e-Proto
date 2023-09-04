@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusExcapeMonsterNotify {
+  // CMD_ID = 5320
+
+  uint32 excaped_monster_num = 2;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetReportReq {
+  // CMD_ID = 4287
+
+  bool is_clear_hint = 15;
+  bool is_clear_sky_crystal_hint = 9;
+  uint32 weather_wizard_shield_value = 12;
+  uint32 material_id = 5;
+  bool is_client_collect = 7;
+}

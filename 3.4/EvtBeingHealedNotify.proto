@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtBeingHealedNotify {
+  // CMD_ID = 391
+
+  uint32 source_id = 13;
+  float real_heal_amount = 12;
+  float heal_amount = 11;
+  uint32 target_id = 8;
+}

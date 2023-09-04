@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairMusicGameSettleRsp {
+  // CMD_ID = 2200
+
+  uint32 music_basic_id = 4;
+  bool is_new_record = 5;
+  bool is_unlock_next_level = 7;
+  int32 retcode = 3;
+}

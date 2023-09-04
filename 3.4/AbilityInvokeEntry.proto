@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "AbilityInvokeArgument.proto";
+import "AbilityInvokeEntryHead.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityInvokeEntry {
+  AbilityInvokeEntryHead head = 13;
+  ForwardType forward_type = 15;
+  AbilityInvokeArgument argument_type = 12;
+  uint32 forward_peer = 10;
+  bytes ability_data = 4;
+  uint32 event_id = 8;
+  uint32 entity_id = 11;
+  double total_tick_time = 14;
+  bool is_ignore_auth = 6;
+}

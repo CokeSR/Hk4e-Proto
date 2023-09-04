@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestDestroyEntityReq {
+  // CMD_ID = 429
+
+  uint32 entity_id = 10;
+  uint32 quest_id = 12;
+  uint32 scene_id = 13;
+}

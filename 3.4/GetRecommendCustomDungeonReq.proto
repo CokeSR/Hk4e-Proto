@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetRecommendCustomDungeonReq {
+  // CMD_ID = 6210
+
+  bool is_refresh = 6;
+}

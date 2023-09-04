@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DelBackupAvatarTeamReq {
+  // CMD_ID = 1611
+
+  uint32 backup_avatar_team_id = 4;
+}

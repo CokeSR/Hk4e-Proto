@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerReportRsp {
+  // CMD_ID = 4036
+
+  int32 retcode = 9;
+  uint32 cd_time = 13;
+  uint32 target_uid = 4;
+}

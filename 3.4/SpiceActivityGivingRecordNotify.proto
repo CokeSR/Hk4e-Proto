@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpiceActivityGivingRecordNotify {
+  // CMD_ID = 8085
+
+  uint32 current_increase_avatar_fetter_times = 3;
+  uint32 avatar_id = 8;
+  uint32 increase_avatar_fetter_limit_times = 4;
+}

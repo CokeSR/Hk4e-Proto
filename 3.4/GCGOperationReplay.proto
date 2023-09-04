@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "GCGReplayControllerData.proto";
+import "GCGReplayOperationData.proto";
+import "GCGReplayRecordData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGOperationReplay {
+  repeated GCGReplayControllerData controller_data_list = 9;
+  uint32 game_id = 8;
+  repeated GCGReplayOperationData operation_data_list = 6;
+  uint32 seed = 12;
+  repeated GCGReplayRecordData record_data_list = 3;
+}

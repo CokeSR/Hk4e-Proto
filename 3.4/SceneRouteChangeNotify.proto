@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "SceneRouteChangeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneRouteChangeNotify {
+  // CMD_ID = 201
+
+  uint32 scene_id = 10;
+  repeated SceneRouteChangeInfo route_list = 12;
+  uint32 scene_time = 6;
+}

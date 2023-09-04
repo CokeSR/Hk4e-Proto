@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GalleryCrystalLinkBuffInfoNotify {
+  // CMD_ID = 5546
+
+  bool is_buff_valid = 11;
+  uint32 gallery_id = 6;
+  uint32 buff_id = 2;
+}

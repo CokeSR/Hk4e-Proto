@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SelectAsterMidDifficultyReq {
+  // CMD_ID = 2128
+
+  uint32 gadget_entity_id = 7;
+  uint32 schedule_id = 2;
+  uint32 difficulty_id = 14;
+}

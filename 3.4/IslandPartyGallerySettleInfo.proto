@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ExhibitionDisplayInfo.proto";
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message IslandPartyGallerySettleInfo {
+  OnlinePlayerInfo player_info = 3;
+  repeated ExhibitionDisplayInfo card_list = 9;
+}

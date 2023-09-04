@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "PotionStageData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PotionResetChallengeRsp {
+  // CMD_ID = 8220
+
+  PotionStageData stage_data = 7;
+  int32 retcode = 13;
+}

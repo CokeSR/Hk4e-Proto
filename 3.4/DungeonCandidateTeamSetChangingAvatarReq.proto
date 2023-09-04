@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamSetChangingAvatarReq {
+  // CMD_ID = 937
+
+  bool is_changing_avatar = 4;
+}

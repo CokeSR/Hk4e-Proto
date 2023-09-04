@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeAvatarReq {
+  // CMD_ID = 1649
+
+  uint64 guid = 12;
+  bool is_move = 10;
+  Vector move_pos = 3;
+  uint32 skill_id = 5;
+}

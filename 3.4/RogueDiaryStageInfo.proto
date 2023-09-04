@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RogueDiaryDungeonRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryStageInfo {
+  uint32 stage_id = 3;
+  RogueDiaryDungeonRecord best_record = 4;
+  bool is_have_try = 9;
+}

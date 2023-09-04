@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CataLogGlobalWatcherFinishedData {
+  uint32 catalog_type = 5;
+  repeated uint32 finished_global_watcher_list = 2;
+}

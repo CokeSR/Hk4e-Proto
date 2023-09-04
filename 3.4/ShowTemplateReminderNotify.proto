@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ShowTemplateReminderNotify {
+  // CMD_ID = 3353
+
+  bool is_revoke = 13;
+  bool is_need_cache = 11;
+  repeated uint32 param_uid_list = 6;
+  repeated int32 param_list = 12;
+  uint32 template_reminder_id = 9;
+}

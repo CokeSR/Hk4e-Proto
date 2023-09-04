@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryHomeSeekFurnitureInfo {
+  uint32 cur_tide_duration_time = 10;
+  uint32 cur_tide_total_num = 11;
+  uint32 cur_tide_left_num = 8;
+  map<uint32, uint32> player_score_map = 12;
+}

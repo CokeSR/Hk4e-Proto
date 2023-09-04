@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CoinCollectStageInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectPrepareStageNotify {
+  // CMD_ID = 6441
+
+  CoinCollectStageInfo coin_collect_info = 7;
+}

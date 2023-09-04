@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReliquaryPromoteRsp {
+  // CMD_ID = 675
+
+  repeated uint32 cur_append_prop_list = 12;
+  uint64 target_reliquary_guid = 2;
+  int32 retcode = 6;
+  repeated uint32 old_append_prop_list = 11;
+  uint32 old_promote_level = 7;
+  uint32 cur_promote_level = 15;
+}

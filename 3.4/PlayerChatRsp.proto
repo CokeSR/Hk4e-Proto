@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerChatRsp {
+  // CMD_ID = 3480
+
+  uint32 chat_forbidden_endtime = 2;
+  int32 retcode = 14;
+}

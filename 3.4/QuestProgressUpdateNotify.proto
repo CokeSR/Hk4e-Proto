@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestProgressUpdateNotify {
+  // CMD_ID = 406
+
+  uint32 quest_id = 9;
+  repeated uint32 fail_progress_list = 11;
+  repeated uint32 finish_progress_list = 1;
+}

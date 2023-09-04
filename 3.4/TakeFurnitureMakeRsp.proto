@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "FurnitureMakeSlot.proto";
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeFurnitureMakeRsp {
+  // CMD_ID = 4806
+
+  repeated ItemParam return_item_list = 7;
+  FurnitureMakeSlot furniture_make_slot = 6;
+  uint32 make_id = 4;
+  repeated ItemParam output_item_list = 1;
+  int32 retcode = 10;
+}

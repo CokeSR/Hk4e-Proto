@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderStartLevelReq {
+  // CMD_ID = 8710
+
+  uint32 level_id = 3;
+}

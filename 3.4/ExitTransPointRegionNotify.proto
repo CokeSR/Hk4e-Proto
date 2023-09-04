@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExitTransPointRegionNotify {
+  // CMD_ID = 206
+
+  uint32 point_id = 2;
+  uint32 scene_id = 8;
+}

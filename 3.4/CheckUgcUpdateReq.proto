@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckUgcUpdateReq {
+  // CMD_ID = 6302
+
+  UgcType ugc_type = 3;
+}

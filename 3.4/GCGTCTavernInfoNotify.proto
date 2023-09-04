@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGTCTavernInfoNotify {
+  // CMD_ID = 7206
+
+  bool is_owner_in_duel = 3;
+  uint32 element_type = 9;
+  uint32 point_id = 15;
+  bool is_last_duel_win = 2;
+  uint32 character_id = 5;
+  uint32 level_id = 7;
+  uint32 avatar_id = 13;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueAvatarInfo {
+  uint32 avatar_id = 15;
+  bool is_alive = 5;
+  bool is_onstage = 1;
+}

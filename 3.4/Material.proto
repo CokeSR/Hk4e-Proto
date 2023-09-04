@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "MaterialDeleteInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message Material {
+  uint32 count = 1;
+  MaterialDeleteInfo delete_info = 2;
+}

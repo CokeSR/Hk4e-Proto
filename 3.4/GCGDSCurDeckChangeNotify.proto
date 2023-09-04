@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSCurDeckChangeNotify {
+  // CMD_ID = 7023
+
+  uint32 deck_id = 7;
+}

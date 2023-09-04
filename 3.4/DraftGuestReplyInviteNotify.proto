@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftGuestReplyInviteNotify {
+  // CMD_ID = 5470
+
+  uint32 guest_uid = 13;
+  uint32 draft_id = 15;
+  bool is_agree = 7;
+}

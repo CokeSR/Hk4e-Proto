@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ReunionSignInInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionSignInRewardRsp {
+  // CMD_ID = 5085
+
+  ReunionSignInInfo sign_in_info = 5;
+  int32 retcode = 8;
+}

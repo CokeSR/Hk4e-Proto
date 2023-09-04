@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "BartenderLevelInfo.proto";
+import "BartenderTaskInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderActivityDetailInfo {
+  repeated BartenderTaskInfo unlock_task_list = 15;
+  bool is_develop_module_open = 10;
+  repeated uint32 unlock_item_list = 8;
+  repeated uint32 unlock_formula_list = 14;
+  bool is_content_closed = 2;
+  repeated BartenderLevelInfo unlock_level_list = 4;
+}

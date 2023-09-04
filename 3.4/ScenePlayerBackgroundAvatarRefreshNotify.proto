@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "SceneEntityInfo.proto";
+import "VisionType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayerBackgroundAvatarRefreshNotify {
+  // CMD_ID = 3464
+
+  uint32 param = 1;
+  repeated SceneEntityInfo entity_list = 14;
+  VisionType appear_type = 2;
+}

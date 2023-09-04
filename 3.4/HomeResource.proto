@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeResource {
+  uint32 store_limit = 15;
+  uint32 store_value = 10;
+  fixed32 next_refresh_time = 1;
+}

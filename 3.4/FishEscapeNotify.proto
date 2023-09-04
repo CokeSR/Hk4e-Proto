@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "FishEscapeReason.proto";
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishEscapeNotify {
+  // CMD_ID = 5835
+
+  Vector pos = 9;
+  uint32 uid = 15;
+  repeated uint32 fish_id_list = 5;
+  FishEscapeReason reason = 7;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RefreshEntityAuthNotify {
+  // CMD_ID = 3280
+
+  repeated uint32 entity_id_list = 11;
+}

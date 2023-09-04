@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SeaLampTakePhaseRewardRsp {
+  // CMD_ID = 2187
+
+  uint32 phase_id = 8;
+  int32 retcode = 3;
+}

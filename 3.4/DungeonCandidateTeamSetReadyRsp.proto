@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamSetReadyRsp {
+  // CMD_ID = 953
+
+  int32 retcode = 2;
+}

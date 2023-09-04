@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerNameReq {
+  // CMD_ID = 200
+
+  string nick_name = 3;
+}

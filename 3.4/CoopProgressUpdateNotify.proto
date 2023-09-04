@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoopProgressUpdateNotify {
+  // CMD_ID = 1956
+
+  uint32 cur_coop_point = 5;
+  bool is_have_progress = 1;
+}

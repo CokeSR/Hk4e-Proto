@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinWindZone {
+  repeated uint32 zone_id_list = 12;
+  repeated uint32 entity_ids = 11;
+}

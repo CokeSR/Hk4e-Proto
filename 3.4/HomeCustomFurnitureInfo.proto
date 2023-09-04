@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "CustomCommonNodeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeCustomFurnitureInfo {
+  uint32 guid = 8;
+  repeated CustomCommonNodeInfo sub_furniture_list = 5;
+}

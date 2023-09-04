@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ParentQuest.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FinishedParentQuestUpdateNotify {
+  // CMD_ID = 420
+
+  repeated ParentQuest parent_quest_list = 15;
+}

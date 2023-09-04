@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OpActivityTagBriefInfo {
+  uint32 config_id = 10;
+  bool has_reward = 11;
+  uint32 op_activity_type = 3;
+}

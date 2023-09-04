@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MatchPlayerInfo {
+  bool is_agreed = 11;
+  OnlinePlayerInfo player_info = 4;
+}

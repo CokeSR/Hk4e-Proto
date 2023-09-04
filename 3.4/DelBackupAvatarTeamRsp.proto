@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DelBackupAvatarTeamRsp {
+  // CMD_ID = 1756
+
+  uint32 backup_avatar_team_id = 11;
+  int32 retcode = 12;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChessPickCardRsp {
+  // CMD_ID = 5360
+
+  uint32 card_index = 10;
+  uint32 card_id = 8;
+  int32 retcode = 7;
+}

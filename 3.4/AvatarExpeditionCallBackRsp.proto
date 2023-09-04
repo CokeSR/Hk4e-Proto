@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AvatarExpeditionInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarExpeditionCallBackRsp {
+  // CMD_ID = 1632
+
+  int32 retcode = 14;
+  map<uint64, AvatarExpeditionInfo> expedition_info_map = 7;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FurnitureMakeMakeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FunitureMakeMakeInfoChangeNotify {
+  // CMD_ID = 4592
+
+  FurnitureMakeMakeInfo make_info = 8;
+}

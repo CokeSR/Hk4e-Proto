@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomePictureFrameInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeUpdatePictureFrameInfoRsp {
+  // CMD_ID = 4540
+
+  int32 retcode = 11;
+  HomePictureFrameInfo picture_frame_info = 4;
+}

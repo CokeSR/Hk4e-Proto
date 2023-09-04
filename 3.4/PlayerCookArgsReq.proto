@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCookArgsReq {
+  // CMD_ID = 184
+
+  uint32 recipe_id = 5;
+  uint32 assist_avatar = 9;
+}

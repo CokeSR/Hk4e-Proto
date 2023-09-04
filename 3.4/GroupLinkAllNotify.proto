@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GroupLinkBundle.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GroupLinkAllNotify {
+  // CMD_ID = 5788
+
+  repeated GroupLinkBundle bundle_list = 15;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "TowerFightRecordPair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerMonthlyCombatRecord {
+  TowerFightRecordPair highest_dps_avatr_pair = 10;
+  TowerFightRecordPair most_take_damage_avatar_pair = 8;
+  TowerFightRecordPair most_cast_energy_skill_avatar_pair = 1;
+  TowerFightRecordPair most_cast_normal_skill_avatar_pair = 11;
+  TowerFightRecordPair most_kill_avatar_pair = 4;
+  repeated TowerFightRecordPair most_reveal_avatar_list = 7;
+}

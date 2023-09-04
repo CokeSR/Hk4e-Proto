@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "GCGDamageDetail.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgSkillResult {
+  uint32 result_seq = 15;
+  uint32 src_card_guid = 2;
+  uint32 before_hp = 3;
+  uint32 target_card_guid = 7;
+  uint32 effect_element = 1;
+  uint32 last_hp = 13;
+  uint32 flag = 6;
+  repeated GCGDamageDetail detail_list = 12;
+  uint32 damage = 11;
+  uint32 skill_id = 4;
+  uint32 from_result_seq = 14;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerGetFloorStarRewardReq {
+  // CMD_ID = 2425
+
+  uint32 floor_id = 11;
+}

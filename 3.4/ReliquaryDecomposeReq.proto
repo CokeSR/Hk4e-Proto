@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReliquaryDecomposeReq {
+  // CMD_ID = 640
+
+  uint32 target_count = 5;
+  uint32 config_id = 13;
+  repeated uint64 guid_list = 2;
+}

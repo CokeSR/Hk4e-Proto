@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ActivityRecvGiftData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityGetRecvGiftListRsp {
+  // CMD_ID = 8705
+
+  int32 retcode = 15;
+  repeated ActivityRecvGiftData recv_gift_list = 7;
+  uint32 schedule_id = 10;
+}

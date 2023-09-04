@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "BuoyantCombatSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BuoyantCombatSettleNotify {
+  // CMD_ID = 8267
+
+  BuoyantCombatSettleInfo settle_info = 5;
+  uint32 gallery_id = 15;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterSceneReadyRsp {
+  // CMD_ID = 233
+
+  int32 retcode = 7;
+  uint32 enter_scene_token = 9;
+}

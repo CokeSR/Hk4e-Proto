@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FlightActivityRestartReq {
+  // CMD_ID = 2017
+
+  uint32 group_id = 15;
+  uint32 schedule_id = 14;
+}

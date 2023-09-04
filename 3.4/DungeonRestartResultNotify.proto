@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonRestartResultNotify {
+  // CMD_ID = 901
+
+  bool is_add_accpet = 11;
+}

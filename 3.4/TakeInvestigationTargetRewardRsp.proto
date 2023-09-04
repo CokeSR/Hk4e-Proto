@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeInvestigationTargetRewardRsp {
+  // CMD_ID = 1923
+
+  int32 retcode = 1;
+  uint32 quest_id = 6;
+}

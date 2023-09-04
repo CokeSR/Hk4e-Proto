@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ItemGivingReq {
+  // CMD_ID = 101
+
+  enum ItemGivingType {
+    ITEM_GIVING_TYPE_QUEST = 0;
+    ITEM_GIVING_TYPE_GADGET = 1;
+  }
+
+  map<uint64, uint32> item_guid_count_map = 13;
+  uint32 giving_id = 7;
+  repeated ItemParam item_param_list = 9;
+  ItemGivingType item_giving_type = 8;
+}

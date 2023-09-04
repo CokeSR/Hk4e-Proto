@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "BattlePassMission.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassMissionUpdateNotify {
+  // CMD_ID = 2645
+
+  repeated BattlePassMission mission_list = 10;
+}

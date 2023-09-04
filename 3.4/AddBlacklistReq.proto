@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AddBlacklistReq {
+  // CMD_ID = 4028
+
+  uint32 target_uid = 9;
+}

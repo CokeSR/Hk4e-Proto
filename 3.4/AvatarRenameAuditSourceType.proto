@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum AvatarRenameAuditSourceType {
+  AVATAR_RENAME_AUDIT_SOURCE_TYPE_NONE = 0;
+  AVATAR_RENAME_AUDIT_SOURCE_TYPE_ITEM = 1;
+  AVATAR_RENAME_AUDIT_SOURCE_TYPE_QUEST = 2;
+}

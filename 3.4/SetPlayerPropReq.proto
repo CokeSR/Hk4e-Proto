@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PropValue.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetPlayerPropReq {
+  // CMD_ID = 116
+
+  repeated PropValue prop_list = 8;
+}

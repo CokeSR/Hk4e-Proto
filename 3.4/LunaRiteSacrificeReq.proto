@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteSacrificeReq {
+  // CMD_ID = 8743
+
+  uint32 index = 3;
+  uint32 area_id = 2;
+}

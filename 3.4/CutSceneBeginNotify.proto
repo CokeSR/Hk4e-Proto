@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "CutSceneExtraParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CutSceneBeginNotify {
+  // CMD_ID = 217
+
+  bool is_wait_others = 3;
+  repeated CutSceneExtraParam extra_param_list = 14;
+  uint32 cutscene_id = 2;
+}

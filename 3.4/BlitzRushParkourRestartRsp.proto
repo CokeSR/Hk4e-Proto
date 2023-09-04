@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BlitzRushParkourRestartRsp {
+  // CMD_ID = 8502
+
+  uint32 schedule_id = 2;
+  uint32 group_id = 15;
+  int32 retcode = 3;
+}

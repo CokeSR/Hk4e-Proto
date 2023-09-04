@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AssociateInferenceWordReq {
+  // CMD_ID = 456
+
+  uint32 base_word_id = 11;
+  uint32 page_id = 3;
+  uint32 associate_word_id = 13;
+}

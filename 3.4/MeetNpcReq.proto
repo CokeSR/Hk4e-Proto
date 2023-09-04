@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MeetNpcReq {
+  // CMD_ID = 580
+
+  uint32 npc_id = 9;
+}

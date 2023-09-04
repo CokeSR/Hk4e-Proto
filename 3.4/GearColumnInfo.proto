@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GearColumnInfo {
+  bool has_gear = 9;
+  uint32 gear_id = 6;
+  bool is_overturn = 8;
+  uint32 placement_layer = 11;
+  uint32 gear_column_index = 15;
+}

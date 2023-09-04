@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetUpAvatarTeamRsp {
+  // CMD_ID = 1745
+
+  uint32 team_id = 5;
+  repeated uint64 avatar_team_guid_list = 6;
+  uint64 cur_avatar_guid = 2;
+  int32 retcode = 3;
+}

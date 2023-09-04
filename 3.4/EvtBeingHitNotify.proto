@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "EvtBeingHitInfo.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtBeingHitNotify {
+  // CMD_ID = 305
+
+  ForwardType forward_type = 4;
+  EvtBeingHitInfo being_hit_info = 15;
+}

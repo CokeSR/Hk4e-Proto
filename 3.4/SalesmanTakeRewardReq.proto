@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SalesmanTakeRewardReq {
+  // CMD_ID = 2060
+
+  uint32 schedule_id = 7;
+  uint32 position = 10;
+}

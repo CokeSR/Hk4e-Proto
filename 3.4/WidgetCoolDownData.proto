@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetCoolDownData {
+  uint32 id = 8;
+  uint64 cool_down_time = 15;
+  bool is_success = 12;
+}

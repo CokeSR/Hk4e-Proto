@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartFishingRsp {
+  // CMD_ID = 5841
+
+  uint32 fish_pool_id = 7;
+  int32 retcode = 5;
+}

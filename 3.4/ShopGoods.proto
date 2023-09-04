@@ -1,0 +1,29 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ShopGoods {
+  uint32 discount_end_time = 655;
+  uint32 max_level = 3;
+  uint32 hcoin = 13;
+  uint32 secondary_sheet_id = 363;
+  uint32 scoin = 11;
+  uint32 goods_id = 2;
+  uint32 buy_limit = 10;
+  repeated uint32 pre_goods_id_list = 12;
+  ItemParam goods_item = 6;
+  repeated ItemParam cost_item_list = 7;
+  uint32 single_limit = 424;
+  uint32 next_refresh_time = 1;
+  uint32 discount_id = 182;
+  uint32 bought_num = 4;
+  uint32 discount_begin_time = 636;
+  uint32 min_level = 14;
+  uint32 end_time = 15;
+  uint32 begin_time = 8;
+  uint32 disable_type = 9;
+  uint32 mcoin = 5;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueHealAvatarsReq {
+  // CMD_ID = 8538
+
+  uint32 dungeon_id = 12;
+  uint32 cell_id = 11;
+}

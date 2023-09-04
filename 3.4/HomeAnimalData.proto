@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAnimalData {
+  Vector spawn_rot = 13;
+  uint32 furniture_id = 10;
+  Vector spawn_pos = 4;
+}

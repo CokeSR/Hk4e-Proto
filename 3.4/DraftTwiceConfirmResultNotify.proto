@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftTwiceConfirmResultNotify {
+  // CMD_ID = 5478
+
+  bool is_all_argee = 15;
+  uint32 draft_id = 7;
+}

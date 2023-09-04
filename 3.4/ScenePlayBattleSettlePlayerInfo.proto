@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "ExhibitionDisplayInfo.proto";
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayBattleSettlePlayerInfo {
+  string nickname = 9;
+  string online_id = 11;
+  uint32 statistic_id = 3;
+  repeated ExhibitionDisplayInfo card_list = 1;
+  uint32 uid = 6;
+  ProfilePicture profile_picture = 13;
+  uint32 head_image = 4;
+  int64 param = 12;
+}

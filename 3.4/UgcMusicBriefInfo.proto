@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UgcMusicBriefInfo {
+  uint64 ugc_guid = 8;
+  uint32 real_time_edit_time = 88;
+  uint32 publish_time = 15;
+  repeated uint32 before_note_list = 1363;
+  bool is_played = 5;
+  uint64 import_from_ugc_guid = 6;
+  uint32 music_id = 14;
+  repeated uint32 after_note_list = 1062;
+  uint32 time_line_edit_time = 1837;
+  uint32 self_max_score = 7;
+  uint32 save_page_type = 287;
+  uint32 note_count = 2;
+  uint32 save_idx = 9;
+  bool is_changed_after_publish = 4;
+  uint32 version = 1;
+  string creator_nickname = 3;
+  bool is_published = 11;
+  uint32 max_score = 12;
+  uint32 save_time = 10;
+  bool is_psn_platform = 13;
+}

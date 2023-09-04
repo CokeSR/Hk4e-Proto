@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "MainCoop.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message StartCoopPointRsp {
+  // CMD_ID = 1992
+
+  int32 retcode = 10;
+  bool is_start = 5;
+  MainCoop start_main_coop = 7;
+  uint32 coop_point = 13;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterWorldAreaReq {
+  // CMD_ID = 242
+
+  uint32 area_id = 1;
+  uint32 area_type = 11;
+}

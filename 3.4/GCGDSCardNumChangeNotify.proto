@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSCardNumChangeNotify {
+  // CMD_ID = 7605
+
+  uint32 card_id = 6;
+  uint32 num = 3;
+}

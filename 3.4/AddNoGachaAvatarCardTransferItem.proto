@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AddNoGachaAvatarCardTransferItem {
+  uint32 count = 10;
+  bool is_new = 11;
+  uint32 item_id = 12;
+}

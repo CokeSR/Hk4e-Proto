@@ -1,0 +1,25 @@
+
+syntax = "proto3";
+
+import "ChapterState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ChapterStateNotify {
+  // CMD_ID = 469
+
+  message NeedPlayerLevel {
+    uint32 config_need_player_level = 4;
+    bool is_limit = 14;
+  }
+
+  message NeedBeginTime {
+    uint32 config_need_begin_time = 5;
+    bool is_limit = 4;
+  }
+
+  NeedPlayerLevel need_player_level = 2;
+  NeedBeginTime need_begin_time = 9;
+  ChapterState chapter_state = 13;
+  uint32 chapter_id = 15;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonRestartRsp {
+  // CMD_ID = 956
+
+  uint32 dungeon_id = 6;
+  int32 retcode = 4;
+  uint32 point_id = 1;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetBattlePassViewedRsp {
+  // CMD_ID = 2614
+
+  int32 retcode = 8;
+  uint32 schedule_id = 2;
+}

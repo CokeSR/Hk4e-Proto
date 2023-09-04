@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityDisableTransferPointInteractionNotify {
+  // CMD_ID = 8440
+
+  bool is_disable = 15;
+  Uint32Pair scene_point_pair = 8;
+}

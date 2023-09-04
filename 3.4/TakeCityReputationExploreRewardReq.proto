@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCityReputationExploreRewardReq {
+  // CMD_ID = 2816
+
+  repeated uint32 explore_id_list = 14;
+  uint32 city_id = 1;
+}

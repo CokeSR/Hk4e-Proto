@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampSetWishListRsp {
+  // CMD_ID = 8827
+
+  int32 retcode = 6;
+  repeated uint32 item_id_list = 3;
+}

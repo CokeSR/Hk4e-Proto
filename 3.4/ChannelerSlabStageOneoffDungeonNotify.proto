@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChannelerSlabStageOneoffDungeonNotify {
+  // CMD_ID = 8449
+
+  bool is_done = 4;
+  uint32 stage_id = 14;
+}

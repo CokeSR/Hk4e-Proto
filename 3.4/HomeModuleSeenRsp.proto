@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeModuleSeenRsp {
+  // CMD_ID = 4516
+
+  int32 retcode = 9;
+  repeated uint32 seen_module_id_list = 12;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGDuel.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGAskDuelRsp {
+  // CMD_ID = 7928
+
+  GCGDuel duel = 5;
+  int32 retcode = 7;
+}

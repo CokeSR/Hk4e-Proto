@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskFilterCityRsp {
+  // CMD_ID = 172
+
+  int32 retcode = 15;
+  uint32 city_id = 14;
+}

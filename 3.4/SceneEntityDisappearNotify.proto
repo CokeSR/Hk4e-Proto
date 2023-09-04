@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "VisionType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneEntityDisappearNotify {
+  // CMD_ID = 280
+
+  repeated uint32 entity_list = 13;
+  uint32 param = 10;
+  VisionType disappear_type = 7;
+}

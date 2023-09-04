@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ResumeRogueDiaryDungeonRsp {
+  // CMD_ID = 8382
+
+  int32 retcode = 5;
+}

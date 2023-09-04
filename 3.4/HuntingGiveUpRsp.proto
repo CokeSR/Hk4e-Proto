@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HuntingPair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HuntingGiveUpRsp {
+  // CMD_ID = 4314
+
+  HuntingPair hunting_pair = 4;
+  int32 retcode = 14;
+}

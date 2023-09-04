@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterChessDungeonReq {
+  // CMD_ID = 8079
+
+  uint32 map_id = 10;
+}

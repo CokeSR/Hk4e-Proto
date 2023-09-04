@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityActionGenerateElemBall {
+  Vector pos = 7;
+  uint32 room_id = 6;
+  Vector rot = 15;
+}

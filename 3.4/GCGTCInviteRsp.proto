@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGTCInviteRsp {
+  // CMD_ID = 7188
+
+  uint32 character_id = 13;
+  int32 retcode = 4;
+}

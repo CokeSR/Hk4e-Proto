@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GadgetGuestBanDrop {
+  GADGET_GUEST_BAN_DROP_NONE = 0;
+  GADGET_GUEST_BAN_DROP_DIE_LUA = 1;
+  GADGET_GUEST_BAN_DROP_SUBFIELD = 2;
+}

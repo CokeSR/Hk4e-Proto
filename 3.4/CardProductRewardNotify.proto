@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CardProductRewardNotify {
+  // CMD_ID = 4141
+
+  string product_id = 9;
+  uint32 hcoin = 6;
+  uint32 remain_days = 7;
+}

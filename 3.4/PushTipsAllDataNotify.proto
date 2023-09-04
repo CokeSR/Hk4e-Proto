@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PushTipsData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PushTipsAllDataNotify {
+  // CMD_ID = 2292
+
+  repeated PushTipsData push_tips_list = 12;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGBackToDuelReq {
+  // CMD_ID = 7038
+
+  bool is_back = 13;
+}

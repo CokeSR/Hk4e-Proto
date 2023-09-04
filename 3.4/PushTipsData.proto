@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PushTipsData {
+  uint32 push_tips_id = 13;
+  uint32 state = 8;
+}

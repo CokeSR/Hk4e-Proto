@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaElementReactionVisual {
+  uint32 element_source_type = 3;
+  int32 hit_index = 12;
+  uint32 element_reactor_type = 2;
+  uint32 element_reaction_type = 7;
+}

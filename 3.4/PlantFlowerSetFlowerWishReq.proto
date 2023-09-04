@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerSetFlowerWishReq {
+  // CMD_ID = 8573
+
+  map<uint32, uint32> flower_num_map = 10;
+  uint32 schedule_id = 4;
+}

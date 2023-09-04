@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMetaModifierDurabilityChange {
+  float remain_durability = 14;
+  float reduce_durability = 7;
+}

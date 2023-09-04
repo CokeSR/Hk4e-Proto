@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WinterCampRecvItemData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampGetRecvItemListRsp {
+  // CMD_ID = 8073
+
+  repeated WinterCampRecvItemData recv_item_data_list = 13;
+  int32 retcode = 11;
+}

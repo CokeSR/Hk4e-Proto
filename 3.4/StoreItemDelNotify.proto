@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "StoreType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message StoreItemDelNotify {
+  // CMD_ID = 698
+
+  repeated uint64 guid_list = 6;
+  StoreType store_type = 10;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeRuneRecord {
+  uint32 max_count = 7;
+  uint32 left_count = 12;
+  uint32 rune_id = 6;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetDoBagRsp {
+  // CMD_ID = 4258
+
+  uint32 material_id = 6;
+  int32 retcode = 1;
+}

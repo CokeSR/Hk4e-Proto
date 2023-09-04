@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message StartRogueDiaryRoomRsp {
+  // CMD_ID = 8413
+
+  int32 retcode = 2;
+}

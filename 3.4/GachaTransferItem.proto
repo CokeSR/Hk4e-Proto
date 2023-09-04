@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaTransferItem {
+  ItemParam item = 5;
+  bool is_transfer_item_new = 3;
+}

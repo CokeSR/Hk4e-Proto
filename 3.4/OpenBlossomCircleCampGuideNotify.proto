@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message OpenBlossomCircleCampGuideNotify {
+  // CMD_ID = 2780
+
+  repeated uint32 circle_camp_id_list = 13;
+  uint32 refresh_id = 5;
+}

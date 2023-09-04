@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+import "UgcMusicBriefInfo.proto";
+import "UgcMusicRecord.proto";
+import "UgcType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SaveUgcReq {
+  // CMD_ID = 6331
+
+  UgcType ugc_type = 1;
+  oneof record {
+    UgcMusicRecord music_record = 15;
+  }
+  oneof brief {
+    UgcMusicBriefInfo music_brief_info = 160;
+  }
+}

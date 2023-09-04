@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BackRebornGalleryReq {
+  // CMD_ID = 5558
+
+  uint32 gallery_id = 5;
+}

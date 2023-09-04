@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeTakeStageFirstPassRewardRsp {
+  // CMD_ID = 8650
+
+  uint32 stage_id = 2;
+  int32 retcode = 13;
+}

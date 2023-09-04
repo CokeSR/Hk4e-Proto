@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3BoatGameTransferFinishNotify {
+  // CMD_ID = 20696
+
+  bool is_reenter = 14;
+}

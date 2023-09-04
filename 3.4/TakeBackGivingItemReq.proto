@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeBackGivingItemReq {
+  // CMD_ID = 144
+
+  uint32 giving_id = 10;
+}

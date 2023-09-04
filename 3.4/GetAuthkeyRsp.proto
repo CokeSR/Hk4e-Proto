@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAuthkeyRsp {
+  // CMD_ID = 1462
+
+  string game_biz = 1;
+  uint32 sign_type = 3;
+  string auth_appid = 11;
+  uint32 authkey_ver = 7;
+  int32 retcode = 14;
+  string authkey = 9;
+}

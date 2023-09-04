@@ -1,0 +1,30 @@
+
+syntax = "proto3";
+
+import "ChallengeFinishType.proto";
+import "ChannellerSlabLoopDungeonResultInfo.proto";
+import "CustomDungeonResultInfo.proto";
+import "EffigyChallengeDungeonResultInfo.proto";
+import "PotionDungeonResultInfo.proto";
+import "StrengthenPointData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonChallengeFinishNotify {
+  // CMD_ID = 946
+
+  uint32 challenge_index = 8;
+  ChallengeFinishType finish_type = 13;
+  bool is_success = 6;
+  uint32 challenge_record_type = 5;
+  bool is_new_record = 3;
+  uint32 current_value = 9;
+  uint32 time_cost = 11;
+  map<uint32, StrengthenPointData> strengthen_point_data_map = 7;
+  oneof detail {
+    ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1867;
+    EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 942;
+    PotionDungeonResultInfo potion_dungeon_result_info = 709;
+    CustomDungeonResultInfo custom_dungeon_result_info = 41;
+  }
+}

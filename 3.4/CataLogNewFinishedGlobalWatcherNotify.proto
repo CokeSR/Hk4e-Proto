@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "CataLogGlobalWatcherFinishedData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CataLogNewFinishedGlobalWatcherNotify {
+  // CMD_ID = 6390
+
+  repeated CataLogGlobalWatcherFinishedData new_finished_global_watcher_data_list = 13;
+}

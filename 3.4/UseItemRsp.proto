@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UseItemRsp {
+  // CMD_ID = 662
+
+  uint64 guid = 12;
+  int32 retcode = 7;
+  uint32 item_id = 4;
+  uint64 target_guid = 11;
+  uint32 option_idx = 3;
+}

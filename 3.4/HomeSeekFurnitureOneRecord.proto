@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "HomeSeekFurniturePlayerScore.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSeekFurnitureOneRecord {
+  repeated HomeSeekFurniturePlayerScore engaged_player_score_list = 6;
+  uint32 timestamp = 3;
+}

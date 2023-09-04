@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LaunchFireworksRsp {
+  // CMD_ID = 5952
+
+  int32 retcode = 9;
+}

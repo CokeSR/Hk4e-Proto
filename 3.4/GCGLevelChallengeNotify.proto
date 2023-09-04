@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "GCGBossChallengeData.proto";
+import "GCGLevelData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGLevelChallengeNotify {
+  // CMD_ID = 7016
+
+  repeated GCGLevelData level_list = 13;
+  repeated uint32 unlock_world_challenge_list = 1;
+  repeated GCGBossChallengeData unlock_boss_challenge_list = 11;
+}

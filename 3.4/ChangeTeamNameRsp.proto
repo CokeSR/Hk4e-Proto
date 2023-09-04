@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeTeamNameRsp {
+  // CMD_ID = 1741
+
+  int32 retcode = 14;
+  string team_name = 2;
+  int32 team_id = 3;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FishingScore {
+  bool is_new_record = 13;
+  uint32 fishing_score = 10;
+}

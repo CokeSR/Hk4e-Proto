@@ -1,0 +1,26 @@
+
+syntax = "proto3";
+
+import "GCGOperationAttack.proto";
+import "GCGOperationOnStageSelect.proto";
+import "GCGOperationPass.proto";
+import "GCGOperationPlayCard.proto";
+import "GCGOperationReboot.proto";
+import "GCGOperationRedraw.proto";
+import "GCGOperationReroll.proto";
+import "GCGOperationSurrender.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGOperation {
+  oneof op {
+    GCGOperationRedraw op_redraw = 12;
+    GCGOperationOnStageSelect op_select_on_stage = 4;
+    GCGOperationReroll op_reroll = 13;
+    GCGOperationAttack op_attack = 9;
+    GCGOperationPass op_pass = 10;
+    GCGOperationPlayCard op_play_card = 8;
+    GCGOperationReboot op_reboot = 6;
+    GCGOperationSurrender op_surrender = 15;
+  }
+}

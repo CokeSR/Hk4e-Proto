@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FishChosenNotify {
+  // CMD_ID = 5831
+
+  uint32 fish_id = 14;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "AuditState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ContentAuditInfo {
+  bool is_open = 1;
+  string content = 2;
+  uint32 submit_count = 3;
+  AuditState audit_state = 4;
+  uint32 submit_limit = 5;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ResVersionConfig.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetNextResourceInfoRsp {
+  // CMD_ID = 189
+
+  ResVersionConfig next_res_version_config = 5;
+  int32 retcode = 9;
+  string next_resource_url = 1;
+}

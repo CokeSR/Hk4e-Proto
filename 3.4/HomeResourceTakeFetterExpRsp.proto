@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeResource.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeResourceTakeFetterExpRsp {
+  // CMD_ID = 4837
+
+  HomeResource fetter_exp = 12;
+  int32 retcode = 3;
+}

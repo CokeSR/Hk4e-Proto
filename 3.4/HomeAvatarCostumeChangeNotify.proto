@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarCostumeChangeNotify {
+  // CMD_ID = 4523
+
+  uint32 avatar_id = 7;
+  uint32 costume_id = 13;
+}

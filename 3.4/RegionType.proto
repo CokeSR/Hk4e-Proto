@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum RegionType {
+  REGION_TYPE_PRODUCT = 0;
+  REGION_TYPE_EXAM = 1;
+  REGION_TYPE_DEV_PUB = 2;
+  REGION_TYPE_DEV_PRI = 3;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanV3BoatStageInfo {
+  repeated uint32 player_uid_list = 4;
+  uint32 match_id = 11;
+  uint32 map_id = 15;
+  bool is_single = 8;
+}

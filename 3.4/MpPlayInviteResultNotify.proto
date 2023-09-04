@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MpPlayInviteResultNotify {
+  // CMD_ID = 1824
+
+  bool all_argee = 10;
+  uint32 mp_play_id = 5;
+}

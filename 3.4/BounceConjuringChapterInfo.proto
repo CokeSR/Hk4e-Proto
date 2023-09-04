@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BounceConjuringChapterInfo {
+  uint32 chapter_id = 2;
+  uint32 best_score = 3;
+  uint32 open_time = 11;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeAvatarAllFinishRewardNotify {
+  // CMD_ID = 4503
+
+  repeated uint32 event_id_list = 1;
+}

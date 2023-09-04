@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassProduct {
+  string normal_product_id = 4;
+  string extra_product_id = 14;
+  string upgrade_product_id = 7;
+}

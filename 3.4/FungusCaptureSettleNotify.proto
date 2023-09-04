@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusCaptureSettleNotify {
+  // CMD_ID = 5585
+
+  bool is_success = 4;
+}

@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ProductPriceTier {
+  string product_id = 10;
+  string price_tier = 6;
+}

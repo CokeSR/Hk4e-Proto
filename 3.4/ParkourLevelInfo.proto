@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ParkourLevelInfo {
+  uint32 open_time = 10;
+  Vector pos = 5;
+  uint32 best_record = 1;
+  bool is_open = 12;
+}

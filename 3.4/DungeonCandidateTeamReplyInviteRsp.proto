@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamReplyInviteRsp {
+  // CMD_ID = 952
+
+  bool is_trans_point = 2;
+  int32 retcode = 1;
+}

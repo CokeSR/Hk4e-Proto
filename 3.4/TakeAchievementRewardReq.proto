@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeAchievementRewardReq {
+  // CMD_ID = 2696
+
+  repeated uint32 id_list = 10;
+}

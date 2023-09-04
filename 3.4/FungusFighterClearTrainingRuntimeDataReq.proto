@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FungusFighterClearTrainingRuntimeDataReq {
+  // CMD_ID = 23642
+
+  uint32 dungeon_id = 3;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CustomGadgetTreeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WinterCampEditSnowmanCombinationReq {
+  // CMD_ID = 8170
+
+  uint32 entity_id = 2;
+  CustomGadgetTreeInfo combination_info = 4;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HomeCustomFurnitureInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeEditCustomFurnitureRsp {
+  // CMD_ID = 4717
+
+  int32 retcode = 7;
+  HomeCustomFurnitureInfo custom_furniture_info = 11;
+}

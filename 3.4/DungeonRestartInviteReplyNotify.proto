@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonRestartInviteReplyNotify {
+  // CMD_ID = 967
+
+  bool is_accept = 8;
+  uint32 player_uid = 1;
+}

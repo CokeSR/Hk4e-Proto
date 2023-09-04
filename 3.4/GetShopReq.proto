@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetShopReq {
+  // CMD_ID = 705
+
+  uint32 shop_type = 5;
+}

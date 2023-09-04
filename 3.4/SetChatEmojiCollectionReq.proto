@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ChatEmojiCollectionData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetChatEmojiCollectionReq {
+  // CMD_ID = 4060
+
+  ChatEmojiCollectionData chat_emoji_collection_data = 11;
+}

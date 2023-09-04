@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CustomGadgetTreeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetCustomTreeInfoNotify {
+  // CMD_ID = 842
+
+  uint32 gadget_entity_id = 2;
+  CustomGadgetTreeInfo custom_gadget_tree_info = 9;
+}

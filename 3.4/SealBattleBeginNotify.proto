@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "SealBattleType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SealBattleBeginNotify {
+  // CMD_ID = 261
+
+  uint32 seal_radius = 12;
+  uint32 seal_max_progress = 2;
+  uint32 seal_entity_id = 15;
+  SealBattleType battle_type = 4;
+}

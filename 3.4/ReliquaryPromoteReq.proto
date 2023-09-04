@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReliquaryPromoteReq {
+  // CMD_ID = 618
+
+  uint64 item_guid = 10;
+  uint64 target_guid = 12;
+}

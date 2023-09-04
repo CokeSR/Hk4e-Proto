@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeBattlePassMissionPointRsp {
+  // CMD_ID = 2635
+
+  repeated uint32 mission_id_list = 10;
+  int32 retcode = 4;
+}

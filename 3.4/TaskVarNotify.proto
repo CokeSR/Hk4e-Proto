@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "TaskVar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TaskVarNotify {
+  // CMD_ID = 177
+
+  repeated TaskVar task_var_list = 9;
+}

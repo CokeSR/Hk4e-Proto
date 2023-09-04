@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ProductPriceTier.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerRechargeDataNotify {
+  // CMD_ID = 4119
+
+  uint32 card_product_remain_days = 14;
+  repeated ProductPriceTier product_price_tier_list = 10;
+}

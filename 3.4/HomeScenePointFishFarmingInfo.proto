@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeScenePointFishFarmingInfo {
+  repeated uint32 fish_id_list = 11;
+  uint32 scene_id = 6;
+  uint32 local_entity_id = 5;
+}

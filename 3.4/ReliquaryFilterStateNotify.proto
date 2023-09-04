@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReliquaryFilterStateNotify {
+  // CMD_ID = 631
+
+  map<uint32, uint32> reliquary_filter_state_map = 11;
+}

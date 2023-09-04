@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGTCTavernChallengeData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGTCTavernChallengeUpdateNotify {
+  // CMD_ID = 7570
+
+  GCGTCTavernChallengeData tavern_challenge = 10;
+}

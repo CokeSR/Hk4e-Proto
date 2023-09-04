@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GachaStageData {
+  map<uint32, uint32> target_num_map = 11;
+  uint32 stage_id = 15;
+  bool is_open = 4;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeChangeBgmReq {
+  // CMD_ID = 4469
+
+  uint32 bgm_id = 12;
+}

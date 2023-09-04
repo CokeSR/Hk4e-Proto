@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GearLevelData.proto";
+import "JigsawPictureData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GearActivityDetailInfo {
+  repeated GearLevelData gear_level_data_list = 9;
+  JigsawPictureData jigsaw_picture_data = 13;
+}

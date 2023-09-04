@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "VintageMarketStoreOpInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketStoreChooseStrategyReq {
+  // CMD_ID = 20971
+
+  uint32 store_id = 10;
+  repeated uint32 strategy_list = 2;
+  repeated VintageMarketStoreOpInfo store_op_list = 15;
+}

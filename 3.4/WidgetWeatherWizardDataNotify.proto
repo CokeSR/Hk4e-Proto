@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetWeatherWizardDataNotify {
+  // CMD_ID = 5947
+
+  uint32 shield_value = 15;
+}

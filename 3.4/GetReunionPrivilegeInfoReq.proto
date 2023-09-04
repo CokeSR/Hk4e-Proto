@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetReunionPrivilegeInfoReq {
+  // CMD_ID = 5057
+
+  uint32 privilege_id = 4;
+}

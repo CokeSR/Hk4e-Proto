@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LanternRiteStartFireworksReformReq {
+  // CMD_ID = 8874
+
+  uint32 challenge_id = 12;
+  uint32 stage_id = 11;
+}

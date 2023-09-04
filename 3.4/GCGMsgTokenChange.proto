@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgTokenChange {
+  uint32 card_guid = 6;
+  uint32 after = 5;
+  uint32 before = 15;
+  uint32 token_type = 8;
+  GCGReason reason = 12;
+}

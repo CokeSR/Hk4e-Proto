@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message BartenderCancelLevelRsp {
+  // CMD_ID = 8492
+
+  int32 retcode = 2;
+  uint32 level_id = 8;
+}

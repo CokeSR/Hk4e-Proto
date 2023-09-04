@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GearLevelData {
+  uint32 shortest_time = 1;
+  uint32 open_time = 4;
+  uint32 level_id = 7;
+  uint32 last_duration = 12;
+  bool is_finished = 13;
+  bool is_open = 9;
+}

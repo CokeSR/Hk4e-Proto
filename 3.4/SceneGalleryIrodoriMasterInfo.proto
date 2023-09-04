@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryIrodoriMasterInfo {
+  bool is_cg_viewed = 6;
+  uint32 difficulty = 12;
+  uint32 level_id = 13;
+}

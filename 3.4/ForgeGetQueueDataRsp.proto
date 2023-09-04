@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ForgeQueueData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeGetQueueDataRsp {
+  // CMD_ID = 607
+
+  int32 retcode = 12;
+  uint32 max_queue_num = 7;
+  map<uint32, ForgeQueueData> forge_queue_map = 4;
+}

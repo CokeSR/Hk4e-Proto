@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryMuqadasPotionInfo {
+  uint32 skill_use_limit = 13;
+  uint32 score = 14;
+  uint32 skill_energy = 3;
+  uint32 capture_weakness_count = 5;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "WIDGET_EXTRA_CD_TYPE.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetUpdateExtraCDReq {
+  // CMD_ID = 5973
+
+  WIDGET_EXTRA_CD_TYPE extra_cd_type = 9;
+  uint32 material_id = 11;
+  uint32 cd_group = 7;
+}

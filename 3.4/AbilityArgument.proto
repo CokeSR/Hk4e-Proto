@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityArgument {
+  oneof arg {
+    uint32 int_arg = 11;
+    float float_arg = 2;
+    string str_arg = 8;
+  }
+}

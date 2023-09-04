@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerFriendFlowerWishData {
+  ProfilePicture profile_picture = 15;
+  string nickname = 3;
+  uint32 uid = 6;
+  map<uint32, uint32> flower_num_map = 7;
+}

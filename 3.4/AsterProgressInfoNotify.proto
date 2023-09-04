@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AsterProgressDetailInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterProgressInfoNotify {
+  // CMD_ID = 2091
+
+  AsterProgressDetailInfo info = 7;
+}

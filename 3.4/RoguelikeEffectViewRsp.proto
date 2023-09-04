@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeEffectViewRsp {
+  // CMD_ID = 8645
+
+  int32 retcode = 1;
+}

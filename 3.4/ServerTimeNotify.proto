@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ServerTimeNotify {
+  // CMD_ID = 14
+
+  uint64 server_time = 12;
+}

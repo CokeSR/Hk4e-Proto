@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MiracleRingDropResultNotify {
+  // CMD_ID = 5243
+
+  int32 drop_result = 6;
+  int32 last_take_reward_time = 9;
+}

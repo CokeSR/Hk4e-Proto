@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DropHintNotify {
+  // CMD_ID = 642
+
+  Vector position = 9;
+  repeated uint32 item_id_list = 10;
+}

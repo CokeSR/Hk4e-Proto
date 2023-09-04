@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeCityReputationLevelRewardRsp {
+  // CMD_ID = 2898
+
+  int32 retcode = 10;
+  repeated ItemParam item_list = 12;
+  uint32 city_id = 8;
+  uint32 level = 11;
+}

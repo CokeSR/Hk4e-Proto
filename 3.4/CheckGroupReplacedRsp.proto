@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CheckGroupReplacedRsp {
+  // CMD_ID = 3117
+
+  int32 retcode = 3;
+  repeated uint32 replaced_group_id_list = 6;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReadMailNotify {
+  // CMD_ID = 1487
+
+  repeated uint32 mail_id_list = 15;
+}

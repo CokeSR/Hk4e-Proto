@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MainCoop.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MainCoopUpdateNotify {
+  // CMD_ID = 1995
+
+  repeated MainCoop main_coop_list = 5;
+}

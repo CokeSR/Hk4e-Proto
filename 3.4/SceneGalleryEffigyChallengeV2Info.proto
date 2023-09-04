@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryEffigyChallengeV2Info {
+  uint32 boss_violent_level = 5;
+  uint32 total_target_kill_cnt = 12;
+  uint32 killed_monster_cnt = 8;
+  uint32 scene_start_time = 13;
+  uint32 t_remain_use_time = 6;
+}

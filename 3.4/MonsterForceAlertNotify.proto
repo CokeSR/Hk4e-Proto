@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MonsterForceAlertNotify {
+  // CMD_ID = 345
+
+  uint32 monster_entity_id = 5;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "BargainSnapshot.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAllActivatedBargainDataRsp {
+  // CMD_ID = 445
+
+  repeated BargainSnapshot snapshot_list = 2;
+  int32 retcode = 14;
+}

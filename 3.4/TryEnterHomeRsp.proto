@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TryEnterHomeRsp {
+  // CMD_ID = 4820
+
+  uint32 target_uid = 15;
+  repeated uint32 param_list = 10;
+  int32 retcode = 12;
+}

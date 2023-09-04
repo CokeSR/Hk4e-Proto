@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "GCGReason.proto";
+import "GCGZoneType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGMsgMoveCard {
+  uint32 controller_id = 6;
+  GCGZoneType from = 3;
+  repeated uint32 card_guid_list = 15;
+  repeated uint32 fail_guid_list = 10;
+  GCGZoneType to = 12;
+  GCGReason reason = 4;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DynamicSVONode {
+  int32 area = 13;
+  int64 index = 11;
+  Vector refer_pos = 9;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerEnterDungeonRsp {
+  // CMD_ID = 998
+
+  uint32 point_id = 1;
+  uint32 dungeon_id = 11;
+  int32 retcode = 3;
+}

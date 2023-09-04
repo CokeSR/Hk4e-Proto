@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonWayPointActivateReq {
+  // CMD_ID = 970
+
+  uint32 way_point_id = 11;
+}

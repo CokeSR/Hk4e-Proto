@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryTeamChainInfo {
+  uint32 cur_gallery_idx = 8;
+  uint32 gallery_score_end_time = 7;
+  uint32 total_target_kill_cnt = 4;
+  uint32 killed_monster_cnt = 3;
+  uint32 cur_total_score = 1;
+}

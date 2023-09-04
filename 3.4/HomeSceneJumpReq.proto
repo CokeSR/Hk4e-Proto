@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSceneJumpReq {
+  // CMD_ID = 4826
+
+  bool is_enter_room_scene = 13;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AvatarSatiationData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarSatiationDataNotify {
+  // CMD_ID = 1722
+
+  repeated AvatarSatiationData satiation_data_list = 9;
+}

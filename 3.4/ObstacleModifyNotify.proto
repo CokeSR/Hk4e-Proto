@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "ObstacleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ObstacleModifyNotify {
+  // CMD_ID = 2387
+
+  repeated ObstacleInfo add_obstacles = 14;
+  repeated int32 remove_obstacle_ids = 7;
+  uint32 scene_id = 9;
+}

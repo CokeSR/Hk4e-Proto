@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message LunaRiteSacrificeRsp {
+  // CMD_ID = 8324
+
+  int32 retcode = 8;
+  uint32 area_id = 13;
+  uint32 index = 7;
+  repeated uint32 sacrifice_list = 9;
+}

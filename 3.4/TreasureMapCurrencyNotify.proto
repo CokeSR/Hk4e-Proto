@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TreasureMapCurrencyNotify {
+  // CMD_ID = 2038
+
+  uint32 currency_num = 13;
+}

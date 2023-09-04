@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageDecorateBoothRsp {
+  // CMD_ID = 20174
+
+  int32 retcode = 2;
+}

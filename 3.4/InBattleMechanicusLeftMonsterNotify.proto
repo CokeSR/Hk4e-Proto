@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusLeftMonsterNotify {
+  // CMD_ID = 5374
+
+  uint32 left_monster = 6;
+}

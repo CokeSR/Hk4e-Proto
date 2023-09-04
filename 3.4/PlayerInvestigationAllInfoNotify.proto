@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Investigation.proto";
+import "InvestigationTarget.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerInvestigationAllInfoNotify {
+  // CMD_ID = 1917
+
+  repeated InvestigationTarget investigation_target_list = 6;
+  repeated Investigation investigation_list = 2;
+}

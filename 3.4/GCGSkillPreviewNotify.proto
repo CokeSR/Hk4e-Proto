@@ -1,0 +1,18 @@
+
+syntax = "proto3";
+
+import "GCGChangeOnstageInfo.proto";
+import "GCGSkillPreviewInfo.proto";
+import "GCGSkillPreviewPlayCardInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSkillPreviewNotify {
+  // CMD_ID = 7368
+
+  repeated GCGChangeOnstageInfo change_onstage_preview_list = 2;
+  uint32 controller_id = 3;
+  repeated GCGSkillPreviewInfo skill_preview_list = 6;
+  repeated GCGSkillPreviewPlayCardInfo play_card_list = 9;
+  uint32 onstage_card_guid = 10;
+}

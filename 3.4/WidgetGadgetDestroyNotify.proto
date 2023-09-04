@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetGadgetDestroyNotify {
+  // CMD_ID = 4254
+
+  uint32 entity_id = 3;
+}

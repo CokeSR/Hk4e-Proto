@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MassiveEntityState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message MassiveEntityStateChangedNotify {
+  // CMD_ID = 379
+
+  repeated MassiveEntityState massive_entity_state_list = 5;
+}

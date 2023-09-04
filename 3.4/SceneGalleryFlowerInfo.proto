@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryFlowerInfo {
+  uint32 cur_score = 7;
+  uint32 target_score = 6;
+  uint32 end_time = 8;
+}

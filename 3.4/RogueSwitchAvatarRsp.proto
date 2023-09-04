@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueSwitchAvatarRsp {
+  // CMD_ID = 8548
+
+  repeated uint64 backstage_avatar_guid_list = 2;
+  repeated uint64 onstage_avatar_guid_list = 13;
+  uint32 cell_id = 12;
+  uint64 cur_avatar_guid = 3;
+  int32 retcode = 15;
+  uint32 dungeon_id = 7;
+}

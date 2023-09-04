@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GivingRecord {
+  bool is_gadget_giving = 6;
+  uint32 group_id = 14;
+  uint32 giving_id = 4;
+  uint32 config_id = 7;
+  uint32 last_group_id = 8;
+  bool is_finished = 1;
+  map<uint32, uint32> material_cnt_map = 10;
+}

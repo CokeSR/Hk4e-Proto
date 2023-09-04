@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonCandidateTeamInviteReq {
+  // CMD_ID = 951
+
+  repeated uint32 player_uids = 11;
+}

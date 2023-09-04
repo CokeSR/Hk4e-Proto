@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DigMarkPoint {
+  Vector rot = 14;
+  Vector pos = 2;
+  uint32 bundle_id = 3;
+}

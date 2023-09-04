@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientAbilityInitBeginNotify {
+  // CMD_ID = 1187
+
+  uint32 entity_id = 2;
+}

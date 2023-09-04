@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ChangeGameTimeRsp {
+  // CMD_ID = 114
+
+  uint32 cur_game_time = 15;
+  uint32 extra_days = 5;
+  int32 retcode = 7;
+}

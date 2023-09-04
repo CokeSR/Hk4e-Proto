@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryRoomInfo {
+  repeated Uint32Pair monster_list = 8;
+  bool is_boss = 4;
+  uint32 config_id = 14;
+}

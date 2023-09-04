@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAreaExplorePointReq {
+  // CMD_ID = 207
+
+  repeated uint32 area_id_list = 5;
+}

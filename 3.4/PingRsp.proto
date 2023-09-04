@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PingRsp {
+  // CMD_ID = 74
+
+  uint32 seq = 4;
+  int32 retcode = 11;
+  uint32 client_time = 1;
+}

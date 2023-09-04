@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerOfferingData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerOfferingDataNotify {
+  // CMD_ID = 2915
+
+  repeated PlayerOfferingData offering_data_list = 8;
+}

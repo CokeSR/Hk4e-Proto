@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "WIDGET_EXTRA_CD_TYPE.proto";
+import "WidgetCoolDownData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetUpdateExtraCDRsp {
+  // CMD_ID = 5908
+
+  uint32 material_id = 12;
+  uint32 cd_group = 3;
+  WidgetCoolDownData cool_data = 6;
+  int32 retcode = 13;
+  WIDGET_EXTRA_CD_TYPE extra_cd_type = 4;
+}

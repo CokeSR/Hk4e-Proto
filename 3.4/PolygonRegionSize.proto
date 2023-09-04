@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "VectorPlane.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PolygonRegionSize {
+  float height = 13;
+  repeated VectorPlane point_list = 15;
+}

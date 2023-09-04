@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "AvatarEquipAffixInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarEquipAffixStartNotify {
+  // CMD_ID = 1602
+
+  AvatarEquipAffixInfo equip_affix_info = 5;
+  uint64 avatar_guid = 15;
+}

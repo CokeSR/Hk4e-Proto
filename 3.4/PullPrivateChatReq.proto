@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PullPrivateChatReq {
+  // CMD_ID = 5024
+
+  uint32 target_uid = 1;
+  uint32 from_sequence = 4;
+  uint32 pull_num = 6;
+}

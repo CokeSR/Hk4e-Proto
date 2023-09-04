@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UnlockedFurnitureFormulaDataNotify {
+  // CMD_ID = 4510
+
+  bool is_all = 14;
+  repeated uint32 furniture_id_list = 8;
+}

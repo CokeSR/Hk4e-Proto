@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ViewLanternProjectionLevelTipsReq {
+  // CMD_ID = 8211
+
+  uint32 level_id = 14;
+}

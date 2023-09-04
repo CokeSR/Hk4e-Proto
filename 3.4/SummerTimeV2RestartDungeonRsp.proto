@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeV2RestartDungeonRsp {
+  // CMD_ID = 8606
+
+  int32 retcode = 3;
+}

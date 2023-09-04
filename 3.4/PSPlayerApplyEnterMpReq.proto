@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PSPlayerApplyEnterMpReq {
+  // CMD_ID = 1837
+
+  string target_psn_id = 6;
+}

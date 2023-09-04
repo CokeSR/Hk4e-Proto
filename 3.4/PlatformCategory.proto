@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum PlatformCategory {
+  PLATFORM_CATEGORY_NONE = 0;
+  PLATFORM_CATEGORY_PCM = 1;
+  PLATFORM_CATEGORY_PSN = 2;
+}

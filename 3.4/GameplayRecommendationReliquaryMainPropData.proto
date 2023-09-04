@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GameplayRecommendationReliquaryMainPropData {
+  uint32 main_prop_id = 6;
+  uint32 permillage = 9;
+}

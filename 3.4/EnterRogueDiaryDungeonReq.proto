@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "RogueDiaryAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EnterRogueDiaryDungeonReq {
+  // CMD_ID = 8647
+
+  repeated RogueDiaryAvatar chosen_avatar_list = 5;
+  repeated uint32 chosen_card_list = 2;
+}

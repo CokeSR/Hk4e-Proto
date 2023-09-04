@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "MaterilaInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message DestroyMaterialReq {
+  // CMD_ID = 601
+
+  repeated MaterilaInfo material_list = 10;
+}

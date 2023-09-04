@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeSceneJumpRsp {
+  // CMD_ID = 4822
+
+  bool is_enter_room_scene = 1;
+  int32 retcode = 2;
+}

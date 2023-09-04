@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "GCGSettleOption.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSettleOptionReq {
+  // CMD_ID = 7511
+
+  GCGSettleOption option = 13;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetSceneNpcPositionReq {
+  // CMD_ID = 598
+
+  uint32 scene_id = 8;
+  repeated uint32 npc_id_list = 1;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeGetGroupRecordReq {
+  // CMD_ID = 4662
+
+  uint32 group_id = 13;
+}

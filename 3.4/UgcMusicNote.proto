@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UgcMusicNote {
+  uint32 start_time = 3;
+  uint32 end_time = 5;
+}

@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "BattlePassMission.proto";
+import "BattlePassSchedule.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BattlePassAllDataNotify {
+  // CMD_ID = 2638
+
+  bool have_cur_schedule = 6;
+  BattlePassSchedule cur_schedule = 15;
+  repeated BattlePassMission mission_list = 3;
+}

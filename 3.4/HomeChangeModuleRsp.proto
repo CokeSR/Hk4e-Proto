@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeChangeModuleRsp {
+  // CMD_ID = 4833
+
+  uint32 target_module_id = 11;
+  int32 retcode = 13;
+}

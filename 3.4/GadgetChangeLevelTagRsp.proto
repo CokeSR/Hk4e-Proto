@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GadgetChangeLevelTagRsp {
+  // CMD_ID = 830
+
+  int32 retcode = 11;
+}

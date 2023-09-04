@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdatePS4FriendListRsp {
+  // CMD_ID = 4065
+
+  repeated string psn_id_list = 7;
+  int32 retcode = 15;
+}

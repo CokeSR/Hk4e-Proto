@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeScenePointFishFarmingInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeUpdateScenePointFishFarmingInfoReq {
+  // CMD_ID = 4587
+
+  HomeScenePointFishFarmingInfo fish_farming_info = 10;
+}

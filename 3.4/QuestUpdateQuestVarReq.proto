@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "QuestVarOp.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestUpdateQuestVarReq {
+  // CMD_ID = 439
+
+  uint32 parent_quest_var_seq = 9;
+  uint32 parent_quest_id = 12;
+  repeated QuestVarOp quest_var_op_list = 4;
+  uint32 quest_id = 3;
+}

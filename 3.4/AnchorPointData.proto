@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AnchorPointData {
+  uint32 scene_id = 15;
+  Vector rot = 13;
+  uint32 end_time = 10;
+  Vector pos = 12;
+  uint32 anchor_point_id = 11;
+}

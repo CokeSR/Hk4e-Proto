@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PbNavMeshStatsInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message NavMeshStatsNotify {
+  // CMD_ID = 2395
+
+  repeated PbNavMeshStatsInfo infos = 13;
+}

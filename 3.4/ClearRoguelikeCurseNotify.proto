@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClearRoguelikeCurseNotify {
+  // CMD_ID = 8183
+
+  bool is_curse_all_clear = 14;
+  bool is_clear_all = 9;
+  map<uint32, uint32> clear_curse_map = 12;
+  uint32 card_id = 6;
+}

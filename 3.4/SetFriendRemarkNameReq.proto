@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SetFriendRemarkNameReq {
+  // CMD_ID = 4094
+
+  uint32 uid = 11;
+  string remark_name = 15;
+}

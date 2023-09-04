@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "PlayerLocationInfo.proto";
+import "PlayerWorldLocationInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WorldPlayerLocationNotify {
+  // CMD_ID = 283
+
+  repeated PlayerLocationInfo player_loc_list = 4;
+  repeated PlayerWorldLocationInfo player_world_loc_list = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message JoinPlayerSceneRsp {
+  // CMD_ID = 289
+
+  int32 retcode = 6;
+}

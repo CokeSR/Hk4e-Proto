@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ItemParam.proto";
+import "PlayerOfferingData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerOfferingRsp {
+  // CMD_ID = 2916
+
+  int32 retcode = 1;
+  PlayerOfferingData offering_data = 15;
+  repeated ItemParam item_list = 14;
+}

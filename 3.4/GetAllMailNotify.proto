@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetAllMailNotify {
+  // CMD_ID = 1416
+
+  bool is_collected = 11;
+}

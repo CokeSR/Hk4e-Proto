@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriScanEntityReq {
+  // CMD_ID = 8657
+
+  uint32 entity_id = 3;
+}

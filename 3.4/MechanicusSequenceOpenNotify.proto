@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MechanicusSequenceOpenNotify {
+  // CMD_ID = 3987
+
+  uint32 mechanicus_id = 5;
+  uint32 sequence_id = 4;
+}

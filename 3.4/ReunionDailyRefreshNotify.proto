@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "ReunionBriefInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ReunionDailyRefreshNotify {
+  // CMD_ID = 5098
+
+  ReunionBriefInfo reunion_brief_info = 13;
+}

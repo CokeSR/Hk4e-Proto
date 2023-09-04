@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message UpdateSalvageBundleMarkRsp {
+  // CMD_ID = 8990
+
+  uint32 challenge_type = 6;
+  uint32 stage_id = 10;
+  int32 retcode = 1;
+}

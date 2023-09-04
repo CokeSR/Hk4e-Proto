@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "InBattleMechanicusCardInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusCardResultNotify {
+  // CMD_ID = 5316
+
+  uint32 play_index = 10;
+  uint64 wait_begin_time_us = 4;
+  repeated InBattleMechanicusCardInfo card_list = 5;
+  map<uint32, uint32> player_confirmed_card_map = 12;
+  uint32 group_id = 15;
+  uint32 wait_seconds = 9;
+}

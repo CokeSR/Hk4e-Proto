@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "ForgeQueueManipulateType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeQueueManipulateReq {
+  // CMD_ID = 653
+
+  uint32 forge_queue_id = 5;
+  ForgeQueueManipulateType manipulate_type = 2;
+}

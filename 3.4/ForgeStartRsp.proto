@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ForgeStartRsp {
+  // CMD_ID = 603
+
+  int32 retcode = 10;
+}

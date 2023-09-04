@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGetSeedInfoRsp {
+  // CMD_ID = 8249
+
+  uint32 seed_reward_id = 3;
+  uint32 schedule_id = 8;
+  int32 retcode = 11;
+}

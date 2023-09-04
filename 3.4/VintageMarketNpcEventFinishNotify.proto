@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message VintageMarketNpcEventFinishNotify {
+  // CMD_ID = 21065
+
+  repeated uint32 unlock_strategy_list = 15;
+  uint32 coin_a = 12;
+  uint32 coin_c = 8;
+}

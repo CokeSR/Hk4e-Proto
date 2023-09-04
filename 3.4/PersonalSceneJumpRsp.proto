@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PersonalSceneJumpRsp {
+  // CMD_ID = 204
+
+  uint32 dest_scene_id = 3;
+  Vector dest_pos = 2;
+  int32 retcode = 12;
+}

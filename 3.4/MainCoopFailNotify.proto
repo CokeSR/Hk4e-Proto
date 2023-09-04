@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MainCoopFailNotify {
+  // CMD_ID = 1976
+
+  string textmap_id = 4;
+  uint32 chapter_id = 13;
+}

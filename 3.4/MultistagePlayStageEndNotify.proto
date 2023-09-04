@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MultistagePlayStageEndNotify {
+  // CMD_ID = 5341
+
+  uint32 group_id = 9;
+  uint32 play_index = 14;
+}

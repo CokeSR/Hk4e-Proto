@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AddBlacklistRsp {
+  // CMD_ID = 4073
+
+  FriendBrief target_friend_brief = 2;
+  int32 retcode = 7;
+}

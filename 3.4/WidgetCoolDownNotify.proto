@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "WidgetCoolDownData.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message WidgetCoolDownNotify {
+  // CMD_ID = 4290
+
+  repeated WidgetCoolDownData normal_cool_down_data_list = 15;
+  repeated WidgetCoolDownData group_cool_down_data_list = 10;
+}

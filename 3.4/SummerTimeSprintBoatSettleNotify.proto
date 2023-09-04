@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SummerTimeSprintBoatSettleNotify {
+  // CMD_ID = 8474
+
+  uint32 left_time = 11;
+  uint32 score = 14;
+  uint32 group_id = 1;
+  uint32 collect_num = 3;
+  uint32 medal_level = 8;
+  bool is_success = 2;
+  uint32 total_num = 7;
+  bool is_new_record = 4;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "GCGLimitsInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGSkillLimitsInfo {
+  repeated GCGLimitsInfo limits_list = 8;
+  uint32 skill_id = 9;
+}

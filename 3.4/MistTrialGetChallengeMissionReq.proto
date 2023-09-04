@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MistTrialGetChallengeMissionReq {
+  // CMD_ID = 8534
+
+  uint32 trial_id = 3;
+}

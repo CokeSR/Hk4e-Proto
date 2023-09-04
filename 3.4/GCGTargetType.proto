@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GCGTargetType {
+  GCG_TARGET_TYPE_NONE = 0;
+  GCG_TARGET_TYPE_CARD = 1;
+  GCG_TARGET_TYPE_DICE = 2;
+}

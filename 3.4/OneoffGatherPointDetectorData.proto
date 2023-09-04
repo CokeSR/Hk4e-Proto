@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message OneoffGatherPointDetectorData {
+  bool is_hint_valid = 2;
+  uint32 config_id = 9;
+  Vector hint_center_pos = 3;
+  uint32 material_id = 10;
+  bool is_all_collected = 13;
+  uint32 group_id = 14;
+  uint32 hint_radius = 5;
+}

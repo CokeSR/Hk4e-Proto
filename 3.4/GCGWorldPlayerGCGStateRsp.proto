@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "GCGPlayerGCGState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGWorldPlayerGCGStateRsp {
+  // CMD_ID = 7280
+
+  int32 retcode = 2;
+  repeated GCGPlayerGCGState player_state = 5;
+}

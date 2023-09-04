@@ -1,0 +1,16 @@
+
+syntax = "proto3";
+
+import "ExhibitionDisplayInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleChessSettleInfo {
+  uint32 old_chess_exp = 9;
+  uint64 scene_time_ms = 11;
+  uint32 old_chess_level = 15;
+  bool is_success = 2;
+  repeated ExhibitionDisplayInfo score_list = 1;
+  uint32 chess_exp = 3;
+  uint32 chess_level = 10;
+}

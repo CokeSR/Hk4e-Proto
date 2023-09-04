@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "HuntingPair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetHuntingOfferRewardReq {
+  // CMD_ID = 4319
+
+  HuntingPair hunting_pair = 14;
+  uint32 city_id = 13;
+}

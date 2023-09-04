@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeReunionWatcherRewardReq {
+  // CMD_ID = 5052
+
+  uint32 watcher_id = 4;
+  uint32 mission_id = 15;
+}

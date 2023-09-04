@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "HomeBalloonRecord.proto";
+import "HomeRacingRecord.proto";
+import "HomeSeekFurnitureAllRecord.proto";
+import "HomeStakeRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeGroupRecord {
+  uint32 group_id = 8;
+  oneof detail {
+    HomeRacingRecord racing_gallery_info = 1457;
+    HomeBalloonRecord balloon_gallery_info = 1480;
+    HomeStakeRecord stake_play_info = 1758;
+    HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 1801;
+  }
+}

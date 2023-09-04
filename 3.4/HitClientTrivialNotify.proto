@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HitClientTrivialNotify {
+  // CMD_ID = 272
+
+  Vector position = 9;
+  uint32 owner_entity_id = 4;
+}

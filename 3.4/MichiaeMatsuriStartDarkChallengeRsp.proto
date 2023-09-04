@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriStartDarkChallengeRsp {
+  // CMD_ID = 8269
+
+  int32 retcode = 1;
+}

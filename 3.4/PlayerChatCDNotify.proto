@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerChatCDNotify {
+  // CMD_ID = 3277
+
+  uint32 over_time = 3;
+}

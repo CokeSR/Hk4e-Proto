@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerSetFlowerWishRsp {
+  // CMD_ID = 8902
+
+  uint32 schedule_id = 4;
+  int32 retcode = 15;
+}

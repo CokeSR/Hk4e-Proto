@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlantFlowerGetSeedInfoReq {
+  // CMD_ID = 8882
+
+  uint32 schedule_id = 13;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestTransmitRsp {
+  // CMD_ID = 450
+
+  uint32 point_id = 8;
+  int32 retcode = 7;
+  uint32 quest_id = 5;
+}

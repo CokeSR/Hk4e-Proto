@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetReunionMissionInfoReq {
+  // CMD_ID = 5066
+
+  uint32 mission_id = 8;
+}

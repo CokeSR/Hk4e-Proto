@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "SalvageEscortSettleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SalvageEscortSettleNotify {
+  // CMD_ID = 8967
+
+  uint32 gallery_id = 5;
+  SalvageEscortSettleInfo settle_info = 2;
+}

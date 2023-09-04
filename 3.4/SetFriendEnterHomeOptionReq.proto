@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "FriendEnterHomeOption.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SetFriendEnterHomeOptionReq {
+  // CMD_ID = 4830
+
+  FriendEnterHomeOption option = 12;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PhotoActivityClientViewReq {
+  // CMD_ID = 8687
+
+  uint32 pos_id = 14;
+}

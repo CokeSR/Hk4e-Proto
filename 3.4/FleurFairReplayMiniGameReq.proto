@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message FleurFairReplayMiniGameReq {
+  // CMD_ID = 2004
+
+  uint32 minigame_id = 11;
+}

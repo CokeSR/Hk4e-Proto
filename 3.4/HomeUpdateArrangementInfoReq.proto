@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "HomeSceneArrangementInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeUpdateArrangementInfoReq {
+  // CMD_ID = 4689
+
+  HomeSceneArrangementInfo scene_arrangement_info = 2;
+}

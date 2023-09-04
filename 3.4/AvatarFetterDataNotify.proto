@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AvatarFetterInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AvatarFetterDataNotify {
+  // CMD_ID = 1772
+
+  map<uint64, AvatarFetterInfo> fetter_info_map = 11;
+}

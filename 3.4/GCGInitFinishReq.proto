@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGInitFinishReq {
+  // CMD_ID = 7751
+}

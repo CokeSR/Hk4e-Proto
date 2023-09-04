@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message QuestUpdateQuestVarNotify {
+  // CMD_ID = 500
+
+  uint32 parent_quest_id = 11;
+  uint32 parent_quest_var_seq = 14;
+  repeated int32 quest_var = 7;
+}

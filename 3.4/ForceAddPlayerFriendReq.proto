@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ForceAddPlayerFriendReq {
+  // CMD_ID = 4090
+
+  uint32 target_uid = 7;
+}

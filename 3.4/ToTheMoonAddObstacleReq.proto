@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "ToTheMoonObstacleInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ToTheMoonAddObstacleReq {
+  // CMD_ID = 6174
+
+  ToTheMoonObstacleInfo obstacle = 6;
+  uint32 scene_id = 7;
+  int32 query_id = 5;
+  bool use_edge = 15;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RogueDiaryDungeonSettleNotify {
+  // CMD_ID = 8224
+
+  bool is_finish = 2;
+  uint32 explore_time = 3;
+  uint32 cur_round = 12;
+}

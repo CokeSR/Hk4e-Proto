@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerCompoundMaterialBoostReq {
+  // CMD_ID = 102
+
+  uint32 consume_material_id = 13;
+  bool is_boost_all = 8;
+  uint32 consume_material_count = 9;
+  uint32 target_compound_group_id = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HideAndSeekSelectAvatarReq {
+  // CMD_ID = 5381
+
+  uint32 avatar_id = 4;
+}

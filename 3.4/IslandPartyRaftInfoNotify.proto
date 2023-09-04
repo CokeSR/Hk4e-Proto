@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IslandPartyRaftInfoNotify {
+  // CMD_ID = 5588
+
+  uint32 fuel = 9;
+  uint32 component = 12;
+  uint32 point_id = 6;
+  uint32 coin = 5;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientBulletCreateNotify {
+  // CMD_ID = 25
+
+  uint32 param = 3;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonShowReminderNotify {
+  // CMD_ID = 916
+
+  uint32 reminder_id = 5;
+}

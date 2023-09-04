@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetGameTimeLockedQuestListRsp {
+  // CMD_ID = 109
+
+  int32 retcode = 12;
+  repeated uint32 game_time_locked_quest_list = 11;
+}

@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonSetting {
+  repeated uint32 open_room_list = 13;
+  uint32 life_num = 9;
+  uint32 coin_limit = 4;
+  uint32 start_room_id = 10;
+  bool is_forbid_skill = 11;
+  uint32 time_limit = 2;
+  bool is_arrive_finish = 14;
+}

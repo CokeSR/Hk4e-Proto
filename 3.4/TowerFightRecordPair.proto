@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TowerFightRecordPair {
+  uint32 data = 12;
+  uint32 avatar_id = 15;
+}

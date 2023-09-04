@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "MsgParam.proto";
+import "SvrMsgId.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ShowMessageNotify {
+  // CMD_ID = 98
+
+  SvrMsgId msg_id = 7;
+  repeated MsgParam params = 5;
+}

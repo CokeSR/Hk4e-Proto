@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ExitSceneWeatherAreaNotify {
+  // CMD_ID = 294
+
+  uint32 weather_gadget_id = 15;
+}

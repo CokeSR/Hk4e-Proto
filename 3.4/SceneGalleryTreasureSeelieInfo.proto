@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryTreasureSeelieInfo {
+  uint32 progress = 11;
+  uint32 goal = 2;
+}

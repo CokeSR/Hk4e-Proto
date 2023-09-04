@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "EnterCustomDungeonType.proto";
+import "TryCustomDungeonType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CustomDungeonOfficialNotify {
+  // CMD_ID = 6236
+
+  TryCustomDungeonType try_type = 7;
+  repeated uint32 official_black_coin_list = 12;
+  EnterCustomDungeonType enter_type = 11;
+}

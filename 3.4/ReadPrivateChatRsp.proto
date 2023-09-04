@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ReadPrivateChatRsp {
+  // CMD_ID = 4974
+
+  int32 retcode = 7;
+}

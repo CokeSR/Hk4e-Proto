@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message NpcTalkReq {
+  // CMD_ID = 505
+
+  uint32 npc_entity_id = 9;
+  uint32 entity_id = 11;
+  uint32 talk_id = 15;
+}

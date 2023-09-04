@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message FishAttractNotify {
+  // CMD_ID = 5815
+
+  Vector pos = 3;
+  repeated uint32 fish_id_list = 5;
+  uint32 uid = 10;
+}

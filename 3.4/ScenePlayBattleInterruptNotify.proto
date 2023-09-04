@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayBattleInterruptNotify {
+  // CMD_ID = 4379
+
+  uint32 play_type = 4;
+  uint32 interrupt_state = 12;
+  uint32 play_id = 14;
+}

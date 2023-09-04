@@ -1,0 +1,43 @@
+
+syntax = "proto3";
+
+import "StopServerInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message GetPlayerTokenRsp {
+  // CMD_ID = 155
+
+  uint32 sub_channel_id = 891;
+  string token = 6;
+  uint32 uid = 1;
+  string secret_key = 12;
+  uint32 account_type = 3;
+  string msg = 10;
+  bool is_watchdog_uid = 661;
+  bytes security_cmd_buffer = 13;
+  int32 retcode = 15;
+  bytes extra_bin_data = 14;
+  string client_version_random_key = 1558;
+  string country_code = 1960;
+  uint32 key_id = 2003;
+  string birthday = 1459;
+  uint32 gm_uid = 5;
+  uint64 secret_key_seed = 8;
+  uint32 black_uid_end_time = 2;
+  uint32 channel_id = 1356;
+  uint32 reg_platform = 1614;
+  uint32 platform_type = 11;
+  bool is_guest = 4;
+  repeated uint32 finish_collection_id_list = 1846;
+  uint32 tag = 1344;
+  string account_uid = 9;
+  bool is_proficient_player = 7;
+  string sign = 1993;
+  StopServerInfo stop_server = 347;
+  string psn_id = 1285;
+  uint32 minors_reg_min_age = 1481;
+  string client_ip_str = 64;
+  string server_rand_key = 1420;
+  bool is_login_white_list = 1663;
+}

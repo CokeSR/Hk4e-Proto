@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "RoguelikeRuneRecord.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeRuneRecordUpdateNotify {
+  // CMD_ID = 8401
+
+  repeated RoguelikeRuneRecord rune_record_list = 7;
+}

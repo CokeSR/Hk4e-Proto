@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum GalleryStartSource {
+  GALLERY_START_SOURCE_BY_NONE = 0;
+  GALLERY_START_SOURCE_BY_MATCH = 1;
+  GALLERY_START_SOURCE_BY_DRAFT = 2;
+}

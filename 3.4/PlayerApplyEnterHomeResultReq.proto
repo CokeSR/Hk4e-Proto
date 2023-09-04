@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerApplyEnterHomeResultReq {
+  // CMD_ID = 4549
+
+  uint32 apply_uid = 5;
+  bool is_agreed = 4;
+}

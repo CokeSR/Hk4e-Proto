@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+import "BargainResultType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message BargainOfferPriceRsp {
+  // CMD_ID = 418
+
+  BargainResultType bargain_result = 2;
+  int32 retcode = 13;
+  int32 cur_mood = 7;
+  uint32 result_param = 11;
+}

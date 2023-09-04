@@ -1,0 +1,14 @@
+
+syntax = "proto3";
+
+import "AsterLittleStageState.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AsterLittleDetailInfo {
+  uint32 stage_begin_time = 13;
+  AsterLittleStageState stage_state = 9;
+  uint32 stage_id = 6;
+  uint32 begin_time = 11;
+  bool is_open = 12;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MonsterAIConfigHashNotify {
+  // CMD_ID = 3324
+
+  int32 hash_value = 9;
+  uint32 entity_id = 7;
+  uint32 job_id = 1;
+}

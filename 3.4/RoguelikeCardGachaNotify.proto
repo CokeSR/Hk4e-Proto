@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message RoguelikeCardGachaNotify {
+  // CMD_ID = 8033
+
+  bool is_can_refresh = 9;
+  repeated uint32 card_list = 5;
+}

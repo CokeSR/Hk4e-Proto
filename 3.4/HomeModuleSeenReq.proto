@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeModuleSeenReq {
+  // CMD_ID = 4817
+
+  repeated uint32 seen_module_id_list = 4;
+}

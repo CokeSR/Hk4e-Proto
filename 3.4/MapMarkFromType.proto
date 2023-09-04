@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+enum MapMarkFromType {
+  MAP_MARK_FROM_TYPE_NOE = 0;
+  MAP_MARK_FROM_TYPE_MONSTER = 1;
+  MAP_MARK_FROM_TYPE_QUEST = 2;
+}

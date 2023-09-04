@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message IrodoriMasterStartGalleryReq {
+  // CMD_ID = 8933
+
+  uint32 level_id = 3;
+  uint32 difficulty = 5;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message MichiaeMatsuriRemoveChallengeMarkNotify {
+  // CMD_ID = 8168
+
+  uint32 group_id = 12;
+  uint32 gadget_id = 8;
+}

@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DuelHeartLevelDifficultyInfo {
+  uint32 difficulty = 7;
+  bool is_open = 1;
+  uint32 cost_time = 6;
+}

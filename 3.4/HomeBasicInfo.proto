@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "HomeLimitedShopInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HomeBasicInfo {
+  uint32 home_owner_uid = 11;
+  uint32 cur_module_id = 2;
+  HomeLimitedShopInfo limited_shop_info = 15;
+  uint32 level = 9;
+  string owner_nick_name = 3;
+  bool is_in_edit_mode = 14;
+  uint32 cur_room_scene_id = 7;
+  uint64 exp = 13;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAvatarStandUpNotify {
+  // CMD_ID = 336
+
+  uint64 chair_id = 11;
+  int32 perform_id = 14;
+  int32 direction = 5;
+  uint32 entity_id = 4;
+}

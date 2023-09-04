@@ -1,0 +1,9 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TaskVar {
+  repeated int32 value_list = 15;
+  uint32 key = 8;
+}

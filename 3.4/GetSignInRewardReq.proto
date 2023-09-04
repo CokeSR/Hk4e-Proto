@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetSignInRewardReq {
+  // CMD_ID = 2520
+
+  uint32 schedule_id = 13;
+  uint32 reward_day = 8;
+}

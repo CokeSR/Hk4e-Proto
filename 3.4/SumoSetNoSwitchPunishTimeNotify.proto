@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "SumoDungeonTeam.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SumoSetNoSwitchPunishTimeNotify {
+  // CMD_ID = 8554
+
+  uint32 next_valid_switch_time = 11;
+  repeated SumoDungeonTeam dungeon_team_list = 3;
+  uint32 no_switch_punish_time = 14;
+  uint32 stage_id = 1;
+  uint32 activity_id = 7;
+  uint32 cur_team_index = 2;
+}

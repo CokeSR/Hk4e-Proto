@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ClientAIStateNotify {
+  // CMD_ID = 1113
+
+  uint32 entity_id = 6;
+  uint32 cur_tactic = 10;
+}

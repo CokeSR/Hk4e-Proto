@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DraftOwnerInviteNotify {
+  // CMD_ID = 5420
+
+  uint32 draft_id = 9;
+  uint32 invite_deadline_time = 1;
+}

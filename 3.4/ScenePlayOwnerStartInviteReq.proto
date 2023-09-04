@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ScenePlayOwnerStartInviteReq {
+  // CMD_ID = 4448
+
+  bool is_skip_match = 11;
+  uint32 play_id = 7;
+}

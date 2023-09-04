@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "SceneTeamAvatar.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneTeamUpdateNotify {
+  // CMD_ID = 1623
+
+  bool is_in_mp = 15;
+  repeated SceneTeamAvatar scene_team_avatar_list = 12;
+}

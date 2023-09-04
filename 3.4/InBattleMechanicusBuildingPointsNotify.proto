@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message InBattleMechanicusBuildingPointsNotify {
+  // CMD_ID = 5380
+
+  map<uint32, uint32> player_building_points_map = 7;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetInvestigationMonsterReq {
+  // CMD_ID = 1915
+
+  repeated uint32 city_id_list = 1;
+  bool is_for_mark = 4;
+}

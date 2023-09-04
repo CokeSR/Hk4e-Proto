@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SingleStartBrickBreakerRsp {
+  // CMD_ID = 23349
+
+  bool is_dungeon = 15;
+  uint32 level_id = 11;
+  int32 retcode = 3;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "PlayerWorldSceneInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message PlayerWorldSceneInfoListNotify {
+  // CMD_ID = 3198
+
+  repeated PlayerWorldSceneInfo info_list = 5;
+}

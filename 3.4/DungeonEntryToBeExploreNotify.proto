@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DungeonEntryToBeExploreNotify {
+  // CMD_ID = 3446
+
+  uint32 scene_id = 9;
+  uint32 dungeon_entry_scene_point_id = 6;
+  uint32 dungeon_entry_config_id = 4;
+}

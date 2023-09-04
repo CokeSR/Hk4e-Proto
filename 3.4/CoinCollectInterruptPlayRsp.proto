@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message CoinCollectInterruptPlayRsp {
+  // CMD_ID = 24576
+
+  uint32 gallery_id = 7;
+  int32 retcode = 6;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDSChangeDeckNameRsp {
+  // CMD_ID = 7459
+
+  string name = 9;
+  bool is_only_check = 2;
+  uint32 deck_id = 14;
+  int32 retcode = 15;
+}

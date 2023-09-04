@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PhotoActivityFinishRsp {
+  // CMD_ID = 8044
+
+  uint32 pos_id = 10;
+  int32 retcode = 15;
+}

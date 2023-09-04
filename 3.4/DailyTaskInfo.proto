@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message DailyTaskInfo {
+  uint32 finish_progress = 9;
+  bool is_finished = 3;
+  uint32 progress = 7;
+  uint32 daily_task_id = 5;
+  uint32 reward_id = 14;
+}

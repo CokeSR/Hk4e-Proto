@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message HitTreeInfo {
+  uint32 tree_type = 1;
+  Vector tree_pos = 2;
+}

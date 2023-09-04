@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneDataNotify {
+  // CMD_ID = 3295
+
+  repeated string level_config_name_list = 6;
+  repeated uint32 scene_tag_id_list = 8;
+}

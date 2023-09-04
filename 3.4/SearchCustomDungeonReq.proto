@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SearchCustomDungeonReq {
+  // CMD_ID = 6222
+
+  string dungeon_code = 12;
+}

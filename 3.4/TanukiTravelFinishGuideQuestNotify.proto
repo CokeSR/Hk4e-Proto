@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TanukiTravelFinishGuideQuestNotify {
+  // CMD_ID = 8824
+
+  uint32 activity_id = 7;
+}

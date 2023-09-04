@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SingleStartBrickBreakerReq {
+  // CMD_ID = 23861
+
+  uint32 level_id = 1;
+  bool is_dungeon = 15;
+  repeated uint32 chosen_skill_list = 12;
+  repeated uint32 chosen_avatar_list = 10;
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneEntityDrownRsp {
+  // CMD_ID = 275
+
+  uint32 entity_id = 15;
+  int32 retcode = 13;
+}

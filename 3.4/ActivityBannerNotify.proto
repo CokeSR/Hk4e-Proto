@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityBannerNotify {
+  // CMD_ID = 2005
+
+  uint32 schedule_id = 11;
+  uint32 activity_id = 6;
+}

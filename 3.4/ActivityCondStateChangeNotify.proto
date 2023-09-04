@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message ActivityCondStateChangeNotify {
+  // CMD_ID = 2089
+
+  repeated uint32 expire_cond_list = 2;
+  repeated uint32 activated_sale_id_list = 1;
+  uint32 schedule_id = 15;
+  uint32 activity_id = 3;
+  repeated Uint32Pair disable_transfer_point_interaction_list = 8;
+  repeated uint32 meet_cond_list = 13;
+}

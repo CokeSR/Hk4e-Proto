@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GetActivityInfoReq {
+  // CMD_ID = 2098
+
+  repeated uint32 activity_id_list = 15;
+}

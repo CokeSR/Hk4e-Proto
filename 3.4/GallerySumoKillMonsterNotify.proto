@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GallerySumoKillMonsterNotify {
+  // CMD_ID = 5506
+
+  uint32 score = 2;
+  uint32 kill_normal_mosnter_num = 13;
+  uint32 kill_elite_monster_num = 4;
+  uint32 gallery_id = 10;
+}

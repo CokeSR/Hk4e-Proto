@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message EffigyChallengeDungeonResultInfo {
+  uint32 challenge_max_score = 6;
+  bool is_in_time_limit = 1;
+  uint32 challenge_score = 14;
+  bool is_success = 2;
+  uint32 challenge_id = 10;
+}

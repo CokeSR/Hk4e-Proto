@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneKickPlayerReq {
+  // CMD_ID = 238
+
+  uint32 target_uid = 2;
+}

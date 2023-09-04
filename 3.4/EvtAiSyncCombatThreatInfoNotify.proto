@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+import "AiThreatInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message EvtAiSyncCombatThreatInfoNotify {
+  // CMD_ID = 356
+
+  map<uint32, AiThreatInfo> combat_threat_info_map = 8;
+}

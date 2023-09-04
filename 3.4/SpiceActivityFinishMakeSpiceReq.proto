@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SpiceActivityFinishMakeSpiceReq {
+  // CMD_ID = 8744
+
+  uint32 stage_id = 9;
+  bool is_success = 12;
+  repeated uint32 left_material_id_list = 1;
+  uint32 left_turns = 4;
+}

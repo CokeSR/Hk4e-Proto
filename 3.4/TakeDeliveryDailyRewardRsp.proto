@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeDeliveryDailyRewardRsp {
+  // CMD_ID = 2158
+
+  int32 retcode = 7;
+  uint32 schedule_id = 12;
+}

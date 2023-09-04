@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message PhotoActivityFinishReq {
+  // CMD_ID = 8021
+
+  bool is_succ = 11;
+  uint32 check_root_id = 3;
+  uint32 pos_id = 5;
+}

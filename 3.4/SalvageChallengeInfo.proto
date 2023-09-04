@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+
+import "SalvageBundleChallengeInfo.proto";
+import "SalvageScoreChallengeInfo.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message SalvageChallengeInfo {
+  bool is_unlock = 2;
+  uint32 challenge_type = 14;
+  oneof challenge_detail {
+    SalvageBundleChallengeInfo bundle_info = 8;
+    SalvageScoreChallengeInfo score_challenge_info = 5;
+    uint32 boss_challenge_id = 1;
+  }
+}

@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message SceneGalleryProgressInfo {
+  repeated uint32 progress_stage_list = 8;
+  string key = 1;
+  uint32 progress = 13;
+  uint32 ui_form = 2;
+}

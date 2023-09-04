@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TakeEffigyRewardReq {
+  // CMD_ID = 2049
+
+  uint32 reward_index = 2;
+}

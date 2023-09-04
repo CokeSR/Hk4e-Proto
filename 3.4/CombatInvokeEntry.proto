@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+
+import "CombatTypeArgument.proto";
+import "ForwardType.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message CombatInvokeEntry {
+  bytes combat_data = 7;
+  CombatTypeArgument argument_type = 8;
+  ForwardType forward_type = 15;
+}
