@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "HuntingPair.proto";
+
+message HuntingRevealClueNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4322;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 finish_clue_count = 5;
+  Vector clue_position = 4;
+  HuntingPair hunting_pair = 12;
+  uint32 finished_group_id = 7;
+}

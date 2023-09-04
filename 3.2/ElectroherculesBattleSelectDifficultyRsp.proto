@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message ElectroherculesBattleSelectDifficultyRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 23684;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 stage_id = 6;
+  int32 retcode = 14;
+  uint32 diffculty = 3;
+  uint32 gallery_id = 12;
+}

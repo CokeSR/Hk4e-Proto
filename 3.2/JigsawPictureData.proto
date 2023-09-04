@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message JigsawPictureData {
+  bool is_finished = 7;
+  uint32 shortest_time = 10;
+  bool is_open = 5;
+  uint32 last_duration = 6;
+}

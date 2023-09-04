@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GCGWeekChallengeInfo {
+  uint32 npc_id = 4;
+  bool is_finished = 7;
+  uint32 unlock_time = 1;
+}

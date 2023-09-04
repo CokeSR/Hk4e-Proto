@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ExhibitionDisplayInfo.proto";
+
+message InBattleChessSettleInfo {
+  bool is_success = 7;
+  uint32 chess_exp = 11;
+  uint32 chess_level = 13;
+  uint32 old_chess_level = 10;
+  repeated ExhibitionDisplayInfo score_list = 1;
+  uint64 scene_time_ms = 14;
+  uint32 old_chess_exp = 2;
+}

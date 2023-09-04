@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "Vector.proto";
+import "OperateType.proto";
+
+message PerformOperationNotify {
+//  /*enum CmdId {
+//    option allow_alias = true;
+//    NONE = 0;
+//    CMD_ID = 1147;
+//    ENET_CHANNEL_ID = 0;
+//    ENET_IS_RELIABLE = 1;
+//  }
+
+  uint32 index = 9;
+  Vector pos = 7;
+  Vector rot = 10;
+  OperateType operate_type = 3;
+  uint32 entity_id = 13;
+}

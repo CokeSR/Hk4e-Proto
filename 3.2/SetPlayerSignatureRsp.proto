@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message SetPlayerSignatureRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4005;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  string signature = 1;
+  int32 retcode = 4;
+}

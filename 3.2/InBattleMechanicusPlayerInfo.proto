@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "InBattleMechanicusBuildingInfo.proto";
+
+message InBattleMechanicusPlayerInfo {
+  uint32 pick_card_id = 5;
+  uint32 uid = 14;
+  repeated InBattleMechanicusBuildingInfo building_list = 4;
+  bool is_card_confirmed = 13;
+  uint32 building_points = 3;
+}

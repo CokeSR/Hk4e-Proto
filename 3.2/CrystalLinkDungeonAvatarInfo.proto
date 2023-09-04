@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CrystalLinkDungeonAvatarInfo {
+  bool is_trial = 8;
+  uint64 avatar_guid = 11;
+}

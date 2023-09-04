@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "RogueDiaryAvatar.proto";
+
+message RogueFinishRepairReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8363;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  repeated uint32 chosen_card_list = 1;
+  repeated RogueDiaryAvatar chosen_avatar_list = 8;
+}

@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "ResVersionConfig.proto";
+//import "DataResVersionOpType.proto";
+
+message DataResVersionNotify {
+/*  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 167;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  enum DataResVersionOpType {
+    OP_TYPE_NONE = 0;
+    OP_TYPE_RELOGIN = 1;
+    OP_TYPE_MP_RELOGIN = 2;
+  }
+  string client_silence_md5 = 10;
+  string client_silence_version_suffix = 15;
+  ResVersionConfig res_version_config = 9;
+  bool is_data_need_relogin = 7;
+  DataResVersionOpType op_type = 12;
+  uint32 client_data_version = 2;
+  string client_version_suffix = 5;
+  uint32 client_silence_data_version = 1;
+  string client_md5 = 14;
+}

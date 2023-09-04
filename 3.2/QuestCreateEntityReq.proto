@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+message QuestCreateEntityReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 499;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 parent_quest_id = 9;
+  bool is_rewind = 3;
+  uint32 quest_id = 2;
+  CreateEntityInfo entity = 13;
+}

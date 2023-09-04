@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "EvtAnimatorParameterInfo.proto";
+import "ForwardType.proto";
+
+message EvtAnimatorParameterNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 398;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  EvtAnimatorParameterInfo animator_param_info = 12;
+  ForwardType forward_type = 14;
+}

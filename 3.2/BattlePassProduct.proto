@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BattlePassProduct {
+  string normal_product_id = 13;
+  string extra_product_id = 10;
+  string upgrade_product_id = 6;
+}

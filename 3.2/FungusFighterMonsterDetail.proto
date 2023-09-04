@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FungusFighterMonsterDetail {
+  uint32 fungus_id = 2;
+  float cur_hp_percentage = 7;
+  bool is_alive = 9;
+}

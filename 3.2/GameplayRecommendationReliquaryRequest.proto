@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GameplayRecommendationReliquaryRequest {
+  uint32 equip_type = 6;
+}

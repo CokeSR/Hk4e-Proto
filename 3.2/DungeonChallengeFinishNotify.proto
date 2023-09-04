@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "StrengthenPointData.proto";
+import "ChallengeFinishType.proto";
+import "ChannellerSlabLoopDungeonResultInfo.proto";
+import "EffigyChallengeDungeonResultInfo.proto";
+import "PotionDungeonResultInfo.proto";
+import "CustomDungeonResultInfo.proto";
+
+message DungeonChallengeFinishNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 939;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  map<uint32, StrengthenPointData> strengthen_point_data_map = 13;
+  ChallengeFinishType finish_type = 9;
+  bool is_new_record = 10;
+  uint32 challenge_record_type = 7;
+  uint32 time_cost = 4;
+  uint32 current_value = 15;
+  bool is_success = 3;
+  uint32 challenge_index = 5;
+  oneof detail {
+    ChannellerSlabLoopDungeonResultInfo channeller_slab_loop_dungeon_result_info = 1521;
+    EffigyChallengeDungeonResultInfo effigy_challenge_dungeon_result_info = 1627;
+    PotionDungeonResultInfo potion_dungeon_result_info = 1824;
+    CustomDungeonResultInfo custom_dungeon_result_info = 1664;
+  }
+}

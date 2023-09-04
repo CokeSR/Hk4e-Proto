@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "EvtFaceToDirInfo.proto";
+
+message EvtFaceToDirNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 390;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  ForwardType forward_type = 13;
+  EvtFaceToDirInfo evt_face_to_dir_info = 5;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "VintagePresentLevelData.proto";
+
+message VintagePresentStageData {
+  uint32 open_time = 1;
+  uint32 stage_id = 15;
+  bool is_finish = 13;
+  bool is_open = 10;
+  map<uint32, VintagePresentLevelData> present_level_map = 2;
+}

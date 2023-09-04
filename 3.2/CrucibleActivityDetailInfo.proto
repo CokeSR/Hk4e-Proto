@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CrucibleBattleUidInfo.proto";
+import "Vector.proto";
+
+message CrucibleActivityDetailInfo {
+  uint32 cost_time = 5;
+  uint32 battle_world_level = 12;
+  repeated CrucibleBattleUidInfo uid_info_list = 3;
+  Vector pos = 9;
+}

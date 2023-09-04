@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CustomDungeonBanType.proto";
+
+message CustomDungeonBanInfo {
+  CustomDungeonBanType ban_type = 11;
+  uint32 expire_time = 6;
+  uint64 dungeon_guid = 5;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum GCGTargetType {
+  GCG_TARGET_NONE = 0;
+  GCG_TARGET_CARD = 1;
+  GCG_TARGET_DICE = 2;
+}

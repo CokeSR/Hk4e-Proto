@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message CoopProgressUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1998;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 cur_coop_point = 11;
+  bool is_have_progress = 12;
+}

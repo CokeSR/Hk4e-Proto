@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CustomDungeonSocial {
+  uint32 win_num = 4;
+  uint32 like_num = 12;
+  uint32 play_num = 7;
+  uint32 store_num = 2;
+}

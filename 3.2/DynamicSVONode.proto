@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message DynamicSVONode {
+  int64 index = 8;
+  int32 area = 5;
+  Vector refer_pos = 1;
+}

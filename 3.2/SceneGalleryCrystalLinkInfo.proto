@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneGalleryCrystalLinkInfo {
+  uint32 score = 10;
+}

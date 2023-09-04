@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DungeonEntryBlockReason.proto";
+
+message DungeonEntryCond {
+  DungeonEntryBlockReason cond_reason = 7;
+  uint32 param1 = 8;
+}

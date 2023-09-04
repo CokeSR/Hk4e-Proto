@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "InteractType.proto";
+import "InterOpType.proto";
+
+message GadgetInteractRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 898;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gadget_entity_id = 10;
+  InteractType interact_type = 2;
+  InterOpType op_type = 3;
+  int32 retcode = 7;
+  uint32 gadget_id = 15;
+}

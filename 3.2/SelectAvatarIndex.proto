@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+message SelectAvatarIndex {
+    oneof detail {
+      uint32 mist_trial_avatar_id = 8;
+      uint64 formal_avatar_guid = 6;
+    }
+  }

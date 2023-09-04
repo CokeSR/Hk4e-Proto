@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message TriggerRoguelikeCurseNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8412;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 effect_param_list = 14;
+  uint32 curse_group_id = 9;
+  bool is_trigger_curse = 13;
+  uint32 curse_level = 3;
+}

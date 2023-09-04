@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GCGDiceSideType.proto";
+
+message GCGMsgDiceReroll {
+  uint32 controller_id = 2;
+  repeated uint32 select_dice_index_list = 1;
+  repeated GCGDiceSideType dice_side_list = 6;
+}

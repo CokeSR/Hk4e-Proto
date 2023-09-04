@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message PlantFlowerAcceptFlowerResultInfo {
+  map<uint32, uint32> unaccept_flower_num_map = 4;
+  uint32 uid = 7;
+  map<uint32, uint32> accept_flower_num_map = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+
+message HomeExchangeWoodInfo {
+    uint32 exchange_limit = 7;
+    uint32 exchanged_count = 12;
+    fixed32 next_refresh_time = 14;
+    uint32 wood_id = 2;
+  }

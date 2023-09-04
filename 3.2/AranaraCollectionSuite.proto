@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "AranaraCollectionState.proto";
+
+message AranaraCollectionSuite {
+  map<uint32, AranaraCollectionState> collection_id_state_map = 6;
+  uint32 collection_type = 12;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HomePlantFieldStatus.proto";
+
+message HomePlantSubFieldData {
+  repeated uint32 entity_id_list = 15;
+  HomePlantFieldStatus field_status = 14;
+  uint32 home_gather_id = 9;
+  uint32 seed_id = 8;
+  fixed32 end_time = 4;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGOperationReboot {
+  repeated uint32 cost_card_guid_list = 7;
+  repeated uint32 dice_index_list = 6;
+}

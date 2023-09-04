@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message TrialAvatarActivityRewardDetailInfo {
+  bool passed_dungeon = 2;
+  uint32 trial_avatar_index_id = 4;
+  bool received_reward = 5;
+  uint32 reward_id = 7;
+}

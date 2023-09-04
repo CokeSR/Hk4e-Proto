@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message VintageHuntingSecondStageSettleInfo {
+  map<uint32, uint32> animal_count_map = 6;
+  uint32 capture_animal_num = 7;
+  uint32 total_num = 15;
+}

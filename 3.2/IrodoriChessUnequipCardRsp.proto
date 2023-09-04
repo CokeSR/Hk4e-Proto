@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message IrodoriChessUnequipCardRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8817;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_hard_map = 10;
+  uint32 card_id = 13;
+  uint32 level_id = 14;
+  int32 retcode = 11;
+}

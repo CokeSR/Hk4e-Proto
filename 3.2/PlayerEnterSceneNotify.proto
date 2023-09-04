@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "EnterType.proto";
+import "Vector.proto";
+
+message PlayerEnterSceneNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 272;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 prev_scene_id = 6;
+  uint32 dungeon_id = 12;
+  bool is_skip_ui = 1732;
+  uint32 scene_id = 15;
+  EnterType type = 13;
+  uint64 scene_begin_time = 14;
+  uint32 world_level = 11;
+  uint32 world_type = 1490;
+  uint32 target_uid = 4;
+  bool is_first_login_enter_scene = 3;
+  repeated uint32 scene_tag_id_list = 5;
+  string scene_transaction = 1842;
+  Vector prev_pos = 8;
+  uint32 enter_reason = 1828;
+  Vector pos = 7;
+  uint32 enter_scene_token = 2;
+}

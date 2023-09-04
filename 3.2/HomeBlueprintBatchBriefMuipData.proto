@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "HomeBlueprintBriefMuipData.proto";
+
+message HomeBlueprintBatchBriefMuipData {
+  repeated HomeBlueprintBriefMuipData brief_list = 1;
+  repeated string not_exist_share_code_list = 2;
+}

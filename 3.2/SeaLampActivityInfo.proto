@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "SeaLampSectionInfo.proto";
+
+message SeaLampActivityInfo {
+  bool is_mechanicus_open = 14;
+  uint32 day_index = 1;
+  repeated SeaLampSectionInfo section_info_list = 6;
+  uint32 popularity = 10;
+  uint32 sea_lamp_coin = 15;
+  uint32 first_day_start_time = 11;
+  uint32 mechanicus_id = 9;
+  bool is_mechanicus_feature_close = 12;
+  bool is_content_closed = 5;
+}

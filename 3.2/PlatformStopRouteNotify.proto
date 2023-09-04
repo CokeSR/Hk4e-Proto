@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "PlatformInfo.proto";
+
+message PlatformStopRouteNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 266;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 scene_time = 9;
+  uint32 entity_id = 12;
+  PlatformInfo platform = 8;
+}

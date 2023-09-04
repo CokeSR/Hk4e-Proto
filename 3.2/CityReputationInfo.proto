@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "CityReputationHuntInfo.proto";
+import "CityReputationRequestInfo.proto";
+import "CityReputationQuestInfo.proto";
+import "CityReputationExploreInfo.proto";
+
+message CityReputationInfo {
+  uint32 level = 4;
+  uint32 next_refresh_time = 3;
+  CityReputationHuntInfo hunt_info = 11;
+  repeated uint32 taken_level_reward_list = 2;
+  uint32 total_accept_request_num = 6;
+  CityReputationRequestInfo request_info = 5;
+  CityReputationQuestInfo quest_info = 9;
+  uint32 exp = 13;
+  CityReputationExploreInfo explore_info = 10;
+}

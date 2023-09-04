@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LanternRiteFireworksReformFactorInfo {
+  uint32 factor_value = 5;
+  uint32 factor_id = 13;
+}

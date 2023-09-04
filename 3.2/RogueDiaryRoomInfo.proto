@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+message RogueDiaryRoomInfo {
+  repeated Uint32Pair monster_list = 1;
+  bool is_boss = 3;
+  uint32 config_id = 7;
+}

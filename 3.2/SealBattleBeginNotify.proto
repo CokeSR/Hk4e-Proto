@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SealBattleType.proto";
+
+message SealBattleBeginNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 289;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 seal_max_progress = 9;
+  uint32 seal_entity_id = 1;
+  uint32 seal_radius = 12;
+  SealBattleType battle_type = 14;
+}

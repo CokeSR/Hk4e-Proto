@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ClientReportNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 81;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  string report_type = 1;
+  string report_value = 4;
+}

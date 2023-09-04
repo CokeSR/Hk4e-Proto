@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AbilityActionHitEffect {
+  uint32 trigger_id = 3;
+}

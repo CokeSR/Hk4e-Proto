@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GCGReason.proto";
+
+message GCGMsgModifyAdd {
+  uint32 pos = 9;
+  uint32 owner_card_guid = 10;
+  repeated uint32 card_guid_list = 15;
+  uint32 controller_id = 14;
+  GCGReason reason = 11;
+}

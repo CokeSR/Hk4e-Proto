@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "MatchPlayerInfo.proto";
+
+message GeneralMatchInfo {
+  uint32 match_param = 1;
+  uint32 match_id = 9;
+  repeated MatchPlayerInfo player_list = 5;
+}

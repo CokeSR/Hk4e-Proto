@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BalloonPlayerInfo {
+  uint32 uid = 15;
+  uint32 cur_score = 2;
+  uint32 combo_disable_time = 14;
+  uint32 combo = 11;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "HomeBlueprintSlotInfo.proto";
+
+message HomeGetBlueprintSlotInfoRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4662;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 delete_slot_id_list = 6;
+  repeated HomeBlueprintSlotInfo slot_info_list = 3;
+  int32 retcode = 15;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "GCGTCTavernChallengeData.proto";
+
+message GCGTCTavernChallengeDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7294;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated GCGTCTavernChallengeData tavern_challenge_list = 13;
+}

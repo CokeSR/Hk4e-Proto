@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "MultistageSettleWatcherInfo.proto";
+
+message InBattleMechanicusSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5305;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 group_id = 15;
+  uint64 scene_time_ms = 11;
+  uint32 difficulty_percentage = 6;
+  uint32 total_token = 7;
+  repeated MultistageSettleWatcherInfo watcher_list = 3;
+  uint32 real_token = 13;
+  bool is_success = 2;
+  uint32 play_index = 14;
+}

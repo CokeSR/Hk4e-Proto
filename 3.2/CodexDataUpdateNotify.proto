@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "CodexType.proto";
+
+message CodexDataUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4207;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 id = 8;
+  uint32 weapon_max_promote_level = 15;
+  CodexType type = 11;
+}

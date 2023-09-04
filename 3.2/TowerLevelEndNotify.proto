@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message TowerLevelEndNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2495;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  enum ContinueStateType {
+    CONTINUE_STATE_CAN_NOT_CONTINUE = 0;
+    CONTINUE_STATE_CAN_ENTER_NEXT_LEVEL = 1;
+    CONTINUE_STATE_CAN_ENTER_NEXT_FLOOR = 2;
+  }
+  uint32 next_floor_id = 4;
+  repeated ItemParam reward_item_list = 12;
+  uint32 continue_state = 15;
+  bool is_success = 5;
+  repeated uint32 finished_star_cond_list = 6;
+}

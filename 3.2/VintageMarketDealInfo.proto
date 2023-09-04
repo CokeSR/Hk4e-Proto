@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "VintageMarketTraderInfo.proto";
+
+message VintageMarketDealInfo {
+  map<uint32, VintageMarketTraderInfo> trader_item_info_map = 13;
+}

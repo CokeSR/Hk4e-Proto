@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+message GetPlayerBlacklistRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4091;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 2;
+  repeated FriendBrief blacklist = 3;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message DungeonCandidateTeamInviteNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 994;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 player_uid = 5;
+  uint32 vaild_deadline_time_sec = 9;
+  uint32 dungeon_id = 6;
+}

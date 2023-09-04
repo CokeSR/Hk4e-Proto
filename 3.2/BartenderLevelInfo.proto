@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BartenderLevelInfo {
+  bool is_finish = 7;
+  uint32 max_score = 9;
+  uint32 id = 4;
+}

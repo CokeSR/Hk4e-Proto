@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "HomeResource.proto";
+
+message HomeResourceTakeFetterExpRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4645;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  HomeResource fetter_exp = 4;
+  int32 retcode = 15;
+}

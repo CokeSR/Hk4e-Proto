@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryCoinCollectInfo {
+  uint32 coin_total_num = 4;
+  uint32 coin_collect_num = 2;
+}

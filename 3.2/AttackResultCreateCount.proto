@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AttackResultCreateCount {
+  repeated uint32 create_count_list = 10;
+  repeated uint32 create_count_no_cost_list = 7;
+}

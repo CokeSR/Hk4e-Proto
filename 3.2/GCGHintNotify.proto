@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGHintNotify {
+  // CMD_ID = 7534
+
+  enum GCGHintType {
+    GCG_HINT_TYPE_NONE = 0;
+    GCG_HINT_TYPE_GAME_NOT_FOUND = 1;
+  }
+
+  GCGHintType hint_type = 1;
+}

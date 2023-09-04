@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "OfficialCustomDungeon.proto";
+
+message UgcActivityDetailInfo {
+  bool is_ugc_feature_closed = 10;
+  uint32 custom_dungeon_group_id = 12;
+  repeated OfficialCustomDungeon official_custom_dungeon_list = 5;
+  bool is_enable_ugc = 11;
+}

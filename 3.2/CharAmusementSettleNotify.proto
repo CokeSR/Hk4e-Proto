@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message CharAmusementSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 23133;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_succ = 3;
+  uint32 finish_time = 14;
+  bool is_new_record = 2;
+}

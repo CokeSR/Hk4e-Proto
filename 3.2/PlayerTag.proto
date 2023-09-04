@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum PlayerTag {
+  PLAYER_TAG_NORMAL = 0;
+  PLAYER_TAG_SUB_ACCOUNT = 3;
+  PLAYER_TAG_SUB_ACCOUNT_TRANS_TO_NORMAL = 5;
+}

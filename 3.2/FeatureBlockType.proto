@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum FeatureBlockType {
+  FEATURE_BLOCK_TYPE_NONE = 0;
+  FEATURE_BLOCK_TYPE_CHAT = 1;
+  FEATURE_BLOCK_TYPE_MP = 2;
+  FEATRURE_BLOCK_TYPE_CRC = 3;
+  FEATURE_BLOCK_TYPE_HOME = 4;
+}

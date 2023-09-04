@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message QueryFilter {
+  int32 type_id = 9;
+  int32 area_mask = 13;
+}

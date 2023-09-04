@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message WidgetGadgetData {
+  repeated uint32 gadget_entity_id_list = 1;
+  uint32 gadget_id = 8;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message RoguelikeResourceBonusPropUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8555;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  float bonus_resource_prop = 12;
+}

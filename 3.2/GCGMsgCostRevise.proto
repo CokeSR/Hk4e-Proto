@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GCGCostReviseInfo.proto";
+
+message GCGMsgCostRevise {
+  uint32 controller_id = 5;
+  GCGCostReviseInfo cost_revise = 13;
+}

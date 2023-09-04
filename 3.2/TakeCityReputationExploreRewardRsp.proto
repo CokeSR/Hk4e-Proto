@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message TakeCityReputationExploreRewardRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2881;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 explore_id_list = 8;
+  repeated ItemParam item_list = 12;
+  int32 retcode = 6;
+  uint32 city_id = 13;
+}

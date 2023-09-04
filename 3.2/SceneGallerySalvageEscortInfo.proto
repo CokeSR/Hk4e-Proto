@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGallerySalvageEscortInfo {
+  uint32 max_box_count = 14;
+  uint32 max_monster_count = 3;
+  uint32 box_count = 7;
+  uint32 monster_count = 11;
+}

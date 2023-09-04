@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BreakoutSyncFinishGame {
+  bool is_win = 13;
+  bool is_stop_gallery = 15;
+  uint64 server_game_time = 9;
+}

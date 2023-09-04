@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "RegionSearchInfo.proto";
+
+message RegionSearchNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5626;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated RegionSearchInfo region_search_list = 1;
+  uint32 uid = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "GCGPhaseType.proto";
+
+message GCGMsgOpTimer {
+  fixed64 begin_time = 9;
+  GCGPhaseType phase = 3;
+  fixed64 time_stamp = 13;
+  uint32 controller_id = 8;
+}

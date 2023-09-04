@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message TowerBriefDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2472;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 total_star_num = 11;
+  uint32 last_floor_index = 8;
+  uint32 schedule_start_time = 15;
+  uint32 next_schedule_change_time = 6;
+  bool is_finished_entrance_floor = 14;
+  uint32 last_level_index = 4;
+  uint32 tower_schedule_id = 5;
+}

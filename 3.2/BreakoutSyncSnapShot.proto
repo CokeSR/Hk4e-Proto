@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BreakoutSnapShot.proto";
+
+message BreakoutSyncSnapShot {
+  BreakoutSnapShot snap_shot = 9;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "CreateEntityInfo.proto";
+
+message QuestCreateEntityRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 431;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 quest_id = 13;
+  int32 retcode = 8;
+  uint32 entity_id = 7;
+  CreateEntityInfo entity = 11;
+  uint32 parent_quest_id = 1;
+  bool is_rewind = 14;
+}

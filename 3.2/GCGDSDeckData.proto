@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message GCGDSDeckData {
+  repeated uint32 card_list = 1;
+  uint32 card_back_id = 15;
+  repeated uint32 character_card_list = 10;
+  string name = 5;
+  uint32 id = 3;
+  fixed32 create_time = 13;
+  bool is_valid = 4;
+  uint32 field_id = 7;
+}

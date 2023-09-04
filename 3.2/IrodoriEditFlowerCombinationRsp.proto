@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message IrodoriEditFlowerCombinationRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8833;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_already_finished = 4;
+  bool is_can_take_reward = 3;
+  int32 retcode = 1;
+}

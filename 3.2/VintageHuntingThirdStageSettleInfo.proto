@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message VintageHuntingThirdStageSettleInfo {
+  uint32 left_time = 13;
+  bool is_success = 9;
+}

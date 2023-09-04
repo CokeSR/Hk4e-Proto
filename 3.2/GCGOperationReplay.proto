@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GCGReplayOperationData.proto";
+import "GCGReplayControllerData.proto";
+
+message GCGOperationReplay {
+  uint32 seed = 11;
+  repeated GCGReplayOperationData operation_data_list = 9;
+  repeated GCGReplayControllerData controller_data_list = 13;
+  uint32 game_id = 1;
+}

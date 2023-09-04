@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message GCGLevelChallengeDeleteNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7648;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 level_id_list = 13;
+}

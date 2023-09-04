@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message RestartCoinCollectPlaySingleModeRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 24828;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 8;
+  uint32 level_id = 11;
+}

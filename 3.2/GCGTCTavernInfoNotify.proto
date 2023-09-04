@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message GCGTCTavernInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7011;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_last_duel_win = 14;
+  uint32 level_id = 11;
+  bool is_owner_in_duel = 5;
+  uint32 point_id = 3;
+  uint32 avatar_id = 12;
+  uint32 character_id = 7;
+  uint32 element_type = 10;
+}

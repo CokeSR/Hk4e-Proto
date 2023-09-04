@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CutSceneExtraParam {
+  repeated double detail_param_list = 1;
+}

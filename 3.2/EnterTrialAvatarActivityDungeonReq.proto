@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message EnterTrialAvatarActivityDungeonReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2118;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 enter_point_id = 10;
+  uint32 trial_avatar_index_id = 5;
+  uint32 activity_id = 14;
+}

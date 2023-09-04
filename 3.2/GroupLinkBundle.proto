@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message GroupLinkBundle {
+  Vector center = 4;
+  bool is_activated = 12;
+  uint32 bundle_id = 3;
+  bool is_show_mark = 14;
+  uint32 scene_id = 5;
+  uint32 radius = 1;
+}

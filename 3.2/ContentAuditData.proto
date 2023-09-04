@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ContentAuditData {
+  string type = 1;
+  string content = 2;
+  uint32 auto_pass_time = 3;
+}

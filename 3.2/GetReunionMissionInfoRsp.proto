@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ReunionMissionInfo.proto";
+
+message GetReunionMissionInfoRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5099;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 9;
+  ReunionMissionInfo mission_info = 14;
+}

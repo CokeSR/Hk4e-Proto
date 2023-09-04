@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "VintageHuntingFirstStageInfo.proto";
+import "VintageHuntingSecondStageInfo.proto";
+import "VintageHuntingThirdStageInfo.proto";
+
+message SceneGalleryVintageHuntingInfo {
+  uint32 stage_id = 7;
+  oneof info {
+    VintageHuntingFirstStageInfo first_stage_info = 2;
+    VintageHuntingSecondStageInfo second_stage_info = 15;
+    VintageHuntingThirdStageInfo third_stage_info = 12;
+  }
+}

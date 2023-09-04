@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum CustomDungeonEvent {
+  CUSTOM_DUNGEON_EVENT_NONE = 0;
+  CUSTOM_DUNGEON_EVENT_OFFICIAL_RESTART = 1;
+  CUSTOM_DUNGEON_EVENT_OUT_STUCK = 2;
+}

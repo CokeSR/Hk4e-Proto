@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message LanV3BoatSettleInfo {
+  uint32 uid = 8;
+  string online_id = 13;
+  uint32 head_image = 10;
+  string nickname = 14;
+  ProfilePicture profile_picture = 12;
+  repeated ExhibitionDisplayInfo card_list = 1;
+}

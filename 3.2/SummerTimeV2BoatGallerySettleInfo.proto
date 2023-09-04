@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message SummerTimeV2BoatGallerySettleInfo {
+  uint32 param1 = 7;
+  uint32 param2 = 2;
+  GalleryStopReason reason = 3;
+  uint32 param3 = 6;
+  uint32 used_time = 12;
+  uint32 gallery_id = 1;
+}

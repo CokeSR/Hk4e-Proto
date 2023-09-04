@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum ActivityPushTipsState {
+  ACTIVITY_PUSH_TIPS_STATE_NONE = 0;
+  ACTIVITY_PUSH_TIPS_STATE_START = 1;
+  ACTIVITY_PUSH_TIPS_STATE_READ = 2;
+}

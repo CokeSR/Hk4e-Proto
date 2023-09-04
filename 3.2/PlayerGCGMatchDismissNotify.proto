@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "MatchReason.proto";
+
+message PlayerGCGMatchDismissNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4173;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 match_id = 11;
+  MatchReason reason = 5;
+  repeated uint32 uid_list = 7;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message EntityEnvironmentInfo {
+  uint32 json_climate_type = 1;
+  uint32 climate_area_id = 2;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message ChannellerSlabLoopDungeonInfo {
+  uint32 score = 7;
+  uint32 dungeon_index = 4;
+  uint32 open_time = 12;
+  bool is_first_pass_reward_taken = 9;
+  repeated uint32 last_condition_id_list = 14;
+  bool is_open = 1;
+}

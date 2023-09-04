@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GCGPlayerGCGState {
+  bool is_reasouce_complete = 7;
+  bool is_gcg_state_open = 5;
+  uint32 uid = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "AreaPlayType.proto";
+
+message AreaPlayInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3323;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 detail_play_type = 14;
+  AreaPlayType area_play_type = 11;
+}

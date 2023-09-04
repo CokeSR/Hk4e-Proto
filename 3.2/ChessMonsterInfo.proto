@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChessMonsterInfo {
+  uint32 monster_id = 12;
+  uint32 level = 2;
+  repeated uint32 affix_list = 13;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DuelHeartLevelDifficultyInfo {
+  bool is_open = 6;
+  uint32 cost_time = 9;
+  uint32 difficulty = 12;
+}

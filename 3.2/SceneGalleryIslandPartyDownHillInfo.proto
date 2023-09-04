@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+
+message SceneGalleryIslandPartyDownHillInfo {
+  uint32 total_kill_monster_count = 14;
+  GalleryStartSource start_source = 15;
+  uint32 max_kill_monster_count = 5;
+  uint32 coin = 13;
+}

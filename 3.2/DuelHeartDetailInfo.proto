@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "DuelHeartLevelInfo.proto";
+
+message DuelHeartDetailInfo {
+  repeated DuelHeartLevelInfo level_info_list = 14;
+}

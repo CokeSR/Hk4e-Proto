@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+enum CityidConstValue {
+  CITYID_CONST_NONE = 0;
+  CITYID_CONST_MENGDE = 1;
+  CITYID_CONST_LIYUE = 2;
+  CITYID_CONST_DAOQI = 3;
+  CITYID_CONST_XUMI = 4;
+}

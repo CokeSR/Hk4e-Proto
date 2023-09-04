@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message PhotoPosData {
+  Vector center = 15;
+  uint32 open_time = 2;
+  bool is_view = 4;
+  uint32 pos_id = 9;
+  bool is_open = 6;
+}

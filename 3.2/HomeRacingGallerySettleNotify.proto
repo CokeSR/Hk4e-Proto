@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "RacingGallerySettleInfo.proto";
+
+message HomeRacingGallerySettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4805;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gallery_id = 11;
+  RacingGallerySettleInfo settle_info = 12;
+  uint32 rank = 7;
+  bool is_new_record = 2;
+}

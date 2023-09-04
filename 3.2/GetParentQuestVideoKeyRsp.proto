@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GetParentQuestVideoKeyRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 417;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 1;
+  uint64 video_key = 14;
+  uint32 parent_quest_id = 10;
+}

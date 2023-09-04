@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message IslandPartyGallerySettleInfo {
+  OnlinePlayerInfo player_info = 13;
+  repeated ExhibitionDisplayInfo card_list = 11;
+}

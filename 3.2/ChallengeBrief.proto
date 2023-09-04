@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ChallengeBrief {
+  uint32 cur_progress = 9;
+  uint32 challenge_index = 10;
+  bool is_success = 4;
+  uint32 challenge_id = 8;
+}

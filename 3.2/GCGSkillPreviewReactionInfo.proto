@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGSkillPreviewReactionInfo {
+  uint32 source_element = 13;
+  uint32 target_element = 1;
+}

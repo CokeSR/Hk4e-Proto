@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message DigMarkPoint {
+  Vector pos = 1;
+  uint32 bundle_id = 13;
+  Vector rot = 3;
+}

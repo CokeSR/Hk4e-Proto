@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ItemGivingRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 118;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 giving_group_id = 1;
+  uint32 giving_id = 13;
+  int32 retcode = 3;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message EffigyChallengeV2EnterDungeonReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 23489;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 challenge_mode_difficulty = 7;
+  uint32 level_id = 12;
+  uint32 challenge_mode_skill_no = 11;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "AsterLittleDetailInfo.proto";
+import "AsterLargeDetailInfo.proto";
+import "AsterMidDetailInfo.proto";
+import "AsterProgressDetailInfo.proto";
+
+message AsterActivityDetailInfo {
+  AsterLittleDetailInfo aster_little = 7;
+  uint32 aster_credit = 14;
+  AsterLargeDetailInfo aster_large = 9;
+  bool is_special_reward_taken = 1;
+  bool is_content_closed = 13;
+  uint32 content_close_time = 8;
+  uint32 aster_token = 5;
+  AsterMidDetailInfo aster_mid = 6;
+  AsterProgressDetailInfo aster_progress = 2;
+}

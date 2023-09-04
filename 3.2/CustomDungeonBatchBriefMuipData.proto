@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CustomDungeonBriefMuipData.proto";
+
+message CustomDungeonBatchBriefMuipData {
+  repeated CustomDungeonBriefMuipData brief_list = 1;
+}

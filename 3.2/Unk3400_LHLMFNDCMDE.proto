@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message Unk3400_LHLMFNDCMDE {
+  // CMD_ID = 4156
+
+  uint32 match_id = 10;
+}

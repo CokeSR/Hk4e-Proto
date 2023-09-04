@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message EvtSyncSkillAnchorPosition {
+  uint32 entity_id = 2;
+  Vector skill_anchor_position = 13;
+}

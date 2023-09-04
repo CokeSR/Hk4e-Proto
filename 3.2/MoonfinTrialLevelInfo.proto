@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message MoonfinTrialLevelInfo {
+  uint32 best_record = 3;
+  uint32 open_time = 1;
+}

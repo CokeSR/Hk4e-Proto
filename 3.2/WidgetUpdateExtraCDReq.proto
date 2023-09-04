@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "WIDGET_EXTRA_CD_TYPE.proto";
+
+message WidgetUpdateExtraCDReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5960;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 material_id = 14;
+  WIDGET_EXTRA_CD_TYPE extra_cd_type = 10;
+  uint32 cd_group = 7;
+}

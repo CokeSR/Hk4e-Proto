@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "GCGDuel.proto";
+
+message GCGAskDuelRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7869;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 3;
+  GCGDuel duel = 13;
+}

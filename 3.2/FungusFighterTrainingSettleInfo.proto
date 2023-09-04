@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message FungusFighterTrainingSettleInfo {
+  uint32 used_time = 15;
+  GalleryStopReason reason = 3;
+  string transaction = 1;
+}

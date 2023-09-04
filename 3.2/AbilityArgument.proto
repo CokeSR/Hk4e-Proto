@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message AbilityArgument {
+  oneof arg {
+    uint32 int_arg = 5;
+    float float_arg = 15;
+    string str_arg = 11;
+  }
+}

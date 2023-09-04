@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message EntityConfigHashEntry {
+  uint32 job_id = 13;
+  int32 hash_value = 6;
+  uint32 entity_id = 11;
+}

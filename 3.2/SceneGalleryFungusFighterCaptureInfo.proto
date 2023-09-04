@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneGalleryFungusFighterCaptureInfo {
+  bool is_hide_progress = 13;
+}

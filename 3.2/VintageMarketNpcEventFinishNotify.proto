@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message VintageMarketNpcEventFinishNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 24201;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 unlock_strategy_list = 15;
+  uint32 coin_c = 12;
+  uint32 coin_a = 4;
+}

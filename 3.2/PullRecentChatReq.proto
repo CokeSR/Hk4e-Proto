@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message PullRecentChatReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5040;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 pull_num = 6;
+  uint32 begin_sequence = 15;
+}

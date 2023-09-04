@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AddNoGachaAvatarCardTransferItem {
+  uint32 count = 9;
+  uint32 item_id = 6;
+  bool is_new = 15;
+}

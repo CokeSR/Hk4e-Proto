@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+message PlantFlowerRecvFlowerData {
+  ProfilePicture profile_picture = 13;
+  string nickname = 5;
+  uint32 uid = 9;
+  map<uint32, uint32> flower_num_map = 14;
+}

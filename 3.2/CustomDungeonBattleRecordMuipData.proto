@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CustomDungeonBattleRecordMuipData {
+  uint64 dungeon_guid = 1;
+  uint32 min_cost_time = 2;
+}

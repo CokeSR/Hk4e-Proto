@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GCGSkillPreviewCardInfo.proto";
+
+message GCGSkillPreviewExtraInfo {
+  repeated GCGSkillPreviewCardInfo fail_added_when_full_list = 14;
+  repeated GCGSkillPreviewCardInfo refresh_card_when_exist_list = 6;
+}

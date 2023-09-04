@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGMsgWaitingListChange {
+  uint32 cur_index = 6;
+  uint32 controller_id = 4;
+}

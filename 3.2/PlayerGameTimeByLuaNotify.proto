@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message PlayerGameTimeByLuaNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 178;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 uid = 13;
+  uint32 sim_speed = 9;
+  uint32 game_time = 10;
+}

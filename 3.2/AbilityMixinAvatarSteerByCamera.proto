@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message AbilityMixinAvatarSteerByCamera {
+  Vector target_dir = 7;
+  Vector target_pos = 6;
+}

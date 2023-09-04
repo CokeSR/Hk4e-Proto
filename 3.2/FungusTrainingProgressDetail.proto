@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "FungusTrainingPoolPreviewDetail.proto";
+import "FungusFighterMonsterDetail.proto";
+
+message FungusTrainingProgressDetail {
+  uint32 cur_round = 9;
+  uint32 dungeon_id = 10;
+  repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 5;
+  repeated FungusFighterMonsterDetail monster_detail_list = 6;
+  uint32 total_used_time = 7;
+  repeated uint32 backup_monster_list = 4;
+  repeated uint32 choosen_monster_list = 8;
+}

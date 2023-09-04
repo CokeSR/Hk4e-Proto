@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message TeamChainStageData {
+  uint32 best_score = 14;
+  bool is_open = 12;
+  uint32 stage_id = 15;
+}

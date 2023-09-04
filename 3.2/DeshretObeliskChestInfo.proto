@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message DeshretObeliskChestInfo {
+  uint32 scene_id = 5;
+  Vector pos = 9;
+  uint32 group_id = 7;
+  uint32 config_id = 3;
+}

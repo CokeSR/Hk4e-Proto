@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message SceneAreaWeatherNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 230;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 weather_area_id = 1;
+  uint32 weather_gadget_id = 9;
+  uint32 climate_type = 14;
+  float trans_duration = 15;
+  map<uint32, string> weather_value_map = 10;
+}

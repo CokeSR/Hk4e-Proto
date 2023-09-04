@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GearActivityFinishPlayGearRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 21800;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 2;
+  bool is_success = 15;
+  uint32 level_id = 3;
+}

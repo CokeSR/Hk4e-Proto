@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message HomePriorCheckNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4599;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  fixed32 end_time = 7;
+}

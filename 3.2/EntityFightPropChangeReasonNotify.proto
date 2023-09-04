@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "ChangHpReason.proto";
+import "PropChangeReason.proto";
+import "ChangeEnergyReason.proto";
+
+message EntityFightPropChangeReasonNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1203;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 param_list = 10;
+  float prop_delta = 1;
+  ChangHpReason change_hp_reason = 14;
+  PropChangeReason reason = 6;
+  uint32 entity_id = 5;
+  ChangeEnergyReason change_energy_reson = 15;
+  uint32 prop_type = 13;
+}

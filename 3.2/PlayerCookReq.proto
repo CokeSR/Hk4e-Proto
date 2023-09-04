@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message PlayerCookReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 194;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 cook_count = 1;
+  uint32 qte_quality = 12;
+  uint32 recipe_id = 8;
+  uint32 assist_avatar = 14;
+}

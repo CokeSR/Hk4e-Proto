@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TaskVar {
+  uint32 key = 8;
+  repeated int32 value_list = 6;
+}

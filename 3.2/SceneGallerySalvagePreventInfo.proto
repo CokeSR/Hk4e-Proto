@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneGallerySalvagePreventInfo {
+  uint32 monster_count = 7;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "GameplayRecommendationSkillResponse.proto";
+import "GameplayRecommendationReliquaryResponse.proto";
+import "GameplayRecommendationElementReliquaryResponse.proto";
+
+message GetGameplayRecommendationRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 123;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 6;
+  uint32 avatar_id = 15;
+  oneof detail {
+    GameplayRecommendationSkillResponse skill_response = 1022;
+    GameplayRecommendationReliquaryResponse reliquary_response = 196;
+    GameplayRecommendationElementReliquaryResponse element_reliquary_response = 167;
+  }
+}

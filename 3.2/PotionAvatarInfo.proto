@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PotionAvatarInfo {
+  bool is_trial = 6;
+  uint64 avatar_id = 8;
+}

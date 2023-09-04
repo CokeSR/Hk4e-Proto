@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MichiaeMatsuriStage {
+  bool is_open = 11;
+  uint32 open_time = 5;
+  uint32 stage_id = 12;
+}

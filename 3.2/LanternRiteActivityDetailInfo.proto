@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "LanternProjectionInfo.proto";
+import "SalvageStageInfo.proto";
+import "LanternRiteFireworksInfo.proto";
+
+message LanternRiteActivityDetailInfo {
+  LanternProjectionInfo projection_info = 13;
+  repeated SalvageStageInfo stage_info_list = 5;
+  LanternRiteFireworksInfo fireworks_info = 8;
+  bool is_mini_eldritch_dungeon_open = 2;
+  bool is_content_closed = 14;
+  bool is_taken_skin_reward = 6;
+}

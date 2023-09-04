@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+import "IslandPartyGallerySettleInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message IslandPartySettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 24601;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_new_record = 13;
+  GalleryStopReason reason = 1;
+  repeated IslandPartyGallerySettleInfo settle_info_list = 8;
+  repeated ExhibitionDisplayInfo score_list = 6;
+  uint32 time_remain = 15;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ItemRenameAvatarRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1635;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 rename_id = 15;
+  uint32 cd_time = 2;
+  int32 retcode = 9;
+}

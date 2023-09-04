@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GalleryBounceConjuringHitNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5505;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 add_score = 8;
+  bool is_perfect = 5;
+  uint32 gallery_id = 10;
+}

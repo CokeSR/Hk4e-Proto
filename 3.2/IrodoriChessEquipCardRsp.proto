@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message IrodoriChessEquipCardRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8308;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 2;
+  uint32 card_id = 8;
+  uint32 level_id = 5;
+  bool is_hard_map = 12;
+}

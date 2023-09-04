@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGSkillPreviewOnstageChangeInfo {
+  uint32 target_onstage_card_guid = 6;
+  uint32 source_onstage_card_guid = 15;
+}

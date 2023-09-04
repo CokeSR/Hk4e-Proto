@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message BrickBreakerLevelInfo {
+  bool is_finish = 5;
+  uint32 level_id = 12;
+  bool is_can_start = 1;
+  uint32 max_score = 15;
+  repeated uint32 chosen_skill_list = 11;
+  repeated uint32 chosen_avatar_list = 6;
+}

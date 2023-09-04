@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "MechanicusInfo.proto";
+
+message GetMechanicusInfoRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3998;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 14;
+  MechanicusInfo mechanicus_info = 15;
+}

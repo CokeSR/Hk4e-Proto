@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneGalleryHomeBalloonInfo {
+  uint32 score = 7;
+}

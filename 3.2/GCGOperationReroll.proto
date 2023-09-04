@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GCGOperationReroll {
+  repeated uint32 dice_index_list = 12;
+}

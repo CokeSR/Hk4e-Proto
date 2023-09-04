@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "ActivityRecvGiftData.proto";
+
+message ActivityGetRecvGiftListRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8120;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 15;
+  repeated ActivityRecvGiftData recv_gift_list = 11;
+  uint32 schedule_id = 6;
+}

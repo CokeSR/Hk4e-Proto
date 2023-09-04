@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "FleurFairGallerySettleInfo.proto";
+import "FleurFairBossSettleInfo.proto";
+
+message FleurFairStageSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5356;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 stage_type = 10;
+  oneof detail {
+    FleurFairGallerySettleInfo gallery_settle_info = 13;
+    FleurFairBossSettleInfo boss_settle_info = 14;
+  }
+}

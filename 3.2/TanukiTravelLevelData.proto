@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message TanukiTravelLevelData {
+  bool is_open = 5;
+  uint32 route_id = 9;
+  bool is_finish = 15;
+}

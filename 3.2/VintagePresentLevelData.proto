@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message VintagePresentLevelData {
+  uint32 present_id = 10;
+  bool is_open = 11;
+  bool is_finish = 5;
+  uint32 stage_id = 1;
+}

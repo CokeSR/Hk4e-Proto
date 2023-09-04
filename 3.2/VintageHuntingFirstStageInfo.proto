@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message VintageHuntingFirstStageInfo {
+  uint32 timid_cnt = 15;
+  uint32 brutal_cnt = 7;
+  uint32 score = 14;
+  uint32 elite_cnt = 11;
+}

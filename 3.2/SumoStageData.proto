@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SumoTeamData.proto";
+
+message SumoStageData {
+  uint32 max_score = 1;
+  uint32 open_time = 5;
+  uint32 stage_id = 3;
+  repeated SumoTeamData team_list = 7;
+  bool is_open = 11;
+}

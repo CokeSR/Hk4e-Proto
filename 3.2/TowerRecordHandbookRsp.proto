@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "TowerMonthlyDetail.proto";
+
+message TowerRecordHandbookRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2443;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 7;
+  repeated TowerMonthlyDetail monthly_detail_list = 14;
+}

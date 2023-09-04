@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "PlayProduct.proto";
+import "ShopCardProduct.proto";
+import "ShopMcoinProduct.proto";
+import "ShopConcertProduct.proto";
+
+message RechargeReq {
+  /*/*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4126;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  PlayProduct play_product = 10;
+  ShopCardProduct card_product = 8;
+  ShopMcoinProduct mcoin_product = 14;
+  ShopConcertProduct concert_product = 7;
+}

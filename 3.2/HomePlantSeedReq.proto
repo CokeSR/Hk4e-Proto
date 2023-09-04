@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message HomePlantSeedReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4804;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 index = 4;
+  uint32 field_guid = 14;
+  repeated uint32 seed_id_list = 13;
+}

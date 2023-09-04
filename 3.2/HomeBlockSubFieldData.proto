@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message HomeBlockSubFieldData {
+  Vector rot = 3;
+  Vector pos = 1;
+}

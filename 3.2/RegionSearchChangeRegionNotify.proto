@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+//import "RegionEvent.proto";
+
+message RegionSearchChangeRegionNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5618;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  enum RegionEvent {
+    REGION_EVENT_NONE = 0;
+    REGION_EVENT_ENTER = 1;
+    REGION_EVENT_LEAVE = 2;
+  }
+  RegionEvent event = 1;
+  uint32 region_id = 10;
+}

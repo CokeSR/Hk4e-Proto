@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum DungeonRestartReason {
+  DUNGEON_RESTART_REASON_NONE = 0;
+  DUNGEON_RESTART_REASON_DAILY_RESTART = 1;
+  DUNGEON_RESTART_REASON_DIE_RETRY = 2;
+}

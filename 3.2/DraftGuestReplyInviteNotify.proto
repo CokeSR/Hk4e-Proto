@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message DraftGuestReplyInviteNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5490;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 draft_id = 5;
+  bool is_agree = 9;
+  uint32 guest_uid = 10;
+}

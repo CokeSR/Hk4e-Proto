@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AbilityActionDeductStamina {
+  bool is_swim = 1;
+}

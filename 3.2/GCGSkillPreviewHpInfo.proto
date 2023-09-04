@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GCGSkillHpChangeType.proto";
+
+message GCGSkillPreviewHpInfo {
+  GCGSkillHpChangeType change_type = 4;
+  uint32 hp_change_value = 13;
+}

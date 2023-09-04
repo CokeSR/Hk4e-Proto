@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CrystalLinkBuffInfo {
+  uint32 effect_buff_id = 1;
+  uint32 cond_buff_id = 10;
+}

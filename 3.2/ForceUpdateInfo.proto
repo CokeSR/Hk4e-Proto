@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ForceUpdateInfo {
+  string force_update_url = 1;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message TakeCityReputationParentQuestRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2803;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  int32 retcode = 7;
+  uint32 city_id = 14;
+  repeated uint32 parent_quest_list = 9;
+  repeated ItemParam item_list = 13;
+}

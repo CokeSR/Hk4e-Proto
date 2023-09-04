@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "ChatChannelInfo.proto";
+
+message ChatChannelUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5025;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 channel_id = 3;
+  bool is_create = 15;
+  ChatChannelInfo channel_info = 14;
+}

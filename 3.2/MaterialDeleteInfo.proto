@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CountDownDelete.proto";
+import "DateTimeDelete.proto";
+import "DelayWeekCountDownDelete.proto";
+
+message MaterialDeleteInfo {
+
+
+
+  bool has_delete_config = 1;
+  oneof delete_info {
+    CountDownDelete count_down_delete = 2;
+    DateTimeDelete date_delete = 3;
+    DelayWeekCountDownDelete delay_week_count_down_delete = 4;
+  }
+}

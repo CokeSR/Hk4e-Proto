@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "RegionSearchState.proto";
+
+message RegionSearch {
+  bool is_entered = 13;
+  uint32 progress = 5;
+  RegionSearchState state = 2;
+  uint32 region_search_id = 8;
+}

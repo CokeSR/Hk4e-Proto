@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message FleurFairChapterInfo {
+  uint32 open_time = 15;
+  uint32 chapter_id = 11;
+}

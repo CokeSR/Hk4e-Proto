@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "BonusOpActivityInfo.proto";
+
+message OpActivityInfo {
+  uint32 activity_id = 2;
+  uint32 end_time = 6;
+  uint32 begin_time = 5;
+  bool is_has_change = 1;
+  uint32 schedule_id = 13;
+  oneof detail {
+    BonusOpActivityInfo bonus_info = 12;
+  }
+}

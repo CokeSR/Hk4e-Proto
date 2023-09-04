@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GCGMsgPVEIntention.proto";
+
+message GCGMsgPVEIntentionInfo {
+  map<uint32, GCGMsgPVEIntention> intention_map = 2;
+}

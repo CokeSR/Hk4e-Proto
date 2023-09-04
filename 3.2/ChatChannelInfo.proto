@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ChatChannelInfo {
+  bool is_shield = 15;
+  uint32 channel_id = 8;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+
+message SceneGalleryIslandPartyRaftInfo {
+  uint32 coin = 6;
+  GalleryStartSource start_source = 7;
+  uint32 component = 1;
+  uint32 fuel = 15;
+  uint32 point_id = 12;
+  uint32 raft_entity_id = 4;
+}

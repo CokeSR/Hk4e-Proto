@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message TowerDailyRewardProgressChangeNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2435;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 daily_floor_id = 15;
+  uint32 daily_level_index = 9;
+}

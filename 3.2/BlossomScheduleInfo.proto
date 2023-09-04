@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message BlossomScheduleInfo {
+  uint32 progress = 13;
+  uint32 state = 10;
+  uint32 round = 4;
+  uint32 circle_camp_id = 15;
+  uint32 refresh_id = 6;
+  uint32 finish_progress = 14;
+}

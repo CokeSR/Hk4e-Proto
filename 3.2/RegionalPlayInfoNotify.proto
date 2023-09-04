@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "RegionalPlayVar.proto";
+
+message RegionalPlayInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6276;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated RegionalPlayVar var_list = 5;
+  string play_name = 9;
+  bool is_enabled = 15;
+  uint32 play_type = 7;
+  bool is_in_region = 4;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+message GCGControllerShowInfo {
+  ProfilePicture profile_picture = 11;
+  string nick_name = 14;
+  uint32 controller_id = 9;
+}

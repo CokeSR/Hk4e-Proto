@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message MuqadasPotionDungeonSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 20005;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 final_score = 11;
+  uint32 capture_weakness_count = 15;
+  bool is_success = 6;
+  uint32 level_id = 10;
+  bool is_new_record = 2;
+}

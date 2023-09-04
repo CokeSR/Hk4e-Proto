@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum WIDGET_EXTRA_CD_TYPE {
+  WIDGET_EXTRA_CD_TYPE_NONE = 0;
+  WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message PingRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 21;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 client_time = 15;
+  int32 retcode = 6;
+  uint32 seq = 13;
+}

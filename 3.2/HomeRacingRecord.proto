@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "HomeRacingGalleryRecord.proto";
+
+message HomeRacingRecord {
+  repeated HomeRacingGalleryRecord record_list = 7;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+import "GachaTransferItem.proto";
+
+message GachaItem {
+  ItemParam gacha_item = 7;
+  bool is_gacha_item_new = 6;
+  bool is_flash_card = 8;
+  repeated ItemParam token_item_list = 9;
+  repeated GachaTransferItem transfer_items = 12;
+}

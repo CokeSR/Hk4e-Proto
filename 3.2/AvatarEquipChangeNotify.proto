@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "SceneReliquaryInfo.proto";
+import "SceneWeaponInfo.proto";
+
+message AvatarEquipChangeNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 647;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint64 avatar_guid = 10;
+  uint64 equip_guid = 13;
+  SceneReliquaryInfo reliquary = 1;
+  SceneWeaponInfo weapon = 15;
+  uint32 item_id = 14;
+  uint32 equip_type = 8;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "InstableSprayTeamInfo.proto";
+
+message InstableSprayStageInfo {
+  bool is_finished = 10;
+  uint32 max_score = 3;
+  uint32 stage_id = 4;
+  repeated InstableSprayTeamInfo team_info_list = 6;
+}

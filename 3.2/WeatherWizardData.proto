@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message WeatherWizardData {
+  uint32 shield_value = 13;
+}

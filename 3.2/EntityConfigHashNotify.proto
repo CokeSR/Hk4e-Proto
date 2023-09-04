@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "EntityConfigHashEntry.proto";
+
+message EntityConfigHashNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3189;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  repeated EntityConfigHashEntry ability_entry_list = 3;
+  repeated EntityConfigHashEntry avatar_entry_list = 15;
+  repeated EntityConfigHashEntry combat_entry_list = 8;
+}

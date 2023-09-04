@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "StoreType.proto";
+
+message StoreItemDelNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 635;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint64 guid_list = 12;
+  StoreType store_type = 15;
+}

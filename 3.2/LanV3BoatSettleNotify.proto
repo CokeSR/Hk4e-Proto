@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "ExhibitionDisplayInfo.proto";
+import "LanV3BoatSettleInfo.proto";
+
+message LanV3BoatSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6539;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_gallery_succ = 10;
+  repeated uint32 winner_uid_list = 2;
+  bool is_single = 8;
+  uint32 stage_type = 12;
+  repeated ExhibitionDisplayInfo score_list = 1;
+  repeated LanV3BoatSettleInfo settle_info_list = 13;
+  uint32 play_index = 4;
+}

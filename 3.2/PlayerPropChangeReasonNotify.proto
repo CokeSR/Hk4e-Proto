@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "PropChangeReason.proto";
+
+message PlayerPropChangeReasonNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1299;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 prop_type = 6;
+  float old_value = 12;
+  PropChangeReason reason = 1;
+  float cur_value = 11;
+}

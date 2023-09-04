@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GCGTavernNpcInfo {
+  uint32 id = 6;
+  uint32 level_id = 10;
+  uint32 scene_point_id = 3;
+}

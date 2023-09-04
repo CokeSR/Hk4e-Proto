@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "HomeRacingRecord.proto";
+import "HomeBalloonRecord.proto";
+import "HomeStakeRecord.proto";
+import "HomeSeekFurnitureAllRecord.proto";
+
+message HomeGroupRecord {
+  uint32 group_id = 5;
+  oneof detail {
+    HomeRacingRecord racing_gallery_info = 467;
+    HomeBalloonRecord balloon_gallery_info = 1410;
+    HomeStakeRecord stake_play_info = 347;
+    HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 1822;
+  }
+}

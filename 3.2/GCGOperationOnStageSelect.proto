@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGOperationOnStageSelect {
+  uint32 card_guid = 5;
+  repeated uint32 cost_dice_index_list = 4;
+}

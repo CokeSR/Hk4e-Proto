@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message InBattleMechanicusMonsterInfo {
+  uint32 monster_id = 1;
+  uint32 level = 14;
+  uint32 count = 13;
+}

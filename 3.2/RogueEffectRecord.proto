@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message RogueEffectRecord {
+  uint32 source_id = 6;
+  repeated uint32 extra_param_list = 9;
+  uint32 count = 10;
+  bool is_new = 5;
+}

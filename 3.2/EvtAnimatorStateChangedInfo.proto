@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message EvtAnimatorStateChangedInfo {
+  int32 face_angle_compact = 14;
+  uint32 to_state_hash = 5;
+  uint32 normalized_time_compact = 9;
+  uint32 layer = 2;
+  Vector pos = 13;
+  float fade_duration = 3;
+  bool forceSync = 1;
+  uint32 entity_id = 15;
+  bool handle_animator_state_immediately = 7;
+}

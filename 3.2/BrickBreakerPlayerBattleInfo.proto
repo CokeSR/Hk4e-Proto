@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message BrickBreakerPlayerBattleInfo {
+  repeated uint32 skill_list = 10;
+  bool is_ready = 14;
+  bool is_changing = 11;
+  uint32 uid = 15;
+  repeated uint32 avatar_id = 9;
+  repeated uint32 costume_id = 13;
+  string nickname = 3;
+}

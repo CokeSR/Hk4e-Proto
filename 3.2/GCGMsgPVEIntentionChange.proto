@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GCGMsgPVEIntention.proto";
+import "GCGIntentionChangeType.proto";
+
+message GCGMsgPVEIntentionChange {
+  repeated GCGMsgPVEIntention change_intention_list = 4;
+  GCGIntentionChangeType change_type = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "GCGBossChallengeData.proto";
+
+message GCGBossChallengeUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7073;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  GCGBossChallengeData boss_challenge = 11;
+}

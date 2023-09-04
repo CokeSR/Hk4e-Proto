@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message DelBackupAvatarTeamRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1729;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 backup_avatar_team_id = 15;
+  int32 retcode = 4;
+}

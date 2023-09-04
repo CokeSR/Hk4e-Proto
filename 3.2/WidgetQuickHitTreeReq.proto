@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "HitTreeInfo.proto";
+
+message WidgetQuickHitTreeReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3345;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  repeated HitTreeInfo hit_tree_info_list = 5;
+}

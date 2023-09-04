@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message RogueDiaryProgress {
+  uint32 difficulty = 7;
+  repeated uint32 optional_card_list = 4;
+  bool is_enter_dungeon = 9;
+  uint32 stage_id = 12;
+  uint32 cur_round = 3;
+}

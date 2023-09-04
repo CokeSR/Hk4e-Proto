@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message GalleryBalloonShootNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5598;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 trigger_entity_id = 12;
+  uint32 gallery_id = 5;
+  uint32 combo = 14;
+  uint64 combo_disable_time = 6;
+  int32 add_score = 11;
+  uint32 cur_score = 13;
+}

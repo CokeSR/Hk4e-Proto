@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message IslandPartyRaftInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5565;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 point_id = 7;
+  uint32 coin = 15;
+  uint32 fuel = 3;
+  uint32 component = 13;
+}

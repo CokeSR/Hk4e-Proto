@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message RacingGallerySettleInfo {
+  uint32 winner_uid = 6;
+  GalleryStopReason reason = 4;
+  uint32 use_time = 1;
+}

@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message GCGDuelCompareNotify {
+  // CMD_ID = 7884
+
+  string compare_duel_str = 2;
+  bool is_success = 8;
+  string cur_duel_str = 4;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message StartArenaChallengeLevelRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2125;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 arena_challenge_level = 1;
+  int32 retcode = 9;
+  uint32 gadget_entity_id = 3;
+  uint32 arena_challenge_id = 6;
+}

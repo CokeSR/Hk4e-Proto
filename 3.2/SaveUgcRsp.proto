@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "UgcType.proto";
+
+message SaveUgcRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6322;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 15;
+  uint64 ugc_guid = 8;
+  UgcType ugc_type = 1;
+}

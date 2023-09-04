@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message AllWidgetBackgroundActiveStateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6092;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 background_active_widget_list = 3;
+}

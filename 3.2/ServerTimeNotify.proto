@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message ServerTimeNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 99;
+    ENET_CHANNEL_ID = 1;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint64 server_time = 5;
+}

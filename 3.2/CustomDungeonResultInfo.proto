@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ChallengeBrief.proto";
+import "CustomDungeonFinishType.proto";
+
+message CustomDungeonResultInfo {
+  bool is_liked = 12;
+  uint32 got_coin_num = 9;
+  repeated ChallengeBrief child_challenge_list = 6;
+  uint64 dungeon_guid = 3;
+  CustomDungeonFinishType finish_type = 7;
+  uint32 time_cost = 11;
+  bool is_arrive_finish = 2;
+  bool is_stored = 14;
+}

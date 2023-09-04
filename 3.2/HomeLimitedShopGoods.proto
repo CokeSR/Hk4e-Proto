@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message HomeLimitedShopGoods {
+  uint32 buy_limit = 8;
+  repeated ItemParam cost_item_list = 15;
+  uint32 bought_num = 1;
+  ItemParam goods_item = 6;
+  uint32 goods_id = 13;
+  uint32 disable_type = 3;
+}

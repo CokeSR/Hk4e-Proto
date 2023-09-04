@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message MarkEntityInMinMapNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 202;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  Vector position = 4;
+  uint32 monster_id = 7;
+  uint32 entity_id = 14;
+}

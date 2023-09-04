@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message HomeSetBlueprintFriendOptionRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4604;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_allow_friend_copy = 2;
+  int32 retcode = 12;
+}

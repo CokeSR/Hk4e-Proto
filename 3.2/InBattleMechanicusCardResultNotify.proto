@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "InBattleMechanicusCardInfo.proto";
+
+message InBattleMechanicusCardResultNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5397;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 wait_seconds = 6;
+  uint32 group_id = 2;
+  repeated InBattleMechanicusCardInfo card_list = 9;
+  uint64 wait_begin_time_us = 7;
+  map<uint32, uint32> player_confirmed_card_map = 12;
+  uint32 play_index = 8;
+}

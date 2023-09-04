@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message WinterCampRaceStageInfo {
+  uint32 open_time = 5;
+  uint32 id = 1;
+  Vector pos = 14;
+  uint32 max_score = 2;
+}

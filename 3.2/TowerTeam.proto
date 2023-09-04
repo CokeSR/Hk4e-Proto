@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TowerTeam {
+  uint32 tower_team_id = 3;
+  repeated uint64 avatar_guid_list = 14;
+}

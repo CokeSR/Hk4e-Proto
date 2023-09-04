@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message UgcNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6341;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_ugc_publish_ban = 12;
+  bool is_ugc_publish_feature_closed = 8;
+  bool is_ugc_feature_closed = 15;
+}

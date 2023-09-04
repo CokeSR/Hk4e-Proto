@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGalleryLuminanceStoneChallengeInfo {
+  uint32 kill_monster_count = 5;
+  uint32 score = 3;
+  uint32 clean_mud_count = 2;
+  uint32 kill_special_monster_count = 6;
+}

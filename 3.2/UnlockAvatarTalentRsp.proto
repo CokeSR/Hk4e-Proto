@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message UnlockAvatarTalentRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1098;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 talent_id = 2;
+  int32 retcode = 3;
+  uint64 avatar_guid = 10;
+}

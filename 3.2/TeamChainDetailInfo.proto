@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "TeamChainStageData.proto";
+
+message TeamChainDetailInfo {
+  repeated TeamChainStageData stage_data_list = 14;
+  bool is_token_costume_reward = 4;
+}

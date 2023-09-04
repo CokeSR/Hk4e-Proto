@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message GearColumnInfo {
+  uint32 gear_column_index = 7;
+  bool is_overturn = 3;
+  bool has_gear = 2;
+  uint32 gear_id = 11;
+  uint32 placement_layer = 6;
+}

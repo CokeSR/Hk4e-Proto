@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CustomDungeonSetting.proto";
+import "CustomDungeonRoom.proto";
+
+message CustomDungeon {
+  CustomDungeonSetting setting = 1;
+  repeated CustomDungeonRoom room_list = 15;
+  uint32 dungeon_id = 3;
+  uint64 dungeon_guid = 10;
+}

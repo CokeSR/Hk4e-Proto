@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message HomeResource {
+  fixed32 next_refresh_time = 15;
+  uint32 store_limit = 3;
+  uint32 store_value = 12;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GCGZone {
+  repeated uint32 card_list = 4;
+}

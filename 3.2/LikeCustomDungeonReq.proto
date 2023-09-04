@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message LikeCustomDungeonReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6210;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  bool is_cancel_like = 5;
+  uint64 dungeon_guid = 10;
+}

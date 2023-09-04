@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message LanternRiteFireworksReformSkillInfo {
+  uint32 skill_id = 2;
+  bool is_unlock = 11;
+  uint32 unlock_challenge_time = 1;
+  uint32 unlock_challenge_id = 14;
+}

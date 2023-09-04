@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "CityReputationSimpleInfo.proto";
+
+message CityReputationDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2805;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated CityReputationSimpleInfo simple_info_list = 7;
+}

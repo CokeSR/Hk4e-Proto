@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CityReputationSimpleInfo {
+  uint32 level = 15;
+  uint32 city_id = 9;
+}

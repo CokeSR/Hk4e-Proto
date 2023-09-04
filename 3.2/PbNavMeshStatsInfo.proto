@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message PbNavMeshStatsInfo {
+  int32 authority_ai_in_combat = 10;
+  int32 no_authority_ai_in_combat = 11;
+  int32 total_authority_ai = 8;
+  int32 total_no_authority_ai = 13;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message QuestRenameAvatarReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 487;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 rename_id = 11;
+  bool is_check = 8;
+  string avatar_name = 2;
+}

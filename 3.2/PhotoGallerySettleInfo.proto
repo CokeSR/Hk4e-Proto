@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message PhotoGallerySettleInfo {
+  GalleryStopReason reason = 7;
+}

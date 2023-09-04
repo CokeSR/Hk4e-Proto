@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "AranaraCollectionState.proto";
+
+message AddAranaraCollectionNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6368;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 collection_type = 7;
+  AranaraCollectionState target_state = 12;
+  AranaraCollectionState from_state = 15;
+  uint32 collection_id = 8;
+}

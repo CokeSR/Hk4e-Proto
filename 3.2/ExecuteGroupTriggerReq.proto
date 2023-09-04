@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message ExecuteGroupTriggerReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 257;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  string source_name = 15;
+  uint32 target_entity_id = 12;
+  int32 param2 = 8;
+  uint32 source_entity_id = 4;
+  int32 param3 = 10;
+  int32 param1 = 9;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+message GCGPlayerBriefData {
+  map<uint32, uint32> card_face_map = 8;
+  string nick_name = 9;
+  ProfilePicture profile_picture = 12;
+  repeated uint32 card_id_list = 3;
+  uint32 controller_id = 5;
+  uint32 uid = 10;
+}

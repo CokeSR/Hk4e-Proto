@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "HomeStakePlayRecord.proto";
+
+message HomeStakeRecord {
+  repeated HomeStakePlayRecord record_list = 13;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneGalleryIrodoriMasterInfo {
+  uint32 level_id = 8;
+  uint32 difficulty = 1;
+  bool is_cg_viewed = 5;
+}

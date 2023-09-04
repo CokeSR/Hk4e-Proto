@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message AbilityActionCreateGadget {
+  uint32 room_id = 3;
+  Vector rot = 8;
+  Vector pos = 11;
+}

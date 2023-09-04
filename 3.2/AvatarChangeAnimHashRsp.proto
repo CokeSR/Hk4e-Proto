@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message AvatarChangeAnimHashRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1647;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 anim_hash = 13;
+  int32 retcode = 5;
+  uint64 avatar_guid = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message HomeFurnitureCustomSuiteData {
+  uint32 guid = 11;
+  Vector spawn_pos = 14;
+  repeated int32 included_furniture_index_list = 12;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "CutSceneExtraParam.proto";
+
+message CutSceneBeginNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 296;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_wait_others = 9;
+  uint32 cutscene_id = 14;
+  repeated CutSceneExtraParam extra_param_list = 3;
+}

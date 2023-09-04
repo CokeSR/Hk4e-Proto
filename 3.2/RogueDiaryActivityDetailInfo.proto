@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "RogueDiaryStageInfo.proto";
+import "RogueDiaryProgress.proto";
+
+message RogueDiaryActivityDetailInfo {
+  repeated RogueDiaryStageInfo stage_list = 11;
+  bool is_have_progress = 10;
+  bool is_content_closed = 2;
+  RogueDiaryProgress cur_progress = 7;
+}

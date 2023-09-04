@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BattlePassUnlockStatus.proto";
+
+message BattlePassRewardTag {
+  uint32 level = 4;
+  BattlePassUnlockStatus unlock_status = 2;
+  uint32 reward_id = 7;
+}

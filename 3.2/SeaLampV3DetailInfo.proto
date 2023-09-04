@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SeaLampV3ShadowInfo.proto";
+import "SeaLampV3CampInfo.proto";
+import "SeaLampV3RaceInfo.proto";
+
+message SeaLampV3DetailInfo {
+  SeaLampV3ShadowInfo shadow_info = 3;
+  SeaLampV3CampInfo camp_info = 8;
+  SeaLampV3RaceInfo race_info = 10;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message LanV3BoatStageInfo {
+  repeated uint32 player_uid_list = 2;
+  uint32 map_id = 10;
+  bool is_single = 13;
+}

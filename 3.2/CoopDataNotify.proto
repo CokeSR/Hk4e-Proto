@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CoopChapter.proto";
+
+message CoopDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1979;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated CoopChapter chapter_list = 15;
+  repeated uint32 viewed_chapter_list = 7;
+  bool is_have_progress = 10;
+  uint32 cur_coop_point = 5;
+}

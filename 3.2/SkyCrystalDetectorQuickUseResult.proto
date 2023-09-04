@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SkyCrystalDetectorData.proto";
+
+message SkyCrystalDetectorQuickUseResult {
+  SkyCrystalDetectorData sky_crystal_detector_data = 9;
+  int32 retcode = 8;
+}

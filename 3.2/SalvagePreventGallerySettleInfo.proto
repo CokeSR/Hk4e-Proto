@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SalvagePreventStopReason.proto";
+
+message SalvagePreventGallerySettleInfo {
+  uint32 time_remain = 8;
+  SalvagePreventStopReason reason = 7;
+  uint32 final_score = 13;
+  uint32 monster_count = 15;
+}

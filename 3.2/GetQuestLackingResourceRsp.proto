@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message GetQuestLackingResourceRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 458;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 quest_id = 4;
+  int32 retcode = 11;
+  repeated uint32 lacked_npc_list = 8;
+  repeated uint32 lacked_place_list = 5;
+  map<uint32, uint32> lacked_npc_map = 10;
+  map<uint32, uint32> lacked_place_map = 2;
+}

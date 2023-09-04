@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "CompoundQueueData.proto";
+
+message PlayerCompoundMaterialRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 143;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  CompoundQueueData compound_que_data = 5;
+  int32 retcode = 12;
+}

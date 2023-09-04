@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FleurFairMusicRecord {
+  uint32 max_combo = 1;
+  uint32 max_score = 11;
+  bool is_unlock = 12;
+}

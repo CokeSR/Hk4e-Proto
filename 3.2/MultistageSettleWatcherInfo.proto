@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message MultistageSettleWatcherInfo {
+  uint32 total_progress = 13;
+  uint32 cur_progress = 5;
+  uint32 watcher_id = 7;
+  bool is_inverse = 12;
+}

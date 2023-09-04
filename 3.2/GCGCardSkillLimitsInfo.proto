@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GCGSkillLimitsInfo.proto";
+
+message GCGCardSkillLimitsInfo {
+  repeated GCGSkillLimitsInfo skill_limits_list = 12;
+}

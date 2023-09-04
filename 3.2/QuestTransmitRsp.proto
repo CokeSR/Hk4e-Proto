@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message QuestTransmitRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 443;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 point_id = 12;
+  int32 retcode = 5;
+  uint32 quest_id = 3;
+}

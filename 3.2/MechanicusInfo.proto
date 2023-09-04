@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "Uint32Pair.proto";
+
+message MechanicusInfo {
+  repeated Uint32Pair gear_level_pair_list = 14;
+  repeated uint32 open_sequence_id_list = 7;
+  uint32 coin = 8;
+  uint32 punish_over_time = 12;
+  uint32 mechanicus_id = 10;
+  repeated uint32 finish_difficult_level_list = 13;
+  bool is_finish_teach_dungeon = 4;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message UseItemReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 690;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 count = 13;
+  uint64 target_guid = 14;
+  uint64 guid = 10;
+  bool is_enter_mp_dungeon_team = 15;
+  uint32 option_idx = 7;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "BuoyantCombatGallerySettleInfo.proto";
+
+message BuoyantCombatSettleInfo {
+  bool is_new_record = 1;
+  BuoyantCombatGallerySettleInfo settle_info = 3;
+}

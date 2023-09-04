@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message WinterCampAcceptItemResultInfo {
+  repeated ItemParam accept_item_list = 2;
+  uint32 uid = 6;
+  repeated ItemParam unaccept_item_list = 9;
+}

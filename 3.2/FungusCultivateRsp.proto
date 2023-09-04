@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message FungusCultivateRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 23532;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 cultivate_id = 4;
+  bool is_new_record = 13;
+  int32 retcode = 10;
+}

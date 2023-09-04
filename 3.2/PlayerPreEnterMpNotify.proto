@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+//import "State.proto";
+
+message PlayerPreEnterMpNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1822;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  enum State {
+    INVALID = 0;
+    START = 1;
+    TIMEOUT = 2;
+  }
+  State state = 2;
+  uint32 uid = 14;
+  string nickname = 6;
+}

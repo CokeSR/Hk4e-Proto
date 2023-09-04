@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+//import "ItemExceedLimitMsgType.proto";
+
+message CheckAddItemExceedLimitNotify {
+  enum ItemExceedLimitMsgType {
+    ITEM_EXCEED_LIMIT_MSG_DEFAULT = 0;
+    ITEM_EXCEED_LIMIT_MSG_TEXT = 1;
+    ITEM_EXCEED_LIMIT_MSG_DIALOG = 2;
+    ITEM_EXCEED_LIMIT_MSG_DIALOG_NONBLOCK = 3;
+  }
+  /*/*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 692;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_drop = 5;
+  ItemExceedLimitMsgType msg_type = 4;
+  repeated uint32 exceeded_item_type_list = 10;
+  repeated uint32 exceeded_item_list = 12;
+  uint32 reason = 14;
+}

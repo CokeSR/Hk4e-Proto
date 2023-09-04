@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "PlaceInfo.proto";
+
+message SceneGalleryHandballInfo {
+  PlaceInfo ball_place_info = 9;
+  bool is_have_ball = 15;
+}

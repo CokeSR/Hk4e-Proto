@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message BartenderCompleteOrderReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8414;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 cup_type = 14;
+  uint32 qte_count = 7;
+  uint32 quest_id = 11;
+  repeated ItemParam item_list = 10;
+  bool is_view_formula = 9;
+  repeated uint32 optional_order_list = 6;
+  uint32 retry_count = 3;
+}

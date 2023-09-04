@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ActivityPushTipsState.proto";
+
+message ActivityPushTipsData {
+  ActivityPushTipsState state = 10;
+  uint32 activity_push_tips_id = 4;
+}

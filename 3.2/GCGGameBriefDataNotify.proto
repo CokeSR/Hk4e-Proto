@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "GCGGameBriefData.proto";
+
+message GCGGameBriefDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7539;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_new_game = 11;
+  GCGGameBriefData gcg_brief_data = 10;
+}

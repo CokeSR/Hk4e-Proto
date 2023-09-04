@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "DuelHeartLevelDifficultyInfo.proto";
+
+message DuelHeartLevelInfo {
+  bool is_cg_viewed = 5;
+  repeated DuelHeartLevelDifficultyInfo difficulty_info_list = 13;
+  uint32 level_id = 4;
+  bool is_open = 11;
+}

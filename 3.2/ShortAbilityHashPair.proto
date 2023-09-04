@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ShortAbilityHashPair {
+  sfixed32 ability_config_hash = 15;
+  sfixed32 ability_name_hash = 1;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message FishAttractNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5837;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 fish_id_list = 3;
+  Vector pos = 9;
+  uint32 uid = 2;
+}

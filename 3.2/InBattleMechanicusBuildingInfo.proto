@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message InBattleMechanicusBuildingInfo {
+  uint32 building_id = 8;
+  uint32 level = 7;
+  uint32 cost_points = 2;
+  uint32 refund_points = 11;
+}

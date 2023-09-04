@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "ShopConcertProduct.proto";
+import "ShopGoods.proto";
+import "ShopCardProduct.proto";
+import "ShopMcoinProduct.proto";
+
+message Shop {
+  repeated ShopConcertProduct concert_product_list = 3;
+  repeated ShopGoods goods_list = 15;
+  uint32 city_reputation_level = 2;
+  repeated ShopCardProduct card_product_list = 14;
+  repeated ShopMcoinProduct mcoin_product_list = 7;
+  uint32 next_refresh_time = 11;
+  uint32 city_id = 10;
+  uint32 shop_type = 13;
+}

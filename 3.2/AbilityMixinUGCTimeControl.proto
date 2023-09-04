@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AbilityMixinUGCTimeControl {
+  uint64 start_move_time_ms = 13;
+  uint32 start_move_time = 3;
+}

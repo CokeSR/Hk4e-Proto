@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message GCGDSDeckSaveReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7104;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 deck_id = 1;
+  repeated uint32 card_list = 4;
+  repeated uint32 character_card_list = 9;
+  string name = 14;
+}

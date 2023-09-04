@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message SpiceActivityFinishMakeSpiceRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8481;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 stage_id = 13;
+  int32 retcode = 14;
+  bool is_success = 3;
+}

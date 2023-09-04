@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SeaLampSectionInfo {
+  uint32 section_id = 11;
+}

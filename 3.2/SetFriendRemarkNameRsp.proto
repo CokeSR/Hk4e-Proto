@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message SetFriendRemarkNameRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4030;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  string remark_name = 13;
+  bool is_clear_remark = 3;
+  uint32 uid = 10;
+  int32 retcode = 1;
+}

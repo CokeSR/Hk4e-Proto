@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarTeam {
+  repeated uint64 avatar_guid_list = 7;
+  string team_name = 14;
+}

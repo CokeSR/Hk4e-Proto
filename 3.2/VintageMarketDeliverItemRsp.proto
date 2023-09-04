@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message VintageMarketDeliverItemRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 22181;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 6;
+  uint32 trader_id = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message LanternProjectionLevelInfo {
+  uint32 min_finish_time = 1;
+  uint32 id = 2;
+  bool is_finished = 7;
+  bool is_can_start = 9;
+  bool is_show_tips = 10;
+}

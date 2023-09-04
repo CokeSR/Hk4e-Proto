@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message HomeVerifyBlockData {
+  uint32 block_id = 10;
+  uint32 furniture_count = 9;
+}

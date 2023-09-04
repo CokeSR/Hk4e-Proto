@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message GachaActivityPercentNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8450;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 item_stage = 14;
+  map<uint32, uint32> target_num_map = 6;
+  uint32 sub_item_stage = 2;
+  uint32 percent = 13;
+}

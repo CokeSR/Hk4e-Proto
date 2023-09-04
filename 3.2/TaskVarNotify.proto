@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "TaskVar.proto";
+
+message TaskVarNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 160;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated TaskVar task_var_list = 7;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SeaLampV3ShadowLevelInfo {
+  bool is_open = 4;
+  uint32 level_id = 3;
+  uint32 min_finish_time = 6;
+}

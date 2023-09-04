@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message EvtFixedRushMove {
+  uint32 entity_id = 15;
+  float speed = 3;
+  bool need_set_is_in_air = 7;
+  repeated uint32 animator_state_id_list = 2;
+  Vector target_pos = 9;
+  bool check_animator_state_on_exit_only = 6;
+  string override_collider = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+import "ProfilePicture.proto";
+
+message WinterCampRecvItemData {
+  repeated ItemParam item_list = 2;
+  uint32 uid = 8;
+  ProfilePicture profile_picture = 1;
+  string nickname = 12;
+}

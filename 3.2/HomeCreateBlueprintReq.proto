@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "HomeSceneArrangementInfo.proto";
+
+message HomeCreateBlueprintReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4619;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  HomeSceneArrangementInfo scene_arrangement_info = 2;
+  uint32 slot_id = 13;
+  string server_share_code = 6;
+  uint32 gen_share_code_count = 4;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message HomeKickPlayerRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4691;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 target_uid = 4;
+  int32 retcode = 8;
+  bool is_kick_all = 10;
+}

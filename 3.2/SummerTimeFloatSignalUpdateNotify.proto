@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message SummerTimeFloatSignalUpdateNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8781;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_transfer_anchor = 4;
+  uint32 float_signal_id = 8;
+  Vector position = 10;
+}

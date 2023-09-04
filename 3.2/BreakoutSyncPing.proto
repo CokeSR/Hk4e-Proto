@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BreakoutSyncPing {
+  uint64 client_game_time = 2;
+  uint64 server_game_time = 11;
+}

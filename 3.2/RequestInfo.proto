@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+
+
+message RequestInfo {
+    uint32 request_id = 3;
+    uint32 quest_id = 9;
+    bool is_taken_reward = 6;
+  }

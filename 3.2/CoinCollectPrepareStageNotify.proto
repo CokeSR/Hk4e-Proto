@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "CoinCollectStageInfo.proto";
+
+message CoinCollectPrepareStageNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6536;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  CoinCollectStageInfo coin_collect_info = 3;
+}

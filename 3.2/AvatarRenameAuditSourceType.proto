@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum AvatarRenameAuditSourceType {
+  AVATAR_RENAME_AUDIT_SOURCE_NONE = 0;
+  AVATAR_RENAME_AUDIT_SOURCE_ITEM = 1;
+  AVATAR_RENAME_AUDIT_SOURCE_QUEST = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CrystalLinkLevelInfo.proto";
+
+message CrystalLinkActivityDetailInfo {
+  repeated CrystalLinkLevelInfo level_info_list = 3;
+  uint32 difficulty_id = 7;
+}

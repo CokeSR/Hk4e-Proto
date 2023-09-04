@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message MusicGameSettleRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8673;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 11;
+  uint32 music_basic_id = 5;
+  bool is_new_record = 6;
+  bool is_unlock_next_level = 2;
+  uint64 ugc_guid = 10;
+}

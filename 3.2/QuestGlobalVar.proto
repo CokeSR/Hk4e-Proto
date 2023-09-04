@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message QuestGlobalVar {
+  int32 value = 8;
+  uint32 key = 4;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message DraftOwnerInviteNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5407;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 draft_id = 4;
+  uint32 invite_deadline_time = 15;
+}

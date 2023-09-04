@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "HomePlantFieldData.proto";
+
+message HomePlantInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4587;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated HomePlantFieldData field_list = 4;
+}

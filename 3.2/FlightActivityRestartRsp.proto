@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message FlightActivityRestartRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2165;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 group_id = 11;
+  uint32 schedule_id = 10;
+  int32 retcode = 15;
+}

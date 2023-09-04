@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message MonsterForceAlertNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 395;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 monster_entity_id = 13;
+}

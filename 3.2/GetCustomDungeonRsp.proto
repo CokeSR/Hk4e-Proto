@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CustomDungeonBanInfo.proto";
+import "CustomDungeonBrief.proto";
+
+message GetCustomDungeonRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6227;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 10;
+  CustomDungeonBanInfo ban_info = 14;
+  repeated CustomDungeonBrief brief_list = 5;
+}

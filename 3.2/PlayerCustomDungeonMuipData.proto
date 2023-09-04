@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CustomDungeonBattleRecordMuipData.proto";
+
+message PlayerCustomDungeonMuipData {
+  uint32 uid = 1;
+  repeated uint64 publish_dungeon_list = 2;
+  repeated uint64 store_dungeon_list = 3;
+  repeated CustomDungeonBattleRecordMuipData battle_record_list = 4;
+}

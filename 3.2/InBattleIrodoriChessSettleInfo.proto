@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message InBattleIrodoriChessSettleInfo {
+  bool is_new_record = 5;
+  bool is_activity_end = 2;
+  uint64 scene_time_ms = 1;
+  uint32 settle_score = 3;
+  bool is_perfect = 12;
+  uint32 kill_monster_num = 7;
+}

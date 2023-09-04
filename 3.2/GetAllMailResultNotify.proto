@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "MailData.proto";
+
+message GetAllMailResultNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1481;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  string transaction = 9;
+  repeated MailData mail_list = 5;
+  uint32 page_index = 11;
+  uint32 total_page_count = 4;
+  bool is_collected = 7;
+  int32 retcode = 14;
+}

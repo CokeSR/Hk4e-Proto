@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+message AbilityInvocationFixedNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1172;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  AbilityInvokeEntry invoke6th = 14;
+  AbilityInvokeEntry invoke5th = 8;
+  AbilityInvokeEntry invoke4th = 1;
+  AbilityInvokeEntry invoke2nd = 5;
+  AbilityInvokeEntry invoke1st = 10;
+  AbilityInvokeEntry invoke3rd = 12;
+}

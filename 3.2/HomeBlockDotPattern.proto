@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message HomeBlockDotPattern {
+  uint32 width = 8;
+  uint32 height = 11;
+  bytes data = 9;
+}

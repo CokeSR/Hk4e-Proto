@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GCGLimitsInfo.proto";
+
+message GCGSkillLimitsInfo {
+  uint32 skill_id = 5;
+  repeated GCGLimitsInfo limits_list = 15;
+}

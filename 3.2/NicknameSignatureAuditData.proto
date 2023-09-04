@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ContentAuditField.proto";
+import "ContentAuditAuxiliaryField.proto";
+
+message NicknameSignatureAuditData {
+  string aid = 1;
+  string entity_id = 2;
+  string lang = 3;
+  string queue_key = 4;
+  string region = 5;
+  uint32 uid = 6;
+  repeated ContentAuditField audit_field_list = 7;
+  repeated ContentAuditAuxiliaryField aux_field_list = 8;
+}

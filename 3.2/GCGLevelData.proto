@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGLevelData {
+  repeated uint32 finished_challenge_id_list = 10;
+  uint32 level_id = 9;
+}

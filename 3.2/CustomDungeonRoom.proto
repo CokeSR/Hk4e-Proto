@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CustomDungeonBlock.proto";
+
+message CustomDungeonRoom {
+  uint32 room_id = 15;
+  repeated CustomDungeonBlock block_list = 4;
+}

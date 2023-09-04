@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "SalvagePreventSettleInfo.proto";
+
+message SalvagePreventSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8231;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gallery_id = 13;
+  SalvagePreventSettleInfo settle_info = 12;
+}

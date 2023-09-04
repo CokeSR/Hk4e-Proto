@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GCGOperation.proto";
+
+message GCGReplayOperationData {
+  uint32 controller_id = 8;
+  GCGOperation op = 5;
+}

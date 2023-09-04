@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum LanV3BoatKickReason {
+  LAN_V3_KICK_REASON_NONE = 0;
+  LAN_V3_KICK_REASON_EXIT_VEHICLE = 1;
+  LAN_V3_KICK_REASON_AVATAR_DIE = 2;
+  LAN_V3_KICK_REASON_SLOW_ENTER = 3;
+}

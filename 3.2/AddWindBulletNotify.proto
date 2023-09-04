@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+import "Vector.proto";
+
+message AddWindBulletNotify {
+    Vector seed_pos = 6;
+    uint32 catch_player_uid = 8;
+    uint32 seed_entity_id = 7;
+  }

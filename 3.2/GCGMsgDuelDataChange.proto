@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GCGMsgDuelDataChange {
+  uint32 round = 14;
+}

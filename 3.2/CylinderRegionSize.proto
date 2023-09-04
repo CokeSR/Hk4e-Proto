@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CylinderRegionSize {
+  float radius = 8;
+  float height = 7;
+}

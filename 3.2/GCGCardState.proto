@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum GCGCardState {
+  GCG_CARD_STATE_HIDE = 0;
+  GCG_CARD_STATE_SELF = 1;
+  GCG_CARD_STATE_SHOW = 2;
+}

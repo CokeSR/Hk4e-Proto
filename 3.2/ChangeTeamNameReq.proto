@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ChangeTeamNameReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1603;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  int32 team_id = 8;
+  string team_name = 9;
+}

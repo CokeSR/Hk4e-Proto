@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message IrodoriMasterGallerySettleInfo {
+  GalleryStopReason reason = 15;
+  bool is_finish = 11;
+  uint32 finish_time = 14;
+  uint32 difficult = 6;
+  uint32 level_id = 4;
+}

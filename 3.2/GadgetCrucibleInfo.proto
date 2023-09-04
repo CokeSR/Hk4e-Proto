@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GadgetCrucibleInfo {
+  uint32 mp_play_id = 1;
+  uint32 prepare_end_time = 2;
+}

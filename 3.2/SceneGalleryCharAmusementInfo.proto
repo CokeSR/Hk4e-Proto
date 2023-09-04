@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SceneGalleryCharAmusementInfo {
+  bool is_last_level = 2;
+  uint32 max_score = 9;
+  uint32 cur_score = 14;
+  bool is_finish = 10;
+  bool is_success = 1;
+}

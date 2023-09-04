@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AbilityMixinFieldEntityCountChange {
+  uint32 field_entity_count = 14;
+}

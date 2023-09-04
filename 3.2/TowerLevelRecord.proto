@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TowerLevelRecord {
+  repeated uint32 satisfied_cond_list = 13;
+  uint32 level_id = 10;
+}

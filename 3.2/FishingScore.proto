@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message FishingScore {
+  uint32 fishing_score = 2;
+  bool is_new_record = 4;
+}

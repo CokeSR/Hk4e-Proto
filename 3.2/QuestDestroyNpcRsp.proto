@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message QuestDestroyNpcRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 465;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 npc_id = 12;
+  uint32 parent_quest_id = 4;
+  int32 retcode = 5;
+}

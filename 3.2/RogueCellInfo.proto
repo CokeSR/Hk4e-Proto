@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "RogueCellState.proto";
+
+message RogueCellInfo {
+  uint32 cell_config_id = 14;
+  uint32 dungeon_id = 4;
+  uint32 cell_id = 9;
+  uint32 cell_type = 13;
+  RogueCellState state = 10;
+}

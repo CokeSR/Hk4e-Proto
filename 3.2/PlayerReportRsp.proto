@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message PlayerReportRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4056;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 cd_time = 11;
+  uint32 target_uid = 6;
+  int32 retcode = 12;
+}

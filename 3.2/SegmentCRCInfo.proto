@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SegmentCRCInfo {
+  uint32 module = 13;
+  int32 retcode = 5;
+  uint32 size = 10;
+  string crc = 3;
+  uint32 offset = 11;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message TriggerRoguelikeRuneRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8065;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 available_count = 4;
+  uint32 rune_id = 14;
+  int32 retcode = 8;
+}

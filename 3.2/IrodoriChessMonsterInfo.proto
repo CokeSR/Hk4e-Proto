@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message IrodoriChessMonsterInfo {
+  uint32 grant_points = 6;
+  uint32 level = 13;
+  uint32 monster_id = 14;
+  repeated uint32 affix_list = 11;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GravenInnocencePhotoStageInfo {
+  bool is_finished = 11;
+  uint32 stage_id = 6;
+  bool is_open = 9;
+}

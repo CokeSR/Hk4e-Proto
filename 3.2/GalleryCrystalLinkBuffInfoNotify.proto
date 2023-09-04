@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GalleryCrystalLinkBuffInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5539;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gallery_id = 13;
+  bool is_buff_valid = 11;
+  uint32 buff_id = 14;
+}

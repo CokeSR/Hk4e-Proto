@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message MainCoopFailNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1951;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  string textmap_id = 7;
+  uint32 chapter_id = 15;
+}

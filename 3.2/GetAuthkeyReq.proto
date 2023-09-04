@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message GetAuthkeyReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1490;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  string auth_appid = 14;
+  uint32 sign_type = 7;
+  uint32 authkey_ver = 13;
+}

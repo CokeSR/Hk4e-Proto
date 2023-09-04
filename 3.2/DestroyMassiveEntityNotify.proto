@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ClientMassiveEntity.proto";
+
+message DestroyMassiveEntityNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 358;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  repeated ClientMassiveEntity massive_entity_list = 7;
+}

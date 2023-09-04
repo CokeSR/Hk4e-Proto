@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "GCGZoneType.proto";
+import "GCGReason.proto";
+
+message GCGMsgAddCards {
+  uint32 pos = 11;
+  GCGZoneType zone = 2;
+  GCGReason reason = 15;
+  uint32 controller_id = 13;
+  repeated uint32 card_guid_list = 14;
+}

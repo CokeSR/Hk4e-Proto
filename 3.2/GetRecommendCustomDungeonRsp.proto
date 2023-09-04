@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "OtherCustomDungeonBrief.proto";
+
+message GetRecommendCustomDungeonRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6248;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated OtherCustomDungeonBrief custom_dungeon_list = 8;
+  int32 retcode = 14;
+}

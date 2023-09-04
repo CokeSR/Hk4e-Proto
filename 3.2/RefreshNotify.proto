@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message RefreshNotify {
+    uint32 refresh_num = 9;
+  }

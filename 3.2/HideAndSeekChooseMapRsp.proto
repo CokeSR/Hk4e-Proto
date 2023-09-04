@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message HideAndSeekChooseMapRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8533;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 map_list = 3;
+  int32 retcode = 11;
+}

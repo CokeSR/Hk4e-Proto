@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+//import "State.proto";
+
+message Investigation {
+  enum State {
+    INVALID = 0;
+    IN_PROGRESS = 1;
+    COMPLETE = 2;
+    REWARD_TAKEN = 3;
+  }
+  uint32 total_progress = 5;
+  State state = 2;
+  uint32 progress = 13;
+  uint32 id = 9;
+}

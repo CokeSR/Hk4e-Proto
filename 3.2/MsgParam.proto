@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message MsgParam {
+  oneof param {
+    uint32 int_param = 9;
+    float flt_param = 7;
+    string str_param = 4;
+  }
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message RoguelikeRuneRecord {
+  uint32 left_count = 14;
+  uint32 rune_id = 6;
+  uint32 max_count = 4;
+}

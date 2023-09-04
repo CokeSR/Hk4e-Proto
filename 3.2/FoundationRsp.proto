@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "FoundationOpType.proto";
+
+message FoundationRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 882;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  FoundationOpType op_type = 13;
+  uint32 gadget_entity_id = 10;
+  uint32 building_id = 11;
+  uint32 point_config_id = 12;
+  int32 retcode = 7;
+}

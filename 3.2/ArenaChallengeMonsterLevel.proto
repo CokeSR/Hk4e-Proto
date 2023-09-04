@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ArenaChallengeMonsterLevel {
+  uint32 arena_challenge_level = 7;
+  uint32 arena_challenge_id = 15;
+}

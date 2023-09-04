@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message EnterMechanicusDungeonRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3975;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 wrong_uid = 12;
+  uint32 difficult_level = 13;
+  int32 retcode = 6;
+  uint32 dungeon_id = 11;
+}

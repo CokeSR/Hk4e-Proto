@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "FleurFairPlayerStatInfo.proto";
+
+message FleurFairBossSettleInfo {
+  uint32 reward_token_num = 15;
+  repeated FleurFairPlayerStatInfo stat_info_list = 1;
+  bool is_success = 10;
+  uint32 energy = 12;
+  uint32 cost_time = 8;
+}

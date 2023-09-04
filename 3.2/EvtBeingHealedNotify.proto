@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message EvtBeingHealedNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 333;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 target_id = 1;
+  float real_heal_amount = 5;
+  uint32 source_id = 13;
+  float heal_amount = 4;
+}

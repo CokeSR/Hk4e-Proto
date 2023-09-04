@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DeshretObeliskGadgetInfo {
+  repeated uint32 argument_list = 1;
+}

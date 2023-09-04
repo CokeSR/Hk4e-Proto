@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CoinCollectTeamAvatarInfo {
+  uint32 costume_id = 4;
+  uint32 avatar_id = 10;
+}

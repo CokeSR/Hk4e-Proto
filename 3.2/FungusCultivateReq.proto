@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message FungusCultivateReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 21749;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 cultivate_id = 8;
+  uint32 copy_step = 7;
+  uint32 exchange_step = 11;
+  uint32 cultivate_step = 13;
+  uint32 rotate_step = 15;
+  uint32 undo_step = 6;
+  uint32 time = 2;
+  uint32 place_step = 10;
+}

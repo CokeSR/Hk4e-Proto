@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ActivityWatcherInfo {
+  bool is_taken_reward = 8;
+  uint32 cur_progress = 2;
+  uint32 total_progress = 4;
+  uint32 watcher_id = 5;
+}

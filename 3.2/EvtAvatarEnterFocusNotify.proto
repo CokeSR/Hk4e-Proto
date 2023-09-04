@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtAvatarEnterFocusNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 304;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 entity_id = 1;
+  bool can_move = 10;
+  bool enter_holding_focus_shoot = 13;
+  bool disable_aim_layer = 6;
+  bool use_auto_focus = 5;
+  bool fast_focus = 3;
+  bool show_cross_hair = 12;
+  bool enter_normal_focus_shoot = 14;
+  ForwardType forward_type = 8;
+  Vector focus_forward = 7;
+  bool disable_anim = 9;
+  bool use_focus_sticky = 15;
+  bool use_gyro = 11;
+}

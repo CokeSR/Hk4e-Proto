@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ScenePlayInfo {
+  uint32 entry_id = 15;
+  uint32 play_id = 11;
+  uint32 play_type = 3;
+  bool is_open = 9;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GCGZoneType.proto";
+
+message GCGSkillPreviewCardInfo {
+  uint32 controller_id = 3;
+  uint32 owner_card_guid = 11;
+  GCGZoneType zone_type = 14;
+  uint32 card_id = 13;
+  uint32 card_guid = 6;
+}

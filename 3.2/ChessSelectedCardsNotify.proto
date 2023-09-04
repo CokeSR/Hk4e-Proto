@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ChessCardInfo.proto";
+
+message ChessSelectedCardsNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5392;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated ChessCardInfo selected_card_info_list = 4;
+}

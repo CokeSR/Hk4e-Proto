@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message HomeSetBlueprintSlotOptionReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4798;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 slot_id = 1;
+  bool is_allow_copy = 8;
+}

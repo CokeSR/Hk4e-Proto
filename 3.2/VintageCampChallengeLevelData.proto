@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message VintageCampChallengeLevelData {
+  uint32 stage_id = 14;
+  uint32 level_id = 11;
+  bool is_finish = 8;
+  bool is_open = 6;
+}

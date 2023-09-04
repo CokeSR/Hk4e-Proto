@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "CrystalLinkBuffInfo.proto";
+import "CrystalLinkDungeonAvatarInfo.proto";
+
+message CrystalLinkDungeonInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8858;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated CrystalLinkBuffInfo buff_info_list = 8;
+  uint32 level_id = 1;
+  bool is_upper_part = 15;
+  uint32 difficulty_id = 11;
+  repeated CrystalLinkDungeonAvatarInfo dungeon_avatar_info_list = 3;
+  uint32 init_gallery_progress = 7;
+}

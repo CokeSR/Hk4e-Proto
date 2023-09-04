@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message GetBattlePassProductRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2649;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 14;
+  string price_tier = 6;
+  uint32 battle_pass_product_play_type = 2;
+  string product_id = 1;
+  uint32 cur_schedule_id = 11;
+}

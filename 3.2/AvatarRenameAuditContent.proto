@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message AvatarRenameAuditContent {
+  string type = 1;
+  string content = 2;
+  uint32 auto_fail_time = 3;
+}

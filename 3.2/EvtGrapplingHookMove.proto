@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message EvtGrapplingHookMove {
+  float acceleration = 1;
+  repeated uint32 animator_state_id_list = 2;
+  uint32 entity_id = 3;
+  bool need_set_is_in_air = 13;
+  float speed = 12;
+  float max_speed = 8;
+  bool check_animator_state_on_exit_only = 11;
+  string override_collider = 14;
+  Vector target_pos = 10;
+}

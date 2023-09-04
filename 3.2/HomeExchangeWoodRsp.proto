@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message HomeExchangeWoodRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4622;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 13;
+  uint32 wood_id = 1;
+  uint32 wood_count = 3;
+  uint32 exchanged_count = 2;
+}

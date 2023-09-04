@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message LanternRiteEndFireworksReformRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8933;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool is_full_score = 10;
+  int32 retcode = 1;
+  bool is_unlock_fireworks = 6;
+  uint32 stage_id = 15;
+  bool is_unlock_new_skill = 12;
+  bool is_stamina_up = 4;
+  uint32 final_score = 13;
+  uint32 challenge_id = 5;
+  bool is_new_record = 9;
+}

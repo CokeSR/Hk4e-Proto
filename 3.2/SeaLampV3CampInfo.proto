@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "SeaLampV3CampStageInfo.proto";
+
+message SeaLampV3CampInfo {
+  repeated SeaLampV3CampStageInfo stage_info_list = 15;
+}

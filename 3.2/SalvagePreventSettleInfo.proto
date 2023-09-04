@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "SalvagePreventGallerySettleInfo.proto";
+
+message SalvagePreventSettleInfo {
+  bool is_new_record = 8;
+  SalvagePreventGallerySettleInfo settle_info = 14;
+}

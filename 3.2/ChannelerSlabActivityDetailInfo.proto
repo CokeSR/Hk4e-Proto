@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ChannellerSlabBuffInfo.proto";
+import "ChannellerSlabLoopDungeonStageInfo.proto";
+import "ChannelerSlabChallengeStage.proto";
+
+message ChannelerSlabActivityDetailInfo {
+  ChannellerSlabBuffInfo buff_info = 1;
+  ChannellerSlabLoopDungeonStageInfo loop_dungeon_stage_info = 7;
+  repeated ChannelerSlabChallengeStage stage_list = 15;
+  uint32 play_end_time = 3;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum PlatformCategory {
+  PLATFORM_CATEGORY_NONE = 0;
+  PLATFORM_CATEGORY_PCM = 1;
+  PLATFORM_CATEGORY_PSN = 2;
+}

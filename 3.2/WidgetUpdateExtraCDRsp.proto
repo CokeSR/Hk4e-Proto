@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "WIDGET_EXTRA_CD_TYPE.proto";
+import "WidgetCoolDownData.proto";
+
+message WidgetUpdateExtraCDRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6056;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 14;
+  uint32 material_id = 11;
+  WIDGET_EXTRA_CD_TYPE extra_cd_type = 6;
+  WidgetCoolDownData cool_data = 10;
+  uint32 cd_group = 15;
+}

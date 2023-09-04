@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message GCGGrowthLevelNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 7736;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 exp = 7;
+  uint32 level = 11;
+}

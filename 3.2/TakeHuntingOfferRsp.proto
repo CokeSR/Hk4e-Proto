@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "HuntingPair.proto";
+
+message TakeHuntingOfferRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4318;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  HuntingPair hunting_pair = 13;
+  uint32 city_id = 14;
+  int32 retcode = 3;
+}

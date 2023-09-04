@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message Furniture {
+  uint32 count = 1;
+}

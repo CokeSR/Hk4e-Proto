@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message MechanicusSequenceOpenNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3912;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 mechanicus_id = 8;
+  uint32 sequence_id = 7;
+}

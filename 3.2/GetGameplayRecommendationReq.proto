@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "GameplayRecommendationSkillRequest.proto";
+import "GameplayRecommendationReliquaryRequest.proto";
+import "GameplayRecommendationElementReliquaryRequest.proto";
+
+message GetGameplayRecommendationReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 151;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 avatar_id = 9;
+  oneof detail {
+    GameplayRecommendationSkillRequest skill_request = 553;
+    GameplayRecommendationReliquaryRequest reliquary_request = 1993;
+    GameplayRecommendationElementReliquaryRequest element_reliquary_request = 1489;
+  }
+}

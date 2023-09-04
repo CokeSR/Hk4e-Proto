@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGLimitsInfo {
+  uint32 limit_type = 7;
+  uint32 limit_value = 1;
+}

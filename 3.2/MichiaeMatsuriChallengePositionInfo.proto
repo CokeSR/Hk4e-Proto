@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message MichiaeMatsuriChallengePositionInfo {
+  uint32 group_id = 4;
+  uint32 gadget_id = 7;
+  Vector pos = 8;
+}

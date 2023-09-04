@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+message ActivityRecvGiftData {
+  uint32 uid = 15;
+  string nickname = 3;
+  string remark_name = 10;
+  ProfilePicture profile_picture = 14;
+  map<uint32, uint32> gift_num_map = 8;
+}

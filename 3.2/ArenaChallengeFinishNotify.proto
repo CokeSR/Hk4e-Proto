@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "ArenaChallengeChildChallengeInfo.proto";
+
+message ArenaChallengeFinishNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2030;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 arena_challenge_level = 13;
+  uint32 arena_challenge_id = 3;
+  repeated ArenaChallengeChildChallengeInfo child_challenge_list = 2;
+  bool is_success = 12;
+}

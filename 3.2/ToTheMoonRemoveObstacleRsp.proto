@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "DynamicNodes.proto";
+
+message ToTheMoonRemoveObstacleRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6173;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 query_id = 3;
+  int32 retcode = 14;
+  DynamicNodes dynamic_nodes = 8;
+}

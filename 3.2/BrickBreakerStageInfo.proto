@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BrickBreakerStageType.proto";
+import "BrickBreakerPlayerBattleInfo.proto";
+
+message BrickBreakerStageInfo {
+  uint32 level_id = 15;
+  BrickBreakerStageType stage_type = 1;
+  repeated BrickBreakerPlayerBattleInfo battle_info_list = 2;
+}

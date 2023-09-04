@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "IrodoriMasterLevelInfo.proto";
+import "IrodoriFlowerData.proto";
+import "IrodoriPoetryData.proto";
+import "IrodoriChessData.proto";
+
+message IrodoriActivityDetailInfo {
+  repeated IrodoriMasterLevelInfo master_level_list = 11;
+  IrodoriFlowerData flower_data = 6;
+  IrodoriPoetryData poetry_data = 8;
+  IrodoriChessData chess_data = 14;
+}

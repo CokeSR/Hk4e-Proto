@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GravenInnocencePhotoObjectInfo {
+  uint32 object_id = 1;
+  uint32 finish_time = 4;
+  uint32 param = 14;
+}

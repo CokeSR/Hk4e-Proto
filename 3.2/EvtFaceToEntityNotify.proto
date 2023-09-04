@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+
+message EvtFaceToEntityNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 303;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 face_entity_id = 5;
+  ForwardType forward_type = 9;
+  uint32 entity_id = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message IrodoriPoetryThemeData {
+  repeated uint32 scanned_index_list = 1;
+  repeated uint32 line_id_list = 4;
+  uint32 max_progress = 2;
+  uint32 theme_id = 13;
+  uint32 progress = 5;
+  uint32 min_progress = 12;
+  uint32 selected_line_id = 9;
+}

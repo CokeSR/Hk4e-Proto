@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGMsgCharDie {
+  uint32 controller_id = 5;
+  uint32 card_guid = 11;
+}

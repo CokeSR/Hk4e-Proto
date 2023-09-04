@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+import "IslandPartySailStage.proto";
+
+message SceneGalleryIslandPartySailInfo {
+  uint32 max_clean_progress = 14;
+  uint32 clean_progress = 10;
+  GalleryStartSource start_source = 1;
+  uint32 kill_progress = 11;
+  uint32 coin = 15;
+  IslandPartySailStage stage = 12;
+  uint32 max_kill_progress = 8;
+}

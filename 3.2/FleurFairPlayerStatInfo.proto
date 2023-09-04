@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ProfilePicture.proto";
+
+message FleurFairPlayerStatInfo {
+  string online_id = 11;
+  uint32 uid = 8;
+  ProfilePicture profile_picture = 1;
+  uint32 stat_id = 3;
+  uint32 head_image = 6;
+  string nick_name = 15;
+  int32 param = 5;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message WeaponAwakenReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 695;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint64 item_guid = 10;
+  map<uint32, uint32> affix_level_map = 7;
+  uint64 target_weapon_guid = 9;
+}

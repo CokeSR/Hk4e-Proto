@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FungusTrainingMonsterPreviewDetail {
+  uint32 monster_id = 8;
+  uint32 level = 10;
+  repeated uint32 affix_list = 7;
+}

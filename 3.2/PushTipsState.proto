@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+enum PushTipsState {
+  PUSH_TIPS_STATE_NONE = 0;
+  PUSH_TIPS_STATE_START = 1;
+  PUSH_TIPS_STATE_READ = 2;
+  PUSH_TIPS_STATE_FINISH = 3;
+}

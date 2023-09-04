@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BreakoutAction.proto";
+
+message BreakoutSyncAction {
+  BreakoutAction action = 1;
+}

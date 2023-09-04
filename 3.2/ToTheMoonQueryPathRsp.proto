@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+//import "PathStatusType.proto";
+import "Vector.proto";
+
+message ToTheMoonQueryPathRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6198;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  enum PathStatusType {
+    STATUS_FAIL = 0;
+    STATUS_SUCC = 1;
+    STATUS_PARTIAL = 2;
+  }
+  PathStatusType query_status = 7;
+  repeated int64 index = 3;
+  repeated Vector corners = 14;
+  repeated int32 level = 1;
+  int32 retcode = 8;
+  int32 query_id = 9;
+}

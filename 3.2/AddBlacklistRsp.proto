@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "FriendBrief.proto";
+
+message AddBlacklistRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4026;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  FriendBrief target_friend_brief = 13;
+  int32 retcode = 7;
+}

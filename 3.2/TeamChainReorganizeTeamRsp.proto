@@ -1,0 +1,10 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message TeamChainReorganizeTeamRsp {
+  // CMD_ID = 24914
+
+  int32 retcode = 2;
+}

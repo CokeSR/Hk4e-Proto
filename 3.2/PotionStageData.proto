@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "PotionLevelData.proto";
+
+message PotionStageData {
+  uint32 stage_id = 11;
+  repeated uint32 cool_down_buff_id_list = 2;
+  bool is_open = 15;
+  repeated PotionLevelData level_list = 14;
+  repeated uint32 cool_down_avatar_id_list = 13;
+}

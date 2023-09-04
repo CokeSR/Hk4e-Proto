@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message FungusRenameReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 22006;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 name_id = 1;
+  uint32 fungus_id = 11;
+}

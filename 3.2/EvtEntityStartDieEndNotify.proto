@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+
+message EvtEntityStartDieEndNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 381;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  bool immediately = 15;
+  uint32 die_state_flag = 12;
+  uint32 entity_id = 8;
+  ForwardType forward_type = 11;
+}

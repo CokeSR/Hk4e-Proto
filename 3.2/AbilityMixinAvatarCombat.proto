@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AbilityMixinAvatarCombat {
+  bool is_enter_combat = 9;
+}

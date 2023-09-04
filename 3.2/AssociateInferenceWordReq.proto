@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message AssociateInferenceWordReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 429;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 base_word_id = 7;
+  uint32 page_id = 11;
+  uint32 associate_word_id = 2;
+}

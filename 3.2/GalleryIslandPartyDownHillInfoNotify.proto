@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GalleryIslandPartyDownHillInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5522;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gallery_id = 2;
+  uint32 coin = 9;
+  uint32 total_kill_monster_count = 11;
+}

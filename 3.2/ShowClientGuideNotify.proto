@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message ShowClientGuideNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3005;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  string guide_name = 7;
+}

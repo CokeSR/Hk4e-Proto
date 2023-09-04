@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message UnlockPersonalLineRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 491;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 4;
+  uint32 personal_line_id = 10;
+  oneof param {
+    uint32 level = 11;
+    uint32 chapter_id = 6;
+  }
+}

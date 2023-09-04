@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HomeVerifyBlockData.proto";
+
+message HomeVerifySceneData {
+  repeated HomeVerifyBlockData blocks = 6;
+  uint32 module_id = 11;
+  uint32 scene_id = 4;
+  uint32 version = 14;
+  uint32 is_room = 2;
+}

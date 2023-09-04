@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GravenInnocenceCarveStageInfo.proto";
+
+message GravenInnocenceCarveInfo {
+  repeated GravenInnocenceCarveStageInfo stage_info_list = 10;
+  uint32 can_edit_count = 7;
+  repeated uint32 has_edit_config_id_list = 6;
+}

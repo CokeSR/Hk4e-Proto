@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ActivityAcceptGiftResultInfo {
+  map<uint32, uint32> unaccept_gift_num_map = 3;
+  uint32 uid = 6;
+  map<uint32, uint32> accept_gift_num_map = 13;
+}

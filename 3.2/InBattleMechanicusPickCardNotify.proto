@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message InBattleMechanicusPickCardNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5399;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 player_uid = 6;
+  uint32 group_id = 7;
+  uint32 play_index = 8;
+  uint32 card_id = 10;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ScenePlayGuestReplyNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4423;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 play_id = 13;
+  uint32 guest_uid = 12;
+  bool is_agree = 3;
+}

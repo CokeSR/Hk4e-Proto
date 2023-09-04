@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message TakeReunionFirstGiftRewardRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5057;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 reward_id = 9;
+  int32 retcode = 15;
+}

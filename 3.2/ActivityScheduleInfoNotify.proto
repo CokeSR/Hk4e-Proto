@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "ActivityScheduleInfo.proto";
+
+message ActivityScheduleInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2073;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  repeated ActivityScheduleInfo activity_schedule_list = 12;
+  uint32 remain_fly_sea_lamp_num = 6;
+}

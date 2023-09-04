@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message EffigyChallengeV2LevelData {
+  uint32 challenge_mode_difficulty_pass = 1;
+  uint32 level_id = 5;
+  uint32 challenge_mode_last_choose_skill_no = 10;
+  uint32 best_cost_time = 12;
+  bool is_level_open = 7;
+  uint32 challenge_mode_difficulty_open = 13;
+}

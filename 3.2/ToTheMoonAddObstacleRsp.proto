@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "DynamicNodes.proto";
+
+message ToTheMoonAddObstacleRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6103;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  DynamicNodes dynamic_nodes = 2;
+  int32 query_id = 13;
+  int32 retcode = 11;
+}

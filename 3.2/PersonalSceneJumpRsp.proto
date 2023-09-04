@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message PersonalSceneJumpRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 280;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 dest_scene_id = 5;
+  int32 retcode = 8;
+  Vector dest_pos = 11;
+}

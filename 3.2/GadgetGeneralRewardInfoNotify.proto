@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "GadgetGeneralRewardInfo.proto";
+
+message GadgetGeneralRewardInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 848;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 entity_id = 13;
+  GadgetGeneralRewardInfo general_reward_info = 9;
+}

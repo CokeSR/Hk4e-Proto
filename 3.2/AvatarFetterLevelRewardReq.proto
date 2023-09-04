@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message AvatarFetterLevelRewardReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1653;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint64 avatar_guid = 1;
+  uint32 fetter_level = 6;
+}

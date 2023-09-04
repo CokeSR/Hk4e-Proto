@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+enum VehicleSlot {
+  VEHICLE_SLOT_OPERATOR = 0;
+}

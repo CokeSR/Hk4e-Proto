@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message AvatarSkillChangeNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1097;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 cur_level = 11;
+  uint64 avatar_guid = 2;
+  uint32 entity_id = 7;
+  uint32 skill_depot_id = 13;
+  uint32 old_level = 1;
+  uint32 avatar_skill_id = 6;
+}

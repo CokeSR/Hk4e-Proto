@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message InfernceWordInfo {
+  uint32 word_id = 8;
+  bool is_interpret = 15;
+  bool is_submit = 10;
+  bool is_associate = 6;
+  uint32 unlock_by_word_id = 5;
+}

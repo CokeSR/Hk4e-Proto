@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message FungusRenameRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 20066;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 5;
+  uint32 fungus_id = 15;
+  uint32 name_id = 12;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ContentAuditInfo.proto";
+
+message PlayerSignatureAuditDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4060;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  ContentAuditInfo info = 14;
+}

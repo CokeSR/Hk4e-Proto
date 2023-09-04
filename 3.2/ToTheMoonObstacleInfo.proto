@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+//import "ShapeType.proto";
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message ToTheMoonObstacleInfo {
+  enum ShapeType {
+    OBSTACLE_SHAPE_CAPSULE = 0;
+    OBSTACLE_SHAPE_BOX = 1;
+  }
+  ShapeType type = 2;
+  int32 handle_id = 11;
+  MathQuaternion rotation = 7;
+  Vector center = 13;
+  Vector half_extents = 14;
+}

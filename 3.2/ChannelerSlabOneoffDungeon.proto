@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChannelerSlabOneoffDungeon {
+  bool is_done = 8;
+  uint32 dungeon_id = 12;
+  uint32 reward_id = 13;
+}

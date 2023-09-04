@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GetAreaExplorePointRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 249;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 8;
+  repeated uint32 area_id_list = 11;
+  repeated uint32 explore_point_list = 4;
+}

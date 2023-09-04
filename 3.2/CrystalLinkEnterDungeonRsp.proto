@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkEnterDungeonRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8147;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 level_id = 1;
+  uint32 difficulty_id = 14;
+  int32 retcode = 6;
+  repeated CrystalLinkTeamInfo team_info_list = 8;
+}

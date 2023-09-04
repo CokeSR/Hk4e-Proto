@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message RockBoardExploreStageData {
+  bool is_finish = 6;
+  uint32 open_time = 7;
+  bool is_open = 5;
+  uint32 stage_id = 3;
+}

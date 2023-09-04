@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message SignInData {
+  uint32 day_count = 14;
+  repeated ItemParam reward_item_list = 5;
+}

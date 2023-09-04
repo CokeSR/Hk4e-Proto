@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "GCGZoneType.proto";
+import "GCGReason.proto";
+
+message GCGMsgMoveCard {
+  uint32 controller_id = 14;
+  GCGZoneType to = 5;
+  GCGZoneType from = 12;
+  repeated uint32 card_guid_list = 8;
+  GCGReason reason = 6;
+  repeated uint32 fail_guid_list = 11;
+}

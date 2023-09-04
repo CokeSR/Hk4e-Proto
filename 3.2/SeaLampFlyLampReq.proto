@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message SeaLampFlyLampReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2199;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 item_id = 9;
+  int32 param = 10;
+  Vector pos = 7;
+  uint32 item_num = 5;
+}

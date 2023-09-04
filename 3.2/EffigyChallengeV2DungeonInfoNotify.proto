@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message EffigyChallengeV2DungeonInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 22835;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 challenge_mode_difficulty = 2;
+  uint32 skill_no = 4;
+  uint32 level_id = 13;
+}

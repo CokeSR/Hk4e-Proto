@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SalvageBundleChallengeInfo {
+  repeated uint32 finished_bundle_list = 13;
+}

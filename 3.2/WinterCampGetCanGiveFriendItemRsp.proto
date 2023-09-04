@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+
+message WinterCampGetCanGiveFriendItemRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8357;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated ItemParam item_list = 8;
+  int32 retcode = 11;
+}

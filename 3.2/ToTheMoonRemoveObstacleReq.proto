@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message ToTheMoonRemoveObstacleReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6190;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  enum ObstacleType {
+    Box = 0;
+    Capsule = 1;
+  }
+  int32 handle = 12;
+  uint32 scene_id = 10;
+  int32 query_id = 11;
+}

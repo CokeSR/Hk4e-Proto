@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "HomeBalloonGalleryRecord.proto";
+
+message HomeBalloonRecord {
+  repeated HomeBalloonGalleryRecord record_list = 15;
+}

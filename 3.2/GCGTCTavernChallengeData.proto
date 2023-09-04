@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGTCTavernChallengeData {
+  repeated uint32 unlock_level_id_list = 1;
+  uint32 character_id = 8;
+}

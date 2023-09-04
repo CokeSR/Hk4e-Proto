@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+message MatchPlayerInfo {
+  bool is_agreed = 9;
+  OnlinePlayerInfo player_info = 2;
+}

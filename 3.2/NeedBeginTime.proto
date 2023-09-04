@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+
+message NeedBeginTime {
+    uint32 config_need_begin_time = 3;
+    bool is_limit = 7;
+  }

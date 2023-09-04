@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GCGSkillPreviewTokenInfo {
+  uint32 token_type = 3;
+  uint32 after_value = 12;
+  uint32 before_value = 15;
+}

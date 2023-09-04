@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "WinterCampFriendWishData.proto";
+
+message WinterCampGetFriendWishListRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8937;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 12;
+  repeated WinterCampFriendWishData wish_data_list = 5;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+enum GroupVariableType {
+  VARIABLE_TYPE_NORMAL = 0;
+  VARIABLE_TYPE_LOGIC_STATE = 1;
+}

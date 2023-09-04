@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message HomeChangeEditModeReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4564;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  bool is_enter_edit_mode = 12;
+}

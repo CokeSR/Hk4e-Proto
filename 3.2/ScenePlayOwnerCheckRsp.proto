@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message ScenePlayOwnerCheckRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4362;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 param_list = 8;
+  bool is_skip_match = 1;
+  uint32 play_id = 9;
+  uint32 wrong_uid = 5;
+  int32 retcode = 3;
+}

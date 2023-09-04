@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message SceneDataNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 3203;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated string level_config_name_list = 15;
+  repeated uint32 scene_tag_id_list = 8;
+}

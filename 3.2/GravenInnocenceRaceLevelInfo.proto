@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message GravenInnocenceRaceLevelInfo {
+  uint32 level_id = 13;
+  uint32 max_score = 14;
+  bool is_open = 1;
+}

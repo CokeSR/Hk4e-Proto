@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GCGReason.proto";
+
+message GCGMsgCostDice {
+  uint32 controller_id = 6;
+  repeated uint32 select_dice_index_list = 13;
+  GCGReason reason = 9;
+}

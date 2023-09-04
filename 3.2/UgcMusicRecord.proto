@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "UgcMusicTrack.proto";
+
+message UgcMusicRecord {
+  repeated UgcMusicTrack music_track_list = 4;
+  uint32 music_id = 13;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MusicGameRecord {
+  bool is_unlock = 9;
+  uint32 max_score = 11;
+  uint32 max_combo = 6;
+}

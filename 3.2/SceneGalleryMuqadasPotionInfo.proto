@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGalleryMuqadasPotionInfo {
+  uint32 score = 6;
+  uint32 capture_weakness_count = 4;
+  uint32 skill_energy = 10;
+  uint32 skill_use_limit = 9;
+}

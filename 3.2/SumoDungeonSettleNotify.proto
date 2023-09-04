@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message SumoDungeonSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8291;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 final_score = 7;
+  uint32 difficulty_id = 14;
+  uint32 kill_elite_monster_num = 15;
+  uint32 stage_id = 12;
+  uint32 kill_monster_num = 4;
+  bool is_new_record = 5;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message UgcMusicNote {
+  uint32 start_time = 12;
+  uint32 end_time = 5;
+}

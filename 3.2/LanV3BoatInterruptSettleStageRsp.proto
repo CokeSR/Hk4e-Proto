@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message LanV3BoatInterruptSettleStageRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 24759;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 15;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "IrodoriChessEntranceDetailInfo.proto";
+
+message IrodoriChessMapData {
+  uint32 map_id = 6;
+  IrodoriChessEntranceDetailInfo entrance_detail_info = 7;
+  repeated uint32 equiped_card_list = 3;
+  uint32 best_score = 8;
+}

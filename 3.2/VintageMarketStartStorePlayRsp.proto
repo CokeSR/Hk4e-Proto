@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message VintageMarketStartStorePlayRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 22130;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 prev_round_coin_b = 7;
+  uint32 store_round = 2;
+  uint32 prev_round_coin_c = 5;
+  int32 retcode = 8;
+}

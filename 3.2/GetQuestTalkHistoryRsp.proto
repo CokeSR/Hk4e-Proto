@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message GetQuestTalkHistoryRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 473;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  repeated uint32 talk_id_list = 13;
+  uint32 parent_quest_id = 7;
+  int32 retcode = 15;
+}

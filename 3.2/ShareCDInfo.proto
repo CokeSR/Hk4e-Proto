@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ShareCDInfo {
+  uint32 index = 2;
+  uint64 cd_start_time = 14;
+  uint32 share_cd_id = 12;
+}

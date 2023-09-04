@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "ChapterState.proto";
+import "NeedPlayerLevel.proto";
+import "NeedBeginTime.proto";
+
+message ChapterStateNotify {
+/*   /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 405;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+
+  ChapterState chapter_state = 9;
+  NeedPlayerLevel need_player_level = 10;
+  NeedBeginTime need_begin_time = 1;
+  uint32 chapter_id = 2;
+}

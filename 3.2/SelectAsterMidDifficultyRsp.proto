@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message SelectAsterMidDifficultyRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 2180;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 15;
+  uint32 schedule_id = 2;
+  uint32 gadget_entity_id = 5;
+  uint32 difficulty_id = 14;
+}

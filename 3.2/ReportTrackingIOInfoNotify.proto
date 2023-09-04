@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message ReportTrackingIOInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4129;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  string rydevicetype = 12;
+  string deviceid = 1;
+  string client_tz = 13;
+  string appid = 14;
+  string mac = 15;
+}

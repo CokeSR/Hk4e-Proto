@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ReunionSignInInfo.proto";
+
+message GetReunionSignInInfoRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5081;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  ReunionSignInInfo sign_in_info = 5;
+  int32 retcode = 15;
+}

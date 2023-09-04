@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message TanukiTravelFinishGuideQuestNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8924;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 activity_id = 14;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "DungeonEnterPosInfo.proto";
+
+message PlayerEnterDungeonReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 912;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  DungeonEnterPosInfo enter_pos_info = 2;
+  uint32 point_id = 13;
+  uint32 dungeon_id = 7;
+}

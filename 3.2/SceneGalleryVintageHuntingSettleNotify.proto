@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "VintageHuntingFirstStageSettleInfo.proto";
+import "VintageHuntingSecondStageSettleInfo.proto";
+import "VintageHuntingThirdStageSettleInfo.proto";
+
+message SceneGalleryVintageHuntingSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 20324;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  bool has_new_watcher = 11;
+  uint32 stage_id = 9;
+  uint32 total_watcher_num = 12;
+  uint32 finished_watcher_num = 6;
+  bool is_new_record = 1;
+  oneof info {
+    VintageHuntingFirstStageSettleInfo first_stage_info = 4;
+    VintageHuntingSecondStageSettleInfo second_stage_info = 10;
+    VintageHuntingThirdStageSettleInfo third_stage_info = 8;
+  }
+}

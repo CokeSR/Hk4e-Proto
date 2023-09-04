@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SegmentInfo {
+  uint32 offset = 3;
+  uint32 module = 7;
+  uint32 size = 8;
+}

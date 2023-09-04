@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message RemoveCustomDungeonRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 6220;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 14;
+  uint64 dungeon_guid = 11;
+}

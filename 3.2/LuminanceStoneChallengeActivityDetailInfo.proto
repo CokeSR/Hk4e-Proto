@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message LuminanceStoneChallengeActivityDetailInfo {
+  uint32 best_score = 11;
+  bool is_content_closed = 6;
+  bool is_final_gallery_complete = 12;
+  uint32 current_stage_id = 15;
+}

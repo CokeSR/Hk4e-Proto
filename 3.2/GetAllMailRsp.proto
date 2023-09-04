@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "MailData.proto";
+
+message GetAllMailRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1475;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 8;
+  repeated MailData mail_list = 14;
+  bool is_collected = 1;
+  bool is_truncated = 2;
+}

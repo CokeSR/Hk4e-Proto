@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message SceneGalleryWindFieldInfo {
+  uint32 killed_monster_num = 5;
+  uint32 challenge_ball_max_count = 12;
+  uint32 show_id = 15;
+  uint32 challenge_total_time = 4;
+  uint32 challenge_ball_cur_count = 9;
+  uint32 coin_num = 1;
+  uint32 challenge_timestamp = 13;
+  uint32 element_ball_num = 10;
+}

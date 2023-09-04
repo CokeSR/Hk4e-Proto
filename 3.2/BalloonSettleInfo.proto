@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "OnlinePlayerInfo.proto";
+
+message BalloonSettleInfo {
+  uint32 uid = 3;
+  uint32 shoot_count = 12;
+  uint32 max_combo = 9;
+  uint32 final_score = 7;
+  OnlinePlayerInfo player_info = 2;
+}

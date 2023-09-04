@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "HomeGroupPlayerInfo.proto";
+
+message HomeRacingGalleryRecord {
+  uint32 use_time = 1;
+  uint32 timestamp = 8;
+  HomeGroupPlayerInfo player_info = 12;
+}

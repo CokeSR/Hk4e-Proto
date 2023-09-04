@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message AvatarChangeCostumeReq {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 1778;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+        IS_ALLOW_CLIENT = 1;
+  }*/
+  uint32 costume_id = 4;
+  uint64 avatar_guid = 2;
+}

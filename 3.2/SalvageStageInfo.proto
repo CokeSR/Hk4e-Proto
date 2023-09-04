@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SalvageChallengeInfo.proto";
+
+message SalvageStageInfo {
+  repeated SalvageChallengeInfo challenge_info_list = 9;
+  bool is_open = 10;
+  uint32 stage_id = 2;
+}

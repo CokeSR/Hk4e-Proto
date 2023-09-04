@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+//import "Status.proto";
+
+message Achievement {
+  enum Status {
+    INVALID = 0;
+    UNFINISHED = 1;
+    FINISHED = 2;
+    REWARD_TAKEN = 3;
+  }
+  uint32 finish_timestamp = 11;
+  Status status = 13;
+  uint32 cur_progress = 12;
+  uint32 id = 14;
+  uint32 total_progress = 8;
+}

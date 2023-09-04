@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GCGCard.proto";
+
+message GCGMsgCardUpdate {
+  GCGCard card = 7;
+}

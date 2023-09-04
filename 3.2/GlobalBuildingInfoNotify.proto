@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "BuildingInfo.proto";
+
+message GlobalBuildingInfoNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5320;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 current_num = 5;
+  repeated BuildingInfo building_list = 3;
+  uint32 max_num = 13;
+}

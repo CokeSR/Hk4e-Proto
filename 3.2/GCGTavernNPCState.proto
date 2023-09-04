@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum GCGTavernNPCState {
+  GCG_TRAVERN_NPC_STATE_NONE = 0;
+  GCG_TRAVERN_NPC_STATE_DUEL = 1;
+  GCG_TRAVERN_NPC_STATE_STAND = 2;
+}

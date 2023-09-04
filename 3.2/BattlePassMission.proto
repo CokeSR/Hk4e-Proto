@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+//import "MissionStatus.proto";
+
+message BattlePassMission {
+  enum MissionStatus {
+    MISSION_INVALID = 0;
+    MISSION_UNFINISHED = 1;
+    MISSION_FINISHED = 2;
+    MISSION_POINT_TAKEN = 3;
+  }
+
+  uint32 cur_progress = 13;
+  MissionStatus mission_status = 15;
+  uint32 mission_id = 11;
+  uint32 reward_battle_pass_point = 3;
+  uint32 mission_type = 12;
+  uint32 total_progress = 6;
+}

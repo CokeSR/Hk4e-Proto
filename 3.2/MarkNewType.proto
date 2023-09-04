@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum MarkNewType {
+  MARK_NEW_TYPE_NONE = 0;
+  MARK_NEW_TYPE_COMBINE = 1;
+  MARK_NEW_TYPE_FORGE = 2;
+}

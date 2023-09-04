@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message SelectRoguelikeDungeonCardRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8138;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 card_id = 9;
+  int32 retcode = 8;
+}

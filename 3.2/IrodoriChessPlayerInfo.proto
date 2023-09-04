@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message IrodoriChessPlayerInfo {
+  uint32 uid = 4;
+  uint32 building_points = 9;
+  uint32 settle_score = 3;
+}

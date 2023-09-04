@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message HomeBlueprintSearchInfo {
+  uint32 scene_id = 5;
+  uint32 module_id = 9;
+  string share_code = 8;
+  uint32 block_id = 12;
+}

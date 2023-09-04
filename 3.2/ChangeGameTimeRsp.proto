@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ChangeGameTimeRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 199;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  int32 retcode = 8;
+  uint32 extra_days = 5;
+  uint32 cur_game_time = 14;
+}

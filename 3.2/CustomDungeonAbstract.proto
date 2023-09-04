@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message CustomDungeonAbstract {
+  map<uint32, uint32> brick_statistics_map = 12;
+  uint32 first_publish_time = 3;
+  uint32 total_coin_num = 15;
+  uint32 last_publish_time = 6;
+  uint32 finish_room_id = 7;
+}

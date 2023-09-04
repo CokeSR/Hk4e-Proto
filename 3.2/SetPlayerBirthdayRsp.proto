@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "Birthday.proto";
+
+message SetPlayerBirthdayRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 4097;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  Birthday birthday = 2;
+  int32 retcode = 5;
+}

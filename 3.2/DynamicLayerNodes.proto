@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "DynamicSVONode.proto";
+
+message DynamicLayerNodes {
+  int32 level = 10;
+  repeated DynamicSVONode nodes = 6;
+}

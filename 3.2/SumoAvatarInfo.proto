@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SumoAvatarInfo {
+  bool is_trial = 2;
+  uint64 avatar_id = 1;
+}

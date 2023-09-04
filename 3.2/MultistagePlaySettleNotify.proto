@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "InBattleMechanicusSettleInfo.proto";
+import "InBattleChessSettleInfo.proto";
+import "InBattleIrodoriChessSettleInfo.proto";
+
+message MultistagePlaySettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 5313;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 play_index = 14;
+  uint32 group_id = 4;
+  oneof detail {
+    InBattleMechanicusSettleInfo mechanicus_settle_info = 1402;
+    InBattleChessSettleInfo chess_settle_info = 1283;
+    InBattleIrodoriChessSettleInfo irodori_chess_settle_info = 612;
+  }
+}

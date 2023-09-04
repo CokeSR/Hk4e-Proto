@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message VintageMarketStoreOpInfo {
+  repeated uint32 strategy_list = 5;
+  uint32 help_uid = 9;
+  uint32 store_id = 2;
+  uint32 help_skill_id = 7;
+  repeated uint32 add_attr_list = 15;
+}

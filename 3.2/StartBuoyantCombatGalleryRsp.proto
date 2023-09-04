@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message StartBuoyantCombatGalleryRsp {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8680;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  uint32 gallery_level = 12;
+  int32 retcode = 5;
+  uint32 gallery_id = 8;
+}

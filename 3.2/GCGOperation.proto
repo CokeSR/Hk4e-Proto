@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "GCGOperationRedraw.proto";
+import "GCGOperationOnStageSelect.proto";
+import "GCGOperationReroll.proto";
+import "GCGOperationAttack.proto";
+import "GCGOperationPass.proto";
+import "GCGOperationPlayCard.proto";
+import "GCGOperationReboot.proto";
+import "GCGOperationSurrender.proto";
+
+message GCGOperation {
+  oneof op {
+    GCGOperationRedraw op_redraw = 10;
+    GCGOperationOnStageSelect op_select_on_stage = 4;
+    GCGOperationReroll op_reroll = 9;
+    GCGOperationAttack op_attack = 11;
+    GCGOperationPass op_pass = 15;
+    GCGOperationPlayCard op_play_card = 2;
+    GCGOperationReboot op_reboot = 5;
+    GCGOperationSurrender op_surrender = 1;
+  }
+}

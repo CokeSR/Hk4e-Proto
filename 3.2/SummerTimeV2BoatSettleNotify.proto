@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "SummerTimeV2BoatGallerySettleInfo.proto";
+
+message SummerTimeV2BoatSettleNotify {
+  /*enum CmdId {
+    option allow_alias = true;
+    NONE = 0;
+    CMD_ID = 8870;
+    ENET_CHANNEL_ID = 0;
+    ENET_IS_RELIABLE = 1;
+  }*/
+  SummerTimeV2BoatGallerySettleInfo settle_info = 11;
+  uint32 stage_id = 7;
+  bool is_new_record = 2;
+  uint32 gallery_id = 1;
+}

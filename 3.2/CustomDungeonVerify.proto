@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message CustomDungeonVerify {
+  uint64 dungeon_guid = 3;
+  uint32 uid = 15;
+  uint32 timestamp = 4;
+  string region = 11;
+  uint32 lang = 13;
+}

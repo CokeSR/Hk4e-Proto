@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GameplayRecommendationSkillRequest {
+  uint32 skill_depot_id = 1;
+}

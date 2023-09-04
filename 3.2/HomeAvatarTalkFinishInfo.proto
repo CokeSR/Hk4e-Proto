@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message HomeAvatarTalkFinishInfo {
+  uint32 avatar_id = 9;
+  repeated uint32 finish_talk_id_list = 3;
+}

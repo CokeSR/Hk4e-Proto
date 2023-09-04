@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message SceneGallerySumoInfo {
+  uint32 score = 2;
+  uint32 kill_normal_mosnter_num = 15;
+  uint32 kill_elite_monster_num = 14;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "FallSettleInfo.proto";
+
+message FleurFairFallSettleInfo {
+  FallSettleInfo settle_info = 4;
+  bool is_new_record = 10;
+}
