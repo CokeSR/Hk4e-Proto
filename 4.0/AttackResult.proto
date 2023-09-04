@@ -1,0 +1,55 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "AttackHitEffectResult.proto";
+import "AbilityIdentifier.proto";
+import "Vector.proto";
+import "HitCollision.proto";
+// Obf: ICJAFHIJEBJ
+message AttackResult {
+	uint32 BLJNCIEFOED = 5;
+	uint32 element_type = 10;
+	float FMPIEJOMIFJ = 1723;
+	float NLAAOODDKGK = 778;
+	bool BAAHKFCEBMA = 7;
+	float KFCPIKCMIOI = 567;
+	float DPHDFDJJNOA = 27;
+	bool BILAJCEBMGF = 378;
+	uint32 MIKMJNBAAIJ = 8;
+	AttackHitEffectResult hit_eff_result = 6;
+	uint32 BKKNPCPEDCF = 457;
+	uint32 DKDBHEJFOGD = 1602;
+	uint32 defense_id = 9;
+	uint32 attacker_id = 14;
+	float damage = 2;
+	uint32 EMOHABNNHBJ = 314;
+	bool KAKHNCAHEOP = 609;
+	string anim_event_id = 15;
+	int32 hit_retreat_angle_compat = 13;
+	uint32 KGKNJIIOPMP = 1649;
+	uint32 EFKGDDIGOHJ = 82;
+	uint32 JDPELIFFANG = 394;
+	uint32 ODBKCAJFBMO = 1652;
+	AbilityIdentifier ability_identifier = 3;
+	Vector resolved_dir = 4;
+	HitCollision hit_collision = 11;
+	uint32 NFDLHHGPLKL = 866;
+	uint32 OEEFAHMCLOM = 216;
+	uint32 IEJNKCBILGI = 1603;
+	bool FIHKEJMFKHO = 1672;
+}

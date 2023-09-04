@@ -1,0 +1,52 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "InBattleMechanicusInfo.proto";
+import "InBattleFleurFairInfo.proto";
+import "HideAndSeekStageInfo.proto";
+import "InBattleChessInfo.proto";
+import "InBattleIrodoriChessInfo.proto";
+import "CharAmusementInfo.proto";
+import "BrickBreakerStageInfo.proto";
+import "CoinCollectStageInfo.proto";
+import "LanV3BoatStageInfo.proto";
+import "FleurFairV2PacmanStageInfo.proto";
+import "TargetShootingInfo.proto";
+// Obf: EGPGHBCHGMA
+message MultistagePlayInfo {
+	uint32 begin_time = 8;
+	uint32 stage_index = 6;
+	uint32 stage_type = 15;
+	uint32 play_type = 7;
+	uint32 duration = 9;
+	uint32 group_id = 4;
+	uint32 play_index = 11;
+	oneof detail {
+		InBattleMechanicusInfo mechanicus_info = 429;
+		InBattleFleurFairInfo fleur_fair_info = 1722;
+		HideAndSeekStageInfo hide_and_seek_info = 1717;
+		InBattleChessInfo chess_info = 1610;
+		InBattleIrodoriChessInfo irodori_chess_info = 753;
+		CharAmusementInfo char_amusement_info = 30;
+		BrickBreakerStageInfo brick_breaker_info = 1228;
+		CoinCollectStageInfo coin_collect_info = 424;
+		LanV3BoatStageInfo lan_v3_boat_info = 691;
+		FleurFairV2PacmanStageInfo fleur_fair_v2_pacman_info = 1371;
+		TargetShootingInfo target_shooting_info = 1191;
+	}
+}

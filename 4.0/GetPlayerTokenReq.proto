@@ -1,0 +1,43 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// CmdId: 21228
+// Obf: AGJHCDNJDOG
+message GetPlayerTokenReq {
+	uint32 account_type = 11;
+	string account_token = 12;
+	string psn_id = 10;
+	string online_id = 1;
+	string account_uid = 4;
+	string LODOCFKABDG = 3;
+	uint32 platform_type = 8;
+	string client_ip_str = 9;
+	uint32 sub_channel_id = 7;
+	uint32 cloudClientIp = 177;
+	string GIKAFFPKLOE = 14;
+	string birthday = 828;
+	uint32 uid = 13;
+	uint32 OGNFFAEKDBO = 695;
+	uint32 key_id = 407;
+	string country_code = 15;
+	uint32 channel_id = 6;
+	uint32 FCPDNLHOBNK = 2;
+	bool is_guest = 5;
+	string FAOAMMHOOHL = 1457;
+	string client_rand_key = 355;
+}

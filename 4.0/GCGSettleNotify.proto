@@ -1,0 +1,41 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "BEHIKOPKKHE.proto";
+import "GCGEndReason.proto";
+import "ItemParam.proto";
+import "PveActivitySettle.proto";
+import "ArenaSettle.proto";
+import "PveInfiniteActivitySettle.proto";
+// CmdId: 20008
+// Obf: DPPGFGEPJLI
+message GCGSettleNotify {
+	bool is_win = 5;
+	uint32 CLFLBPJPBJB = 4;
+	BEHIKOPKKHE JOENIKOCBAL = 3;
+	repeated uint32 AGEDBLBGONB = 2;
+	repeated uint32 finished_challenge_id_list = 9;
+	GCGEndReason reason = 7;
+	uint32 win_controller_id = 12;
+	repeated ItemParam reward_item_list = 10;
+	oneof BGJHFJJEOFJ {
+		PveActivitySettle pve_activity_settle = 1224;
+		ArenaSettle arena_settle = 1787;
+		PveInfiniteActivitySettle pve_infinite_activity_settle = 113;
+	}
+}

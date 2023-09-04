@@ -1,0 +1,29 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "GachaInfo.proto";
+// CmdId: 23881
+// Obf: IAAKKGACPDM
+message GetGachaInfoRsp {
+	repeated GachaInfo gacha_info_list = 3;
+	uint32 gachaRandom = 12;
+	uint32 dailyGachaTimes = 9;
+	bool is_under_general_restrict = 7;
+	int32 retcode = 2;
+	bool is_under_minors_restrict = 5;
+}

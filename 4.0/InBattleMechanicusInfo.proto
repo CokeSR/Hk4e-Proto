@@ -1,0 +1,42 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "InBattleMechanicusCardInfo.proto";
+import "InBattleMechanicusPlayerInfo.proto";
+import "InBattleMechanicusStageType.proto";
+import "InBattleMechanicusMonsterInfo.proto";
+// Obf: PIPFKCAKKPG
+message InBattleMechanicusInfo {
+	repeated InBattleMechanicusCardInfo LMNEKOOODMG = 5;
+	repeated InBattleMechanicusCardInfo ECPNENBCGPK = 15;
+	uint32 left_monster = 1;
+	repeated uint32 AEPNCBJOOFB = 69;
+	uint32 PPMGMIJENDH = 8;
+	repeated InBattleMechanicusPlayerInfo player_list = 3;
+	repeated uint32 GAIDPAHFDDF = 908;
+	uint64 OHFMMOFALPB = 13;
+	uint32 BCHJIINPGBK = 6;
+	InBattleMechanicusStageType stage = 12;
+	uint32 ECACOGNFOLF = 11;
+	uint32 excaped_monster_num = 9;
+	uint32 wait_seconds = 7;
+	uint32 round = 4;
+	repeated InBattleMechanicusMonsterInfo monster_list = 2;
+	uint64 wait_begin_time_us = 14;
+	uint64 GHGPNLIMMLO = 10;
+}

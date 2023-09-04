@@ -1,0 +1,36 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "Vector.proto";
+// CmdId: 8774
+// Obf: EJGAPPPIDGA
+message BeginCameraSceneLookWithTemplateNotify {
+	// Obf: DOFPPPPIJON
+	enum FollowType {
+		FOLLOW_TYPE_INIT_FOLLOW_POS = 0;
+		FOLLOW_TYPE_SET_FOLLOW_POS = 1;
+		FOLLOW_TYPE_SET_ABS_FOLLOW_POS = 2;
+	}
+	
+	Vector LKGGBPLCEJI = 2;
+	uint32 entity_id = 13;
+	uint32 template_id = 12;
+	FollowType follow_type = 9;
+	repeated string other_params = 5;
+	Vector MMOMOKPCOJK = 7;
+}

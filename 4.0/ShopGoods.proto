@@ -1,0 +1,42 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "ItemParam.proto";
+// Obf: OBABFCEJLGK
+message ShopGoods {
+	uint32 NPBGGAMEDJG = 4;
+	uint32 FEMEEIEHBBL = 11;
+	uint32 JOMBNPMFHGG = 8;
+	repeated ItemParam cost_item_list = 3;
+	uint32 AAINEEHFPBJ = 1690;
+	uint32 bought_num = 14;
+	uint32 DIHOGOJNKHB = 923;
+	uint32 begin_time = 13;
+	uint32 BNEKKILPEKF = 1950;
+	repeated uint32 preGoodsIdList = 5;
+	uint32 KANFIKNKONL = 10;
+	ItemParam goods_item = 1;
+	uint32 NODBIKCALJI = 12;
+	uint32 EKGBDJFIDJO = 2;
+	uint32 KKKOCADJCHM = 898;
+	uint32 OENMLOAFHMJ = 1946;
+	uint32 BDBHIJCECNP = 7;
+	uint32 end_time = 6;
+	uint32 hcoin = 15;
+	uint32 next_refresh_time = 9;
+}

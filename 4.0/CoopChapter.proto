@@ -1,0 +1,42 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CoopPoint.proto";
+import "CoopReward.proto";
+import "CoopCg.proto";
+// Obf: LOELOKMLPHL
+message CoopChapter {
+	// Obf: NDFCDJEIDEJ
+	enum State {
+		STATE_CLOSE = 0;
+		STATE_COND_NOT_MEET = 1;
+		STATE_COND_MEET = 2;
+		STATE_ACCEPT = 3;
+	}
+	
+	State state = 3;
+	repeated uint32 LAAOIEBFJKP = 9;
+	map<uint32, uint32> seen_ending_map = 15;
+	repeated CoopPoint coop_point_list = 6;
+	repeated CoopReward coop_reward_list = 11;
+	repeated CoopCg coop_cg_list = 8;
+	uint32 id = 14;
+	uint32 JDENGALMPJN = 13;
+	repeated uint32 EOMGDNCEACF = 7;
+	uint32 HKOAKJNBIIO = 5;
+}

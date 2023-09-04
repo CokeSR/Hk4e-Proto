@@ -1,0 +1,93 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "GCGMsgTokenChange.proto";
+import "GCGMsgPhaseChange.proto";
+import "GCGMsgAddCards.proto";
+import "GCGMsgRemoveCards.proto";
+import "GCGMsgSelectOnStage.proto";
+import "GCGMsgDiceRoll.proto";
+import "GCGMsgDiceReroll.proto";
+import "GCGMsgPass.proto";
+import "GCGMsgCharDie.proto";
+import "GCGMsgSkillResult.proto";
+import "GCGMsgCostDice.proto";
+import "GCGMsgAddDice.proto";
+import "GCGMsgMoveCard.proto";
+import "GCGMsgUseSkill.proto";
+import "GCGMsgNewCard.proto";
+import "GCGMsgUpdateController.proto";
+import "GCGMsgModifyAdd.proto";
+import "GCGMsgModifyRemove.proto";
+import "GCGMsgUseSkillEnd.proto";
+import "GCGMsgDuelDataChange.proto";
+import "GCGMsgClientPerform.proto";
+import "GCGMsgGameOver.proto";
+import "GCGMsgOpTimer.proto";
+import "GCGMsgWaitingListChange.proto";
+import "GCGMsgCardUpdate.proto";
+import "GCGMsgSelectOnStageByEffect.proto";
+import "GCGMsgCostRevise.proto";
+import "GCGMsgPhaseContinue.proto";
+import "GCGMsgPVEIntentionInfo.proto";
+import "GCGMsgPVEIntentionChange.proto";
+import "GCGMsgSkillLimitsChange.proto";
+import "GCGMsgNoDamageSkillResult.proto";
+import "GCGMsgReactionBegin.proto";
+import "GCGMsgReactionEnd.proto";
+import "GCGMsgUseLegend.proto";
+// Obf: DEFBCAFKKIH
+message GCGMessage {
+	oneof message {
+		GCGMsgTokenChange token_change = 7;
+		GCGMsgPhaseChange phase_change = 15;
+		GCGMsgAddCards add_cards = 3;
+		GCGMsgRemoveCards remove_cards = 5;
+		GCGMsgSelectOnStage select_on_stage = 14;
+		GCGMsgDiceRoll dice_roll = 13;
+		GCGMsgDiceReroll dice_reroll = 11;
+		GCGMsgPass pass = 4;
+		GCGMsgCharDie char_die = 10;
+		GCGMsgSkillResult skill_result = 8;
+		GCGMsgCostDice cost_dice = 2;
+		GCGMsgAddDice add_dice = 9;
+		GCGMsgMoveCard move_card = 1;
+		GCGMsgUseSkill use_skill = 12;
+		GCGMsgNewCard new_card = 303;
+		GCGMsgUpdateController update_controller = 608;
+		GCGMsgModifyAdd modify_add = 1747;
+		GCGMsgModifyRemove modify_remove = 174;
+		GCGMsgUseSkillEnd use_skill_end = 1682;
+		GCGMsgDuelDataChange duel_data_change = 411;
+		GCGMsgClientPerform client_perform = 1083;
+		GCGMsgGameOver game_over = 882;
+		GCGMsgOpTimer op_timer = 1618;
+		GCGMsgWaitingListChange waiting_list_change = 1773;
+		GCGMsgCardUpdate card_update = 1743;
+		GCGMsgSelectOnStageByEffect select_on_stage_by_effect = 1606;
+		GCGMsgCostRevise cost_revise = 695;
+		GCGMsgPhaseContinue phase_continue = 1532;
+		GCGMsgPVEIntentionInfo pve_intention_info = 476;
+		GCGMsgPVEIntentionChange pve_intention_change = 513;
+		GCGMsgSkillLimitsChange skill_limits_change = 45;
+		GCGMsgNoDamageSkillResult no_damage_skill_result = 1586;
+		GCGMsgReactionBegin reaction_begin = 801;
+		GCGMsgReactionEnd reaction_end = 1282;
+		GCGMsgUseLegend use_legend = 1443;
+	}
+}

@@ -1,0 +1,43 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeBlockDotPattern.proto";
+import "HomeFurnitureData.proto";
+import "HomeFurnitureSuiteData.proto";
+import "HomeFurnitureCustomSuiteData.proto";
+import "HomeFurnitureGroupData.proto";
+import "HomeAnimalData.proto";
+import "HomeBlockFieldData.proto";
+import "HomeNpcData.proto";
+import "WeekendDjinnInfo.proto";
+// Obf: KOODNOKODIG
+message HomeBlockArrangementInfo {
+	repeated HomeBlockDotPattern dot_pattern_list = 1;
+	repeated HomeFurnitureData BEBDBMPNNLE = 12;
+	repeated HomeFurnitureSuiteData furniture_suite_list = 14;
+	repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 2;
+	uint32 block_id = 8;
+	repeated HomeFurnitureGroupData furniture_group_list = 4;
+	repeated HomeAnimalData deploy_animal_list = 15;
+	repeated HomeBlockFieldData field_list = 11;
+	uint32 comfort_value = 13;
+	repeated HomeFurnitureData CGNFDNDHLGL = 10;
+	repeated HomeNpcData deploy_npc_list = 9;
+	bool is_unlocked = 6;
+	repeated WeekendDjinnInfo weekend_djinn_info_list = 3;
+}

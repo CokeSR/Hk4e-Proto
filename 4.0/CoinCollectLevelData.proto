@@ -1,0 +1,34 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CoinCollectTeamInfoData.proto";
+// Obf: KKFFELDHOKC
+message CoinCollectLevelData {
+	uint32 CGCAEFMBDLE = 13;
+	uint32 OIDEGDJMAAH = 11;
+	bool NJJLELKNFPL = 10;
+	bool GICIIMOFPLC = 9;
+	bool is_level_open = 5;
+	bool NFKJLPLDDBM = 4;
+	uint32 NOBHHOIAPMM = 12;
+	uint32 GENIGFJFKEE = 3;
+	uint32 level_id = 15;
+	CoinCollectTeamInfoData single_best_team_info = 8;
+	repeated CoinCollectTeamInfoData double_best_team_info_list = 2;
+	uint32 PKPHLANBFAM = 14;
+}

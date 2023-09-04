@@ -1,0 +1,33 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "AbilityInvokeArgument.proto";
+import "ForwardType.proto";
+import "AbilityInvokeEntryHead.proto";
+// Obf: BNCFAGLEKAM
+message AbilityInvokeEntry {
+	AbilityInvokeArgument argument_type = 7;
+	bytes ability_data = 2;
+	uint32 entity_id = 9;
+	ForwardType forward_type = 14;
+	double total_tick_time = 5;
+	uint32 forward_peer = 12;
+	uint32 event_id = 1;
+	bool is_ignore_auth = 13;
+	AbilityInvokeEntryHead head = 8;
+}

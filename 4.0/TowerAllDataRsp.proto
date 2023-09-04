@@ -1,0 +1,42 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "TowerFloorRecord.proto";
+import "TowerCurLevelRecord.proto";
+import "TowerMonthlyBrief.proto";
+// CmdId: 3897
+// Obf: BDPBFJJNCKK
+message TowerAllDataRsp {
+	bool is_finished_entrance_floor = 12;
+	uint32 schedule_start_time = 1168;
+	uint32 FEOKMKFLOFI = 6;
+	uint32 CFHPLJKKOFG = 15;
+	uint32 NFLJLHDCPFJ = 5;
+	repeated TowerFloorRecord tower_floor_record_list = 14;
+	uint32 JJJCPHMBMLG = 9;
+	bool is_first_interact = 7;
+	TowerCurLevelRecord cur_level_record = 10;
+	TowerMonthlyBrief last_schedule_monthly_brief = 4;
+	map<uint32, uint32> floor_open_time_map = 13;
+	TowerMonthlyBrief monthly_brief = 120;
+	uint32 next_schedule_change_time = 11;
+	uint32 tower_schedule_id = 3;
+	map<uint32, uint32> skip_floor_granted_reward_item_map = 8;
+	int32 retcode = 2;
+	uint32 MOOJNLEAKFC = 1;
+}

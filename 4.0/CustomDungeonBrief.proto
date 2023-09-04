@@ -1,0 +1,35 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "CustomDungeonSetting.proto";
+import "CustomDungeonAbstract.proto";
+import "CustomDungeonState.proto";
+import "CustomDungeonSocial.proto";
+// Obf: DBBDLBCHPMD
+message CustomDungeonBrief {
+	uint64 dungeon_guid = 1;
+	uint32 dungeon_id = 4;
+	CustomDungeonSetting setting = 13;
+	repeated uint32 tag_list = 3;
+	bool is_psn_platform = 7;
+	CustomDungeonAbstract abstract = 6;
+	uint32 last_save_time = 2;
+	CustomDungeonState state = 12;
+	uint32 battle_min_cost_time = 5;
+	CustomDungeonSocial social = 15;
+}

@@ -1,0 +1,55 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "GCGCard.proto";
+import "GCGControllerShowInfo.proto";
+import "GCGPVEIntention.proto";
+import "GCGPlayerField.proto";
+import "GCGCostReviseInfo.proto";
+import "KAIOCMEHMAD.proto";
+import "BEHIKOPKKHE.proto";
+import "GCGPhase.proto";
+import "KJCAOOMBJBD.proto";
+import "GCGDuelChallenge.proto";
+import "GCGMessagePack.proto";
+import "DBDIHHLOADP.proto";
+// Obf: GGCJPDGMIBO
+message GCGDuel {
+	repeated GCGCard LMNEKOOODMG = 900;
+	uint32 NENDIAIAHDM = 6;
+	repeated GCGControllerShowInfo show_info_list = 2;
+	uint32 FIGEOBBEOGC = 8;
+	uint32 CLFLBPJPBJB = 11;
+	repeated GCGPVEIntention intetion_list = 14;
+	repeated GCGPlayerField INGGOBMAFPL = 1536;
+	repeated uint32 AGEDBLBGONB = 1824;
+	repeated GCGCard card_list = 3;
+	GCGCostReviseInfo cost_revise = 12;
+	repeated KAIOCMEHMAD AGIIJLMCGCA = 1063;
+	repeated GCGPlayerField field_list = 1;
+	uint32 controller_id = 15;
+	BEHIKOPKKHE JOENIKOCBAL = 13;
+	GCGPhase phase = 5;
+	uint32 server_seq = 7;
+	uint32 round = 4;
+	repeated KJCAOOMBJBD KLNMFAMMEIG = 1828;
+	repeated uint32 card_id_list = 9;
+	repeated GCGDuelChallenge challenge_list = 1562;
+	repeated GCGMessagePack history_msg_pack_list = 269;
+	map<uint32, DBDIHHLOADP> IGOLDFEJJIJ = 810;
+}
