@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+// Name: FKIGODAGGJA
+message ForceUpdateInfo {
+    string force_update_url = 1;
+}
+

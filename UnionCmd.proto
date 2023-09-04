@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+// Name: IDFBBDEFKOJ
+message UnionCmd {
+    uint32 message_id = 1;
+    bytes body = 3;
+}
+

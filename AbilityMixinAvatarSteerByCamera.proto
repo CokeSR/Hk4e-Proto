@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+import "Vector.proto";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinAvatarSteerByCamera {
+  Vector target_dir = 2;
+  Vector target_pos = 4;
+}

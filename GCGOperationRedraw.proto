@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+// Name: CNLFNNJLLCB
+message GCGOperationRedraw {
+    repeated uint32 card_list = 1;
+}
+

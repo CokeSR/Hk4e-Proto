@@ -1,0 +1,8 @@
+
+syntax = "proto3";
+
+option java_package = "org.sorapointa.proto";
+
+message AbilityMixinFieldEntityCountChange {
+  uint32 field_entity_count = 4;
+}
